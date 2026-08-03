@@ -1,0 +1,996 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-paymentscheme",
+      "canonical_name": "Customer Credit Transfer",
+      "name": "Customer Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for customer credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 Customer Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiation-v09-messagetype",
+      "canonical_name": "Initiation V09",
+      "name": "Initiation V09",
+      "type": "MessageType",
+      "description": "Message type for initiation of customer credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Component containing payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 +Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 ++Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "postal-address-businesscomponent",
+      "canonical_name": "Postal Address",
+      "name": "Postal Address",
+      "type": "BusinessComponent",
+      "description": "Component containing postal address information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 +++Postal Address",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "post-code-dataelement",
+      "canonical_name": "Post Code",
+      "name": "Post Code",
+      "type": "DataElement",
+      "description": "Postal code of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.33 ++++Post Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "town-name-dataelement",
+      "canonical_name": "Town Name",
+      "name": "Town Name",
+      "type": "DataElement",
+      "description": "Town name of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.34 ++++Town Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "town-location-name-dataelement",
+      "canonical_name": "Town Location Name",
+      "name": "Town Location Name",
+      "type": "DataElement",
+      "description": "Town location name of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.35 ++++Town Location Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "district-name-dataelement",
+      "canonical_name": "District Name",
+      "name": "District Name",
+      "type": "DataElement",
+      "description": "District name of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.36 ++++District Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "country-sub-division-dataelement",
+      "canonical_name": "Country Sub Division",
+      "name": "Country Sub Division",
+      "type": "DataElement",
+      "description": "Country sub division of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.37 ++++Country Sub Division",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "country-dataelement",
+      "canonical_name": "Country",
+      "name": "Country",
+      "type": "DataElement",
+      "description": "Country of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.38 ++++Country",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "address-line-dataelement",
+      "canonical_name": "Address Line",
+      "name": "Address Line",
+      "type": "DataElement",
+      "description": "Address line of the debtor's address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.39 ++++Address Line",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "17 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-businesscomponent",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "BusinessComponent",
+      "description": "Component containing identification information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.40 +++Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-dataelement",
+      "canonical_name": "Organisation",
+      "name": "Organisation",
+      "type": "DataElement",
+      "description": "Organisation identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 ++++Organisation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "schemenamecode-dataelement",
+      "canonical_name": "SchemeName/Code",
+      "name": "SchemeName/Code",
+      "type": "DataElement",
+      "description": "Scheme name and code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 SchemeName/Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-identifier",
+      "canonical_name": "BANK",
+      "name": "BANK",
+      "type": "Identifier",
+      "description": "Code for bank",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 BANK",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "business-id-identifier",
+      "canonical_name": "Business ID",
+      "name": "Business ID",
+      "type": "Identifier",
+      "description": "Unique identifier for a business",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 Business ID",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-code-identifier",
+      "canonical_name": "Service Code",
+      "name": "Service Code",
+      "type": "Identifier",
+      "description": "Code for a service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 Service Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-dataelement",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "DataElement",
+      "description": "Private identification of a person",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.42 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "date-and-place-of-birth-dataelement",
+      "canonical_name": "Date and Place of Birth",
+      "name": "Date and Place of Birth",
+      "type": "DataElement",
+      "description": "Date and place of birth of a person",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.42 Date and Place of Birth",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-account-businesscomponent",
+      "canonical_name": "Debtor Account",
+      "name": "Debtor Account",
+      "type": "BusinessComponent",
+      "description": "Component containing debtor account information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.45 ++Debtor Account",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.47 ++++IBAN",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-dataelement",
+      "canonical_name": "Currency",
+      "name": "Currency",
+      "type": "DataElement",
+      "description": "Currency of the debtor's account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.50 +++Currency",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proxy-dataelement",
+      "canonical_name": "Proxy",
+      "name": "Proxy",
+      "type": "DataElement",
+      "description": "Proxy information for the debtor's account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.52 +++Proxy",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-agent-paymentrole",
+      "canonical_name": "Debtor Agent",
+      "name": "Debtor Agent",
+      "type": "PaymentRole",
+      "description": "Agent of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.53 ++Debtor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bicfi-identifier",
+      "canonical_name": "BICFI",
+      "name": "BICFI",
+      "type": "Identifier",
+      "description": "Bank Identifier Code for the debtor's agent",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.53 BICFI",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-paymentscheme",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.46 SEPA payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-messagetype",
+      "canonical_name": "Camt.053",
+      "name": "Camt.053",
+      "type": "MessageType",
+      "description": "Message type for account statement",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 camt.053 account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-dataelement",
+      "canonical_name": "Other",
+      "name": "Other",
+      "type": "DataElement",
+      "description": "Other identification information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 Other",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution providing banking services",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.41 bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-paymentscheme",
+      "relation": "CONTAINS",
+      "target": "initiation-v09-messagetype",
+      "description": "Customer Credit Transfer contains Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.33 Customer Credit Transfer Initiation V09",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiation-v09-messagetype",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "2.33 Initiation V09 +Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-paymentrole",
+      "description": "Payment Information contains Debtor",
+      "confidence": 0.99,
+      "evidence": "2.33 +Payment Information ++Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "postal-address-businesscomponent",
+      "description": "Debtor contains Postal Address",
+      "confidence": 0.99,
+      "evidence": "2.33 ++Debtor +++Postal Address",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "post-code-dataelement",
+      "description": "Postal Address contains Post Code",
+      "confidence": 0.99,
+      "evidence": "2.33 +++Postal Address ++++Post Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "town-name-dataelement",
+      "description": "Postal Address contains Town Name",
+      "confidence": 0.99,
+      "evidence": "2.34 +++Postal Address ++++Town Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "town-location-name-dataelement",
+      "description": "Postal Address contains Town Location Name",
+      "confidence": 0.99,
+      "evidence": "2.35 +++Postal Address ++++Town Location Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "district-name-dataelement",
+      "description": "Postal Address contains District Name",
+      "confidence": 0.99,
+      "evidence": "2.36 +++Postal Address ++++District Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "country-sub-division-dataelement",
+      "description": "Postal Address contains Country Sub Division",
+      "confidence": 0.99,
+      "evidence": "2.37 +++Postal Address ++++Country Sub Division",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "country-dataelement",
+      "description": "Postal Address contains Country",
+      "confidence": 0.99,
+      "evidence": "2.38 +++Postal Address ++++Country",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "address-line-dataelement",
+      "description": "Postal Address contains Address Line",
+      "confidence": 0.99,
+      "evidence": "2.39 +++Postal Address ++++Address Line",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PUBLISHES",
+      "target": "customer-credit-transfer-paymentscheme",
+      "description": "ISO 20022 Payments Guide publishes Customer Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "17 (61) ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "identification-businesscomponent",
+      "description": "Debtor contains Identification",
+      "confidence": 0.99,
+      "evidence": "2.40 ++Debtor +++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "organisation-dataelement",
+      "description": "Identification contains Organisation",
+      "confidence": 0.99,
+      "evidence": "2.41 ++++Organisation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-dataelement",
+      "relation": "CONTAINS",
+      "target": "schemenamecode-dataelement",
+      "description": "Organisation contains SchemeName/Code",
+      "confidence": 0.99,
+      "evidence": "2.41 SchemeName/Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "schemenamecode-dataelement",
+      "relation": "CONTAINS",
+      "target": "bank-identifier",
+      "description": "SchemeName/Code contains BANK",
+      "confidence": 0.99,
+      "evidence": "2.41 BANK",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "private-identification-dataelement",
+      "description": "Debtor contains Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.42 ++Debtor +++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-dataelement",
+      "relation": "CONTAINS",
+      "target": "date-and-place-of-birth-dataelement",
+      "description": "Private Identification contains Date and Place of Birth",
+      "confidence": 0.99,
+      "evidence": "2.42 Date and Place of Birth",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-account-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "iban-identifier",
+      "description": "Debtor Account contains IBAN",
+      "confidence": 0.99,
+      "evidence": "2.47 ++Debtor Account ++++IBAN",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-account-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "currency-dataelement",
+      "description": "Debtor Account contains Currency",
+      "confidence": 0.99,
+      "evidence": "2.50 ++Debtor Account +++Currency",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-account-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "proxy-dataelement",
+      "description": "Debtor Account contains Proxy",
+      "confidence": 0.99,
+      "evidence": "2.52 ++Debtor Account +++Proxy",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "debtor-agent-paymentrole",
+      "description": "Debtor contains Debtor Agent",
+      "confidence": 0.99,
+      "evidence": "2.53 ++Debtor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-agent-paymentrole",
+      "relation": "CONTAINS",
+      "target": "bicfi-identifier",
+      "description": "Debtor Agent contains BICFI",
+      "confidence": 0.99,
+      "evidence": "2.53 BICFI",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-paymentscheme",
+      "relation": "CONTAINS",
+      "target": "debtor-account-businesscomponent",
+      "description": "SEPA contains Debtor Account",
+      "confidence": 0.99,
+      "evidence": "2.46 SEPA payments",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "camt053-messagetype",
+      "relation": "CONTAINS",
+      "target": "debtor-account-businesscomponent",
+      "description": "Camt.053 contains Debtor Account",
+      "confidence": 0.99,
+      "evidence": "2.41 camt.053 account statement",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "other-dataelement",
+      "relation": "CONTAINS",
+      "target": "debtor-paymentrole",
+      "description": "Other contains Debtor",
+      "confidence": 0.99,
+      "evidence": "2.41 Other",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "CONTAINS",
+      "target": "debtor-agent-paymentrole",
+      "description": "Bank contains Debtor Agent",
+      "confidence": 0.99,
+      "evidence": "2.41 bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        10
+      ],
+      "frequency": 1
+    }
+  ]
+}

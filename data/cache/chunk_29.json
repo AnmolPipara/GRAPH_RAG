@@ -1,0 +1,1226 @@
+{
+  "entities": [
+    {
+      "id": "vop-service",
+      "canonical_name": "VOP",
+      "name": "VOP",
+      "type": "Service",
+      "description": "Verification of Payee service",
+      "aliases": [
+        "Verification of Payee"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The VOP data file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "corporate-customer-organization",
+      "canonical_name": "Corporate Customer",
+      "name": "Corporate Customer",
+      "type": "Organization",
+      "description": "Type of customer that can opt in to the VOP service",
+      "aliases": [
+        "Customer"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Corporate customers may have the payee information verified",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payee-paymentrole",
+      "canonical_name": "Payee",
+      "name": "Payee",
+      "type": "PaymentRole",
+      "description": "Party whose account is credited",
+      "aliases": [
+        "Recipient"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payee information verified",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2b-payment-file-filetype",
+      "canonical_name": "C2B Payment File",
+      "name": "C2B Payment File",
+      "type": "FileType",
+      "description": "File type used for C2B payments",
+      "aliases": [
+        "C2B File"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "C2B payment file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-request-messagetype",
+      "canonical_name": "VOP Request",
+      "name": "VOP Request",
+      "type": "MessageType",
+      "description": "Request message for VOP service",
+      "aliases": [
+        "VOP Message"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "making a VOP request",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-response-messagetype",
+      "canonical_name": "VOP Response",
+      "name": "VOP Response",
+      "type": "MessageType",
+      "description": "Response message for VOP service",
+      "aliases": [
+        "VOP Response Message"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "VOP response types",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "match-statuscode",
+      "canonical_name": "Match",
+      "name": "Match",
+      "type": "StatusCode",
+      "description": "Status code for exact match",
+      "aliases": [
+        "Exact Match"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Match - the name of the payee and the payment account identifier provided by the payer match",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "close-match-statuscode",
+      "canonical_name": "Close Match",
+      "name": "Close Match",
+      "type": "StatusCode",
+      "description": "Status code for close match",
+      "aliases": [
+        "Near Match"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Close match - the name of the payee and the payment account identifier provided by the payer almost match",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "no-match-statuscode",
+      "canonical_name": "No Match",
+      "name": "No Match",
+      "type": "StatusCode",
+      "description": "Status code for no match",
+      "aliases": [
+        "No Match Found"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "No match - the name of the payee and the payment account identifier provided by the payer do not match",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "epc-organization",
+      "canonical_name": "EPC",
+      "name": "EPC",
+      "type": "Organization",
+      "description": "European Payments Council",
+      "aliases": [
+        "European Payments Council"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Under the EPC's definition",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instant-payments-regulation-regulation",
+      "canonical_name": "Instant Payments Regulation",
+      "name": "Instant Payments Regulation",
+      "type": "Regulation",
+      "description": "Regulation for instant payments",
+      "aliases": [
+        "Instant Payments Rule"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The Instant Payments Regulation determines the following VOP response types",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "psp-paymentrole",
+      "canonical_name": "PSP",
+      "name": "PSP",
+      "type": "PaymentRole",
+      "description": "Payment Service Provider",
+      "aliases": [
+        "Payment Service Provider"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-scheme-rulebook-document",
+      "canonical_name": "VOP Scheme Rulebook",
+      "name": "VOP Scheme Rulebook",
+      "type": "Document",
+      "description": "Rulebook for VOP scheme",
+      "aliases": [
+        "VOP Rulebook"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution that offers the VOP service",
+      "aliases": [
+        "Financial Institution"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "the bank includes a separate file type for the VOP service",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2b-payment-status-report-document",
+      "canonical_name": "C2B Payment Status Report",
+      "name": "C2B Payment Status Report",
+      "type": "Document",
+      "description": "Report for C2B payment status",
+      "aliases": [
+        "C2B Status Report"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "C2B payment status report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-account-identifier-identifier",
+      "canonical_name": "Payment Account Identifier",
+      "name": "Payment Account Identifier",
+      "type": "Identifier",
+      "description": "Identifier for payment account",
+      "aliases": [
+        "Account Identifier"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment account identifier provided by the payer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payer-paymentrole",
+      "canonical_name": "Payer",
+      "name": "Payer",
+      "type": "PaymentRole",
+      "description": "Party that initiates the payment",
+      "aliases": [
+        "Sender"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payer match",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-data-file-file",
+      "canonical_name": "VOP Data File",
+      "name": "VOP Data File",
+      "type": "File",
+      "description": "File used for VOP service",
+      "aliases": [
+        "VOP File"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The VOP data file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "data-transfer-channel-system",
+      "canonical_name": "Data Transfer Channel",
+      "name": "Data Transfer Channel",
+      "type": "System",
+      "description": "Channel used for data transfer",
+      "aliases": [
+        "Transfer Channel"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "data transfer channel",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "file-type-datatype",
+      "canonical_name": "File Type",
+      "name": "File Type",
+      "type": "DataType",
+      "description": "Type of file used for VOP service",
+      "aliases": [
+        "File Format"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "separate file type for the VOP service",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "opt-in-process",
+      "canonical_name": "Opt-in",
+      "name": "Opt-in",
+      "type": "Process",
+      "description": "Process of opting in to the VOP service",
+      "aliases": [
+        "Enrollment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Corporate customers can opt in to the VOP service",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "opt-out-process",
+      "canonical_name": "Opt-out",
+      "name": "Opt-out",
+      "type": "Process",
+      "description": "Process of opting out of the VOP service",
+      "aliases": [
+        "Unenrollment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Corporate customers wishing to opt out of the VOP service",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-scheme-standard",
+      "canonical_name": "VOP Scheme",
+      "name": "VOP Scheme",
+      "type": "Standard",
+      "description": "Scheme for VOP service",
+      "aliases": [
+        "VOP Program"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "VOP Scheme Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "matching-process-process",
+      "canonical_name": "Matching Process",
+      "name": "Matching Process",
+      "type": "Process",
+      "description": "Process of matching payee information",
+      "aliases": [
+        "Verification Process"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Matching Processes under the VOP Scheme Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "epc-recommendations-document",
+      "canonical_name": "EPC Recommendations",
+      "name": "EPC Recommendations",
+      "type": "Document",
+      "description": "Recommendations for EPC",
+      "aliases": [
+        "EPC Guidelines"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-response-type-datatype",
+      "canonical_name": "VOP Response Type",
+      "name": "VOP Response Type",
+      "type": "DataType",
+      "description": "Type of response for VOP service",
+      "aliases": [
+        "VOP Response Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "VOP response types",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-code-identifier",
+      "canonical_name": "Status Code",
+      "name": "Status Code",
+      "type": "Identifier",
+      "description": "Code used for status",
+      "aliases": [
+        "Status Indicator"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-organization",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "Organization",
+      "description": "Party that uses the VOP service",
+      "aliases": [
+        "User"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "customer has checked the matching result",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-order-messagetype",
+      "canonical_name": "Payment Order",
+      "name": "Payment Order",
+      "type": "MessageType",
+      "description": "Message for payment order",
+      "aliases": [
+        "Payment Instruction"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "payment orders in the file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-check-process",
+      "canonical_name": "VOP Check",
+      "name": "VOP Check",
+      "type": "Process",
+      "description": "Process of checking payee information",
+      "aliases": [
+        "Verification Check"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "payment orders in the file will not be subject to a VOP check",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "responding-psp-paymentrole",
+      "canonical_name": "Responding PSP",
+      "name": "Responding PSP",
+      "type": "PaymentRole",
+      "description": "PSP that responds to the VOP request",
+      "aliases": [
+        "Receiving PSP"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requesting-psp-paymentrole",
+      "canonical_name": "Requesting PSP",
+      "name": "Requesting PSP",
+      "type": "PaymentRole",
+      "description": "PSP that initiates the VOP request",
+      "aliases": [
+        "Sending PSP"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "first-name-datatype",
+      "canonical_name": "First Name",
+      "name": "First Name",
+      "type": "DataType",
+      "description": "First name of the payee",
+      "aliases": [
+        "Given Name"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "first name and the last name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "last-name-datatype",
+      "canonical_name": "Last Name",
+      "name": "Last Name",
+      "type": "DataType",
+      "description": "Last name of the payee",
+      "aliases": [
+        "Surname"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "first name and the last name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "exact-match-statuscode",
+      "canonical_name": "Exact Match",
+      "name": "Exact Match",
+      "type": "StatusCode",
+      "description": "Status code for exact match",
+      "aliases": [
+        "Perfect Match"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "exact match of the first name and the last name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "small-deviation-datatype",
+      "canonical_name": "Small Deviation",
+      "name": "Small Deviation",
+      "type": "DataType",
+      "description": "Small deviation between names",
+      "aliases": [
+        "Minor Difference"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "small deviation between the name given by the payer and the name registered by the responding PSP",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "vop-service",
+      "relation": "USED_BY",
+      "target": "corporate-customer-organization",
+      "description": "VOP service is used by corporate customers",
+      "confidence": 0.98,
+      "evidence": "Corporate customers may have the payee information verified through their system before submitting the payments to their bank in the C2B payment file",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "corporate-customer-organization",
+      "relation": "CREATES",
+      "target": "vop-request-messagetype",
+      "description": "Corporate customers create VOP requests",
+      "confidence": 0.98,
+      "evidence": "Corporate customers can opt in to the VOP service by making a VOP request",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-request-messagetype",
+      "relation": "TRIGGERS",
+      "target": "vop-response-messagetype",
+      "description": "VOP request triggers VOP response",
+      "confidence": 0.98,
+      "evidence": "VOP response types",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-response-messagetype",
+      "relation": "CONTAINS",
+      "target": "match-statuscode",
+      "description": "VOP response contains match status",
+      "confidence": 0.99,
+      "evidence": "Match - the name of the payee and the payment account identifier provided by the payer match",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-response-messagetype",
+      "relation": "CONTAINS",
+      "target": "close-match-statuscode",
+      "description": "VOP response contains close match status",
+      "confidence": 0.99,
+      "evidence": "Close match - the name of the payee and the payment account identifier provided by the payer almost match",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-response-messagetype",
+      "relation": "CONTAINS",
+      "target": "no-match-statuscode",
+      "description": "VOP response contains no match status",
+      "confidence": 0.99,
+      "evidence": "No match - the name of the payee and the payment account identifier provided by the payer do not match",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "epc-organization",
+      "relation": "PUBLISHES",
+      "target": "vop-scheme-rulebook-document",
+      "description": "EPC publishes VOP scheme rulebook",
+      "confidence": 0.98,
+      "evidence": "EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instant-payments-regulation-regulation",
+      "relation": "REGULATES",
+      "target": "vop-response-types-cross-chunk",
+      "description": "Instant payments regulation regulates VOP response types",
+      "confidence": 0.98,
+      "evidence": "The Instant Payments Regulation determines the following VOP response types",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "psp-paymentrole",
+      "relation": "RECEIVES",
+      "target": "vop-request-messagetype",
+      "description": "PSP receives VOP request",
+      "confidence": 0.98,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "psp-paymentrole",
+      "relation": "SENDS",
+      "target": "vop-response-messagetype",
+      "description": "PSP sends VOP response",
+      "confidence": 0.98,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "OFFERS",
+      "target": "vop-service-cross-chunk",
+      "description": "Bank offers VOP service",
+      "confidence": 0.98,
+      "evidence": "the bank includes a separate file type for the VOP service",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-organization",
+      "relation": "CREATES",
+      "target": "vop-request-messagetype",
+      "description": "Customer creates VOP request",
+      "confidence": 0.98,
+      "evidence": "Corporate customers can opt in to the VOP service by making a VOP request",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-organization",
+      "relation": "SUBMITS",
+      "target": "c2b-payment-file-filetype",
+      "description": "Customer submits C2B payment file",
+      "confidence": 0.98,
+      "evidence": "customer submits the normal C2B payment file to the bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-data-file-file",
+      "relation": "USED_FOR",
+      "target": "vop-service-cross-chunk",
+      "description": "VOP data file is used for VOP service",
+      "confidence": 0.98,
+      "evidence": "The VOP data file",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "data-transfer-channel-system",
+      "relation": "CONTAINS",
+      "target": "vop-data-file-file",
+      "description": "Data transfer channel contains VOP data file",
+      "confidence": 0.98,
+      "evidence": "data transfer channel",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "file-type-datatype",
+      "relation": "DEFINES",
+      "target": "vop-data-file-file",
+      "description": "File type defines VOP data file",
+      "confidence": 0.98,
+      "evidence": "separate file type for the VOP service",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "opt-in-process",
+      "relation": "ENABLES",
+      "target": "vop-service-cross-chunk",
+      "description": "Opt-in enables VOP service",
+      "confidence": 0.98,
+      "evidence": "Corporate customers can opt in to the VOP service",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "opt-out-process",
+      "relation": "DISABLES",
+      "target": "vop-service-cross-chunk",
+      "description": "Opt-out disables VOP service",
+      "confidence": 0.98,
+      "evidence": "Corporate customers wishing to opt out of the VOP service",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-scheme-standard",
+      "relation": "DEFINES",
+      "target": "vop-service-cross-chunk",
+      "description": "VOP scheme defines VOP service",
+      "confidence": 0.98,
+      "evidence": "VOP Scheme Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "matching-process-process",
+      "relation": "USED_IN",
+      "target": "vop-service-cross-chunk",
+      "description": "Matching process is used in VOP service",
+      "confidence": 0.98,
+      "evidence": "Matching Processes under the VOP Scheme Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "epc-recommendations-document",
+      "relation": "PROVIDES_GUIDANCE_FOR",
+      "target": "vop-scheme-standard",
+      "description": "EPC recommendations provide guidance for VOP scheme",
+      "confidence": 0.98,
+      "evidence": "EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-response-type-datatype",
+      "relation": "DEFINES",
+      "target": "vop-response-messagetype",
+      "description": "VOP response type defines VOP response",
+      "confidence": 0.98,
+      "evidence": "VOP response types",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-code-identifier",
+      "relation": "CONTAINS",
+      "target": "vop-response-messagetype",
+      "description": "Status code contains VOP response",
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-organization",
+      "relation": "CREATES",
+      "target": "payment-order-messagetype",
+      "description": "Customer creates payment order",
+      "confidence": 0.98,
+      "evidence": "payment orders in the file",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-check-process",
+      "relation": "PERFORMS_ON",
+      "target": "payment-order-messagetype",
+      "description": "VOP check performs on payment order",
+      "confidence": 0.98,
+      "evidence": "payment orders in the file will not be subject to a VOP check",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "responding-psp-paymentrole",
+      "relation": "SENDS_TO",
+      "target": "requesting-psp-paymentrole",
+      "description": "Responding PSP sends to requesting PSP",
+      "confidence": 0.99,
+      "evidence": "the responding PSP also sends the name of the payee as registered by the responding PSP to the requesting PSP",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "first-name-datatype",
+      "relation": "IDENTIFIES",
+      "target": "payee-paymentrole",
+      "description": "First name identifies payee",
+      "confidence": 0.98,
+      "evidence": "first name and the last name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "last-name-datatype",
+      "relation": "IDENTIFIES",
+      "target": "payee-paymentrole",
+      "description": "Last name identifies payee",
+      "confidence": 0.98,
+      "evidence": "first name and the last name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "exact-match-statuscode",
+      "relation": "CONTAINS",
+      "target": "vop-response-messagetype",
+      "description": "Exact match contains VOP response",
+      "confidence": 0.99,
+      "evidence": "exact match of the first name and the last name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "small-deviation-datatype",
+      "relation": "DEFINES",
+      "target": "close-match-statuscode",
+      "description": "Small deviation defines close match",
+      "confidence": 0.98,
+      "evidence": "small deviation between the name given by the payer and the name registered by the responding PSP",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        29
+      ],
+      "frequency": 1
+    }
+  ]
+}

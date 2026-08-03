@@ -1,0 +1,1004 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.98 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block B of payment message",
+      "aliases": [
+        "Block B"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businesscomponent",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessComponent",
+      "description": "Type of payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Block C of payment message",
+      "aliases": [
+        "Block C"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "charge-bearer-paymentrole",
+      "canonical_name": "Charge Bearer",
+      "name": "Charge Bearer",
+      "type": "PaymentRole",
+      "description": "Party bearing the charge",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++Charge Bearer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-name-dataelement",
+      "canonical_name": "Ultimate Debtor Name",
+      "name": "Ultimate Debtor Name",
+      "type": "DataElement",
+      "description": "Name of the ultimate debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++++Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-identification-dataelement",
+      "canonical_name": "Ultimate Debtor Identification",
+      "name": "Ultimate Debtor Identification",
+      "type": "DataElement",
+      "description": "Identification of the ultimate debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++++Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-identifier",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "Identifier",
+      "description": "Any BIC code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AnyBIC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lei-identifier",
+      "canonical_name": "LEI",
+      "name": "LEI",
+      "type": "Identifier",
+      "description": "Legal Entity Identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "LEI",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-organisation-identification-dataelement",
+      "canonical_name": "Other Organisation Identification",
+      "name": "Other Organisation Identification",
+      "type": "DataElement",
+      "description": "Other organisation identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Other organisation identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-dataelement",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "DataElement",
+      "description": "Private identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party whose account is credited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-name-dataelement",
+      "canonical_name": "Creditor Name",
+      "name": "Creditor Name",
+      "type": "DataElement",
+      "description": "Name of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++++Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-postal-address-dataelement",
+      "canonical_name": "Creditor Postal Address",
+      "name": "Creditor Postal Address",
+      "type": "DataElement",
+      "description": "Postal address of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++++Postal Address",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-agent-paymentrole",
+      "canonical_name": "Creditor Agent",
+      "name": "Creditor Agent",
+      "type": "PaymentRole",
+      "description": "Creditor's account-servicing bank",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++Creditor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bic-identifier",
+      "canonical_name": "BIC",
+      "name": "BIC",
+      "type": "Identifier",
+      "description": "Bank Identifier Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "BIC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "at-c002-identifier",
+      "canonical_name": "AT-C002",
+      "name": "AT-C002",
+      "type": "Identifier",
+      "description": "AT-C002 code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AT-C002",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eu-organization",
+      "canonical_name": "EU",
+      "name": "EU",
+      "type": "Organization",
+      "description": "European Union",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "EU",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eea-organization",
+      "canonical_name": "EEA",
+      "name": "EEA",
+      "type": "Organization",
+      "description": "European Economic Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "EEA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-psp-paymentrole",
+      "canonical_name": "Creditor PSP",
+      "name": "Creditor PSP",
+      "type": "PaymentRole",
+      "description": "Creditor's payment service provider",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Creditor PSP",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clearing-system-code-identifier",
+      "canonical_name": "Clearing System Code",
+      "name": "Clearing System Code",
+      "type": "Identifier",
+      "description": "Code used in clearing systems",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Clearing System Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "department-dataelement",
+      "canonical_name": "Department",
+      "name": "Department",
+      "type": "DataElement",
+      "description": "Department of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++++Department",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sub-department-dataelement",
+      "canonical_name": "Sub Department",
+      "name": "Sub Department",
+      "type": "DataElement",
+      "description": "Sub department of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+++++Sub Department",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-documentsection",
+      "canonical_name": "Section",
+      "name": "Section",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Section",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "block-c-businesscomponent",
+      "canonical_name": "Block C",
+      "name": "Block C",
+      "type": "BusinessComponent",
+      "description": "Block C of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Block C",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-batch-businessconcept",
+      "canonical_name": "Payment Batch",
+      "name": "Payment Batch",
+      "type": "BusinessConcept",
+      "description": "Batch of payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment batch",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-currency",
+      "canonical_name": "Euro",
+      "name": "Euro",
+      "type": "Currency",
+      "description": "European currency",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "domestic-euro-amount-credit-transfer-paymenttype",
+      "canonical_name": "Domestic Euro-Amount Credit Transfer",
+      "name": "Domestic Euro-Amount Credit Transfer",
+      "type": "PaymentType",
+      "description": "Type of credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Domestic euro-amount credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-amount-credit-transfer-between-euro-countries-paymenttype",
+      "canonical_name": "Euro-Amount Credit Transfer Between Euro Countries",
+      "name": "Euro-Amount Credit Transfer Between Euro Countries",
+      "type": "PaymentType",
+      "description": "Type of credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Euro-amount credit transfers between euro countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-amount-credit-transfer-between-eu-and-eea-states-paymenttype",
+      "canonical_name": "Euro-Amount Credit Transfer Between EU and EEA States",
+      "name": "Euro-Amount Credit Transfer Between EU and EEA States",
+      "type": "PaymentType",
+      "description": "Type of credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Euro amount credit transfers between EU and EEA states",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer Credit Transfer Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-businesscomponent",
+      "description": "Payment Information contains Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit Transfer contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "+++Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "charge-bearer-paymentrole",
+      "description": "Transaction Information contains Charge Bearer",
+      "confidence": 0.99,
+      "evidence": "+++Charge Bearer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-paymentrole",
+      "description": "Transaction Information contains Ultimate Debtor",
+      "confidence": 0.99,
+      "evidence": "+++Ultimate Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-name-dataelement",
+      "description": "Ultimate Debtor contains Ultimate Debtor Name",
+      "confidence": 0.99,
+      "evidence": "++++Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-identification-dataelement",
+      "description": "Ultimate Debtor contains Ultimate Debtor Identification",
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-identification-dataelement",
+      "relation": "USES",
+      "target": "anybic-identifier",
+      "description": "Ultimate Debtor Identification uses AnyBIC",
+      "confidence": 0.99,
+      "evidence": "AnyBIC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-identification-dataelement",
+      "relation": "USES",
+      "target": "lei-identifier",
+      "description": "Ultimate Debtor Identification uses LEI",
+      "confidence": 0.99,
+      "evidence": "LEI",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-identification-dataelement",
+      "relation": "USES",
+      "target": "other-organisation-identification-dataelement",
+      "description": "Ultimate Debtor Identification uses Other Organisation Identification",
+      "confidence": 0.99,
+      "evidence": "Other organisation identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-paymentrole",
+      "description": "Transaction Information contains Creditor",
+      "confidence": 0.99,
+      "evidence": "+++Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "creditor-name-dataelement",
+      "description": "Creditor contains Creditor Name",
+      "confidence": 0.99,
+      "evidence": "++++Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "creditor-postal-address-dataelement",
+      "description": "Creditor contains Creditor Postal Address",
+      "confidence": 0.99,
+      "evidence": "++++Postal Address",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-agent-paymentrole",
+      "description": "Transaction Information contains Creditor Agent",
+      "confidence": 0.99,
+      "evidence": "+++Creditor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-agent-paymentrole",
+      "relation": "USES",
+      "target": "bic-identifier",
+      "description": "Creditor Agent uses BIC",
+      "confidence": 0.99,
+      "evidence": "BIC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Payments Guide is part of ISO 20022",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "at-c002-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "creditor-psp-paymentrole",
+      "description": "AT-C002 identifies Creditor PSP",
+      "confidence": 0.99,
+      "evidence": "AT-C002",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "eu-organization",
+      "relation": "RELATED_TO",
+      "target": "eea-organization",
+      "description": "EU is related to EEA",
+      "confidence": 0.99,
+      "evidence": "EU and EEA",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "clearing-system-code-identifier",
+      "relation": "USED_BY",
+      "target": "creditor-agent-paymentrole",
+      "description": "Clearing System Code is used by Creditor Agent",
+      "confidence": 0.99,
+      "evidence": "Clearing System Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-postal-address-dataelement",
+      "relation": "CONTAINS",
+      "target": "department-dataelement",
+      "description": "Creditor Postal Address contains Department",
+      "confidence": 0.99,
+      "evidence": "+++++Department",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-postal-address-dataelement",
+      "relation": "CONTAINS",
+      "target": "sub-department-dataelement",
+      "description": "Creditor Postal Address contains Sub Department",
+      "confidence": 0.99,
+      "evidence": "+++++Sub Department",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "section-documentsection",
+      "relation": "PART_OF",
+      "target": "block-c-businesscomponent",
+      "description": "Section is part of Block C",
+      "confidence": 0.99,
+      "evidence": "Section",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-batch-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "domestic-euro-amount-credit-transfer-paymenttype",
+      "description": "Payment Batch is related to Domestic Euro-Amount Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "Payment batch",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "euro-currency",
+      "relation": "USED_IN",
+      "target": "euro-amount-credit-transfer-between-euro-countries-paymenttype",
+      "description": "Euro is used in Euro-Amount Credit Transfer Between Euro Countries",
+      "confidence": 0.99,
+      "evidence": "Euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "euro-amount-credit-transfer-between-eu-and-eea-states-paymenttype",
+      "relation": "RELATED_TO",
+      "target": "eu-organization",
+      "description": "Euro-Amount Credit Transfer Between EU and EEA States is related to EU",
+      "confidence": 0.99,
+      "evidence": "EU",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        13
+      ],
+      "frequency": 1
+    }
+  ]
+}

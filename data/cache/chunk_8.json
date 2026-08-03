@@ -1,0 +1,1082 @@
+{
+  "entities": [
+    {
+      "id": "payment-information-businessconcept",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessConcept",
+      "description": "Contains elements related to the debit side of the transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.3 Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-side-businessconcept",
+      "canonical_name": "Debit Side",
+      "name": "Debit Side",
+      "type": "BusinessConcept",
+      "description": "Side of the transaction where the account is debited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "PaymentInformation contains elements related to the debit side of the transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfers-businessconcept",
+      "canonical_name": "Credit Transfers",
+      "name": "Credit Transfers",
+      "type": "BusinessConcept",
+      "description": "Type of transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "common to all the credit transfers (Block C) attached to this PaymentInformation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "block-c-businesscomponent",
+      "canonical_name": "Block C",
+      "name": "Block C",
+      "type": "BusinessComponent",
+      "description": "Component of the payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "common to all the credit transfers (Block C) attached to this PaymentInformation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-dataelement",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "DataElement",
+      "description": "Index of the payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Index",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-dataelement",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "DataElement",
+      "description": "Multiplicity of the payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mult",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-xmlelement",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "XMLElement",
+      "description": "Element of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation Guide",
+      "name": "Implementation Guide",
+      "type": "Document",
+      "description": "Guide for implementing the payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-credit-transfer-initiation-v09-messagetype",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "MessageType",
+      "description": "Type of message for customer credit transfer initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-identification-dataelement",
+      "canonical_name": "Payment Information Identification",
+      "name": "Payment Information Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the PaymentInformation element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Unique identification of the PaymentInformation element assigned by the Initiating Party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-paymentrole",
+      "canonical_name": "Initiating Party",
+      "name": "Initiating Party",
+      "type": "PaymentRole",
+      "description": "Party that initiates the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "assigned by the Initiating Party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtors-account-statement-document",
+      "canonical_name": "Debtor's Account Statement",
+      "name": "Debtor's Account Statement",
+      "type": "Document",
+      "description": "Statement of the debtor's account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "returned to the debtor's account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-information-additional-information-type-06-dataelement",
+      "canonical_name": "Originator Information Additional Information Type 06",
+      "name": "Originator Information Additional Information Type 06",
+      "type": "DataElement",
+      "description": "Field in the debtor's account statement",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "originator information additional information type 06",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-xml-account-statement-document",
+      "canonical_name": "Camt.053 XML Account Statement",
+      "name": "Camt.053 XML Account Statement",
+      "type": "Document",
+      "description": "Type of account statement",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Camt.053 XML account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain001-payment-data-xmlelement",
+      "canonical_name": "Pain.001 Payment Data",
+      "name": "Pain.001 Payment Data",
+      "type": "XMLElement",
+      "description": "Element of the payment data",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pain.001 payment data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-method-dataelement",
+      "canonical_name": "Payment Method",
+      "name": "Payment Method",
+      "type": "DataElement",
+      "description": "Method of payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Indicates the payment method",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "trf-identifier",
+      "canonical_name": "TRF",
+      "name": "TRF",
+      "type": "Identifier",
+      "description": "Code for credit transfers",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "TRF: only credit transfers are allowed",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "batch-booking-dataelement",
+      "canonical_name": "Batch Booking",
+      "name": "Batch Booking",
+      "type": "DataElement",
+      "description": "Option for batch booking",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debtor can request batch booking (true) or booking per transaction (false)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-of-transactions-dataelement",
+      "canonical_name": "Number Of Transactions",
+      "name": "Number Of Transactions",
+      "type": "DataElement",
+      "description": "Number of transactions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The validation of this data element is bank specific",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "control-sum-dataelement",
+      "canonical_name": "Control Sum",
+      "name": "Control Sum",
+      "type": "DataElement",
+      "description": "Control sum of the transactions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Control sum",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-businessconcept",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "BusinessConcept",
+      "description": "Information about the payment type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Set of elements used to further specify the payment type",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "paymenttypeinformation-xmlelement",
+      "canonical_name": "PaymentTypeInformation",
+      "name": "PaymentTypeInformation",
+      "type": "XMLElement",
+      "description": "Element of the payment type information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-priority-dataelement",
+      "canonical_name": "Instruction Priority",
+      "name": "Instruction Priority",
+      "type": "DataElement",
+      "description": "Priority of the instruction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Instruction Priority",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-level-dataelement",
+      "canonical_name": "Service Level",
+      "name": "Service Level",
+      "type": "DataElement",
+      "description": "Level of service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit transfers permit the use of code value SEPA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-identifier",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "Identifier",
+      "description": "Code for Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-dataelement",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "DataElement",
+      "description": "Code element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Only SEPA is allowed",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-dataelement",
+      "canonical_name": "Local Instrument",
+      "name": "Local Instrument",
+      "type": "DataElement",
+      "description": "Local instrument",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Local Instrument",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-to-psp-conditions-businessconcept",
+      "canonical_name": "Customer-to-PSP Conditions",
+      "name": "Customer-to-PSP Conditions",
+      "type": "BusinessConcept",
+      "description": "Conditions between the customer and the payment service provider",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pre-agreed customer-to-PSP conditions apply",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Check with the bank whether it supports the feature",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "electronic-account-statement-document",
+      "canonical_name": "Electronic Account Statement",
+      "name": "Electronic Account Statement",
+      "type": "Document",
+      "description": "Type of account statement",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "On an electronic account statement, the information is given in the originator information additional information type 06 field",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "international-payments-businessconcept",
+      "canonical_name": "International Payments",
+      "name": "International Payments",
+      "type": "BusinessConcept",
+      "description": "Type of payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businessconcept",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessConcept",
+      "description": "Information about the credit transfer transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information block (C)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-businessconcept",
+      "canonical_name": "Single Euro Payments Area",
+      "name": "Single Euro Payments Area",
+      "type": "BusinessConcept",
+      "description": "Area for single euro payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "debit-side-businessconcept",
+      "description": "Payment information is related to the debit side",
+      "confidence": 0.99,
+      "evidence": "PaymentInformation contains elements related to the debit side of the transaction",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "credit-transfers-businessconcept",
+      "description": "Payment information contains credit transfers",
+      "confidence": 0.99,
+      "evidence": "common to all the credit transfers (Block C) attached to this PaymentInformation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfers-businessconcept",
+      "relation": "PART_OF",
+      "target": "block-c-businesscomponent",
+      "description": "Credit transfers are part of block C",
+      "confidence": 0.99,
+      "evidence": "common to all the credit transfers (Block C) attached to this PaymentInformation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "index-dataelement",
+      "description": "Payment information contains index",
+      "confidence": 0.99,
+      "evidence": "Index",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "mult-dataelement",
+      "description": "Payment information contains mult",
+      "confidence": 0.99,
+      "evidence": "Mult",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "message-element-xmlelement",
+      "description": "Payment information contains message element",
+      "confidence": 0.99,
+      "evidence": "Message Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "implementation-guide-document",
+      "description": "Payment information is related to implementation guide",
+      "confidence": 0.99,
+      "evidence": "Implementation guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-credit-transfer-initiation-v09-messagetype",
+      "relation": "CONTAINS",
+      "target": "payment-information-businessconcept",
+      "description": "Customer credit transfer initiation V09 contains payment information",
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-identification-dataelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "initiating-party-paymentrole",
+      "description": "Payment information identification is identified by initiating party",
+      "confidence": 0.99,
+      "evidence": "Unique identification of the PaymentInformation element assigned by the Initiating Party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtors-account-statement-document",
+      "relation": "CONTAINS",
+      "target": "payment-information-identification-dataelement",
+      "description": "Debtor's account statement contains payment information identification",
+      "confidence": 0.99,
+      "evidence": "returned to the debtor's account statement",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-information-additional-information-type-06-dataelement",
+      "relation": "CONTAINS",
+      "target": "payment-information-identification-dataelement",
+      "description": "Originator information additional information type 06 contains payment information identification",
+      "confidence": 0.99,
+      "evidence": "originator information additional information type 06",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "camt053-xml-account-statement-document",
+      "relation": "CONTAINS",
+      "target": "payment-information-identification-dataelement",
+      "description": "Camt.053 XML account statement contains payment information identification",
+      "confidence": 0.99,
+      "evidence": "Camt.053 XML account statement",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain001-payment-data-xmlelement",
+      "relation": "CONTAINS",
+      "target": "payment-information-identification-dataelement",
+      "description": "Pain.001 payment data contains payment information identification",
+      "confidence": 0.99,
+      "evidence": "pain.001 payment data",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-method-dataelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "trf-identifier",
+      "description": "Payment method is identified by TRF",
+      "confidence": 0.99,
+      "evidence": "TRF: only credit transfers are allowed",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "batch-booking-dataelement",
+      "relation": "RELATED_TO",
+      "target": "debtor-cross-chunk",
+      "description": "Batch booking is related to debtor",
+      "confidence": 0.99,
+      "evidence": "Debtor can request batch booking (true) or booking per transaction (false)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "number-of-transactions-dataelement",
+      "relation": "RELATED_TO",
+      "target": "bank-financialinstitution",
+      "description": "Number of transactions is related to bank",
+      "confidence": 0.99,
+      "evidence": "The validation of this data element is bank specific",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "control-sum-dataelement",
+      "relation": "CONTAINS",
+      "target": "payment-information-businessconcept",
+      "description": "Control sum contains payment information",
+      "confidence": 0.99,
+      "evidence": "Control sum",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "RELATED_TO",
+      "target": "payment-information-businessconcept",
+      "description": "ISO 20022 payments guide is related to payment information",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-type-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "paymenttypeinformation-xmlelement",
+      "description": "Payment type information contains payment type information",
+      "confidence": 0.99,
+      "evidence": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instruction-priority-dataelement",
+      "relation": "CONTAINS",
+      "target": "payment-type-information-businessconcept",
+      "description": "Instruction priority contains payment type information",
+      "confidence": 0.99,
+      "evidence": "Instruction Priority",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "service-level-dataelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "sepa-identifier",
+      "description": "Service level is identified by SEPA",
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "code-dataelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "sepa-identifier",
+      "description": "Code is identified by SEPA",
+      "confidence": 0.99,
+      "evidence": "Only SEPA is allowed",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "local-instrument-dataelement",
+      "relation": "CONTAINS",
+      "target": "payment-type-information-businessconcept",
+      "description": "Local instrument contains payment type information",
+      "confidence": 0.99,
+      "evidence": "Local Instrument",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-to-psp-conditions-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "bank-financialinstitution",
+      "description": "Customer-to-PSP conditions are related to bank",
+      "confidence": 0.99,
+      "evidence": "pre-agreed customer-to-PSP conditions apply",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "RELATED_TO",
+      "target": "customer-to-psp-conditions-businessconcept",
+      "description": "Bank is related to customer-to-PSP conditions",
+      "confidence": 0.99,
+      "evidence": "Check with the bank whether it supports the feature",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "electronic-account-statement-document",
+      "relation": "IS_A",
+      "target": "debtors-account-statement-document",
+      "description": "Electronic account statement is a type of debtor's account statement",
+      "confidence": 0.99,
+      "evidence": "On an electronic account statement, the information is given in the originator information additional information type 06 field",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "international-payments-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "payment-type-information-businessconcept",
+      "description": "International payments are related to payment type information",
+      "confidence": 0.99,
+      "evidence": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businessconcept",
+      "relation": "CONTAINS",
+      "target": "payment-type-information-businessconcept",
+      "description": "Credit transfer transaction information contains payment type information",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information block (C)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "single-euro-payments-area-businessconcept",
+      "relation": "IS_A",
+      "target": "sepa-identifier",
+      "description": "Single euro payments area is a type of SEPA",
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        8
+      ],
+      "frequency": 1
+    }
+  ]
+}

@@ -1,0 +1,1104 @@
+{
+  "entities": [
+    {
+      "id": "status-codes-businessconcept",
+      "canonical_name": "Status codes",
+      "name": "Status codes",
+      "type": "BusinessConcept",
+      "description": "Codes used for status reporting",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-businessconcept",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "BusinessConcept",
+      "description": "Entity receiving status codes",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payers-bank-financialinstitution",
+      "canonical_name": "Payer's bank",
+      "name": "Payer's bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the payer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the payer's bank submits the VOP responses",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-responses-businessconcept",
+      "canonical_name": "VOP responses",
+      "name": "VOP responses",
+      "type": "BusinessConcept",
+      "description": "Responses from the VOP process",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the payer's bank submits the VOP responses",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2b-payment-status-report-document",
+      "canonical_name": "C2B payment status report",
+      "name": "C2B payment status report",
+      "type": "Document",
+      "description": "Report containing payment status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the C2B payment status report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "based on the valid ISO 20022 transaction status codes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "match-identifier",
+      "canonical_name": "MATCH",
+      "name": "MATCH",
+      "type": "Identifier",
+      "description": "Code for match",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "MATCH - code: RCVC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rcvc-identifier",
+      "canonical_name": "RCVC",
+      "name": "RCVC",
+      "type": "Identifier",
+      "description": "Received Verification Completed",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "MATCH - code: RCVC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "close-match-identifier",
+      "canonical_name": "CLOSE MATCH",
+      "name": "CLOSE MATCH",
+      "type": "Identifier",
+      "description": "Code for close match",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "CLOSE MATCH - code: RVMC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rvmc-identifier",
+      "canonical_name": "RVMC",
+      "name": "RVMC",
+      "type": "Identifier",
+      "description": "Received Verification Completed Match Closely",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "CLOSE MATCH - code: RVMC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "no-match-identifier",
+      "canonical_name": "NO MATCH",
+      "name": "NO MATCH",
+      "type": "Identifier",
+      "description": "Code for no match",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "NO MATCH - code: RVNM",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rvnm-identifier",
+      "canonical_name": "RVNM",
+      "name": "RVNM",
+      "type": "Identifier",
+      "description": "Received Verification Completed No Match",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "NO MATCH - code: RVNM",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "not-possible-identifier",
+      "canonical_name": "NOT POSSIBLE",
+      "name": "NOT POSSIBLE",
+      "type": "Identifier",
+      "description": "Code for not possible",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "NOT POSSIBLE - code: RVNA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rvna-identifier",
+      "canonical_name": "RVNA",
+      "name": "RVNA",
+      "type": "Identifier",
+      "description": "Received Verification Completed Not Applicable",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "NOT POSSIBLE - code: RVNA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "legal-person-businessconcept",
+      "canonical_name": "Legal person",
+      "name": "Legal person",
+      "type": "BusinessConcept",
+      "description": "Entity with legal status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "If the verification is performed for a legal person",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-code-identifier",
+      "canonical_name": "Identification code",
+      "name": "Identification code",
+      "type": "Identifier",
+      "description": "Code used for identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "using an identification code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-organization",
+      "canonical_name": "European Payments Council",
+      "name": "European Payments Council",
+      "type": "Organization",
+      "description": "Organization for European payments",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "https://www.europeanpaymentscouncil.eu/",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "domestic-urgent-payments-businessconcept",
+      "canonical_name": "Domestic urgent payments",
+      "name": "Domestic urgent payments",
+      "type": "BusinessConcept",
+      "description": "Urgent payments within a country",
+      "aliases": [
+        "POPS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Domestic urgent payments (POPS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pops-acronym",
+      "canonical_name": "POPS",
+      "name": "POPS",
+      "type": "Acronym",
+      "description": "Domestic urgent payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Domestic urgent payments (POPS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-payments-businessconcept",
+      "canonical_name": "Currency payments",
+      "name": "Currency payments",
+      "type": "BusinessConcept",
+      "description": "Payments in different currencies",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Currency payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "servicelevelcode-xmlelement",
+      "canonical_name": "ServiceLevel/Code",
+      "name": "ServiceLevel/Code",
+      "type": "XMLElement",
+      "description": "XML element for service level code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ServiceLevel/Code \"URGP\"",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "urgp-identifier",
+      "canonical_name": "URGP",
+      "name": "URGP",
+      "type": "Identifier",
+      "description": "Urgent payment code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ServiceLevel/Code \"URGP\"",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "normal-payment-businessconcept",
+      "canonical_name": "Normal payment",
+      "name": "Normal payment",
+      "type": "BusinessConcept",
+      "description": "Standard payment type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Normal payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "default-payment-method-businessconcept",
+      "canonical_name": "Default payment method",
+      "name": "Default payment method",
+      "type": "BusinessConcept",
+      "description": "Default method for payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Default payment method",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "urgent-payment-businessconcept",
+      "canonical_name": "Urgent payment",
+      "name": "Urgent payment",
+      "type": "BusinessConcept",
+      "description": "Payment with urgent priority",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Urgent payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-within-the-group-businessconcept",
+      "canonical_name": "Payment within the group",
+      "name": "Payment within the group",
+      "type": "BusinessConcept",
+      "description": "Payment within a group of entities",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment within the group",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "intc-identifier",
+      "canonical_name": "INTC",
+      "name": "INTC",
+      "type": "Identifier",
+      "description": "Code for international payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Cd or 2.37 Cd = \"INTC\"",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "capital-payment-businessconcept",
+      "canonical_name": "Capital payment",
+      "name": "Capital payment",
+      "type": "BusinessConcept",
+      "description": "Payment of capital",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Capital payment/Treasury payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "treasury-payment-businessconcept",
+      "canonical_name": "Treasury payment",
+      "name": "Treasury payment",
+      "type": "BusinessConcept",
+      "description": "Payment related to treasury operations",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Capital payment/Treasury payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "same-day-value-businessconcept",
+      "canonical_name": "Same day value",
+      "name": "Same day value",
+      "type": "BusinessConcept",
+      "description": "Payment with same day value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Same day value",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sdva-identifier",
+      "canonical_name": "SDVA",
+      "name": "SDVA",
+      "type": "Identifier",
+      "description": "Code for same day value payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Cd or 2.34 = \"SDVA\"",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-exchange-deal-businessconcept",
+      "canonical_name": "Currency exchange deal",
+      "name": "Currency exchange deal",
+      "type": "BusinessConcept",
+      "description": "Deal for exchanging currencies",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Currency exchange deal number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fx-deal-number-identifier",
+      "canonical_name": "FX deal number",
+      "name": "FX deal number",
+      "type": "Identifier",
+      "description": "Number for a foreign exchange deal",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "XchgRateInf/CtrctId = FX deal number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xchgrateinfctrctid-xmlelement",
+      "canonical_name": "XchgRateInf/CtrctId",
+      "name": "XchgRateInf/CtrctId",
+      "type": "XMLElement",
+      "description": "XML element for exchange rate contract ID",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "XchgRateInf/CtrctId = FX deal number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-in-creditors-currency-businessconcept",
+      "canonical_name": "Payment in creditor's currency",
+      "name": "Payment in creditor's currency",
+      "type": "BusinessConcept",
+      "description": "Payment made in the creditor's currency",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment in creditor's currency",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ccyoftrf-xmlelement",
+      "canonical_name": "CcyOfTrf",
+      "name": "CcyOfTrf",
+      "type": "XMLElement",
+      "description": "XML element for currency of transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "CcyOfTrf = currency of payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clearing-code-identifier",
+      "canonical_name": "Clearing code",
+      "name": "Clearing code",
+      "type": "Identifier",
+      "description": "Code used for clearing",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Clearing code, name and address of the creditor's bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditors-bank-financialinstitution",
+      "canonical_name": "Creditor's bank",
+      "name": "Creditor's bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Clearing code, name and address of the creditor's bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bic-acronym",
+      "canonical_name": "BIC",
+      "name": "BIC",
+      "type": "Acronym",
+      "description": "Bank Identifier Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "if BIC address does not exist",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the debtor's bank will exchange to the dollar amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtors-bank-financialinstitution",
+      "canonical_name": "Debtor's bank",
+      "name": "Debtor's bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "the debtor's bank will exchange to the dollar amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-businessconcept",
+      "relation": "RECEIVES",
+      "target": "status-codes-businessconcept",
+      "description": "Customer receives status codes",
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payers-bank-financialinstitution",
+      "relation": "SUBMITS",
+      "target": "vop-responses-businessconcept",
+      "description": "Payer's bank submits VOP responses",
+      "confidence": 0.99,
+      "evidence": "the payer's bank submits the VOP responses",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-responses-businessconcept",
+      "relation": "PART_OF",
+      "target": "c2b-payment-status-report-document",
+      "description": "VOP responses are part of the C2B payment status report",
+      "confidence": 0.99,
+      "evidence": "the C2B payment status report",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "DEFINES",
+      "target": "vop-status-codes-cross-chunk",
+      "description": "ISO 20022 defines VOP status codes",
+      "confidence": 0.99,
+      "evidence": "based on the valid ISO 20022 transaction status codes",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "match-identifier",
+      "relation": "HAS_CODE",
+      "target": "rcvc-identifier",
+      "description": "MATCH has code RCVC",
+      "confidence": 0.99,
+      "evidence": "MATCH - code: RCVC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "close-match-identifier",
+      "relation": "HAS_CODE",
+      "target": "rvmc-identifier",
+      "description": "CLOSE MATCH has code RVMC",
+      "confidence": 0.99,
+      "evidence": "CLOSE MATCH - code: RVMC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "no-match-identifier",
+      "relation": "HAS_CODE",
+      "target": "rvnm-identifier",
+      "description": "NO MATCH has code RVNM",
+      "confidence": 0.99,
+      "evidence": "NO MATCH - code: RVNM",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "not-possible-identifier",
+      "relation": "HAS_CODE",
+      "target": "rvna-identifier",
+      "description": "NOT POSSIBLE has code RVNA",
+      "confidence": 0.99,
+      "evidence": "NOT POSSIBLE - code: RVNA",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-cross-chunk",
+      "description": "European Payments Council publishes the ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "https://www.europeanpaymentscouncil.eu/",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "domestic-urgent-payments-businessconcept",
+      "relation": "ALSO_KNOWN_AS",
+      "target": "pops-acronym",
+      "description": "Domestic urgent payments are also known as POPS",
+      "confidence": 0.99,
+      "evidence": "Domestic urgent payments (POPS)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "servicelevelcode-xmlelement",
+      "relation": "HAS_VALUE",
+      "target": "urgp-identifier",
+      "description": "ServiceLevel/Code has value URGP",
+      "confidence": 0.99,
+      "evidence": "ServiceLevel/Code \"URGP\"",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "normal-payment-businessconcept",
+      "relation": "IS_TYPE_OF",
+      "target": "default-payment-method-businessconcept",
+      "description": "Normal payment is a type of default payment method",
+      "confidence": 0.99,
+      "evidence": "Normal payment",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "urgent-payment-businessconcept",
+      "relation": "IS_TYPE_OF",
+      "target": "payment-within-the-group-businessconcept",
+      "description": "Urgent payment is a type of payment within the group",
+      "confidence": 0.99,
+      "evidence": "Urgent payment",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "intc-identifier",
+      "relation": "IS_VALUE_OF",
+      "target": "cd-cross-chunk",
+      "description": "INTC is a value of Cd",
+      "confidence": 0.99,
+      "evidence": "Cd or 2.37 Cd = \"INTC\"",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "capital-payment-businessconcept",
+      "relation": "IS_TYPE_OF",
+      "target": "treasury-payment-businessconcept",
+      "description": "Capital payment is a type of treasury payment",
+      "confidence": 0.99,
+      "evidence": "Capital payment/Treasury payment",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "same-day-value-businessconcept",
+      "relation": "HAS_CODE",
+      "target": "sdva-identifier",
+      "description": "Same day value has code SDVA",
+      "confidence": 0.99,
+      "evidence": "Cd or 2.34 = \"SDVA\"",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "currency-exchange-deal-businessconcept",
+      "relation": "HAS_NUMBER",
+      "target": "fx-deal-number-identifier",
+      "description": "Currency exchange deal has a number",
+      "confidence": 0.99,
+      "evidence": "Currency exchange deal number",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xchgrateinfctrctid-xmlelement",
+      "relation": "HAS_VALUE",
+      "target": "fx-deal-number-identifier",
+      "description": "XchgRateInf/CtrctId has value FX deal number",
+      "confidence": 0.99,
+      "evidence": "XchgRateInf/CtrctId = FX deal number",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-in-creditors-currency-businessconcept",
+      "relation": "SPECIFIED_BY",
+      "target": "ccyoftrf-xmlelement",
+      "description": "Payment in creditor's currency is specified by CcyOfTrf",
+      "confidence": 0.99,
+      "evidence": "CcyOfTrf = currency of payment",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "clearing-code-identifier",
+      "relation": "IDENTIFIES",
+      "target": "creditors-bank-financialinstitution",
+      "description": "Clearing code identifies the creditor's bank",
+      "confidence": 0.99,
+      "evidence": "Clearing code, name and address of the creditor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bic-acronym",
+      "relation": "IDENTIFIES",
+      "target": "creditors-bank-financialinstitution",
+      "description": "BIC identifies the creditor's bank",
+      "confidence": 0.99,
+      "evidence": "if BIC address does not exist",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "HAS_BANK",
+      "target": "debtors-bank-financialinstitution",
+      "description": "Debtor has a bank",
+      "confidence": 0.99,
+      "evidence": "the debtor's bank will exchange to the dollar amount",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        30
+      ],
+      "frequency": 1
+    }
+  ]
+}

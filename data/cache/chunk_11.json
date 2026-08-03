@@ -1,0 +1,1096 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [],
+      "attributes": {
+        "version": "V09"
+      },
+      "confidence": 0.99,
+      "evidence": "2.54 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block of payment message",
+      "aliases": [
+        "PaymentInfo"
+      ],
+      "attributes": {
+        "block": "Payment Information"
+      },
+      "confidence": 0.98,
+      "evidence": "2.54 +Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-agent-paymentrole",
+      "canonical_name": "Debtor Agent",
+      "name": "Debtor Agent",
+      "type": "PaymentRole",
+      "description": "Party that acts on behalf of the debtor",
+      "aliases": [
+        "Debtor"
+      ],
+      "attributes": {
+        "side": "debit"
+      },
+      "confidence": 0.99,
+      "evidence": "2.54 ++Debtor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "financial-institution-identification-businesscomponent",
+      "canonical_name": "Financial Institution Identification",
+      "name": "Financial Institution Identification",
+      "type": "BusinessComponent",
+      "description": "Identification of financial institution",
+      "aliases": [
+        "FI Identification"
+      ],
+      "attributes": {
+        "block": "Financial Institution Identification"
+      },
+      "confidence": 0.98,
+      "evidence": "2.54 +++Financial Institution Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bicfi-identifier",
+      "canonical_name": "BICFI",
+      "name": "BICFI",
+      "type": "Identifier",
+      "description": "Bank Identifier Code for financial institutions",
+      "aliases": [
+        "BIC"
+      ],
+      "attributes": {
+        "codeType": "BIC"
+      },
+      "confidence": 0.99,
+      "evidence": "2.55 ++++BICFI",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-identification-businesscomponent",
+      "canonical_name": "Other Identification",
+      "name": "Other Identification",
+      "type": "BusinessComponent",
+      "description": "Other type of identification",
+      "aliases": [
+        "Other ID"
+      ],
+      "attributes": {
+        "block": "Other Identification"
+      },
+      "confidence": 0.98,
+      "evidence": "2.60 ++++Other",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "Party that originally ordered goods or services",
+      "aliases": [
+        "Ultimate Debtor Party"
+      ],
+      "attributes": {
+        "side": "debit"
+      },
+      "confidence": 0.99,
+      "evidence": "2.67 ++Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-name-dataelement",
+      "canonical_name": "Ultimate Debtor Name",
+      "name": "Ultimate Debtor Name",
+      "type": "DataElement",
+      "description": "Name of the ultimate debtor",
+      "aliases": [
+        "Ultimate Debtor Name Element"
+      ],
+      "attributes": {
+        "dataType": "string"
+      },
+      "confidence": 0.98,
+      "evidence": "2.68 +++Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-identification-businesscomponent",
+      "canonical_name": "Ultimate Debtor Identification",
+      "name": "Ultimate Debtor Identification",
+      "type": "BusinessComponent",
+      "description": "Identification of ultimate debtor",
+      "aliases": [
+        "Ultimate Debtor ID"
+      ],
+      "attributes": {
+        "block": "Ultimate Debtor Identification"
+      },
+      "confidence": 0.98,
+      "evidence": "2.70 +++Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-identification-businesscomponent",
+      "canonical_name": "Organisation Identification",
+      "name": "Organisation Identification",
+      "type": "BusinessComponent",
+      "description": "Identification of organisation",
+      "aliases": [
+        "Org ID"
+      ],
+      "attributes": {
+        "block": "Organisation Identification"
+      },
+      "confidence": 0.98,
+      "evidence": "2.71 ++++Organisation Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-businesscomponent",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "BusinessComponent",
+      "description": "Identification of private individual",
+      "aliases": [
+        "Private ID"
+      ],
+      "attributes": {
+        "block": "Private Identification"
+      },
+      "confidence": 0.98,
+      "evidence": "2.72 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "charge-bearer-paymentrole",
+      "canonical_name": "Charge Bearer",
+      "name": "Charge Bearer",
+      "type": "PaymentRole",
+      "description": "Party that bears the charges associated with the payment transaction",
+      "aliases": [
+        "Charge Bearer Party"
+      ],
+      "attributes": {
+        "side": "charge"
+      },
+      "confidence": 0.99,
+      "evidence": "2.75 ++Charge Bearer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Information related to the credit transfer transaction",
+      "aliases": [
+        "Credit Transfer Info"
+      ],
+      "attributes": {
+        "block": "Credit Transfer Transaction Information"
+      },
+      "confidence": 0.98,
+      "evidence": "2.78 ++Credit Transfer Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-identification-dataelement",
+      "canonical_name": "Payment Identification",
+      "name": "Payment Identification",
+      "type": "DataElement",
+      "description": "Identification of the payment",
+      "aliases": [
+        "Payment ID Element"
+      ],
+      "attributes": {
+        "dataType": "string"
+      },
+      "confidence": 0.98,
+      "evidence": "2.79 +++Payment Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "ISO20022 Guide"
+      ],
+      "attributes": {
+        "documentType": "guide"
+      },
+      "confidence": 0.98,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-identifier",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "Identifier",
+      "description": "Any Bank Identifier Code",
+      "aliases": [
+        "Any BIC"
+      ],
+      "attributes": {
+        "codeType": "BIC"
+      },
+      "confidence": 0.99,
+      "evidence": "2.71 ++++Organisation Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lei-identifier",
+      "canonical_name": "LEI",
+      "name": "LEI",
+      "type": "Identifier",
+      "description": "Legal Entity Identifier",
+      "aliases": [
+        "LEI Code"
+      ],
+      "attributes": {
+        "codeType": "LEI"
+      },
+      "confidence": 0.99,
+      "evidence": "2.71 ++++Organisation Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slev-identifier",
+      "canonical_name": "SLEV",
+      "name": "SLEV",
+      "type": "Identifier",
+      "description": "Service Level",
+      "aliases": [
+        "Service Level Code"
+      ],
+      "attributes": {
+        "codeType": "SLEV"
+      },
+      "confidence": 0.99,
+      "evidence": "2.75 Charge Bearer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-paymentscheme",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area",
+      "aliases": [
+        "SEPA Payments"
+      ],
+      "attributes": {
+        "paymentScheme": "SEPA"
+      },
+      "confidence": 0.99,
+      "evidence": "2.75 SEPA payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-personal-identification-number-identifier",
+      "canonical_name": "Finnish Personal Identification Number",
+      "name": "Finnish Personal Identification Number",
+      "type": "Identifier",
+      "description": "Personal identification number used in Finland",
+      "aliases": [
+        "Finnish PIN"
+      ],
+      "attributes": {
+        "codeType": "Personal ID"
+      },
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "date-of-birth-dataelement",
+      "canonical_name": "Date of Birth",
+      "name": "Date of Birth",
+      "type": "DataElement",
+      "description": "Date of birth of an individual",
+      "aliases": [
+        "DOB"
+      ],
+      "attributes": {
+        "dataType": "date"
+      },
+      "confidence": 0.98,
+      "evidence": "2.72 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "place-of-birth-dataelement",
+      "canonical_name": "Place of Birth",
+      "name": "Place of Birth",
+      "type": "DataElement",
+      "description": "Place of birth of an individual",
+      "aliases": [
+        "POB"
+      ],
+      "attributes": {
+        "dataType": "string"
+      },
+      "confidence": 0.98,
+      "evidence": "2.72 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-personal-identifier-identifier",
+      "canonical_name": "Other Personal Identifier",
+      "name": "Other Personal Identifier",
+      "type": "Identifier",
+      "description": "Other type of personal identifier",
+      "aliases": [
+        "Other PID"
+      ],
+      "attributes": {
+        "codeType": "Personal ID"
+      },
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymenttype",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Credit Transfer Payment"
+      ],
+      "attributes": {
+        "paymentType": "credit"
+      },
+      "confidence": 0.99,
+      "evidence": "2.78 ++Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Information related to the transaction",
+      "aliases": [
+        "Transaction Info"
+      ],
+      "attributes": {
+        "block": "Transaction Information"
+      },
+      "confidence": 0.98,
+      "evidence": "2.78 ++Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-dataelement",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "DataElement",
+      "description": "Index of the transaction",
+      "aliases": [
+        "Index Element"
+      ],
+      "attributes": {
+        "dataType": "integer"
+      },
+      "confidence": 0.98,
+      "evidence": "2.3.4 Index",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-dataelement",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "DataElement",
+      "description": "Multiplicity of the transaction",
+      "aliases": [
+        "Multiplicity Element"
+      ],
+      "attributes": {
+        "dataType": "integer"
+      },
+      "confidence": 0.98,
+      "evidence": "2.3.4 Mult",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-dataelement",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "DataElement",
+      "description": "Element of the message",
+      "aliases": [
+        "Message Element"
+      ],
+      "attributes": {
+        "dataType": "string"
+      },
+      "confidence": 0.98,
+      "evidence": "2.3.4 Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation Guide",
+      "name": "Implementation Guide",
+      "type": "Document",
+      "description": "Guide for implementation",
+      "aliases": [
+        "Implementation Guide Document"
+      ],
+      "attributes": {
+        "documentType": "guide"
+      },
+      "confidence": 0.98,
+      "evidence": "2.3.4 Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer Credit Transfer Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "2.54 +Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-agent-paymentrole",
+      "description": "Payment Information contains Debtor Agent",
+      "confidence": 0.99,
+      "evidence": "2.54 ++Debtor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-agent-paymentrole",
+      "relation": "CONTAINS",
+      "target": "financial-institution-identification-businesscomponent",
+      "description": "Debtor Agent contains Financial Institution Identification",
+      "confidence": 0.99,
+      "evidence": "2.54 +++Financial Institution Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "financial-institution-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "bicfi-identifier",
+      "description": "Financial Institution Identification contains BICFI",
+      "confidence": 0.99,
+      "evidence": "2.55 ++++BICFI",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "financial-institution-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "other-identification-businesscomponent",
+      "description": "Financial Institution Identification contains Other Identification",
+      "confidence": 0.99,
+      "evidence": "2.60 ++++Other",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-paymentrole",
+      "description": "Payment Information contains Ultimate Debtor",
+      "confidence": 0.99,
+      "evidence": "2.67 ++Ultimate Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-name-dataelement",
+      "description": "Ultimate Debtor contains Ultimate Debtor Name",
+      "confidence": 0.99,
+      "evidence": "2.68 +++Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-identification-businesscomponent",
+      "description": "Ultimate Debtor contains Ultimate Debtor Identification",
+      "confidence": 0.99,
+      "evidence": "2.70 +++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "organisation-identification-businesscomponent",
+      "description": "Ultimate Debtor Identification contains Organisation Identification",
+      "confidence": 0.99,
+      "evidence": "2.71 ++++Organisation Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "private-identification-businesscomponent",
+      "description": "Ultimate Debtor Identification contains Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "charge-bearer-paymentrole",
+      "description": "Payment Information contains Charge Bearer",
+      "confidence": 0.99,
+      "evidence": "2.75 ++Charge Bearer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-transaction-information-businesscomponent",
+      "description": "Payment Information contains Credit Transfer Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.78 ++Credit Transfer Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-identification-dataelement",
+      "description": "Credit Transfer Transaction Information contains Payment Identification",
+      "confidence": 0.99,
+      "evidence": "2.79 +++Payment Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "anybic-identifier",
+      "relation": "USED_BY",
+      "target": "organisation-identification-businesscomponent",
+      "description": "AnyBIC is used by Organisation Identification",
+      "confidence": 0.99,
+      "evidence": "2.71 ++++Organisation Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "lei-identifier",
+      "relation": "USED_BY",
+      "target": "organisation-identification-businesscomponent",
+      "description": "LEI is used by Organisation Identification",
+      "confidence": 0.99,
+      "evidence": "2.71 ++++Organisation Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "slev-identifier",
+      "relation": "USED_BY",
+      "target": "charge-bearer-paymentrole",
+      "description": "SLEV is used by Charge Bearer",
+      "confidence": 0.99,
+      "evidence": "2.75 Charge Bearer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-paymentscheme",
+      "relation": "RELATED_TO",
+      "target": "payment-information-businesscomponent",
+      "description": "SEPA is related to Payment Information",
+      "confidence": 0.99,
+      "evidence": "2.75 SEPA payments",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-personal-identification-number-identifier",
+      "relation": "USED_BY",
+      "target": "private-identification-businesscomponent",
+      "description": "Finnish Personal Identification Number is used by Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "date-of-birth-dataelement",
+      "relation": "USED_BY",
+      "target": "private-identification-businesscomponent",
+      "description": "Date of Birth is used by Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "place-of-birth-dataelement",
+      "relation": "USED_BY",
+      "target": "private-identification-businesscomponent",
+      "description": "Place of Birth is used by Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "other-personal-identifier-identifier",
+      "relation": "USED_BY",
+      "target": "private-identification-businesscomponent",
+      "description": "Other Personal Identifier is used by Private Identification",
+      "confidence": 0.99,
+      "evidence": "2.72 ++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-paymenttype",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit Transfer contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.78 ++Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "index-dataelement",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Index contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.3.4 Index",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "mult-dataelement",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Mult contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.3.4 Mult",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-element-dataelement",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Message Element contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.3.4 Message Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "implementation-guide-document",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Implementation Guide contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.3.4 Implementation guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        11
+      ],
+      "frequency": 1
+    }
+  ]
+}

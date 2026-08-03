@@ -1,0 +1,282 @@
+[
+  {
+    "chunk_id": 0,
+    "page_start": 2,
+    "page_end": 2,
+    "section_title": "2025\n\n[PAGE 2] / 1.1 Usage of ISO 20022 in Finland ......................................................................................... 4 / 1.2 Address structure .............................................................................................................. 5 / 1.2.1 Structured address .................................................................................................. 5 / 1.2.2 Unstructured address .............................................................................................. 5 / 1.2.3 Hybrid address ........................................................................................................ 5 / 2.1 Parties of the Transaction ................................................................................................. 6 / 2.2 Payment Message structure ............................................................................................. 8 / 2.2.1 Group Header - Block A .......................................................................................... 8 / 2.2.2 Payment Information - Block B ............................................................................... 8 / 2.2.3 Credit Transfer Transaction Information - Block C ................................................. 8 / 2.2.4 Remittance Information ........................................................................................... 8 / 2.2.5 Message structure ................................................................................................... 9 / 2.2.6 Debit booking alternatives ....................................................................................... 9 / 2.3 Message content .............................................................................................................. 9 / 2.3.1 Message root ......................................................................................................... 10 / 2.3.2 Group Header ........................................................................................................ 11 / 2.3.3 Payment Information ............................................................................................. 12 / 2.3.4 Credit Transfer Transaction Information ................................................................ 20",
+    "char_count": 2873,
+    "text_preview": "2025\n\n2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/..."
+  },
+  {
+    "chunk_id": 1,
+    "page_start": 1,
+    "page_end": 3,
+    "section_title": "3.1 Creditor reference ........................................................................................................... 31 / 3.2 Character set .................................................................................................................. 31 / 3.3 Payment on behalf and the Ultimate Debtor ................................................................... 31 / 3.4 Ultimate Creditor ............................................................................................................. 31 / 3.5 Salaries and pensions .................................................................................................... 32 / 4.1 Payment Date (AOS1) .................................................................................................... 32 / 4.2 Combining invoices and credit notes / Extended Remittance Information (ERI) ............ 32 / 5.1 Creditor reference in a credit transfer transaction .......................................................... 33 / 5.2 Credit transfer with message - XML message example ................................................ 34 / 6.1 Content of the Payment Status Report ........................................................................... 39 / 6.1.1 Validation of message structure ............................................................................ 39 / 6.1.2 Content validation .................................................................................................. 39 / 3 (61) / 6.1.3 Message root ......................................................................................................... 40 / 6.1.4 Group Header ........................................................................................................ 40 / 6.1.5 Original Group Information And Status .................................................................. 41 / 6.1.6 Original Payment Information And Status ............................................................. 43 / 6.2 Examples of Payment Status Report messages ............................................................ 49 / 6.2.1 Message structure approved ................................................................................. 49 / 6.2.2 Message structure rejected ................................................................................... 49",
+    "char_count": 2913,
+    "text_preview": "3.1 Creditor reference ........................................................................................................... 31\n\n3.2 Character set .................................................."
+  },
+  {
+    "chunk_id": 2,
+    "page_start": 1,
+    "page_end": 4,
+    "section_title": "6.2.3 Message content approved ................................................................................... 50 / 6.2.4 Payments partially accepted in message for further processing ........................... 50 / 6.2.5 Rejection reason codes ......................................................................................... 51 / 7.1 VOP in C2B payment files and its implementation ......................................................... 53 / 7.1.1 The VOP data file .................................................................................................. 53 / 7.2 VOP response types and status codes submitted to the customer ................................ 53 / 7.2.1 VOP response types.............................................................................................. 53 / 7.2.2 Status codes submitted to the customer ............................................................... 54 / 8.1 Domestic urgent payments (POPS) ................................................................................ 55 / 8.2 Currency payments ......................................................................................................... 55 / 4 (61) / 20022 standard mandatory also in transactions between banks and their customers.",
+    "char_count": 2651,
+    "text_preview": "6.2.3 Message content approved ................................................................................... 50\n\n6.2.4 Payments partially accepted in message for further processing ................"
+  },
+  {
+    "chunk_id": 3,
+    "page_start": 1,
+    "page_end": 5,
+    "section_title": "20022 Payment Initiation message in credit transfers. This description is based on / 1.1\nUsage of ISO 20022 in Finland / 1 https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-credit-transfer-customer-psp- / 2 https://www.europeanpaymentscouncil.eu/document-library/implementation-guidelines/sepa-instant-credit-transfer-customer-psp-0 / 3 https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets / 5 (61)",
+    "char_count": 2258,
+    "text_preview": "20022 Payment Initiation message in credit transfers. This description is based on\nthe current accepted SEPA Credit Transfer Customer-to-PSP Implementation\nGuidelines1 (version 2023 1.1) and the SEPA ..."
+  },
+  {
+    "chunk_id": 4,
+    "page_start": 1,
+    "page_end": 6,
+    "section_title": "1.2\nAddress structure / 1.2.1\nStructured address / 1.2.2\nUnstructured address / 1.2.3\nHybrid address / 4 https://www.swift.com/ - Society for Worldwide Interbank Financial Telecommunication / 5 https://www.swift.com/swift-resource/250266/download / 6 https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/epc-guidance-document-provision-addresses-under- / 6 (61)",
+    "char_count": 2883,
+    "text_preview": "1.2\nAddress structure\nPayment market infrastructures are being migrated to ISO 20022. The various\nprocesses across the payments ecosystem, such as know-your-customer and anti-\nmoney laundering screeni..."
+  },
+  {
+    "chunk_id": 5,
+    "page_start": 7,
+    "page_end": 8,
+    "section_title": "2.1\nParties of the Transaction / 7 (61) / 8 (61) / 2.2.1\nGroup Header - Block A",
+    "char_count": 2755,
+    "text_preview": "2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDescription\nDebtor\n\nOriginator\nOrdering Party Buyer\nThe party whose acco..."
+  },
+  {
+    "chunk_id": 6,
+    "page_start": 1,
+    "page_end": 10,
+    "section_title": "2.2.2\nPayment Information - Block B / 2.2.3\nCredit Transfer Transaction Information - Block C / 2.2.4\nRemittance Information / 7 https://www.europeanpaymentscouncil.eu/what-we-do/sepa-payment-schemes/sepa-credit-transfer/extended-remittance-information- / 1. GROUP HEADER (1..1) / 3. CREDIT TRANSFER / 9 (61) / 2.2.5\nMessage structure / 2.2.6\nDebit booking alternatives / 2.3\nMessage content / 2.3.4. The explanations to the table columns are provided below.",
+    "char_count": 2795,
+    "text_preview": "2.2.2\nPayment Information - Block B\nPayment Information can occur multiple times. It contains information related to the\ndebit side of the transaction. This information can include for example\nPayment..."
+  },
+  {
+    "chunk_id": 7,
+    "page_start": 1,
+    "page_end": 12,
+    "section_title": "10 (61) / 2.3.1\nMessage root / 11 (61) / 1.0\n1..1 / 1.1\n1..1 / 1.2\n1..1 / 1.4\n1..1 / 1.5\n1..1 / 1.6\n1..1 / 1.7\n0..1 / 1.9\n0..1 / 1.10\n1..1 / 12 (61)",
+    "char_count": 2812,
+    "text_preview": "10 (61)\n\nISO 20022 Payments Guide\n• Index used in ISO 20022 XML Message Definition Report\n(www.iso20022.org)\n\"Mult\" column\nMandatoriness and occurrences of element\n(1..1) = mandatory, only one occurre..."
+  },
+  {
+    "chunk_id": 8,
+    "page_start": 1,
+    "page_end": 13,
+    "section_title": "2.3.3\nPayment Information / 2.0\n1..n / 2.1\n1..1 / 2.2\n1..1 / 2.3\n0..1 / 2.4\n1..1 / 2.5\n1..1 / 13 (61) / 2.7\n0..1 / 2.8\n0..1 / 2.9\n1..1 / 2.11\n0..1",
+    "char_count": 2789,
+    "text_preview": "2.3.3\nPayment Information\nPaymentInformation contains elements related to the debit side of the transaction.\nThe information is common to all the credit transfers (Block C) attached to this\nPaymentInf..."
+  },
+  {
+    "chunk_id": 9,
+    "page_start": 14,
+    "page_end": 16,
+    "section_title": "2.12\n1..1 / 14 (61) / 2.14\n0..1 / 2.15\n1..1 / 2.16\n1..1 / 2.17\n1..1 / 2.18\n1..1 / 2.21\n1..1 / 2.22\n1..1 / 15 (61) / 1.2.\n\n\n2.25 / 2.26\n0..1 / 2.27\n0..1 / 2.28\n0..1 / 2.29\n0..1 / 2.30\n0..1 / 2.31\n0..1 / 16 (61)",
+    "char_count": 2950,
+    "text_preview": "2.12\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Payment Type\nInformation\n+++Local Instrument\n++++Code\nCode \"INST\" can be used to specify\npayment as SEPA instant credit transfe..."
+  },
+  {
+    "chunk_id": 10,
+    "page_start": 1,
+    "page_end": 18,
+    "section_title": "2.33\n0..1 / 2.34\n0..1 / 2.35\n0..1 / 2.36\n0..1 / 2.37\n0..1 / 2.38\n0..1 / 2.39\n0..2 / 17 (61) / 2.41\n1..1 / 2.42\n1..1 / 2.45\n1..1 / 2.46\n1..1 / 18 (61) / 2.50\n0..1 / 2.52\n0..1 / 2.53\n1..1",
+    "char_count": 2965,
+    "text_preview": "2.33\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Post Code\n\n2.34\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Post..."
+  },
+  {
+    "chunk_id": 11,
+    "page_start": 1,
+    "page_end": 20,
+    "section_title": "2.54\n1..1 / 2.55\n0..1 / 2.60\n0..1 / 2.61\n1..1 / 19 (61) / 2.68\n0..1 / 2.70\n0..1 / 2.71\n1..1 / 2.72\n1..1 / 2.75\n0..1 / 20 (61) / 2.78\n1..n / 2.79\n1..1",
+    "char_count": 2564,
+    "text_preview": "2.54\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor Agent\n+++Financial Institution\nIdentification\n\n2.55\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++..."
+  },
+  {
+    "chunk_id": 12,
+    "page_start": 1,
+    "page_end": 22,
+    "section_title": "2.80\n0..1 / 2.81\n1..1 / 2.83\n0..1 / 2.85\n0..1 / 21 (61) / 2.88\n0..1 / 2.89\n1..1 / 2.90\n1..1 / 2.91\n0..1 / 2.92\n1..1 / 22 (61) / 2.94\n1..1 / 2.95\n1..1",
+    "char_count": 2911,
+    "text_preview": "2.80\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n++++Instruction\nIdentification\nUnique transaction identificat..."
+  },
+  {
+    "chunk_id": 13,
+    "page_start": 1,
+    "page_end": 23,
+    "section_title": "2.98\n0..1 / 2.100\n0..1 / 2.101\n0..1 / 2.103\n0..1 / 23 (61) / 2.105\n1..1 / 2.114\n0..1 / 2.116\n1..1 / 2.117\n1..1 / 2.118\n0..1 / 2.120\n0..1 / 2.121\n0..1",
+    "char_count": 2909,
+    "text_preview": "2.98\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Charge Bearer\nIf the information is already provided in\nthe Payment Information bloc..."
+  },
+  {
+    "chunk_id": 14,
+    "page_start": 1,
+    "page_end": 27,
+    "section_title": "2.122\n0..1 / 2.123\n0..1 / 2.124\n0..1 / 2.125\n0..1 / 25 (61) / 2.127\n0..1 / 2.128\n0..1 / 2.129\n0..1 / 2.130\n0..1 / 2.131\n0..1 / 26 (61) / 2.133\n0..1 / 2.134\n0..2 / 2.135\n0..1 / 2.136\n1..1 / 2.137\n1..1",
+    "char_count": 2978,
+    "text_preview": "2.122\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Creditor\n++++Postal Address\n+++++Street Name\n\n2.123\n0..1\nCustomer Credit Transfer\nI..."
+  },
+  {
+    "chunk_id": 15,
+    "page_start": 1,
+    "page_end": 28,
+    "section_title": "27 (61) / 2.141\n1..1 / 2.142\n1..1 / 2.147\n0..1 / 2.148\n0..1 / 2.149\n0..1 / 2.151\n0..1 / 28 (61) / 2.153\n1..1 / 2.158\n0..1 / 2.159\n1..1",
+    "char_count": 2867,
+    "text_preview": "27 (61)\n\nISO 20022 Payments Guide\n\n\n2.140\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Creditor Account\n\n2.141\n1..1\nCustomer Credit Tr..."
+  },
+  {
+    "chunk_id": 16,
+    "page_start": 29,
+    "page_end": 31,
+    "section_title": "2.164\n0..1 / 29 (61) / 2.166\n0..1 / 2.169\n0..1 / 2.170\n1..1 / 30 (61) / 2.172\n1..1 / 2.174\n0..1 / 2.175\n1..1 / 31 (61)",
+    "char_count": 2908,
+    "text_preview": "2.164\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Remittance Information\nAdditional payment details. A credit\ntransfer can include ei..."
+  },
+  {
+    "chunk_id": 17,
+    "page_start": 1,
+    "page_end": 32,
+    "section_title": "3.1\nCreditor reference / 3.2\nCharacter set / 3.3\nPayment on behalf and the Ultimate Debtor / 3.4\nUltimate Creditor / 32 (61) / 3.5\nSalaries and pensions",
+    "char_count": 2799,
+    "text_preview": "3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandin..."
+  },
+  {
+    "chunk_id": 18,
+    "page_start": 1,
+    "page_end": 34,
+    "section_title": "4.1\nPayment Date (AOS1) / 4.2\nCombining invoices and credit notes / Extended Remittance Information (ERI) / 33 (61)",
+    "char_count": 2333,
+    "text_preview": "4.1\nPayment Date (AOS1)\nBanks operating in Finland have agreed that the Payment Date is transmitted from\nthe Debtor Bank to the Creditor Bank. The Payment Date is used, for example, in\ncalculating the..."
+  },
+  {
+    "chunk_id": 19,
+    "page_start": 35,
+    "page_end": 36,
+    "section_title": "34 (61) / 35 (61)",
+    "char_count": 2448,
+    "text_preview": "34 (61)\n\nISO 20022 Payments Guide\n\n\n5.2\nCredit transfer with message - XML message example\n\nXML message\nXML header\n\nStart of\nmessage\n\n\n\nBlock A:\nGroupHeader\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlock B:\nP..."
+  },
+  {
+    "chunk_id": 20,
+    "page_start": 37,
+    "page_end": 39,
+    "section_title": "36 (61) / 37 (61) / 38 (61)",
+    "char_count": 2885,
+    "text_preview": "36 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPayment\ndetails\n\n\n\n\n\n\n<Cdtr>\n\n\n\n\n\n<Nm>Creditor Company</Nm>\n\n\n\n\n\n<PstlAdr>\n\n\n\n\n\n\n<StrtNm>Hohenstaufengasse</StrtNm>\n\n\n\n\n\n\n<BldgNb>123</Bld..."
+  },
+  {
+    "chunk_id": 21,
+    "page_start": 1,
+    "page_end": 40,
+    "section_title": "39 (61) / 6.1\nContent of the Payment Status Report / 3.6 TransactionStatus-field RJCT / 6.1.1\nValidation of message structure / 6.1.2\nContent validation / 40 (61) / 6.1.3\nMessage root",
+    "char_count": 2976,
+    "text_preview": "39 (61)\n\nISO 20022 Payments Guide\n\n\nC. Original Payment Instruction\n• The original transaction identification details and status\n\n6.1\nContent of the Payment Status Report\nPain.002.001.10 Payment Statu..."
+  },
+  {
+    "chunk_id": 22,
+    "page_start": 1,
+    "page_end": 42,
+    "section_title": "6.1.4\nGroup Header / 1.0\n1..1 / 1.1\n1..1 / 1.2\n1..1 / 1.3\n0..1 / 1.5\n0..1 / 41 (61) / 6.1.5\nOriginal Group Information And Status / 2.0\n1..1 / 2.1\n1..1 / 2.2\n1..1 / 2.3\n0..1 / 2.4\n0..1 / 2.5\n0..1 / 2.6\n0..1 / 42 (61) / 2.8\n1..1 / 2.9\n1..1 / 2.10\n1..1",
+    "char_count": 2977,
+    "text_preview": "6.1.4\nGroup Header\nIndex\nMult\nMessage Element\nImplementation guide\n\n1.0\n1..1\nCustomer Payment Status\nReport V10\n+Group Header\n\n1.1\n1..1\nCustomer Payment Status\nReport V10\n+Group Header\n++Message Ident..."
+  },
+  {
+    "chunk_id": 23,
+    "page_start": 1,
+    "page_end": 44,
+    "section_title": "2.11\n1..1 / 2.12\n0..n / 2.13\n0..n / 43 (61) / 3.0\n0..n / 3.1\n1..1 / 3.2\n0..1 / 3.3\n0..1 / 3.4\n0..1 / 3.5\n0..n / 3.6\n1..1 / 44 (61) / 3.8\n1..1 / 3.12\n0..n / 3.13\n0..1",
+    "char_count": 2698,
+    "text_preview": "2.11\n1..1\n++++ Customer Payment\nStatus Report V10\n+Original Group Information\nAnd Status\n++Status Reason\nInformation\n+++Reason\n++++Proprietary\n\n2.12\n0..n\n+++ Customer Payment\nStatus Report V10\n+Origin..."
+  },
+  {
+    "chunk_id": 24,
+    "page_start": 1,
+    "page_end": 47,
+    "section_title": "3.14\n0..1 / 3.15\n0..1 / 45 (61) / 3.17\n0..1 / 3.18\n0..n / 3.19\n1..1 / 3.20\n1..1 / 3.21\n1..1 / 46 (61) / 3.31\n0..1 / 3.34\n0..1 / 3.37\n0..1 / 3.38\n0..1 / 47 (61)",
+    "char_count": 2901,
+    "text_preview": "3.14\n0..1\nCustomer Payment Status\nReport V10\n+Original Payment\nInformation And Status\n++Transaction Information\nAnd Status\n+++Original Instruction\nIdentification\nUnique identification, as assigned by ..."
+  },
+  {
+    "chunk_id": 25,
+    "page_start": 1,
+    "page_end": 50,
+    "section_title": "3.41\n0..1 / 3.42\n0..1 / 3.43\n0..1 / 3.44\n0..1 / 48 (61) / 3.48\n1..1 / 3.49\n0..1 / 3.50\n0..1 / 3.51\n0..1 / 49 (61) / 6.2.1\nMessage structure approved / 6.2.2\nMessage structure rejected",
+    "char_count": 2973,
+    "text_preview": "3.41\n0..1\nCustomer Payment Status\nReport V10\n+Original Payment\nInformation And Status\n++Transaction Information\nAnd Status\n+++Original Transaction\n++++Ultimate Debtor\n\n3.42\n0..1\nCustomer Payment Statu..."
+  },
+  {
+    "chunk_id": 26,
+    "page_start": 1,
+    "page_end": 51,
+    "section_title": "50 (61) / 6.2.3\nMessage content approved / 6.2.4\nPayments partially accepted in message for further processing / 51 (61)",
+    "char_count": 2232,
+    "text_preview": "50 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n</Id>\n\n\n\n\n</Orgtr>\n\n\n\n\n<Rsn>\n\n\n\n\n\n<Cd>AM10</Cd>\n\n\n\n\n</Rsn>\n\n\n\n\n<AddtlInf>Sum of instructed amounts does not equal\nthe control sum</AddtlInf>\n\n\n\n</StsRsnInf>\n\n\n..."
+  },
+  {
+    "chunk_id": 27,
+    "page_start": 52,
+    "page_end": 52,
+    "section_title": "6.2.5\nRejection reason codes / 52 (61)",
+    "char_count": 1659,
+    "text_preview": "6.2.5\nRejection reason codes\nThe rejection reason codes used in the ISO20022 standard are specified in the\nExternal Code List / ExternalStatusReason1Code. The code list is available at the\nISO20022 we..."
+  },
+  {
+    "chunk_id": 28,
+    "page_start": 1,
+    "page_end": 53,
+    "section_title": "9 October 2025, a payer's payment service provider (PSP, banks included) must offer / 8 https://www.europeanpaymentscouncil.eu/document-library/rulebooks/verification-payee-scheme-rulebook / 53 (61)",
+    "char_count": 2626,
+    "text_preview": "9 October 2025, a payer's payment service provider (PSP, banks included) must offer\nto the payer a service ensuring verification of the payee to whom the payer intends to\nsend a credit transfer. This ..."
+  },
+  {
+    "chunk_id": 29,
+    "page_start": 1,
+    "page_end": 54,
+    "section_title": "7.1.1\nThe VOP data file / 7.2.2 Status codes submitted to the customer). / 1. Corporate customers can opt in to the VOP service by making a VOP request / 2. Corporate customers wishing to opt out of the VOP service continue to submit / 7.2\nVOP response types and status codes submitted to the customer / 7.2.1\nVOP response types / 54 (61)",
+    "char_count": 2494,
+    "text_preview": "7.1.1\nThe VOP data file\nCorporate customers may have the payee information verified through their system\nbefore submitting the payments to their bank in the C2B payment file.\nThe channel offered by th..."
+  },
+  {
+    "chunk_id": 30,
+    "page_start": 1,
+    "page_end": 56,
+    "section_title": "7.2.2\nStatus codes submitted to the customer / 9 https://www.europeanpaymentscouncil.eu/document-library/other/epc-recommendations-matching-processes-under-verification- / 55 (61) / 8.1\nDomestic urgent payments (POPS) / 8.2\nCurrency payments / 56 (61) / 2.9 (or 2.86) SvcLvl/Cd = \"URGP\" / 2.15 (or 2.92) Cd or 2.37 Cd = \"INTC\" / 2.9 (or 2.86) Cd or 2.34 = \"SDVA\" / 2.83 XchgRateInf/CtrctId = FX deal number / 2.95 CcyOfTrf = currency of payment, different than the",
+    "char_count": 2799,
+    "text_preview": "7.2.2\nStatus codes submitted to the customer\nWith corporate customers, the payer's bank submits the VOP responses as part of\nthe C2B payment status report. Please check with the bank in question to en..."
+  },
+  {
+    "chunk_id": 31,
+    "page_start": 57,
+    "page_end": 58,
+    "section_title": "2.114\n<CdtrAgt><FinInstnId><ClrSysMmbId><ClrSysId><Cd> / 57 (61) / 2.114\n<CdtrAgt><FinInstnId><Nm> Name / 2.117 Cdtr/Nm and 2.118 Cdtr/PstlAdr / 2.160 InstrForDbtrAgt / 2.140 = <CdtrAcct><Id><Othr><Id> account number",
+    "char_count": 1822,
+    "text_preview": "2.114\n<CdtrAgt><FinInstnId><ClrSysMmbId><ClrSysId><Cd>\nclearing system identifier\n<CdtrAgt><FinInstnId><ClrSysMmbId><MmbId> bank\nidentifier\n<CdtrAgt><FinInstnId><Nm> name\n<CdtrAgt><FinInstnId><PstlAdr..."
+  },
+  {
+    "chunk_id": 32,
+    "page_start": 59,
+    "page_end": 59,
+    "section_title": "58 (61)",
+    "char_count": 1480,
+    "text_preview": "58 (61)\n\nISO 20022 Payments Guide\n\n\n9 Glossary\nAT name\nRulebook Definition\nFinnish term\nFinnish definition\nSwedish term\nSwedish definition\nThe IBAN of the account\nof the Originator\nThe account number ..."
+  },
+  {
+    "chunk_id": 33,
+    "page_start": 60,
+    "page_end": 60,
+    "section_title": "59 (61)",
+    "char_count": 2063,
+    "text_preview": "59 (61)\n\nISO 20022 Payments Guide\n\n\nAT name\nRulebook Definition\nFinnish term\nFinnish definition\nSwedish term\nSwedish definition\nThe Requested Execution\nDate of the instruction\nThis date corresponds\nwi..."
+  },
+  {
+    "chunk_id": 34,
+    "page_start": 61,
+    "page_end": 61,
+    "section_title": "60 (61) / 61 (61) / Part som ursprungligen",
+    "char_count": 2167,
+    "text_preview": "60 (61)\n\nISO 20022 Payments Guide\n\n\nAT name\nRulebook Definition\nFinnish term\nFinnish definition\nSwedish term\nSwedish definition\nThe Creditor identification\ncode\nA code supplied by the\nOriginator\nSaaja..."
+  }
+]

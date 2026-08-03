@@ -1,0 +1,902 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "Payments Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Party that initiates the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Requested Execution Date of the instruction",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requested-execution-date-date",
+      "canonical_name": "Requested Execution Date",
+      "name": "Requested Execution Date",
+      "type": "Date",
+      "description": "Date requested by the Originator for payment execution",
+      "aliases": [
+        "Debit Date"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Requested Execution Date of the instruction",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "banking-business-day-businessconcept",
+      "canonical_name": "Banking Business Day",
+      "name": "Banking Business Day",
+      "type": "BusinessConcept",
+      "description": "Day when banking operations are conducted",
+      "aliases": [
+        "Bank Day"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "If the requested date is not a Banking Business Day",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eräpäivä-finnishterm",
+      "canonical_name": "Eräpäivä",
+      "name": "Eräpäivä",
+      "type": "FinnishTerm",
+      "description": "Finnish term for Requested Execution Date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Eräpäivä",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-veloituksen-eräpäivä-finnishdefinition",
+      "canonical_name": "Maksajan antama veloituksen eräpäivä",
+      "name": "Maksajan antama veloituksen eräpäivä",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for Requested Execution Date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Maksajan antama veloituksen eräpäivä",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "förfallodag-swedishterm",
+      "canonical_name": "Förfallodag",
+      "name": "Förfallodag",
+      "type": "SwedishTerm",
+      "description": "Swedish term for Requested Execution Date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Förfallodag",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debiteringens-förfallodag-swedishdefinition",
+      "canonical_name": "Debiteringens förfallodag",
+      "name": "Debiteringens förfallodag",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for Requested Execution Date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debiteringens förfallodag",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-reference-party-paymentrole",
+      "canonical_name": "Originator Reference Party",
+      "name": "Originator Reference Party",
+      "type": "PaymentRole",
+      "description": "Party referenced by the Originator",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The identification code of the Originator Reference Party",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-code-identifier",
+      "canonical_name": "Identification Code",
+      "name": "Identification Code",
+      "type": "Identifier",
+      "description": "Code used to identify the Originator Reference Party",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The identification code of the Originator Reference Party",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-tunniste-finnishterm",
+      "canonical_name": "Maksajan tunniste",
+      "name": "Maksajan tunniste",
+      "type": "FinnishTerm",
+      "description": "Finnish term for Identification Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Maksajan tunniste",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-maksajan-yksilöintitieto-finnishdefinition",
+      "canonical_name": "Maksajan antama maksajan yksilöintitieto",
+      "name": "Maksajan antama maksajan yksilöintitieto",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for Identification Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Maksajan antama maksajan yksilöintitieto",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "betalarens-identifikation-swedishterm",
+      "canonical_name": "Betalarens identifikation",
+      "name": "Betalarens identifikation",
+      "type": "SwedishTerm",
+      "description": "Swedish term for Identification Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Betalarens identifikation",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "betalarens-id-uppgifter-swedishdefinition",
+      "canonical_name": "Betalarens ID-uppgifter",
+      "name": "Betalarens ID-uppgifter",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for Identification Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Betalarens ID-uppgifter",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [
+        "International Bank Account Number"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The IBAN of the account of the Creditor",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-13616-standard",
+      "canonical_name": "ISO 13616",
+      "name": "ISO 13616",
+      "type": "Standard",
+      "description": "Standard for IBAN",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Governed by ISO standard 13616",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-iban-tilinumero-finnishterm",
+      "canonical_name": "Saajan IBAN-tilinumero",
+      "name": "Saajan IBAN-tilinumero",
+      "type": "FinnishTerm",
+      "description": "Finnish term for IBAN",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan IBAN-tilinumero",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-tilinumero-iban-muodossa-finnishdefinition",
+      "canonical_name": "Saajan tilinumero IBAN-muodossa",
+      "name": "Saajan tilinumero IBAN-muodossa",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for IBAN",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan tilinumero IBAN-muodossa",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-iban-kontonummer-swedishterm",
+      "canonical_name": "Mottagarens IBAN-kontonummer",
+      "name": "Mottagarens IBAN-kontonummer",
+      "type": "SwedishTerm",
+      "description": "Swedish term for IBAN",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens IBAN-kontonummer",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-kontonummer-i-iban-format-swedishdefinition",
+      "canonical_name": "Mottagarens kontonummer i IBAN-format",
+      "name": "Mottagarens kontonummer i IBAN-format",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for IBAN",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens kontonummer i IBAN-format",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party that receives the payment",
+      "aliases": [
+        "Payee"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The IBAN of the account of the Creditor",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-name-field",
+      "canonical_name": "Creditor Name",
+      "name": "Creditor Name",
+      "type": "Field",
+      "description": "Name of the Creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The name of the Creditor",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-nimi-finnishterm",
+      "canonical_name": "Saajan nimi",
+      "name": "Saajan nimi",
+      "type": "FinnishTerm",
+      "description": "Finnish term for Creditor Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan nimi",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-saajan-nimi-finnishdefinition",
+      "canonical_name": "Maksajan antama saajan nimi",
+      "name": "Maksajan antama saajan nimi",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for Creditor Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Maksajan antama saajan nimi",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-namn-swedishterm",
+      "canonical_name": "Mottagarens namn",
+      "name": "Mottagarens namn",
+      "type": "SwedishTerm",
+      "description": "Swedish term for Creditor Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens namn",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-namn-angiven-av-betalaren-swedishdefinition",
+      "canonical_name": "Mottagarens namn angiven av betalaren",
+      "name": "Mottagarens namn angiven av betalaren",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for Creditor Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens namn angiven av betalaren",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-address-field",
+      "canonical_name": "Creditor Address",
+      "name": "Creditor Address",
+      "type": "Field",
+      "description": "Address of the Creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The address of the Creditor",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-osoite-finnishterm",
+      "canonical_name": "Saajan osoite",
+      "name": "Saajan osoite",
+      "type": "FinnishTerm",
+      "description": "Finnish term for Creditor Address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan osoite",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-saajan-osoite-finnishdefinition",
+      "canonical_name": "Maksajan antama saajan osoite",
+      "name": "Maksajan antama saajan osoite",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for Creditor Address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Maksajan antama saajan osoite",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-adress-swedishterm",
+      "canonical_name": "Mottagarens adress",
+      "name": "Mottagarens adress",
+      "type": "SwedishTerm",
+      "description": "Swedish term for Creditor Address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens adress",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-adress-angiven-av-betalaren-swedishdefinition",
+      "canonical_name": "Mottagarens adress angiven av betalaren",
+      "name": "Mottagarens adress angiven av betalaren",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for Creditor Address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens adress angiven av betalaren",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bic-code-identifier",
+      "canonical_name": "BIC Code",
+      "name": "BIC Code",
+      "type": "Identifier",
+      "description": "Bank Identifier Code",
+      "aliases": [
+        "SWIFT Code"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The BIC code of the Creditor Bank",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-tilipankki-bic-koodi-finnishterm",
+      "canonical_name": "Saajan tilipankki (BIC-koodi)",
+      "name": "Saajan tilipankki (BIC-koodi)",
+      "type": "FinnishTerm",
+      "description": "Finnish term for BIC Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan tilipankki (BIC-koodi)",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-tilipankin-swift-tunniste-bic-finnishdefinition",
+      "canonical_name": "Saajan tilipankin SWIFT-tunniste (BIC)",
+      "name": "Saajan tilipankin SWIFT-tunniste (BIC)",
+      "type": "FinnishDefinition",
+      "description": "Finnish definition for BIC Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Saajan tilipankin SWIFT-tunniste (BIC)",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-bank-bic-kod-swedishterm",
+      "canonical_name": "Mottagarens bank (BIC-kod)",
+      "name": "Mottagarens bank (BIC-kod)",
+      "type": "SwedishTerm",
+      "description": "Swedish term for BIC Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens bank (BIC-kod)",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-banks-swift-kod-bic-swedishdefinition",
+      "canonical_name": "Mottagarens banks SWIFT-kod (BIC)",
+      "name": "Mottagarens banks SWIFT-kod (BIC)",
+      "type": "SwedishDefinition",
+      "description": "Swedish definition for BIC Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mottagarens banks SWIFT-kod (BIC)",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-9362-standard",
+      "canonical_name": "ISO 9362",
+      "name": "ISO 9362",
+      "type": "Standard",
+      "description": "Standard for BIC Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "(ISO 9362)",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swift-organization",
+      "canonical_name": "SWIFT",
+      "name": "SWIFT",
+      "type": "Organization",
+      "description": "Society for Worldwide Interbank Financial Telecommunication",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "An 8- or 11-character ISO code assigned by SWIFT",
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes the payments guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-paymentrole",
+      "relation": "REQUESTS",
+      "target": "requested-execution-date-date",
+      "description": "Originator requests the execution date",
+      "confidence": 0.99,
+      "evidence": "The Requested Execution Date of the instruction",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "requested-execution-date-date",
+      "relation": "DEPENDS_ON",
+      "target": "banking-business-day-businessconcept",
+      "description": "Requested execution date depends on banking business day",
+      "confidence": 0.99,
+      "evidence": "If the requested date is not a Banking Business Day",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-reference-party-paymentrole",
+      "relation": "IDENTIFIED_BY",
+      "target": "identification-code-identifier",
+      "description": "Originator reference party is identified by the identification code",
+      "confidence": 0.99,
+      "evidence": "The identification code of the Originator Reference Party",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "IDENTIFIED_BY",
+      "target": "iban-identifier",
+      "description": "Creditor is identified by the IBAN",
+      "confidence": 0.99,
+      "evidence": "The IBAN of the account of the Creditor",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iban-identifier",
+      "relation": "GOVERNED_BY",
+      "target": "iso-13616-standard",
+      "description": "IBAN is governed by ISO 13616",
+      "confidence": 0.99,
+      "evidence": "Governed by ISO standard 13616",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "HAS_NAME",
+      "target": "creditor-name-field",
+      "description": "Creditor has a name",
+      "confidence": 0.99,
+      "evidence": "The name of the Creditor",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "HAS_ADDRESS",
+      "target": "creditor-address-field",
+      "description": "Creditor has an address",
+      "confidence": 0.99,
+      "evidence": "The address of the Creditor",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-bank-cross-chunk",
+      "relation": "IDENTIFIED_BY",
+      "target": "bic-code-identifier",
+      "description": "Creditor bank is identified by the BIC code",
+      "confidence": 0.99,
+      "evidence": "The BIC code of the Creditor Bank",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bic-code-identifier",
+      "relation": "GOVERNED_BY",
+      "target": "iso-9362-standard",
+      "description": "BIC code is governed by ISO 9362",
+      "confidence": 0.99,
+      "evidence": "(ISO 9362)",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swift-organization",
+      "relation": "ASSIGNS",
+      "target": "bic-code-identifier",
+      "description": "SWIFT assigns the BIC code",
+      "confidence": 0.99,
+      "evidence": "An 8- or 11-character ISO code assigned by SWIFT",
+      "implicit": false,
+      "source_pages": [
+        60
+      ],
+      "source_chunks": [
+        33
+      ],
+      "frequency": 1
+    }
+  ]
+}

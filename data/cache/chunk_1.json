@@ -1,0 +1,1084 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "ISO 20022 Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finance-finland-organization",
+      "canonical_name": "Finance Finland",
+      "name": "Finance Finland",
+      "type": "Organization",
+      "description": "Financial industry organization in Finland",
+      "aliases": [
+        "Finanssiala ry"
+      ],
+      "attributes": {
+        "country": "Finland"
+      },
+      "confidence": 0.98,
+      "evidence": "Published by Finance Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "itämerenkatu-11-13-location",
+      "canonical_name": "Itämerenkatu 11-13",
+      "name": "Itämerenkatu 11-13",
+      "type": "Location",
+      "description": "Address of Finance Finland",
+      "aliases": [
+        "Finance Finland Address"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Itämerenkatu 11-13",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tel-358-20-793-4200-contact",
+      "canonical_name": "Tel: +358 20 793 4200",
+      "name": "Tel: +358 20 793 4200",
+      "type": "Contact",
+      "description": "Phone number of Finance Finland",
+      "aliases": [
+        "Finance Finland Phone"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Tel: +358 20 793 4200",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fi-00180-helsinki-location",
+      "canonical_name": "FI-00180 Helsinki",
+      "name": "FI-00180 Helsinki",
+      "type": "Location",
+      "description": "Address of Finance Finland",
+      "aliases": [
+        "Finance Finland Address"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "FI-00180 Helsinki",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fax-358-20-793-4202-contact",
+      "canonical_name": "Fax: +358 20 793 4202",
+      "name": "Fax: +358 20 793 4202",
+      "type": "Contact",
+      "description": "Fax number of Finance Finland",
+      "aliases": [
+        "Finance Finland Fax"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Fax: +358 20 793 4202",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country where Finance Finland is located",
+      "aliases": [
+        "FI"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "twittercomfinfinance-socialmedia",
+      "canonical_name": "Twitter.com/finfinance",
+      "name": "Twitter.com/finfinance",
+      "type": "SocialMedia",
+      "description": "Twitter handle of Finance Finland",
+      "aliases": [
+        "Finance Finland Twitter"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Twitter.com/finfinance",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-reference-businessconcept",
+      "canonical_name": "Creditor reference",
+      "name": "Creditor reference",
+      "type": "BusinessConcept",
+      "description": "Reference to the creditor",
+      "aliases": [
+        "Creditor Ref"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.1 Creditor reference",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "character-set-technicalconcept",
+      "canonical_name": "Character set",
+      "name": "Character set",
+      "type": "TechnicalConcept",
+      "description": "Set of characters used in a system",
+      "aliases": [
+        "Charset"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.2 Character set",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-on-behalf-businessconcept",
+      "canonical_name": "Payment on behalf",
+      "name": "Payment on behalf",
+      "type": "BusinessConcept",
+      "description": "Payment made on behalf of another party",
+      "aliases": [
+        "Payment On Behalf"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.3 Payment on behalf and the Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "The final debtor in a payment chain",
+      "aliases": [
+        "Ultimate Debtor Role"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.3 Payment on behalf and the Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-paymentrole",
+      "canonical_name": "Ultimate Creditor",
+      "name": "Ultimate Creditor",
+      "type": "PaymentRole",
+      "description": "The final creditor in a payment chain",
+      "aliases": [
+        "Ultimate Creditor Role"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.4 Ultimate Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "salaries-and-pensions-businessconcept",
+      "canonical_name": "Salaries and pensions",
+      "name": "Salaries and pensions",
+      "type": "BusinessConcept",
+      "description": "Types of payments",
+      "aliases": [
+        "Salary And Pension"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.5 Salaries and pensions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-information-elements-technicalconcept",
+      "canonical_name": "Extended information elements",
+      "name": "Extended information elements",
+      "type": "TechnicalConcept",
+      "description": "Additional information elements used in payments",
+      "aliases": [
+        "Extended Info Elements"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Use of extended information elements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-date-businessconcept",
+      "canonical_name": "Payment Date",
+      "name": "Payment Date",
+      "type": "BusinessConcept",
+      "description": "The date of a payment",
+      "aliases": [
+        "PaymentDate"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "4.1 Payment Date (AOS1)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos1-identifier",
+      "canonical_name": "AOS1",
+      "name": "AOS1",
+      "type": "Identifier",
+      "description": "Code for Payment Date",
+      "aliases": [
+        "AOS1 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "4.1 Payment Date (AOS1)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "combining-invoices-and-credit-notes-businessconcept",
+      "canonical_name": "Combining invoices and credit notes",
+      "name": "Combining invoices and credit notes",
+      "type": "BusinessConcept",
+      "description": "Combining invoices and credit notes in a payment",
+      "aliases": [
+        "Combining Invoices And Credit Notes"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "4.2 Combining invoices and credit notes / Extended Remittance Information (ERI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-remittance-information-eri-technicalconcept",
+      "canonical_name": "Extended Remittance Information (ERI)",
+      "name": "Extended Remittance Information (ERI)",
+      "type": "TechnicalConcept",
+      "description": "Additional remittance information used in payments",
+      "aliases": [
+        "ERI"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "4.2 Combining invoices and credit notes / Extended Remittance Information (ERI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-reference-in-a-credit-transfer-transaction-businessconcept",
+      "canonical_name": "Creditor reference in a credit transfer transaction",
+      "name": "Creditor reference in a credit transfer transaction",
+      "type": "BusinessConcept",
+      "description": "Creditor reference used in a credit transfer transaction",
+      "aliases": [
+        "Creditor Ref In Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "5.1 Creditor reference in a credit transfer transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-with-message-businessconcept",
+      "canonical_name": "Credit transfer with message",
+      "name": "Credit transfer with message",
+      "type": "BusinessConcept",
+      "description": "Credit transfer that includes a message",
+      "aliases": [
+        "Credit Transfer With Message"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "5.2 Credit transfer with message - XML message example",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-message-example-technicalconcept",
+      "canonical_name": "XML message example",
+      "name": "XML message example",
+      "type": "TechnicalConcept",
+      "description": "Example of an XML message used in payments",
+      "aliases": [
+        "XML Message Example"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "5.2 Credit transfer with message - XML message example",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structure-of-the-payment-status-report-technicalconcept",
+      "canonical_name": "Structure of the Payment Status Report",
+      "name": "Structure of the Payment Status Report",
+      "type": "TechnicalConcept",
+      "description": "The structure of a payment status report",
+      "aliases": [
+        "Payment Status Report Structure"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Structure of the Payment Status Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "content-of-the-payment-status-report-technicalconcept",
+      "canonical_name": "Content of the Payment Status Report",
+      "name": "Content of the Payment Status Report",
+      "type": "TechnicalConcept",
+      "description": "The content of a payment status report",
+      "aliases": [
+        "Payment Status Report Content"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1 Content of the Payment Status Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "validation-of-message-structure-technicalconcept",
+      "canonical_name": "Validation of message structure",
+      "name": "Validation of message structure",
+      "type": "TechnicalConcept",
+      "description": "Validation of the structure of a message",
+      "aliases": [
+        "Message Structure Validation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.1 Validation of message structure",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "content-validation-technicalconcept",
+      "canonical_name": "Content validation",
+      "name": "Content validation",
+      "type": "TechnicalConcept",
+      "description": "Validation of the content of a message",
+      "aliases": [
+        "Content Validation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.2 Content validation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-technicalconcept",
+      "canonical_name": "Message root",
+      "name": "Message root",
+      "type": "TechnicalConcept",
+      "description": "The root element of a message",
+      "aliases": [
+        "Message Root"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.3 Message root",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "A group header in a payment message",
+      "aliases": [
+        "GroupHeader"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.4 Group Header",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-group-information-and-status-technicalconcept",
+      "canonical_name": "Original Group Information And Status",
+      "name": "Original Group Information And Status",
+      "type": "TechnicalConcept",
+      "description": "Original group information and status in a payment message",
+      "aliases": [
+        "Original Group Info And Status"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.5 Original Group Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-and-status-technicalconcept",
+      "canonical_name": "Original Payment Information And Status",
+      "name": "Original Payment Information And Status",
+      "type": "TechnicalConcept",
+      "description": "Original payment information and status in a payment message",
+      "aliases": [
+        "Original Payment Info And Status"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.6 Original Payment Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "examples-of-payment-status-report-messages-technicalconcept",
+      "canonical_name": "Examples of Payment Status Report messages",
+      "name": "Examples of Payment Status Report messages",
+      "type": "TechnicalConcept",
+      "description": "Examples of payment status report messages",
+      "aliases": [
+        "Payment Status Report Examples"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.2 Examples of Payment Status Report messages",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-approved-technicalconcept",
+      "canonical_name": "Message structure approved",
+      "name": "Message structure approved",
+      "type": "TechnicalConcept",
+      "description": "A message structure that has been approved",
+      "aliases": [
+        "Approved Message Structure"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.2.1 Message structure approved",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-rejected-technicalconcept",
+      "canonical_name": "Message structure rejected",
+      "name": "Message structure rejected",
+      "type": "TechnicalConcept",
+      "description": "A message structure that has been rejected",
+      "aliases": [
+        "Rejected Message Structure"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.2.2 Message structure rejected",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "finance-finland-organization",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "Finance Finland publishes the ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "Published by Finance Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "creditor-reference-businessconcept",
+      "description": "The ISO 20022 Payments Guide contains information about creditor references",
+      "confidence": 0.95,
+      "evidence": "3.1 Creditor reference",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-reference-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "character-set-technicalconcept",
+      "description": "Creditor references are related to character sets",
+      "confidence": 0.8,
+      "evidence": "3.1 Creditor reference and 3.2 Character set",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "character-set-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "payment-on-behalf-businessconcept",
+      "description": "Character sets are related to payments on behalf",
+      "confidence": 0.8,
+      "evidence": "3.2 Character set and 3.3 Payment on behalf and the Ultimate Debtor",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-on-behalf-businessconcept",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-paymentrole",
+      "description": "Payments on behalf contain information about the ultimate debtor",
+      "confidence": 0.95,
+      "evidence": "3.3 Payment on behalf and the Ultimate Debtor",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "ultimate-creditor-paymentrole",
+      "description": "The ultimate debtor is related to the ultimate creditor",
+      "confidence": 0.8,
+      "evidence": "3.3 Payment on behalf and the Ultimate Debtor and 3.4 Ultimate Creditor",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-creditor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "salaries-and-pensions-businessconcept",
+      "description": "The ultimate creditor is related to salaries and pensions",
+      "confidence": 0.8,
+      "evidence": "3.4 Ultimate Creditor and 3.5 Salaries and pensions",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "salaries-and-pensions-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "extended-information-elements-technicalconcept",
+      "description": "Salaries and pensions are related to extended information elements",
+      "confidence": 0.8,
+      "evidence": "3.5 Salaries and pensions and Use of extended information elements",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-information-elements-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "payment-date-businessconcept",
+      "description": "Extended information elements are related to payment dates",
+      "confidence": 0.8,
+      "evidence": "Use of extended information elements and 4.1 Payment Date (AOS1)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-date-businessconcept",
+      "relation": "CONTAINS",
+      "target": "aos1-identifier",
+      "description": "Payment dates contain information about AOS1",
+      "confidence": 0.95,
+      "evidence": "4.1 Payment Date (AOS1)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "aos1-identifier",
+      "relation": "RELATED_TO",
+      "target": "combining-invoices-and-credit-notes-businessconcept",
+      "description": "AOS1 is related to combining invoices and credit notes",
+      "confidence": 0.8,
+      "evidence": "4.1 Payment Date (AOS1) and 4.2 Combining invoices and credit notes / Extended Remittance Information (ERI)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "combining-invoices-and-credit-notes-businessconcept",
+      "relation": "CONTAINS",
+      "target": "extended-remittance-information-eri-technicalconcept",
+      "description": "Combining invoices and credit notes contains information about ERI",
+      "confidence": 0.95,
+      "evidence": "4.2 Combining invoices and credit notes / Extended Remittance Information (ERI)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-remittance-information-eri-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "creditor-reference-in-a-credit-transfer-transaction-businessconcept",
+      "description": "ERI is related to creditor references in credit transfer transactions",
+      "confidence": 0.8,
+      "evidence": "4.2 Combining invoices and credit notes / Extended Remittance Information (ERI) and 5.1 Creditor reference in a credit transfer transaction",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-reference-in-a-credit-transfer-transaction-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "credit-transfer-with-message-businessconcept",
+      "description": "Creditor references in credit transfer transactions are related to credit transfers with messages",
+      "confidence": 0.8,
+      "evidence": "5.1 Creditor reference in a credit transfer transaction and 5.2 Credit transfer with message - XML message example",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-with-message-businessconcept",
+      "relation": "CONTAINS",
+      "target": "xml-message-example-technicalconcept",
+      "description": "Credit transfers with messages contain XML message examples",
+      "confidence": 0.95,
+      "evidence": "5.2 Credit transfer with message - XML message example",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xml-message-example-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "structure-of-the-payment-status-report-technicalconcept",
+      "description": "XML message examples are related to the structure of payment status reports",
+      "confidence": 0.8,
+      "evidence": "5.2 Credit transfer with message - XML message example and Structure of the Payment Status Report",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structure-of-the-payment-status-report-technicalconcept",
+      "relation": "CONTAINS",
+      "target": "content-of-the-payment-status-report-technicalconcept",
+      "description": "The structure of payment status reports contains information about the content of payment status reports",
+      "confidence": 0.95,
+      "evidence": "Structure of the Payment Status Report and 6.1 Content of the Payment Status Report",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "content-of-the-payment-status-report-technicalconcept",
+      "relation": "CONTAINS",
+      "target": "validation-of-message-structure-technicalconcept",
+      "description": "The content of payment status reports contains information about the validation of message structures",
+      "confidence": 0.95,
+      "evidence": "6.1 Content of the Payment Status Report and 6.1.1 Validation of message structure",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "validation-of-message-structure-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "content-validation-technicalconcept",
+      "description": "The validation of message structures is related to content validation",
+      "confidence": 0.8,
+      "evidence": "6.1.1 Validation of message structure and 6.1.2 Content validation",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "content-validation-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "message-root-technicalconcept",
+      "description": "Content validation is related to the message root",
+      "confidence": 0.8,
+      "evidence": "6.1.2 Content validation and 6.1.3 Message root",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-root-technicalconcept",
+      "relation": "CONTAINS",
+      "target": "group-header-businesscomponent",
+      "description": "The message root contains information about the group header",
+      "confidence": 0.95,
+      "evidence": "6.1.3 Message root and 6.1.4 Group Header",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-group-information-and-status-technicalconcept",
+      "description": "The group header contains information about the original group information and status",
+      "confidence": 0.95,
+      "evidence": "6.1.4 Group Header and 6.1.5 Original Group Information And Status",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "original-payment-information-and-status-technicalconcept",
+      "description": "The original group information and status is related to the original payment information and status",
+      "confidence": 0.8,
+      "evidence": "6.1.5 Original Group Information And Status and 6.1.6 Original Payment Information And Status",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "examples-of-payment-status-report-messages-technicalconcept",
+      "description": "The original payment information and status is related to examples of payment status report messages",
+      "confidence": 0.8,
+      "evidence": "6.1.6 Original Payment Information And Status and 6.2 Examples of Payment Status Report messages",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "examples-of-payment-status-report-messages-technicalconcept",
+      "relation": "CONTAINS",
+      "target": "message-structure-approved-technicalconcept",
+      "description": "Examples of payment status report messages contain information about message structure approval",
+      "confidence": 0.95,
+      "evidence": "6.2 Examples of Payment Status Report messages and 6.2.1 Message structure approved",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-structure-approved-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "message-structure-rejected-technicalconcept",
+      "description": "Message structure approval is related to message structure rejection",
+      "confidence": 0.8,
+      "evidence": "6.2.1 Message structure approved and 6.2.2 Message structure rejected",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        1
+      ],
+      "frequency": 1
+    }
+  ]
+}

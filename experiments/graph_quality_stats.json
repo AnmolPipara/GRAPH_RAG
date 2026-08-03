@@ -1,0 +1,753 @@
+{
+  "totals": {
+    "entities": 1046,
+    "relationships": 931,
+    "entities_with_relationship_endpoint": 824
+  },
+  "degree": {
+    "histogram": {
+      "0": 264,
+      "1": 429,
+      "2": 178,
+      "3": 78,
+      "4": 29,
+      "5": 19,
+      "6": 8,
+      "7": 7,
+      "8": 7,
+      "9": 6,
+      "10": 4,
+      "11": 1,
+      "12": 2,
+      "13": 1,
+      "15": 2,
+      "16": 2,
+      "17": 1,
+      "20": 1,
+      "21": 1,
+      "22": 2,
+      "27": 2,
+      "31": 1,
+      "34": 1
+    },
+    "max_total_degree": 34,
+    "mean_total_degree": 1.728,
+    "n_degree_0": 264,
+    "n_degree_1": 429
+  },
+  "wcc": {
+    "n_components": 349,
+    "largest_component": 590,
+    "n_singleton_components": 292,
+    "component_sizes_top10": [
+      590,
+      16,
+      9,
+      6,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "duplicates": {
+    "exact_name_groups": 122,
+    "entities_in_dup_groups": 271,
+    "name_vs_alias_collisions": 225,
+    "sample_exact": [
+      [
+        "Tel: +358 20 793 4200",
+        "Tel: +358 20 793 4200"
+      ],
+      [
+        "Fax: +358 20 793 4202",
+        "Fax: +358 20 793 4202"
+      ],
+      [
+        "Group Header",
+        "Group Header"
+      ],
+      [
+        "Payment Information",
+        "Payment Information"
+      ],
+      [
+        "Credit Transfer Transaction Information",
+        "Credit Transfer Transaction Information"
+      ],
+      [
+        "Remittance Information",
+        "Remittance Information"
+      ],
+      [
+        "Message structure",
+        "Message Structure"
+      ],
+      [
+        "Debit booking alternatives",
+        "Debit Booking Alternatives"
+      ]
+    ],
+    "sample_alias_collisions": [
+      {
+        "entity": "Finland",
+        "alias_source": "FI"
+      },
+      {
+        "entity": "Message root",
+        "alias_source": "Message root"
+      },
+      {
+        "entity": "Message root",
+        "alias_source": "Message root"
+      },
+      {
+        "entity": "Debtor",
+        "alias_source": "Debtor Agent"
+      },
+      {
+        "entity": "Debtor",
+        "alias_source": "Dbtr"
+      },
+      {
+        "entity": "Credit transfer",
+        "alias_source": "Credit Transfers"
+      },
+      {
+        "entity": "Credit transfer",
+        "alias_source": "Customer Credit Transfer"
+      },
+      {
+        "entity": "Credit transfer",
+        "alias_source": "Credit Transfer Transaction"
+      },
+      {
+        "entity": "Credit transfer",
+        "alias_source": "Credit Transfer Transaction"
+      },
+      {
+        "entity": "Credit transfer",
+        "alias_source": "Credit Transfer Instruction"
+      }
+    ]
+  },
+  "coverage": {
+    "n_with_alias": 480,
+    "alias_coverage": 0.4589,
+    "n_with_description": 1046,
+    "description_coverage": 1.0,
+    "n_without_description": 0
+  },
+  "sparsity": {
+    "relationship_types": 91,
+    "rel_type_top15": [
+      [
+        "CONTAINS",
+        353
+      ],
+      [
+        "RELATED_TO",
+        154
+      ],
+      [
+        "PART_OF",
+        67
+      ],
+      [
+        "IDENTIFIED_BY",
+        56
+      ],
+      [
+        "DEFINES",
+        47
+      ],
+      [
+        "IS_A",
+        25
+      ],
+      [
+        "PUBLISHES",
+        16
+      ],
+      [
+        "USED_BY",
+        16
+      ],
+      [
+        "TRANSLATES_TO",
+        15
+      ],
+      [
+        "USES",
+        14
+      ],
+      [
+        "INCLUDES",
+        10
+      ],
+      [
+        "REFERENCES",
+        10
+      ],
+      [
+        "EQUALS",
+        9
+      ],
+      [
+        "PUBLISHED_BY",
+        6
+      ],
+      [
+        "IDENTIFIES",
+        6
+      ]
+    ],
+    "entity_type_nodes_top10": [
+      [
+        "Identifier",
+        149
+      ],
+      [
+        "DataElement",
+        131
+      ],
+      [
+        "XMLElement",
+        110
+      ],
+      [
+        "BusinessComponent",
+        88
+      ],
+      [
+        "BusinessConcept",
+        80
+      ],
+      [
+        "DocumentSection",
+        51
+      ],
+      [
+        "Document",
+        39
+      ],
+      [
+        "PaymentRole",
+        38
+      ],
+      [
+        "Organization",
+        34
+      ],
+      [
+        "TechnicalConcept",
+        34
+      ]
+    ],
+    "entity_type_rels_top10": [
+      [
+        "XMLElement",
+        160
+      ],
+      [
+        "BusinessComponent",
+        127
+      ],
+      [
+        "Identifier",
+        90
+      ],
+      [
+        "BusinessConcept",
+        72
+      ],
+      [
+        "DataElement",
+        72
+      ],
+      [
+        "PaymentRole",
+        64
+      ],
+      [
+        "Document",
+        51
+      ],
+      [
+        "Organization",
+        35
+      ],
+      [
+        "TechnicalConcept",
+        30
+      ],
+      [
+        "Standard",
+        26
+      ]
+    ],
+    "bidirectional_anomaly_pairs": 32,
+    "bidirectional_sample": [
+      {
+        "source": "ISO 20022 Payments Guide",
+        "target": "ISO 20022",
+        "forward": "RELATED_TO",
+        "reverse": "PUBLISHES"
+      },
+      {
+        "source": "Payment Message",
+        "target": "Payment Information",
+        "forward": "CONTAINS",
+        "reverse": "RELATED_TO"
+      },
+      {
+        "source": "Payment Message",
+        "target": "Credit Transfer Transaction Information",
+        "forward": "CONTAINS",
+        "reverse": "RELATED_TO"
+      },
+      {
+        "source": "Payment Message",
+        "target": "Remittance Information",
+        "forward": "CONTAINS",
+        "reverse": "RELATED_TO"
+      },
+      {
+        "source": "Payment Information",
+        "target": "Payment Message",
+        "forward": "RELATED_TO",
+        "reverse": "CONTAINS"
+      },
+      {
+        "source": "Credit Transfer Transaction Information",
+        "target": "Payment Message",
+        "forward": "RELATED_TO",
+        "reverse": "CONTAINS"
+      },
+      {
+        "source": "Remittance Information",
+        "target": "Payment Message",
+        "forward": "RELATED_TO",
+        "reverse": "CONTAINS"
+      },
+      {
+        "source": "ISO 20022 Payments Guide",
+        "target": "ISO 20022",
+        "forward": "PART_OF",
+        "reverse": "PUBLISHES"
+      },
+      {
+        "source": "Swift4 Payment Market Practice Group",
+        "target": "Recommendation",
+        "forward": "ISSUES",
+        "reverse": "ISSUED_BY"
+      },
+      {
+        "source": "Recommendation",
+        "target": "Swift4 Payment Market Practice Group",
+        "forward": "ISSUED_BY",
+        "reverse": "ISSUES"
+      },
+      {
+        "source": "Debtor Agent",
+        "target": "Debtor",
+        "forward": "REPRESENTS",
+        "reverse": "CONTAINS"
+      },
+      {
+        "source": "ISO 20022 Payments Guide",
+        "target": "ISO 20022",
+        "forward": "PUBLISHES",
+        "reverse": "PUBLISHES"
+      }
+    ]
+  },
+  "benchmark_hits": [
+    {
+      "id": 2,
+      "category": "fact_lookup",
+      "question": "What is the phone number for Finance Finland?",
+      "n_matched": 38,
+      "matched": [
+        [
+          "Itämerenkatu 11-13",
+          0
+        ],
+        [
+          "Finance Finland",
+          2
+        ],
+        [
+          "FI-00180 Helsinki",
+          0
+        ],
+        [
+          "Finland",
+          4
+        ],
+        [
+          "Twitter.com/finfinance",
+          0
+        ],
+        [
+          "1.1 Usage of ISO 20022 in Finland",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "category": "fact_lookup",
+      "question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+      "n_matched": 98,
+      "matched": [
+        [
+          "1.2.2 Unstructured address",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.2.3 Credit Transfer Transaction Information - Block C",
+          0
+        ],
+        [
+          "2.2.4 Remittance Information",
+          0
+        ],
+        [
+          "2.3.3 Payment Information",
+          0
+        ],
+        [
+          "2.3.4 Credit Transfer Transaction Information",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "category": "fact_lookup",
+      "question": "What is the fax number for Finance Finland?",
+      "n_matched": 39,
+      "matched": [
+        [
+          "Itämerenkatu 11-13",
+          0
+        ],
+        [
+          "Finance Finland",
+          2
+        ],
+        [
+          "FI-00180 Helsinki",
+          0
+        ],
+        [
+          "Fax: +358 20 793 4202",
+          0
+        ],
+        [
+          "Finland",
+          4
+        ],
+        [
+          "Twitter.com/finfinance",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "category": "fact_lookup",
+      "question": "What is the ISO 20022 website provided by Finance Finland?",
+      "n_matched": 34,
+      "matched": [
+        [
+          "ISO 20022",
+          27
+        ],
+        [
+          "ISO 20022 Payments Guide",
+          27
+        ],
+        [
+          "Itämerenkatu 11-13",
+          0
+        ],
+        [
+          "Finance Finland",
+          2
+        ],
+        [
+          "FI-00180 Helsinki",
+          0
+        ],
+        [
+          "Finland",
+          4
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "category": "relationship",
+      "question": "How does a C2B payment initiation file relate to the bank's status report?",
+      "n_matched": 185,
+      "matched": [
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.3.3 Payment Information",
+          0
+        ],
+        [
+          "Payment Message",
+          31
+        ],
+        [
+          "Payment Information",
+          21
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "category": "hierarchical",
+      "question": "What are the main sections of the ISO 20022 Payments Guide?",
+      "n_matched": 55,
+      "matched": [
+        [
+          "ISO 20022",
+          27
+        ],
+        [
+          "ISO 20022 Payments Guide",
+          27
+        ],
+        [
+          "1.1 Usage of ISO 20022 in Finland",
+          0
+        ],
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "Structure of the Payment Status Report",
+          2
+        ],
+        [
+          "Content of the Payment Status Report",
+          2
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "category": "workflow",
+      "question": "How does a customer initiate a credit transfer?",
+      "n_matched": 67,
+      "matched": [
+        [
+          "2.2.3 Credit Transfer Transaction Information - Block C",
+          0
+        ],
+        [
+          "2.3.4 Credit Transfer Transaction Information",
+          0
+        ],
+        [
+          "Credit Transfer Transaction Information",
+          9
+        ],
+        [
+          "Credit transfer",
+          3
+        ],
+        [
+          "Credit Transfer Transaction Information information",
+          0
+        ],
+        [
+          "Credit Transfer Transaction Information information information",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "category": "workflow",
+      "question": "What happens after the customer submits a C2B payment file to the bank?",
+      "n_matched": 165,
+      "matched": [
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.3.3 Payment Information",
+          0
+        ],
+        [
+          "Payment Message",
+          31
+        ],
+        [
+          "Payment Information",
+          21
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "category": "workflow",
+      "question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+      "n_matched": 169,
+      "matched": [
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.3 Credit Transfer Transaction Information - Block C",
+          0
+        ],
+        [
+          "2.2.5 Message structure",
+          0
+        ],
+        [
+          "2.3 Message content",
+          0
+        ],
+        [
+          "2.3.1 Message root",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "category": "workflow",
+      "question": "How is a returned payment reported?",
+      "n_matched": 112,
+      "matched": [
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.3.3 Payment Information",
+          0
+        ],
+        [
+          "Payment Message",
+          31
+        ],
+        [
+          "Payment Information",
+          21
+        ],
+        [
+          "Payment initiation",
+          3
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "category": "workflow",
+      "question": "How does the bank verify the payee before payment?",
+      "n_matched": 152,
+      "matched": [
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.3.3 Payment Information",
+          0
+        ],
+        [
+          "Payment Message",
+          31
+        ],
+        [
+          "Payment Information",
+          21
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "category": "comparison",
+      "question": "What is the difference between a payment initiation message and a payment status report?",
+      "n_matched": 220,
+      "matched": [
+        [
+          "2.1 Parties of the Transaction",
+          0
+        ],
+        [
+          "2.2 Payment Message structure",
+          0
+        ],
+        [
+          "2.2.2 Payment Information - Block B",
+          0
+        ],
+        [
+          "2.2.5 Message structure",
+          0
+        ],
+        [
+          "2.3 Message content",
+          0
+        ],
+        [
+          "2.3.1 Message root",
+          0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1196 @@
+[
+ {
+  "id": 1,
+  "category": "fact_lookup",
+  "question": "What is the address of Finance Finland?",
+  "ground_truth": "Itamerenkatu 11-13, FI-00180 Helsinki, Finland.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "Itämerenkatu 11-13",
+  "tokens": [
+   "itamerenkatu",
+   "11-13",
+   "fi-00180",
+   "helsinki",
+   "finland"
+  ]
+ },
+ {
+  "id": 2,
+  "category": "fact_lookup",
+  "question": "What is the phone number for Finance Finland?",
+  "ground_truth": "+358 20 793 9000",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.75,
+  "chunk_coverage": 0.75,
+  "pdf_hit": false,
+  "sentence": "Tel: +358 20 793 4200",
+  "tokens": [
+   "358",
+   "20",
+   "793",
+   "9000"
+  ]
+ },
+ {
+  "id": 3,
+  "category": "fact_lookup",
+  "question": "Who published the ISO 20022 Payments Guide?",
+  "ground_truth": "Finance Finland (Finanssiala ry).",
+  "exact_pages": [],
+  "best_page": 3,
+  "coverage": 0.75,
+  "chunk_coverage": 0.75,
+  "pdf_hit": false,
+  "sentence": "www.financefinland.fi",
+  "tokens": [
+   "finance",
+   "finland",
+   "finanssiala",
+   "ry"
+  ]
+ },
+ {
+  "id": 4,
+  "category": "fact_lookup",
+  "question": "How many pages does the ISO 20022 Payments Guide have?",
+  "ground_truth": "61 pages.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.5,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "2 (61)",
+  "tokens": [
+   "61",
+   "pages"
+  ]
+ },
+ {
+  "id": 5,
+  "category": "fact_lookup",
+  "question": "What is the version number of the guide?",
+  "ground_truth": "Version 3.1.",
+  "exact_pages": [],
+  "best_page": 31,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "3.1",
+  "tokens": [
+   "version",
+   "3.1"
+  ]
+ },
+ {
+  "id": 6,
+  "category": "fact_lookup",
+  "question": "What is the publication year of the ISO 20022 Payments Guide?",
+  "ground_truth": "2025.",
+  "exact_pages": [
+   1,
+   4,
+   52
+  ],
+  "best_page": 1,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": true,
+  "sentence": "2025",
+  "tokens": [
+   "2025"
+  ]
+ },
+ {
+  "id": 7,
+  "category": "fact_lookup",
+  "question": "What is the email address for Finance Finland payments team?",
+  "ground_truth": "payments@finanssiala.fi",
+  "exact_pages": [],
+  "best_page": 1,
+  "coverage": 0.0,
+  "chunk_coverage": 0.0,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "payments@finanssiala.fi"
+  ]
+ },
+ {
+  "id": 8,
+  "category": "fact_lookup",
+  "question": "What is the ISO 20022 website provided by Finance Finland?",
+  "ground_truth": "www.finanssiala.fi/iso20022",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.5,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "Report are available on the website of ISO at www.iso20022.org.",
+  "tokens": [
+   "www.finanssiala.fi",
+   "iso20022"
+  ]
+ },
+ {
+  "id": 9,
+  "category": "definition",
+  "question": "What is ISO 20022?",
+  "ground_truth": "ISO 20022 is an international standard for financial messaging.",
+  "exact_pages": [],
+  "best_page": 59,
+  "coverage": 0.83,
+  "chunk_coverage": 0.67,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "iso",
+   "20022",
+   "international",
+   "standard",
+   "financial",
+   "messaging"
+  ]
+ },
+ {
+  "id": 10,
+  "category": "definition",
+  "question": "What is a Group Header in ISO 20022 payment messages?",
+  "ground_truth": "Block A containing message identification, creation date, and number of transactions.",
+  "exact_pages": [],
+  "best_page": 8,
+  "coverage": 0.88,
+  "chunk_coverage": 0.62,
+  "pdf_hit": false,
+  "sentence": "entire message, such as MessageIdentification, CreationDateAndTime,",
+  "tokens": [
+   "block",
+   "containing",
+   "message",
+   "identification",
+   "creation",
+   "date",
+   "number",
+   "transactions"
+  ]
+ },
+ {
+  "id": 11,
+  "category": "definition",
+  "question": "What is a Debtor in payment messaging?",
+  "ground_truth": "The party that owes funds and initiates the payment.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 0.4,
+  "chunk_coverage": 0.4,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "party",
+   "owes",
+   "funds",
+   "initiates",
+   "payment"
+  ]
+ },
+ {
+  "id": 12,
+  "category": "definition",
+  "question": "What is a Credit Transfer Transaction?",
+  "ground_truth": "A payment instruction transferring funds from the debtor to the creditor account.",
+  "exact_pages": [],
+  "best_page": 20,
+  "coverage": 0.71,
+  "chunk_coverage": 0.71,
+  "pdf_hit": false,
+  "sentence": "to both the debtor and the creditor.",
+  "tokens": [
+   "payment",
+   "instruction",
+   "transferring",
+   "funds",
+   "debtor",
+   "creditor",
+   "account"
+  ]
+ },
+ {
+  "id": 13,
+  "category": "definition",
+  "question": "What is Remittance Information?",
+  "ground_truth": "Details about payment purpose such as invoice numbers or reference codes.",
+  "exact_pages": [],
+  "best_page": 29,
+  "coverage": 0.71,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "Recurring payments' purpose codes can",
+  "tokens": [
+   "details",
+   "payment",
+   "purpose",
+   "invoice",
+   "numbers",
+   "reference",
+   "codes"
+  ]
+ },
+ {
+  "id": 14,
+  "category": "definition",
+  "question": "What is BIC in payments?",
+  "ground_truth": "Bank Identifier Code, a unique identifier for financial institutions.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.67,
+  "chunk_coverage": 0.83,
+  "pdf_hit": false,
+  "sentence": "European banks, payment institutions and the euro area clearing and settlement",
+  "tokens": [
+   "bank",
+   "identifier",
+   "code",
+   "unique",
+   "financial",
+   "institutions"
+  ]
+ },
+ {
+  "id": 15,
+  "category": "definition",
+  "question": "What is IBAN?",
+  "ground_truth": "International Bank Account Number, a standardized account identifier.",
+  "exact_pages": [],
+  "best_page": 12,
+  "coverage": 0.67,
+  "chunk_coverage": 0.67,
+  "pdf_hit": false,
+  "sentence": "returned to the debtor's account",
+  "tokens": [
+   "international",
+   "bank",
+   "account",
+   "number",
+   "standardized",
+   "identifier"
+  ]
+ },
+ {
+  "id": 16,
+  "category": "definition",
+  "question": "What is a Payment Status Report?",
+  "ground_truth": "The pain.002 message reporting payment instruction status.",
+  "exact_pages": [],
+  "best_page": 39,
+  "coverage": 0.83,
+  "chunk_coverage": 0.83,
+  "pdf_hit": false,
+  "sentence": "Pain.002.001.10 Payment Status Report standard is used to structure the return",
+  "tokens": [
+   "pain.002",
+   "message",
+   "reporting",
+   "payment",
+   "instruction",
+   "status"
+  ]
+ },
+ {
+  "id": 17,
+  "category": "multi_hop",
+  "question": "Which organization published the ISO 20022 standard used in Finland?",
+  "ground_truth": "Finance Finland published the ISO 20022 Payments Guide based on the ISO 20022 standard.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.88,
+  "chunk_coverage": 0.88,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "finance",
+   "finland",
+   "published",
+   "iso",
+   "20022",
+   "payments",
+   "guide",
+   "standard"
+  ]
+ },
+ {
+  "id": 18,
+  "category": "multi_hop",
+  "question": "What message types are used to initiate credit transfers?",
+  "ground_truth": "The pain.001 (Customer Credit Transfer Initiation) message type.",
+  "exact_pages": [],
+  "best_page": 12,
+  "coverage": 1.0,
+  "chunk_coverage": 0.86,
+  "pdf_hit": false,
+  "sentence": "Customer Credit Transfer",
+  "tokens": [
+   "pain.001",
+   "customer",
+   "credit",
+   "transfer",
+   "initiation",
+   "message",
+   "type"
+  ]
+ },
+ {
+  "id": 19,
+  "category": "multi_hop",
+  "question": "What information is contained in the Payment Information block?",
+  "ground_truth": "Block B contains payment type, debtor details, debtor account, and debtor agent info.",
+  "exact_pages": [],
+  "best_page": 8,
+  "coverage": 0.89,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "PaymentInformationIdentifier, Debtor, DebtorAccount, PaymentTypeInformation and",
+  "tokens": [
+   "block",
+   "contains",
+   "payment",
+   "type",
+   "debtor",
+   "details",
+   "account",
+   "agent",
+   "info"
+  ]
+ },
+ {
+  "id": 20,
+  "category": "multi_hop",
+  "question": "How is a payment routed from the debtor to the creditor?",
+  "ground_truth": "Debtor to Debtor Agent to Creditor Agent to Creditor.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "might be the debtor itself, an agent, or",
+  "tokens": [
+   "debtor",
+   "agent",
+   "creditor"
+  ]
+ },
+ {
+  "id": 21,
+  "category": "multi_hop",
+  "question": "What entities are involved in a direct debit transaction?",
+  "ground_truth": "Creditor, Creditor Agent, Debtor Agent, and Debtor.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "might be the debtor itself, an agent, or",
+  "tokens": [
+   "creditor",
+   "agent",
+   "debtor"
+  ]
+ },
+ {
+  "id": 22,
+  "category": "multi_hop",
+  "question": "Who publishes the ISO 20022 Payments Guide and where are they located?",
+  "ground_truth": "Finance Finland at Itamerenkatu 11-13, Helsinki.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 1.0,
+  "chunk_coverage": 1.0,
+  "pdf_hit": false,
+  "sentence": "Itämerenkatu 11-13",
+  "tokens": [
+   "finance",
+   "finland",
+   "itamerenkatu",
+   "11-13",
+   "helsinki"
+  ]
+ },
+ {
+  "id": 23,
+  "category": "multi_hop",
+  "question": "How do pain.001 and pain.002 messages relate to each other?",
+  "ground_truth": "pain.001 is the request message and pain.002 is the status response message.",
+  "exact_pages": [],
+  "best_page": 53,
+  "coverage": 0.67,
+  "chunk_coverage": 0.83,
+  "pdf_hit": false,
+  "sentence": "VOP response types and status codes submitted to the customer",
+  "tokens": [
+   "pain.001",
+   "request",
+   "message",
+   "pain.002",
+   "status",
+   "response"
+  ]
+ },
+ {
+  "id": 24,
+  "category": "multi_hop",
+  "question": "What components make up Credit Transfer Transaction Information?",
+  "ground_truth": "Payment Identification, Amount, Currency, Charge Bearer, and Remittance Information.",
+  "exact_pages": [],
+  "best_page": 22,
+  "coverage": 0.88,
+  "chunk_coverage": 0.88,
+  "pdf_hit": false,
+  "sentence": "Currency and amount of the payment.",
+  "tokens": [
+   "payment",
+   "identification",
+   "amount",
+   "currency",
+   "charge",
+   "bearer",
+   "remittance",
+   "information"
+  ]
+ },
+ {
+  "id": 25,
+  "category": "relationship",
+  "question": "How is ISO 20022 related to Finance Finland?",
+  "ground_truth": "Finance Finland publishes the ISO 20022 Payments Guide for the Finnish payment ecosystem.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.7,
+  "chunk_coverage": 0.9,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "finance",
+   "finland",
+   "publishes",
+   "iso",
+   "20022",
+   "payments",
+   "guide",
+   "finnish",
+   "payment",
+   "ecosystem"
+  ]
+ },
+ {
+  "id": 26,
+  "category": "relationship",
+  "question": "What is the relationship between a Debtor and a Creditor?",
+  "ground_truth": "The Debtor owes funds and initiates payment to the Creditor.",
+  "exact_pages": [],
+  "best_page": 7,
+  "coverage": 0.67,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "the Ultimate Debtor, the Debtor and the one initiating the payment.",
+  "tokens": [
+   "debtor",
+   "owes",
+   "funds",
+   "initiates",
+   "payment",
+   "creditor"
+  ]
+ },
+ {
+  "id": 27,
+  "category": "relationship",
+  "question": "How does pain.001 relate to pacs.008?",
+  "ground_truth": "pain.001 initiates the payment and pacs.008 clears it between banks.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.5,
+  "chunk_coverage": 0.33,
+  "pdf_hit": false,
+  "sentence": "European banks, payment institutions and the euro area clearing and settlement",
+  "tokens": [
+   "pain.001",
+   "initiates",
+   "payment",
+   "pacs.008",
+   "clears",
+   "banks"
+  ]
+ },
+ {
+  "id": 28,
+  "category": "relationship",
+  "question": "How does Block B relate to Block C in a payment message?",
+  "ground_truth": "Block B contains one or more Block C entries.",
+  "exact_pages": [],
+  "best_page": 8,
+  "coverage": 0.8,
+  "chunk_coverage": 0.6,
+  "pdf_hit": false,
+  "sentence": "Payment initiation message is composed of three blocks: Group Header, Payment",
+  "tokens": [
+   "block",
+   "contains",
+   "one",
+   "more",
+   "entries"
+  ]
+ },
+ {
+  "id": 29,
+  "category": "relationship",
+  "question": "What is the relationship between an IBAN and a bank account?",
+  "ground_truth": "IBAN uniquely identifies a specific bank account for payments.",
+  "exact_pages": [],
+  "best_page": 18,
+  "coverage": 0.71,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "from bank-specific implementation",
+  "tokens": [
+   "iban",
+   "uniquely",
+   "identifies",
+   "specific",
+   "bank",
+   "account",
+   "payments"
+  ]
+ },
+ {
+  "id": 30,
+  "category": "relationship",
+  "question": "How does Charge Bearer relate to payment fees?",
+  "ground_truth": "Charge Bearer specifies which party pays transaction fees.",
+  "exact_pages": [],
+  "best_page": 19,
+  "coverage": 0.71,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "++Charge Bearer",
+  "tokens": [
+   "charge",
+   "bearer",
+   "specifies",
+   "party",
+   "pays",
+   "transaction",
+   "fees"
+  ]
+ },
+ {
+  "id": 31,
+  "category": "relationship",
+  "question": "How does a Clearing Code relate to a financial institution?",
+  "ground_truth": "Clearing Code uniquely identifies a bank within a clearing system.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.67,
+  "chunk_coverage": 0.67,
+  "pdf_hit": false,
+  "sentence": "European banks, payment institutions and the euro area clearing and settlement",
+  "tokens": [
+   "clearing",
+   "code",
+   "uniquely",
+   "identifies",
+   "bank",
+   "system"
+  ]
+ },
+ {
+  "id": 32,
+  "category": "relationship",
+  "question": "How does pain.002 relate to pain.001?",
+  "ground_truth": "pain.002 provides the status response to a previously submitted pain.001.",
+  "exact_pages": [],
+  "best_page": 53,
+  "coverage": 0.57,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "VOP response types and status codes submitted to the customer",
+  "tokens": [
+   "pain.002",
+   "provides",
+   "status",
+   "response",
+   "previously",
+   "submitted",
+   "pain.001"
+  ]
+ },
+ {
+  "id": 33,
+  "category": "hierarchical",
+  "question": "What is the hierarchical structure of a payment message?",
+  "ground_truth": "Block A (Group Header) contains Block B (Payment Information) which contains Block C (Transactions).",
+  "exact_pages": [],
+  "best_page": 8,
+  "coverage": 1.0,
+  "chunk_coverage": 0.86,
+  "pdf_hit": false,
+  "sentence": "Payment initiation message is composed of three blocks: Group Header, Payment",
+  "tokens": [
+   "block",
+   "group",
+   "header",
+   "contains",
+   "payment",
+   "information",
+   "transactions"
+  ]
+ },
+ {
+  "id": 34,
+  "category": "hierarchical",
+  "question": "What are the main sections of the ISO 20022 Payments Guide?",
+  "ground_truth": "Introduction, General Principles, Message Structure, Payment Types, Definitions, Appendices.",
+  "exact_pages": [],
+  "best_page": 3,
+  "coverage": 0.44,
+  "chunk_coverage": 0.33,
+  "pdf_hit": false,
+  "sentence": "6.2 Examples of Payment Status Report messages ............................................................",
+  "tokens": [
+   "introduction",
+   "general",
+   "principles",
+   "message",
+   "structure",
+   "payment",
+   "types",
+   "definitions",
+   "appendices"
+  ]
+ },
+ {
+  "id": 35,
+  "category": "hierarchical",
+  "question": "What components make up Payment Type Information?",
+  "ground_truth": "Service Level, Local Instrument, and Category Purpose.",
+  "exact_pages": [],
+  "best_page": 21,
+  "coverage": 1.0,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "++++Service Level",
+  "tokens": [
+   "service",
+   "level",
+   "local",
+   "instrument",
+   "category",
+   "purpose"
+  ]
+ },
+ {
+  "id": 36,
+  "category": "hierarchical",
+  "question": "What are the sub-components of Remittance Information?",
+  "ground_truth": "Unstructured Remittance and Structured Remittance.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 1.0,
+  "chunk_coverage": 0.67,
+  "pdf_hit": false,
+  "sentence": "1.2.2 Unstructured address ..............................................................................................",
+  "tokens": [
+   "unstructured",
+   "remittance",
+   "structured"
+  ]
+ },
+ {
+  "id": 37,
+  "category": "hierarchical",
+  "question": "What are the levels of message definitions in ISO 20022?",
+  "ground_truth": "Business Process, Message Definition, Building Blocks, and Elements.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.57,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "Message definition is about",
+  "tokens": [
+   "business",
+   "process",
+   "message",
+   "definition",
+   "building",
+   "blocks",
+   "elements"
+  ]
+ },
+ {
+  "id": 38,
+  "category": "hierarchical",
+  "question": "What is the hierarchy of party identifiers in a payment?",
+  "ground_truth": "Party Name, Postal Address, Identification, and Contact Details.",
+  "exact_pages": [],
+  "best_page": 23,
+  "coverage": 0.71,
+  "chunk_coverage": 0.86,
+  "pdf_hit": false,
+  "sentence": "++++Postal Address",
+  "tokens": [
+   "party",
+   "name",
+   "postal",
+   "address",
+   "identification",
+   "contact",
+   "details"
+  ]
+ },
+ {
+  "id": 39,
+  "category": "cross_section",
+  "question": "How is address formatted across different message types?",
+  "ground_truth": "Street Name, Building Number, Town Name, Country, and Postal Code.",
+  "exact_pages": [],
+  "best_page": 57,
+  "coverage": 0.88,
+  "chunk_coverage": 0.62,
+  "pdf_hit": false,
+  "sentence": "<CdtrAgt><FinInstnId><PstlAdr>< StrtNm > Street name",
+  "tokens": [
+   "street",
+   "name",
+   "building",
+   "number",
+   "town",
+   "country",
+   "postal",
+   "code"
+  ]
+ },
+ {
+  "id": 40,
+  "category": "cross_section",
+  "question": "What common elements appear in both pain.001 and pain.002?",
+  "ground_truth": "Both share the Group Header structure.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.75,
+  "chunk_coverage": 0.75,
+  "pdf_hit": false,
+  "sentence": "2.2.1 Group Header - Block A ..........................................................................................",
+  "tokens": [
+   "share",
+   "group",
+   "header",
+   "structure"
+  ]
+ },
+ {
+  "id": 41,
+  "category": "cross_section",
+  "question": "How is currency specified across different payment instructions?",
+  "ground_truth": "Using the 3-letter ISO 4217 currency code in the Amount element.",
+  "exact_pages": [],
+  "best_page": 23,
+  "coverage": 0.57,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "ISO 20022 Payments Guide",
+  "tokens": [
+   "3-letter",
+   "iso",
+   "4217",
+   "currency",
+   "code",
+   "amount",
+   "element"
+  ]
+ },
+ {
+  "id": 42,
+  "category": "cross_section",
+  "question": "What identification methods are used for financial institutions?",
+  "ground_truth": "BIC and Clearing System Member Identification.",
+  "exact_pages": [],
+  "best_page": 23,
+  "coverage": 0.8,
+  "chunk_coverage": 0.6,
+  "pdf_hit": false,
+  "sentence": "(BIC or clearing system code).",
+  "tokens": [
+   "bic",
+   "clearing",
+   "system",
+   "member",
+   "identification"
+  ]
+ },
+ {
+  "id": 43,
+  "category": "cross_section",
+  "question": "How are amounts formatted across payment messages?",
+  "ground_truth": "Decimal numbers with up to 2 decimal places.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.25,
+  "chunk_coverage": 0.25,
+  "pdf_hit": false,
+  "sentence": "2.2.1 Group Header - Block A ..........................................................................................",
+  "tokens": [
+   "decimal",
+   "numbers",
+   "up",
+   "places"
+  ]
+ },
+ {
+  "id": 44,
+  "category": "cross_section",
+  "question": "What regulations are referenced across payment scenarios?",
+  "ground_truth": "PSD2, SEPA regulations, and Finnish payment regulations.",
+  "exact_pages": [],
+  "best_page": 19,
+  "coverage": 0.6,
+  "chunk_coverage": 0.6,
+  "pdf_hit": false,
+  "sentence": "With SEPA payments \"SLEV\" = Service",
+  "tokens": [
+   "psd2",
+   "sepa",
+   "regulations",
+   "finnish",
+   "payment"
+  ]
+ },
+ {
+  "id": 45,
+  "category": "workflow",
+  "question": "What is the workflow for initiating a credit transfer?",
+  "ground_truth": "Debtor creates pain.001, sends to Debtor Agent, Agent sends pacs.008 to Creditor Agent.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 0.43,
+  "chunk_coverage": 0.43,
+  "pdf_hit": false,
+  "sentence": "might be the debtor itself, an agent, or",
+  "tokens": [
+   "debtor",
+   "creates",
+   "pain.001",
+   "sends",
+   "agent",
+   "pacs.008",
+   "creditor"
+  ]
+ },
+ {
+  "id": 46,
+  "category": "workflow",
+  "question": "How does a direct debit process work?",
+  "ground_truth": "Creditor sends pain.008, Creditor Agent sends pacs.003 to Debtor Agent.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 0.5,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "might be the debtor itself, an agent, or",
+  "tokens": [
+   "creditor",
+   "sends",
+   "pain.008",
+   "agent",
+   "pacs.003",
+   "debtor"
+  ]
+ },
+ {
+  "id": 47,
+  "category": "workflow",
+  "question": "What happens when a payment is rejected?",
+  "ground_truth": "The agent sends a pain.002 with rejection reason codes.",
+  "exact_pages": [],
+  "best_page": 40,
+  "coverage": 0.67,
+  "chunk_coverage": 0.83,
+  "pdf_hit": false,
+  "sentence": "See Rejection reason codes",
+  "tokens": [
+   "agent",
+   "sends",
+   "pain.002",
+   "rejection",
+   "reason",
+   "codes"
+  ]
+ },
+ {
+  "id": 48,
+  "category": "workflow",
+  "question": "What is the sequence of messages in a cross-border payment?",
+  "ground_truth": "pain.001, pacs.008, pacs.009, and pain.002.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.25,
+  "chunk_coverage": 0.25,
+  "pdf_hit": false,
+  "sentence": "scheme identifier is \"pain.001.001.09\".",
+  "tokens": [
+   "pain.001",
+   "pacs.008",
+   "pacs.009",
+   "pain.002"
+  ]
+ },
+ {
+  "id": 49,
+  "category": "workflow",
+  "question": "How is a payment cancellation processed?",
+  "ground_truth": "camt.056 is sent, the agent processes it, and a status report is returned.",
+  "exact_pages": [],
+  "best_page": 40,
+  "coverage": 0.57,
+  "chunk_coverage": 0.71,
+  "pdf_hit": false,
+  "sentence": "Return message Group Status is ACCP",
+  "tokens": [
+   "camt.056",
+   "sent",
+   "agent",
+   "processes",
+   "status",
+   "report",
+   "returned"
+  ]
+ },
+ {
+  "id": 50,
+  "category": "workflow",
+  "question": "What is the end-to-end payment processing flow?",
+  "ground_truth": "Initiation, Validation, Clearing, Settlement, and Confirmation.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.6,
+  "chunk_coverage": 0.4,
+  "pdf_hit": false,
+  "sentence": "European banks, payment institutions and the euro area clearing and settlement",
+  "tokens": [
+   "initiation",
+   "validation",
+   "clearing",
+   "settlement",
+   "confirmation"
+  ]
+ },
+ {
+  "id": 51,
+  "category": "workflow",
+  "question": "How does a failed payment investigation work?",
+  "ground_truth": "camt.056 or camt.087 is sent and camt.029 is returned with the resolution.",
+  "exact_pages": [],
+  "best_page": 12,
+  "coverage": 0.33,
+  "chunk_coverage": 0.17,
+  "pdf_hit": false,
+  "sentence": "returned to the debtor's account",
+  "tokens": [
+   "camt.056",
+   "camt.087",
+   "sent",
+   "camt.029",
+   "returned",
+   "resolution"
+  ]
+ },
+ {
+  "id": 52,
+  "category": "workflow",
+  "question": "How does a payment status change during processing?",
+  "ground_truth": "Accepted to Pending to Settled to Confirmed or Rejected status.",
+  "exact_pages": [],
+  "best_page": 3,
+  "coverage": 0.5,
+  "chunk_coverage": 0.33,
+  "pdf_hit": false,
+  "sentence": "6.1.5 Original Group Information And Status ..................................................................",
+  "tokens": [
+   "accepted",
+   "pending",
+   "settled",
+   "confirmed",
+   "rejected",
+   "status"
+  ]
+ },
+ {
+  "id": 53,
+  "category": "comparison",
+  "question": "What is the difference between pain.001 and pacs.008?",
+  "ground_truth": "pain.001 is payment initiation, pacs.008 is interbank clearing.",
+  "exact_pages": [],
+  "best_page": 4,
+  "coverage": 0.83,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "Not all of the details in the pain.001 payment initiation message can currently be",
+  "tokens": [
+   "pain.001",
+   "payment",
+   "initiation",
+   "pacs.008",
+   "interbank",
+   "clearing"
+  ]
+ },
+ {
+  "id": 54,
+  "category": "comparison",
+  "question": "How does a credit transfer differ from a direct debit?",
+  "ground_truth": "Credit transfer: debtor pushes funds. Direct debit: creditor pulls funds.",
+  "exact_pages": [],
+  "best_page": 2,
+  "coverage": 0.56,
+  "chunk_coverage": 0.56,
+  "pdf_hit": false,
+  "sentence": "5.1 Creditor reference in a credit transfer transaction ..........................................................",
+  "tokens": [
+   "credit",
+   "transfer",
+   "debtor",
+   "pushes",
+   "funds",
+   "direct",
+   "debit",
+   "creditor",
+   "pulls"
+  ]
+ },
+ {
+  "id": 55,
+  "category": "comparison",
+  "question": "What is the difference between Structured and Unstructured Remittance?",
+  "ground_truth": "Structured uses predefined formats. Unstructured is free text.",
+  "exact_pages": [],
+  "best_page": 28,
+  "coverage": 0.57,
+  "chunk_coverage": 0.14,
+  "pdf_hit": false,
+  "sentence": "free text or structured information, but",
+  "tokens": [
+   "structured",
+   "uses",
+   "predefined",
+   "formats",
+   "unstructured",
+   "free",
+   "text"
+  ]
+ },
+ {
+  "id": 56,
+  "category": "comparison",
+  "question": "How does SEPA differ from a domestic Finnish payment?",
+  "ground_truth": "SEPA follows pan-European rules. Finnish payments use national codes.",
+  "exact_pages": [],
+  "best_page": 9,
+  "coverage": 0.5,
+  "chunk_coverage": 0.5,
+  "pdf_hit": false,
+  "sentence": "of the information used in SEPA payments.",
+  "tokens": [
+   "sepa",
+   "follows",
+   "pan-european",
+   "rules",
+   "finnish",
+   "payments",
+   "national",
+   "codes"
+  ]
+ },
+ {
+  "id": 57,
+  "category": "comparison",
+  "question": "What is the difference between Block A and Block B?",
+  "ground_truth": "Block A has message-level info. Block B has payment-level details.",
+  "exact_pages": [],
+  "best_page": 33,
+  "coverage": 0.6,
+  "chunk_coverage": 0.6,
+  "pdf_hit": false,
+  "sentence": "(C10) in CreditTransferTransactionInformation (Block C).",
+  "tokens": [
+   "block",
+   "message-level",
+   "info",
+   "payment-level",
+   "details"
+  ]
+ },
+ {
+  "id": 58,
+  "category": "comparison",
+  "question": "How does Debtor Agent differ from Creditor Agent?",
+  "ground_truth": "Debtor Agent sends the payment. Creditor Agent receives the payment.",
+  "exact_pages": [],
+  "best_page": 6,
+  "coverage": 0.67,
+  "chunk_coverage": 0.67,
+  "pdf_hit": false,
+  "sentence": "might be the debtor itself, an agent, or",
+  "tokens": [
+   "debtor",
+   "agent",
+   "sends",
+   "payment",
+   "creditor",
+   "receives"
+  ]
+ },
+ {
+  "id": 59,
+  "category": "comparison",
+  "question": "What is the difference between pain.002 and camt.053?",
+  "ground_truth": "pain.002 reports payment status. camt.053 is an account statement.",
+  "exact_pages": [],
+  "best_page": 12,
+  "coverage": 0.57,
+  "chunk_coverage": 0.57,
+  "pdf_hit": false,
+  "sentence": "On Camt.053 XML account statement the",
+  "tokens": [
+   "pain.002",
+   "reports",
+   "payment",
+   "status",
+   "camt.053",
+   "account",
+   "statement"
+  ]
+ },
+ {
+  "id": 60,
+  "category": "comparison",
+  "question": "How does Settlement Date differ from Execution Date?",
+  "ground_truth": "Execution Date is when payment is requested. Settlement Date is when funds actually transfer.",
+  "exact_pages": [],
+  "best_page": 8,
+  "coverage": 0.62,
+  "chunk_coverage": 0.62,
+  "pdf_hit": false,
+  "sentence": "be repeated if, for example, the requested execution date, payment type and/or",
+  "tokens": [
+   "execution",
+   "date",
+   "payment",
+   "requested",
+   "settlement",
+   "funds",
+   "actually",
+   "transfer"
+  ]
+ }
+]

@@ -1,0 +1,1176 @@
+{
+  "entities": [
+    {
+      "id": "9-october-2025-date",
+      "canonical_name": "9 October 2025",
+      "name": "9 October 2025",
+      "type": "Date",
+      "description": "Deadline for payer's payment service provider to offer verification of payee service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "9 October 2025, a payer's payment service provider (PSP, banks included) must offer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payer-paymentrole",
+      "canonical_name": "Payer",
+      "name": "Payer",
+      "type": "PaymentRole",
+      "description": "Party initiating a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "a payer's payment service provider (PSP, banks included) must offer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-service-provider-psp-organization",
+      "canonical_name": "Payment Service Provider (PSP)",
+      "name": "Payment Service Provider (PSP)",
+      "type": "Organization",
+      "description": "Entity providing payment services to payers",
+      "aliases": [
+        "PSP"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "a payer's payment service provider (PSP, banks included) must offer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "banks-financialinstitution",
+      "canonical_name": "Banks",
+      "name": "Banks",
+      "type": "FinancialInstitution",
+      "description": "Type of payment service provider",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "banks included",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "verification-of-payee-vop-service-service",
+      "canonical_name": "Verification of Payee (VOP) Service",
+      "name": "Verification of Payee (VOP) Service",
+      "type": "Service",
+      "description": "Service ensuring verification of payee",
+      "aliases": [
+        "VOP Service"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "a service ensuring verification of the payee",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payee-paymentrole",
+      "canonical_name": "Payee",
+      "name": "Payee",
+      "type": "PaymentRole",
+      "description": "Party receiving a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payee to whom the payer intends to send a credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymenttype",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "send a credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-union-location",
+      "canonical_name": "European Union",
+      "name": "European Union",
+      "type": "Location",
+      "description": "Geographic region",
+      "aliases": [
+        "EU"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "within the European Union",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-currency",
+      "canonical_name": "Euro",
+      "name": "Euro",
+      "type": "Currency",
+      "description": "Currency used in the European Union",
+      "aliases": [
+        "EUR"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "denominated in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-account-identifier-identifier",
+      "canonical_name": "Payment Account Identifier",
+      "name": "Payment Account Identifier",
+      "type": "Identifier",
+      "description": "Unique identifier for a payment account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment account identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "name-of-payee-dataelement",
+      "canonical_name": "Name of Payee",
+      "name": "Name of Payee",
+      "type": "DataElement",
+      "description": "Name of the party receiving a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "name of the payee",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "business-id-identifier",
+      "canonical_name": "Business ID",
+      "name": "Business ID",
+      "type": "Identifier",
+      "description": "Unique identifier for a business",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "business ID",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vat-number-identifier",
+      "canonical_name": "VAT Number",
+      "name": "VAT Number",
+      "type": "Identifier",
+      "description": "Unique identifier for a business's value-added tax",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "VAT number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "legal-entity-identifier-lei-identifier",
+      "canonical_name": "Legal Entity Identifier (LEI)",
+      "name": "Legal Entity Identifier (LEI)",
+      "type": "Identifier",
+      "description": "Unique identifier for a legal entity",
+      "aliases": [
+        "LEI"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Legal Entity Identifier (LEI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instant-payments-regulation-regulation",
+      "canonical_name": "Instant Payments Regulation",
+      "name": "Instant Payments Regulation",
+      "type": "Regulation",
+      "description": "Regulation governing instant payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Instant Payments Regulation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-service-users-organization",
+      "canonical_name": "Payment Service Users",
+      "name": "Payment Service Users",
+      "type": "Organization",
+      "description": "Entities using payment services",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment service users",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "opt-in-option",
+      "canonical_name": "Opt-in",
+      "name": "Opt-in",
+      "type": "Option",
+      "description": "Option to use a service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "opt-in",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "opt-out-option",
+      "canonical_name": "Opt-out",
+      "name": "Opt-out",
+      "type": "Option",
+      "description": "Option not to use a service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "opt-out",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payment-council-organization",
+      "canonical_name": "European Payment Council",
+      "name": "European Payment Council",
+      "type": "Organization",
+      "description": "Organization governing European payments",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The European Payment Council's",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "verification-of-payee-vop-scheme-standard",
+      "canonical_name": "Verification of Payee (VOP) Scheme",
+      "name": "Verification of Payee (VOP) Scheme",
+      "type": "Standard",
+      "description": "Scheme for verifying payees",
+      "aliases": [
+        "VOP Scheme"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The European Payment Council's Verification of Payee (VOP) scheme",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-sepa-location",
+      "canonical_name": "Single Euro Payments Area (SEPA)",
+      "name": "Single Euro Payments Area (SEPA)",
+      "type": "Location",
+      "description": "Geographic region for euro payments",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Single Euro Payments Area (SEPA)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "inter-psp-verification-service",
+      "canonical_name": "Inter-PSP Verification",
+      "name": "Inter-PSP Verification",
+      "type": "Service",
+      "description": "Service for verifying payees between payment service providers",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "inter-PSP verification of the IBAN and name of the payee",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "IBAN",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2b-payment-files-filetype",
+      "canonical_name": "C2B Payment Files",
+      "name": "C2B Payment Files",
+      "type": "FileType",
+      "description": "Type of payment file",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "C2B payment files",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "national-recommendation-standard",
+      "canonical_name": "National Recommendation",
+      "name": "National Recommendation",
+      "type": "Standard",
+      "description": "Guideline for a specific country",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "national recommendation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-procedure-process",
+      "canonical_name": "VOP Procedure",
+      "name": "VOP Procedure",
+      "type": "Process",
+      "description": "Procedure for verifying payees",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "VOP procedure",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "International standard for payment messaging",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for using ISO 20022 for payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain001-messagetype",
+      "canonical_name": "Pain.001",
+      "name": "Pain.001",
+      "type": "MessageType",
+      "description": "Message type for payment initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pain.001 structured data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "full-payment-information-dataelement",
+      "canonical_name": "Full Payment Information",
+      "name": "Full Payment Information",
+      "type": "DataElement",
+      "description": "Complete information about a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "full payment information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "national-corporate-file-transfer-solution-solution",
+      "canonical_name": "National Corporate File Transfer Solution",
+      "name": "National Corporate File Transfer Solution",
+      "type": "Solution",
+      "description": "Solution for transferring corporate files",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "national corporate file transfer solution",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "data-systems-system",
+      "canonical_name": "Data Systems",
+      "name": "Data Systems",
+      "type": "System",
+      "description": "Systems for managing data",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "data systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-materials-dataelement",
+      "canonical_name": "Payment Materials",
+      "name": "Payment Materials",
+      "type": "DataElement",
+      "description": "Information used for making payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment materials",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-reports-document",
+      "canonical_name": "Payment Status Reports",
+      "name": "Payment Status Reports",
+      "type": "Document",
+      "description": "Reports on the status of payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment status reports",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-specific-features-feature",
+      "canonical_name": "Bank-Specific Features",
+      "name": "Bank-Specific Features",
+      "type": "Feature",
+      "description": "Features specific to a bank",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "bank-specific features",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "linking-of-vop-and-payment-file-process",
+      "canonical_name": "Linking of VOP and Payment File",
+      "name": "Linking of VOP and Payment File",
+      "type": "Process",
+      "description": "Process of linking verification of payee and payment file",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "linking of VOP and the payment file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "verification-of-payee-vop-request-messagetype",
+      "canonical_name": "Verification of Payee (VOP) Request",
+      "name": "Verification of Payee (VOP) Request",
+      "type": "MessageType",
+      "description": "Message type for requesting verification of payee",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "single VOP requests",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-sepa-rulebook-document",
+      "canonical_name": "Single Euro Payments Area (SEPA) Rulebook",
+      "name": "Single Euro Payments Area (SEPA) Rulebook",
+      "type": "Document",
+      "description": "Rulebook for the Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-epc-document-library-technology",
+      "canonical_name": "European Payments Council (EPC) Document Library",
+      "name": "European Payments Council (EPC) Document Library",
+      "type": "Technology",
+      "description": "Library of documents from the European Payments Council",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "European Payments Council document library",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rulebooks-document",
+      "canonical_name": "Rulebooks",
+      "name": "Rulebooks",
+      "type": "Document",
+      "description": "Books of rules for a specific domain",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "rulebooks",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "verification-of-payee-scheme-rulebook-document",
+      "canonical_name": "Verification of Payee Scheme Rulebook",
+      "name": "Verification of Payee Scheme Rulebook",
+      "type": "Document",
+      "description": "Rulebook for the verification of payee scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Verification of Payee Scheme Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "payer-paymentrole",
+      "relation": "USES",
+      "target": "payment-service-provider-psp-organization",
+      "description": "Payer uses payment service provider",
+      "confidence": 0.99,
+      "evidence": "a payer's payment service provider (PSP, banks included) must offer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-service-provider-psp-organization",
+      "relation": "OFFERS",
+      "target": "verification-of-payee-vop-service-service",
+      "description": "Payment service provider offers verification of payee service",
+      "confidence": 0.99,
+      "evidence": "a service ensuring verification of the payee",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payee-paymentrole",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-account-identifier-identifier",
+      "description": "Payee identified by payment account identifier",
+      "confidence": 0.99,
+      "evidence": "payment account identifier",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payee-paymentrole",
+      "relation": "IDENTIFIED_BY",
+      "target": "name-of-payee-dataelement",
+      "description": "Payee identified by name",
+      "confidence": 0.99,
+      "evidence": "name of the payee",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payment-council-organization",
+      "relation": "PUBLISHES",
+      "target": "verification-of-payee-vop-scheme-standard",
+      "description": "European Payment Council publishes verification of payee scheme",
+      "confidence": 0.99,
+      "evidence": "The European Payment Council's Verification of Payee (VOP) scheme",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "verification-of-payee-vop-scheme-standard",
+      "relation": "APPLIES_TO",
+      "target": "single-euro-payments-area-sepa-location",
+      "description": "Verification of payee scheme applies to Single Euro Payments Area",
+      "confidence": 0.99,
+      "evidence": "Single Euro Payments Area (SEPA)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payer-paymentrole",
+      "relation": "INITIATES",
+      "target": "credit-transfer-paymenttype",
+      "description": "Payer initiates credit transfer",
+      "confidence": 0.99,
+      "evidence": "send a credit transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-paymenttype",
+      "relation": "DENOMINATED_IN",
+      "target": "euro-currency",
+      "description": "Credit transfer denominated in euro",
+      "confidence": 0.99,
+      "evidence": "denominated in euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-union-location",
+      "relation": "USES",
+      "target": "euro-currency",
+      "description": "European Union uses euro",
+      "confidence": 0.99,
+      "evidence": "within the European Union",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-service-provider-psp-organization",
+      "relation": "PERFORMS",
+      "target": "inter-psp-verification-service",
+      "description": "Payment service provider performs inter-PSP verification",
+      "confidence": 0.99,
+      "evidence": "inter-PSP verification of the IBAN and name of the payee",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "inter-psp-verification-service",
+      "relation": "VERIFIES",
+      "target": "iban-identifier",
+      "description": "Inter-PSP verification verifies IBAN",
+      "confidence": 0.99,
+      "evidence": "inter-PSP verification of the IBAN and name of the payee",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "inter-psp-verification-service",
+      "relation": "VERIFIES",
+      "target": "name-of-payee-dataelement",
+      "description": "Inter-PSP verification verifies name of payee",
+      "confidence": 0.99,
+      "evidence": "inter-PSP verification of the IBAN and name of the payee",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "c2b-payment-files-filetype",
+      "relation": "FOLLOWS",
+      "target": "vop-procedure-process",
+      "description": "C2B payment files follow VOP procedure",
+      "confidence": 0.99,
+      "evidence": "VOP procedure to be used in C2B payment files",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "vop-procedure-process",
+      "relation": "BASED_ON",
+      "target": "national-recommendation-standard",
+      "description": "VOP procedure based on national recommendation",
+      "confidence": 0.99,
+      "evidence": "national recommendation for the VOP procedure",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "DEFINES",
+      "target": "pain001-messagetype",
+      "description": "ISO 20022 defines pain.001 message type",
+      "confidence": 0.99,
+      "evidence": "ISO 20022-compliant C2B pain.001 structured data",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain001-messagetype",
+      "relation": "CONTAINS",
+      "target": "full-payment-information-dataelement",
+      "description": "Pain.001 message type contains full payment information",
+      "confidence": 0.99,
+      "evidence": "full payment information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "national-corporate-file-transfer-solution-solution",
+      "relation": "INCLUDES",
+      "target": "vop-service-cross-chunk",
+      "description": "National corporate file transfer solution includes VOP service",
+      "confidence": 0.99,
+      "evidence": "VOP service is part of a national corporate file transfer solution",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "data-systems-system",
+      "relation": "MANAGES",
+      "target": "payment-materials-dataelement",
+      "description": "Data systems manage payment materials",
+      "confidence": 0.99,
+      "evidence": "data systems they use to compile or source payment materials",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "data-systems-system",
+      "relation": "GENERATES",
+      "target": "payment-status-reports-document",
+      "description": "Data systems generate payment status reports",
+      "confidence": 0.99,
+      "evidence": "data systems they use to... handle payment status reports",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-specific-features-feature",
+      "relation": "ENABLES",
+      "target": "linking-of-vop-and-payment-file-process",
+      "description": "Bank-specific features enable linking of VOP and payment file",
+      "confidence": 0.99,
+      "evidence": "bank-specific features, such as the linking of VOP and the payment file",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "verification-of-payee-vop-request-messagetype",
+      "relation": "FOLLOWS",
+      "target": "vop-procedure-process",
+      "description": "Verification of payee request follows VOP procedure",
+      "confidence": 0.99,
+      "evidence": "single VOP requests",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "single-euro-payments-area-sepa-rulebook-document",
+      "relation": "INCLUDES",
+      "target": "verification-of-payee-scheme-rulebook-document",
+      "description": "SEPA rulebook includes verification of payee scheme rulebook",
+      "confidence": 0.99,
+      "evidence": "SEPA Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-epc-document-library-technology",
+      "relation": "CONTAINS",
+      "target": "rulebooks-document",
+      "description": "European Payments Council document library contains rulebooks",
+      "confidence": 0.99,
+      "evidence": "European Payments Council document library",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rulebooks-document",
+      "relation": "INCLUDES",
+      "target": "verification-of-payee-scheme-rulebook-document",
+      "description": "Rulebooks include verification of payee scheme rulebook",
+      "confidence": 0.99,
+      "evidence": "rulebooks",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "httpswwweuropeanpaymentscouncileudocument-libraryrulebooksverification-payee-scheme-rulebook-cross-chunk",
+      "relation": "REFERENCES",
+      "target": "verification-of-payee-scheme-rulebook-document",
+      "description": "URL references verification of payee scheme rulebook",
+      "confidence": 0.99,
+      "evidence": "https://www.europeanpaymentscouncil.eu/document-library/rulebooks/verification-payee-scheme-rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "53-61-cross-chunk",
+      "relation": "REFERENCES",
+      "target": "verification-of-payee-scheme-rulebook-document",
+      "description": "Code references verification of payee scheme rulebook",
+      "confidence": 0.99,
+      "evidence": "53 (61)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        28
+      ],
+      "frequency": 1
+    }
+  ]
+}

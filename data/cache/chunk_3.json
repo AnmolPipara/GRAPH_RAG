@@ -1,0 +1,864 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "20022 Payment Initiation message in credit transfers",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-paymentscheme",
+      "canonical_name": "SEPA Credit Transfer",
+      "name": "SEPA Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area credit transfer scheme",
+      "aliases": [
+        "SCT"
+      ],
+      "attributes": {
+        "domain": "European payments"
+      },
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-instant-credit-transfer-paymentscheme",
+      "canonical_name": "SEPA Instant Credit Transfer",
+      "name": "SEPA Instant Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area instant credit transfer scheme",
+      "aliases": [
+        "SCT Inst"
+      ],
+      "attributes": {
+        "domain": "European payments"
+      },
+      "confidence": 0.98,
+      "evidence": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-organization",
+      "canonical_name": "European Payments Council",
+      "name": "European Payments Council",
+      "type": "Organization",
+      "description": "Organization responsible for European payments regulation",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {
+        "domain": "European payments"
+      },
+      "confidence": 0.99,
+      "evidence": "European Payments Council (EPC) website",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customercredittransferinitiationv09-messagetype",
+      "canonical_name": "CustomerCreditTransferInitiationV09",
+      "name": "CustomerCreditTransferInitiationV09",
+      "type": "MessageType",
+      "description": "ISO 20022 message type for customer credit transfer initiation",
+      "aliases": [
+        "Customer Credit Transfer Initiation V09"
+      ],
+      "attributes": {
+        "version": "09"
+      },
+      "confidence": 0.98,
+      "evidence": "CustomerCreditTransferInitiationV09 message definition",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100109-xmlelement",
+      "canonical_name": "pain.001.001.09",
+      "name": "pain.001.001.09",
+      "type": "XMLElement",
+      "description": "XML scheme identifier for CustomerCreditTransferInitiationV09",
+      "aliases": [
+        "pain.001.001.09"
+      ],
+      "attributes": {
+        "version": "09"
+      },
+      "confidence": 0.98,
+      "evidence": "pain.001.001.09 XML scheme identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country in Northern Europe",
+      "aliases": [
+        "FI"
+      ],
+      "attributes": {
+        "domain": "European payments"
+      },
+      "confidence": 0.99,
+      "evidence": "Usage of ISO 20022 in Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-customer-to-psp-implementation-guidelines-document",
+      "canonical_name": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "name": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "type": "Document",
+      "description": "Guidelines for SEPA credit transfer implementation",
+      "aliases": [
+        "SCT Customer-to-PSP Implementation Guidelines"
+      ],
+      "attributes": {
+        "version": "2023 1.1"
+      },
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-instant-credit-transfer-customer-to-psp-implementation-guidelines-document",
+      "canonical_name": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "name": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "type": "Document",
+      "description": "Guidelines for SEPA instant credit transfer implementation",
+      "aliases": [
+        "SCT Inst Customer-to-PSP Implementation Guidelines"
+      ],
+      "attributes": {
+        "version": "2023 1.2"
+      },
+      "confidence": 0.98,
+      "evidence": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-message-definition-report-document",
+      "canonical_name": "ISO 20022 Message Definition Report",
+      "name": "ISO 20022 Message Definition Report",
+      "type": "Document",
+      "description": "Report defining ISO 20022 message structure",
+      "aliases": [
+        "ISO 20022 Message Definition"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "ISO 20022 Message Definition Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payments-external-code-list-dataset",
+      "canonical_name": "Payments External Code List",
+      "name": "Payments External Code List",
+      "type": "Dataset",
+      "description": "List of standard values for payment message code elements",
+      "aliases": [
+        "External Code List"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payments External Code List",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain001-xmlelement",
+      "canonical_name": "pain.001",
+      "name": "pain.001",
+      "type": "XMLElement",
+      "description": "XML element for payment initiation",
+      "aliases": [
+        "pain.001"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "pain.001 payment initiation message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100102-xmlelement",
+      "canonical_name": "pain.001.001.02",
+      "name": "pain.001.001.02",
+      "type": "XMLElement",
+      "description": "XML scheme identifier for payment initiation",
+      "aliases": [
+        "pain.001.001.02"
+      ],
+      "attributes": {
+        "version": "02"
+      },
+      "confidence": 0.98,
+      "evidence": "pain.001.001.02 XML scheme identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100103-xmlelement",
+      "canonical_name": "pain.001.001.03",
+      "name": "pain.001.001.03",
+      "type": "XMLElement",
+      "description": "XML scheme identifier for payment initiation",
+      "aliases": [
+        "pain.001.001.03"
+      ],
+      "attributes": {
+        "version": "03"
+      },
+      "confidence": 0.98,
+      "evidence": "pain.001.001.03 XML scheme identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-paymentrole",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "PaymentRole",
+      "description": "Party initiating the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Customer-to-PSP payment initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution providing payment services",
+      "aliases": [
+        "Banking Institution"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Bank or payment service provider",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-service-provider-financialinstitution",
+      "canonical_name": "Payment Service Provider",
+      "name": "Payment Service Provider",
+      "type": "FinancialInstitution",
+      "description": "Institution providing payment services",
+      "aliases": [
+        "PSP"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment service provider",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2b-paymentrole",
+      "canonical_name": "C2B",
+      "name": "C2B",
+      "type": "PaymentRole",
+      "description": "Customer-to-Bank payment role",
+      "aliases": [
+        "Customer to Bank"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "C2B/C2PSP payment initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "c2psp-paymentrole",
+      "canonical_name": "C2PSP",
+      "name": "C2PSP",
+      "type": "PaymentRole",
+      "description": "Customer-to-Payment Service Provider payment role",
+      "aliases": [
+        "Customer to Payment Service Provider"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "C2B/C2PSP payment initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-paymentscheme",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area payment scheme",
+      "aliases": [
+        "Single Euro Payments Area"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payment implementation",
+      "aliases": [
+        "ISO 20022 Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-reporting-businessprocess",
+      "canonical_name": "Account Reporting",
+      "name": "Account Reporting",
+      "type": "BusinessProcess",
+      "description": "Process of reporting account information",
+      "aliases": [
+        "Account Statement"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Account reporting",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-technology",
+      "canonical_name": "XML",
+      "name": "XML",
+      "type": "Technology",
+      "description": "Extensible Markup Language",
+      "aliases": [
+        "Extensible Markup Language"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "XML scheme identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "version-2023-11-version",
+      "canonical_name": "Version 2023 1.1",
+      "name": "Version 2023 1.1",
+      "type": "Version",
+      "description": "Version of SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "aliases": [
+        "V2023 1.1"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Version 2023 1.1",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "version-2023-12-version",
+      "canonical_name": "Version 2023 1.2",
+      "name": "Version 2023 1.2",
+      "type": "Version",
+      "description": "Version of SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "aliases": [
+        "V2023 1.2"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Version 2023 1.2",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "USED_BY",
+      "target": "sepa-credit-transfer-paymentscheme",
+      "description": "ISO 20022 used by SEPA Credit Transfer",
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer uses ISO 20022",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-credit-transfer-paymentscheme",
+      "relation": "PUBLISHED_BY",
+      "target": "european-payments-council-organization",
+      "description": "SEPA Credit Transfer published by European Payments Council",
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer published by EPC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "OWNED_BY",
+      "target": "wwweuropeanpaymentscouncileu-cross-chunk",
+      "description": "European Payments Council owns website",
+      "confidence": 0.98,
+      "evidence": "EPC owns website",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "CONTAINS",
+      "target": "customercredittransferinitiationv09-messagetype",
+      "description": "ISO 20022 contains CustomerCreditTransferInitiationV09",
+      "confidence": 0.98,
+      "evidence": "ISO 20022 contains CustomerCreditTransferInitiationV09",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customercredittransferinitiationv09-messagetype",
+      "relation": "IDENTIFIED_BY",
+      "target": "pain00100109-xmlelement",
+      "description": "CustomerCreditTransferInitiationV09 identified by pain.001.001.09",
+      "confidence": 0.98,
+      "evidence": "CustomerCreditTransferInitiationV09 identified by pain.001.001.09",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finland-location",
+      "relation": "USES",
+      "target": "iso-20022-standard",
+      "description": "Finland uses ISO 20022",
+      "confidence": 0.98,
+      "evidence": "Usage of ISO 20022 in Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-credit-transfer-customer-to-psp-implementation-guidelines-document",
+      "relation": "PUBLISHED_BY",
+      "target": "sepa-credit-transfer-paymentscheme",
+      "description": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines published by SEPA Credit Transfer",
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-instant-credit-transfer-customer-to-psp-implementation-guidelines-document",
+      "relation": "PUBLISHED_BY",
+      "target": "sepa-instant-credit-transfer-paymentscheme",
+      "description": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines published by SEPA Instant Credit Transfer",
+      "confidence": 0.98,
+      "evidence": "SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-message-definition-report-document",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Message Definition Report part of ISO 20022",
+      "confidence": 0.98,
+      "evidence": "ISO 20022 Message Definition Report",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payments-external-code-list-dataset",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "Payments External Code List part of ISO 20022",
+      "confidence": 0.98,
+      "evidence": "Payments External Code List",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain001-xmlelement",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "pain.001 part of ISO 20022",
+      "confidence": 0.98,
+      "evidence": "pain.001 payment initiation message",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain00100102-xmlelement",
+      "relation": "PART_OF",
+      "target": "pain001-xmlelement",
+      "description": "pain.001.001.02 part of pain.001",
+      "confidence": 0.98,
+      "evidence": "pain.001.001.02 XML scheme identifier",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain00100103-xmlelement",
+      "relation": "PART_OF",
+      "target": "pain001-xmlelement",
+      "description": "pain.001.001.03 part of pain.001",
+      "confidence": 0.98,
+      "evidence": "pain.001.001.03 XML scheme identifier",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-paymentrole",
+      "relation": "PLAYS_ROLE",
+      "target": "c2b-paymentrole",
+      "description": "Customer plays C2B role",
+      "confidence": 0.98,
+      "evidence": "Customer-to-Bank payment initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-paymentrole",
+      "relation": "PLAYS_ROLE",
+      "target": "c2psp-paymentrole",
+      "description": "Customer plays C2PSP role",
+      "confidence": 0.98,
+      "evidence": "Customer-to-Payment Service Provider payment initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "PLAYS_ROLE",
+      "target": "c2b-paymentrole",
+      "description": "Bank plays C2B role",
+      "confidence": 0.98,
+      "evidence": "Customer-to-Bank payment initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-service-provider-financialinstitution",
+      "relation": "PLAYS_ROLE",
+      "target": "c2psp-paymentrole",
+      "description": "Payment Service Provider plays C2PSP role",
+      "confidence": 0.98,
+      "evidence": "Customer-to-Payment Service Provider payment initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-paymentscheme",
+      "relation": "CONTAINS",
+      "target": "sepa-credit-transfer-paymentscheme",
+      "description": "SEPA contains SEPA Credit Transfer",
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Payments Guide part of ISO 20022",
+      "confidence": 0.98,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-reporting-businessprocess",
+      "relation": "USES",
+      "target": "iso-20022-standard",
+      "description": "Account Reporting uses ISO 20022",
+      "confidence": 0.98,
+      "evidence": "Account reporting uses ISO 20022",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xml-technology",
+      "relation": "USED_BY",
+      "target": "iso-20022-standard",
+      "description": "XML used by ISO 20022",
+      "confidence": 0.98,
+      "evidence": "ISO 20022 uses XML",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        3
+      ],
+      "frequency": 1
+    }
+  ]
+}

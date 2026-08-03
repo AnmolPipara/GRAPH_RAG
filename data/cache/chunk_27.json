@@ -1,0 +1,1360 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "The rejection reason codes used in the ISO20022 standard",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rejection-reason-codes-businessconcept",
+      "canonical_name": "Rejection Reason Codes",
+      "name": "Rejection Reason Codes",
+      "type": "BusinessConcept",
+      "description": "Codes used for rejection reasons in financial transactions",
+      "aliases": [
+        "Rejection Codes"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Rejection reason codes",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "external-code-list-dataset",
+      "canonical_name": "External Code List",
+      "name": "External Code List",
+      "type": "Dataset",
+      "description": "List of external codes used in financial transactions",
+      "aliases": [
+        "ExternalStatusReason1Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The rejection reason codes used in the ISO20022 standard are specified in the External Code List",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso20022-website-system",
+      "canonical_name": "ISO20022 Website",
+      "name": "ISO20022 Website",
+      "type": "System",
+      "description": "Official website of the ISO 20022 standard",
+      "aliases": [
+        "ISO 20022 Website"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The code list is available at the ISO20022 website",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution providing banking services",
+      "aliases": [
+        "Banks"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The use of codes depends on the bank and its services",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac01-identifier",
+      "canonical_name": "AC01",
+      "name": "AC01",
+      "type": "Identifier",
+      "description": "Rejection reason code for incorrect account number format",
+      "aliases": [
+        "AC01 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AC01 Format of the account number specified is not correct",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac03-identifier",
+      "canonical_name": "AC03",
+      "name": "AC03",
+      "type": "Identifier",
+      "description": "Rejection reason code for wrong IBAN in SCT",
+      "aliases": [
+        "AC03 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AC03 Wrong IBAN in SCT",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac04-identifier",
+      "canonical_name": "AC04",
+      "name": "AC04",
+      "type": "Identifier",
+      "description": "Rejection reason code for closed account",
+      "aliases": [
+        "AC04 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AC04 Account number specified has been closed on the Receiver's books",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac06-identifier",
+      "canonical_name": "AC06",
+      "name": "AC06",
+      "type": "Identifier",
+      "description": "Rejection reason code for blocked account",
+      "aliases": [
+        "AC06 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AC06 Account specified is blocked, prohibiting posting of transactions against it",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ag01-identifier",
+      "canonical_name": "AG01",
+      "name": "AG01",
+      "type": "Identifier",
+      "description": "Rejection reason code for forbidden transaction on account type",
+      "aliases": [
+        "AG01 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AG01 Transaction forbidden on this type of account",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ag02-identifier",
+      "canonical_name": "AG02",
+      "name": "AG02",
+      "type": "Identifier",
+      "description": "Rejection reason code for invalid bank operation code",
+      "aliases": [
+        "AG02 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AG02 Bank Operation code specified in the message is not valid for receiver",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "am04-identifier",
+      "canonical_name": "AM04",
+      "name": "AM04",
+      "type": "Identifier",
+      "description": "Rejection reason code for insufficient funds",
+      "aliases": [
+        "AM04 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AM04 Amount of funds available to cover specified message amount is insufficient",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "am05-identifier",
+      "canonical_name": "AM05",
+      "name": "AM05",
+      "type": "Identifier",
+      "description": "Rejection reason code for duplicated message",
+      "aliases": [
+        "AM05 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AM05 This message appears to have been duplicated",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "am09-identifier",
+      "canonical_name": "AM09",
+      "name": "AM09",
+      "type": "Identifier",
+      "description": "Rejection reason code for incorrect amount received",
+      "aliases": [
+        "AM09 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "AM09 Amount received is not the amount agreed or expected",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "be04-identifier",
+      "canonical_name": "BE04",
+      "name": "BE04",
+      "type": "Identifier",
+      "description": "Rejection reason code for missing or incorrect creditor address",
+      "aliases": [
+        "BE04 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "BE04 Specification of creditor's address, which is required for payment, is missing/not correct",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ed05-identifier",
+      "canonical_name": "ED05",
+      "name": "ED05",
+      "type": "Identifier",
+      "description": "Rejection reason code for failed settlement",
+      "aliases": [
+        "ED05 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "ED05 Settlement of the transaction has failed",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "erin-identifier",
+      "canonical_name": "ERIN",
+      "name": "ERIN",
+      "type": "Identifier",
+      "description": "Rejection reason code for unsupported Extended Remittance Information",
+      "aliases": [
+        "ERIN Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "ERIN The Extended Remittance Information (ERI) option is not supported",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ff01-identifier",
+      "canonical_name": "FF01",
+      "name": "FF01",
+      "type": "Identifier",
+      "description": "Rejection reason code for invalid file format",
+      "aliases": [
+        "FF01 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "FF01 Invalid file format",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "md07-identifier",
+      "canonical_name": "MD07",
+      "name": "MD07",
+      "type": "Identifier",
+      "description": "Rejection reason code for deceased end customer",
+      "aliases": [
+        "MD07 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "MD07 End customer is deceased",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "modi-identifier",
+      "canonical_name": "MODI",
+      "name": "MODI",
+      "type": "Identifier",
+      "description": "Rejection reason code for successful modification",
+      "aliases": [
+        "MODI Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "MODI Used when a requested modification is successful",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ms02-identifier",
+      "canonical_name": "MS02",
+      "name": "MS02",
+      "type": "Identifier",
+      "description": "Rejection reason code for unspecified reason by end customer",
+      "aliases": [
+        "MS02 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "MS02 Reason has not been specified by end customer",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ms03-identifier",
+      "canonical_name": "MS03",
+      "name": "MS03",
+      "type": "Identifier",
+      "description": "Rejection reason code for unspecified reason by agent",
+      "aliases": [
+        "MS03 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "MS03 Reason has not been specified by agent",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rc01-identifier",
+      "canonical_name": "RC01",
+      "name": "RC01",
+      "type": "Identifier",
+      "description": "Rejection reason code for incorrect bank identifier code format",
+      "aliases": [
+        "RC01 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "RC01 Bank identifier code specified in the message has an incorrect format",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tm01-identifier",
+      "canonical_name": "TM01",
+      "name": "TM01",
+      "type": "Identifier",
+      "description": "Rejection reason code for message received after agreed processing cut-off time",
+      "aliases": [
+        "TM01 Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "TM01 Associated message was received after agreed processing cut-off time",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "regulation-eu-2024886-standard",
+      "canonical_name": "Regulation (EU) 2024/886",
+      "name": "Regulation (EU) 2024/886",
+      "type": "Standard",
+      "description": "European Union regulation for instant payments",
+      "aliases": [
+        "Instant Payments Regulation"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The Instant Payments Regulation (Regulation (EU) 2024/886)",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "recommendation-for-the-verification-of-payee-documentsection",
+      "canonical_name": "Recommendation for the Verification of Payee",
+      "name": "Recommendation for the Verification of Payee",
+      "type": "DocumentSection",
+      "description": "Section of the document providing recommendations for payee verification",
+      "aliases": [
+        "Payee Verification Recommendation"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-number-dataelement",
+      "canonical_name": "Account Number",
+      "name": "Account Number",
+      "type": "DataElement",
+      "description": "Unique identifier for a bank account",
+      "aliases": [
+        "Account No."
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Format of the account number specified is not correct",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [
+        "International Bank Account Number"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Wrong IBAN in SCT",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-operation-code-identifier",
+      "canonical_name": "Bank Operation Code",
+      "name": "Bank Operation Code",
+      "type": "Identifier",
+      "description": "Code used for bank operations",
+      "aliases": [
+        "Operation Code"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Bank Operation code specified in the message is not valid for receiver",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-address-dataelement",
+      "canonical_name": "Creditor Address",
+      "name": "Creditor Address",
+      "type": "DataElement",
+      "description": "Address of the creditor",
+      "aliases": [
+        "Creditor's Address"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Specification of creditor's address, which is required for payment, is missing/not correct",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-remittance-information-businessconcept",
+      "canonical_name": "Extended Remittance Information",
+      "name": "Extended Remittance Information",
+      "type": "BusinessConcept",
+      "description": "Additional information provided with a remittance",
+      "aliases": [
+        "ERI"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The Extended Remittance Information (ERI) option is not supported",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "file-format-technicalconcept",
+      "canonical_name": "File Format",
+      "name": "File Format",
+      "type": "TechnicalConcept",
+      "description": "Format of a computer file",
+      "aliases": [
+        "File Type"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Invalid file format",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-customer-businessconcept",
+      "canonical_name": "End Customer",
+      "name": "End Customer",
+      "type": "BusinessConcept",
+      "description": "Final customer in a supply chain",
+      "aliases": [
+        "Customer"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "End customer is deceased",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "agent-paymentrole",
+      "canonical_name": "Agent",
+      "name": "Agent",
+      "type": "PaymentRole",
+      "description": "Entity acting on behalf of another entity",
+      "aliases": [
+        "Payment Agent"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Reason has not been specified by agent",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-identifier-code-identifier",
+      "canonical_name": "Bank Identifier Code",
+      "name": "Bank Identifier Code",
+      "type": "Identifier",
+      "description": "Unique identifier for a bank",
+      "aliases": [
+        "BIC"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Bank identifier code specified in the message has an incorrect format",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "processing-cut-off-time-businessconcept",
+      "canonical_name": "Processing Cut-off Time",
+      "name": "Processing Cut-off Time",
+      "type": "BusinessConcept",
+      "description": "Time by which a transaction must be processed",
+      "aliases": [
+        "Cut-off Time"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Associated message was received after agreed processing cut-off time",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payee-paymentrole",
+      "canonical_name": "Payee",
+      "name": "Payee",
+      "type": "PaymentRole",
+      "description": "Entity receiving a payment",
+      "aliases": [
+        "Recipient"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-file-document",
+      "canonical_name": "Payment File",
+      "name": "Payment File",
+      "type": "Document",
+      "description": "File containing payment information",
+      "aliases": [
+        "Payment Document"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "CONTAINS",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "ISO 20022 standard contains rejection reason codes",
+      "confidence": 0.99,
+      "evidence": "The rejection reason codes used in the ISO20022 standard",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rejection-reason-codes-businessconcept",
+      "relation": "PART_OF",
+      "target": "external-code-list-dataset",
+      "description": "Rejection reason codes are part of the external code list",
+      "confidence": 0.99,
+      "evidence": "The rejection reason codes used in the ISO20022 standard are specified in the External Code List",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "external-code-list-dataset",
+      "relation": "PUBLISHED_BY",
+      "target": "iso20022-website-system",
+      "description": "External code list is published on the ISO20022 website",
+      "confidence": 0.99,
+      "evidence": "The code list is available at the ISO20022 website",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "USES",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Banks use rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "The use of codes depends on the bank and its services",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ac01-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AC01 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AC01 Format of the account number specified is not correct",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ac03-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AC03 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AC03 Wrong IBAN in SCT",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ac04-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AC04 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AC04 Account number specified has been closed on the Receiver's books",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ac06-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AC06 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AC06 Account specified is blocked, prohibiting posting of transactions against it",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ag01-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AG01 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AG01 Transaction forbidden on this type of account",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ag02-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AG02 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AG02 Bank Operation code specified in the message is not valid for receiver",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "am04-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AM04 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AM04 Amount of funds available to cover specified message amount is insufficient",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "am05-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AM05 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AM05 This message appears to have been duplicated",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "am09-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "AM09 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "AM09 Amount received is not the amount agreed or expected",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "be04-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "BE04 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "BE04 Specification of creditor's address, which is required for payment, is missing/not correct",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ed05-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "ED05 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "ED05 Settlement of the transaction has failed",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "erin-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "ERIN is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "ERIN The Extended Remittance Information (ERI) option is not supported",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ff01-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "FF01 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "FF01 Invalid file format",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "md07-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "MD07 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "MD07 End customer is deceased",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "modi-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "MODI is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "MODI Used when a requested modification is successful",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ms02-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "MS02 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "MS02 Reason has not been specified by end customer",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ms03-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "MS03 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "MS03 Reason has not been specified by agent",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rc01-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "RC01 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "RC01 Bank identifier code specified in the message has an incorrect format",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "tm01-identifier",
+      "relation": "PART_OF",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "TM01 is a rejection reason code",
+      "confidence": 0.98,
+      "evidence": "TM01 Associated message was received after agreed processing cut-off time",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "regulation-eu-2024886-standard",
+      "relation": "REFERENCES",
+      "target": "recommendation-for-the-verification-of-payee-documentsection",
+      "description": "Regulation (EU) 2024/886 references the recommendation for payee verification",
+      "confidence": 0.98,
+      "evidence": "The Instant Payments Regulation (Regulation (EU) 2024/886)",
+      "implicit": false,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "recommendation-for-the-verification-of-payee-documentsection",
+      "relation": "RELATED_TO",
+      "target": "payee-paymentrole",
+      "description": "Recommendation for payee verification is related to the payee",
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-number-dataelement",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Account number is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Format of the account number specified is not correct",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iban-identifier",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "IBAN is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Wrong IBAN in SCT",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-operation-code-identifier",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Bank operation code is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Bank Operation code specified in the message is not valid for receiver",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-address-dataelement",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Creditor address is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Specification of creditor's address, which is required for payment, is missing/not correct",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-remittance-information-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Extended remittance information is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "The Extended Remittance Information (ERI) option is not supported",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "file-format-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "File format is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Invalid file format",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "end-customer-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "End customer is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "End customer is deceased",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "agent-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Agent is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Reason has not been specified by agent",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-identifier-code-identifier",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Bank identifier code is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Bank identifier code specified in the message has an incorrect format",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "processing-cut-off-time-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Processing cut-off time is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Associated message was received after agreed processing cut-off time",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payee-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Payee is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-file-document",
+      "relation": "RELATED_TO",
+      "target": "rejection-reason-codes-businessconcept",
+      "description": "Payment file is related to rejection reason codes",
+      "confidence": 0.98,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "implicit": true,
+      "source_pages": [
+        52
+      ],
+      "source_chunks": [
+        27
+      ],
+      "frequency": 1
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+[
+  {
+    "system": "GraphRAG",
+    "question_id": 2,
+    "category": "fact_lookup",
+    "question": "What is the phone number for Finance Finland?",
+    "ground_truth": "+358 20 793 4200",
+    "answer": "The phone number for Finance Finland is **+358 20 793 4200**.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+      "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+    ],
+    "retrieved_relationships": [
+      "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+      "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+      "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+      "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+      "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+      "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+      "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+    ],
+    "graph_traversal_path": [
+      "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+      "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+      "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+      "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+      "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+      "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+      "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+        "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+      ],
+      "relationships": [
+        "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+        "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+        "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+        "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+        "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+        "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+        "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+      ],
+      "paths": [
+        "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+        "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+        "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+        "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+        "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+        "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+        "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+      ]
+    },
+    "retrieval_latency_s": 5.6,
+    "generation_latency_s": 5.6,
+    "total_latency_s": 5.6,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 5,
+    "category": "fact_lookup",
+    "question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+    "ground_truth": "140 characters.",
+    "answer": "One occurrence of the unstructured remittance information may contain up to **140 characters**.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 37)] 37 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n\n<Othr>\n\n\n\n\n\n\n\n<Id>0987654321</Id>\n\n\n\n\n\n\n\n<SchmeNm>\n\n\n\n\n\n\n\n\n<Cd>BANK</Cd>\n\n\n\n\n\n\n\n</SchmeNm>\n\n\n\n\n\n\n</Othr>\n\n\n\n\n\n</OrgId>\n\n\n\n\n</Id>\n\n\n\n</Dbtr>\n\n\n\n<DbtrAcct>\n\n\n\n\n<Id>\n\n\n\n\n\n<IBAN>FI8529501800020574</IBAN>\n\n\n\n\n</Id>\n\n\n\n</DbtrAcct>\n\n\n\n<DbtrAgt>\n\n\n\n\n<FinInstnId>\n\n\n\n\n\n<BICFI>BANKFIHH</BICFI>\n\n\n\n\n</FinInstnId>\n\n\n\n</DbtrAgt>\n\n\n\n<ChrgBr>SLEV</ChrgBr>\n\n\n\n<CdtTrfTxInf>\n\n\n\n\n<PmtId>\n\n\n\n\n\n<InstrId>InstrId000002</InstrId>\n\n\n\n\n\n<EndToEndId>EndToEndId000002</EndToEndId>\n\n\n\n...",
+      "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+      "[Source (page 29)] 29 (61)\n\nISO 20022 Payments Guide\n\n\n2.165\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Remittance Information\n++++Unstructured\nUnstructured message for the creditor,\none occurrence allowed (max 140\ncharacters).\nRecurring payments' purpose codes can\nbe given in this element.\nFor the bundling of invoices and credit\nnotes, see section 4.2 on ERI.\n2.166\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfe..."
+    ],
+    "retrieved_relationships": [
+      "Ustrd -[IDENTIFIED_BY]-> Invoices 123 and 321 | Ustrd: Unstructured element | Invoices 123 and 321: Remittance information",
+      "1.2.2 Unstructured address -[]-> ? | 1.2.2 Unstructured address: Subsection in the document",
+      "Unstructured -[RELATED_TO]-> ERI | Unstructured: Type of remittance information | ERI: Electronic Remittance Information",
+      "Unstructured Address -[INCLUDES]-> Address Line | Unstructured Address: Address with unstructured format | Address Line: Address line of creditor's postal address",
+      "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+      "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+      "Scandinavian Characters -[USED_BY]-> Banks | Scandinavian Characters: Characters specific to Scandinavian languages | Banks: Financial institutions operating in Finland",
+      "Basic Latin Characters -[USED_BY]-> SEPA Countries | Basic Latin Characters: Characters from the Basic Latin character set | SEPA Countries: Countries participating in the Single Euro Payments Area",
+      "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Type of remittance information",
+      "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Remittance information without a specific format",
+      "Character Limit -[]-> ? | Character Limit: Maximum number of characters allowed"
+    ],
+    "graph_traversal_path": [
+      "Ustrd -[IDENTIFIED_BY]-> Invoices 123 and 321 | Ustrd: Unstructured element | Invoices 123 and 321: Remittance information",
+      "1.2.2 Unstructured address -[]-> ? | 1.2.2 Unstructured address: Subsection in the document",
+      "Unstructured -[RELATED_TO]-> ERI | Unstructured: Type of remittance information | ERI: Electronic Remittance Information",
+      "Unstructured Address -[INCLUDES]-> Address Line | Unstructured Address: Address with unstructured format | Address Line: Address line of creditor's postal address",
+      "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+      "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+      "Scandinavian Characters -[USED_BY]-> Banks | Scandinavian Characters: Characters specific to Scandinavian languages | Banks: Financial institutions operating in Finland",
+      "Basic Latin Characters -[USED_BY]-> SEPA Countries | Basic Latin Characters: Characters from the Basic Latin character set | SEPA Countries: Countries participating in the Single Euro Payments Area",
+      "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Type of remittance information",
+      "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Remittance information without a specific format",
+      "Character Limit -[]-> ? | Character Limit: Maximum number of characters allowed"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 37)] 37 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n\n<Othr>\n\n\n\n\n\n\n\n<Id>0987654321</Id>\n\n\n\n\n\n\n\n<SchmeNm>\n\n\n\n\n\n\n\n\n<Cd>BANK</Cd>\n\n\n\n\n\n\n\n</SchmeNm>\n\n\n\n\n\n\n</Othr>\n\n\n\n\n\n</OrgId>\n\n\n\n\n</Id>\n\n\n\n</Dbtr>\n\n\n\n<DbtrAcct>\n\n\n\n\n<Id>\n\n\n\n\n\n<IBAN>FI8529501800020574</IBAN>\n\n\n\n\n</Id>\n\n\n\n</DbtrAcct>\n\n\n\n<DbtrAgt>\n\n\n\n\n<FinInstnId>\n\n\n\n\n\n<BICFI>BANKFIHH</BICFI>\n\n\n\n\n</FinInstnId>\n\n\n\n</DbtrAgt>\n\n\n\n<ChrgBr>SLEV</ChrgBr>\n\n\n\n<CdtTrfTxInf>\n\n\n\n\n<PmtId>\n\n\n\n\n\n<InstrId>InstrId000002</InstrId>\n\n\n\n\n\n<EndToEndId>EndToEndId000002</EndToEndId>\n\n\n\n...",
+        "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+        "[Source (page 29)] 29 (61)\n\nISO 20022 Payments Guide\n\n\n2.165\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Remittance Information\n++++Unstructured\nUnstructured message for the creditor,\none occurrence allowed (max 140\ncharacters).\nRecurring payments' purpose codes can\nbe given in this element.\nFor the bundling of invoices and credit\nnotes, see section 4.2 on ERI.\n2.166\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfe..."
+      ],
+      "relationships": [
+        "Ustrd -[IDENTIFIED_BY]-> Invoices 123 and 321 | Ustrd: Unstructured element | Invoices 123 and 321: Remittance information",
+        "1.2.2 Unstructured address -[]-> ? | 1.2.2 Unstructured address: Subsection in the document",
+        "Unstructured -[RELATED_TO]-> ERI | Unstructured: Type of remittance information | ERI: Electronic Remittance Information",
+        "Unstructured Address -[INCLUDES]-> Address Line | Unstructured Address: Address with unstructured format | Address Line: Address line of creditor's postal address",
+        "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+        "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+        "Scandinavian Characters -[USED_BY]-> Banks | Scandinavian Characters: Characters specific to Scandinavian languages | Banks: Financial institutions operating in Finland",
+        "Basic Latin Characters -[USED_BY]-> SEPA Countries | Basic Latin Characters: Characters from the Basic Latin character set | SEPA Countries: Countries participating in the Single Euro Payments Area",
+        "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Type of remittance information",
+        "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Remittance information without a specific format",
+        "Character Limit -[]-> ? | Character Limit: Maximum number of characters allowed"
+      ],
+      "paths": [
+        "Ustrd -[IDENTIFIED_BY]-> Invoices 123 and 321 | Ustrd: Unstructured element | Invoices 123 and 321: Remittance information",
+        "1.2.2 Unstructured address -[]-> ? | 1.2.2 Unstructured address: Subsection in the document",
+        "Unstructured -[RELATED_TO]-> ERI | Unstructured: Type of remittance information | ERI: Electronic Remittance Information",
+        "Unstructured Address -[INCLUDES]-> Address Line | Unstructured Address: Address with unstructured format | Address Line: Address line of creditor's postal address",
+        "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+        "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+        "Scandinavian Characters -[USED_BY]-> Banks | Scandinavian Characters: Characters specific to Scandinavian languages | Banks: Financial institutions operating in Finland",
+        "Basic Latin Characters -[USED_BY]-> SEPA Countries | Basic Latin Characters: Characters from the Basic Latin character set | SEPA Countries: Countries participating in the Single Euro Payments Area",
+        "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Type of remittance information",
+        "Unstructured Remittance Information -[]-> ? | Unstructured Remittance Information: Remittance information without a specific format",
+        "Character Limit -[]-> ? | Character Limit: Maximum number of characters allowed"
+      ]
+    },
+    "retrieval_latency_s": 25.546,
+    "generation_latency_s": 25.546,
+    "total_latency_s": 25.546,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 7,
+    "category": "fact_lookup",
+    "question": "What is the fax number for Finance Finland?",
+    "ground_truth": "+358 20 793 4202",
+    "answer": "The fax number for Finance Finland is **+358 20 793 4202**.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+      "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+    ],
+    "retrieved_relationships": [
+      "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+      "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+      "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+      "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+      "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+      "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+      "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+    ],
+    "graph_traversal_path": [
+      "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+      "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+      "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+      "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+      "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+      "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+      "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+      "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+        "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+      ],
+      "relationships": [
+        "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+        "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+        "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+        "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+        "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+        "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+        "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+      ],
+      "paths": [
+        "Itämerenkatu 11-13 -[]-> ? | Itämerenkatu 11-13: Address of Finance Finland",
+        "FI-00180 Helsinki -[]-> ? | FI-00180 Helsinki: Address of Finance Finland",
+        "Finland -[USES]-> ISO 20022 | Finland: Country where Finance Finland is located | ISO 20022: International standard for payment messaging",
+        "Finland -[HAS]-> Banks | Finland: Country where Finance Finland is located | Banks: Type of payment service provider",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide Purpose | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide Purpose: Concept related to the guide",
+        "Finance Finland -[PUBLISHES]-> ISO 20022 Payments Guide | Finance Finland: Financial industry organization in Finland | ISO 20022 Payments Guide: Guide for ISO 20022 payment implementation",
+        "Twitter.com/finfinance -[]-> ? | Twitter.com/finfinance: Twitter handle of Finance Finland",
+        "Tel: +358 20 793 4200 -[]-> ? | Tel: +358 20 793 4200: Phone number of Finance Finland",
+        "Fax: +358 20 793 4202 -[]-> ? | Fax: +358 20 793 4202: Fax number of Finance Finland"
+      ]
+    },
+    "retrieval_latency_s": 27.141,
+    "generation_latency_s": 27.141,
+    "total_latency_s": 27.141,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 8,
+    "category": "fact_lookup",
+    "question": "What is the ISO 20022 website provided by Finance Finland?",
+    "ground_truth": "www.finanssiala.fi",
+    "answer": "The ISO 20022 website referenced by Finance Finland is:\n\n**https://www.financefinland.fi**",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "{'n1.name': 'Finland', 'n1.description': 'Country where Finance Finland is located', 'type(r)': 'USES', 'n2.name': 'ISO 20022', 'n2.description': 'International standard for payment messaging'}",
+      "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide', 'n2.description': 'Guide for ISO 20022 payment implementation'}",
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+      "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess...",
+      "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+    ],
+    "retrieved_relationships": [
+      "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide Purpose', 'n2.description': 'Concept related to the guide'}"
+    ],
+    "graph_traversal_path": [
+      "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide Purpose', 'n2.description': 'Concept related to the guide'}"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "{'n1.name': 'Finland', 'n1.description': 'Country where Finance Finland is located', 'type(r)': 'USES', 'n2.name': 'ISO 20022', 'n2.description': 'International standard for payment messaging'}",
+        "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide', 'n2.description': 'Guide for ISO 20022 payment implementation'}",
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+        "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess...",
+        "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+      ],
+      "relationships": [
+        "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide Purpose', 'n2.description': 'Concept related to the guide'}"
+      ],
+      "paths": [
+        "{'n1.name': 'Finance Finland', 'n1.description': 'Financial industry organization in Finland', 'type(r)': 'PUBLISHES', 'n2.name': 'ISO 20022 Payments Guide Purpose', 'n2.description': 'Concept related to the guide'}"
+      ]
+    },
+    "retrieval_latency_s": 26.104,
+    "generation_latency_s": 26.104,
+    "total_latency_s": 26.104,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 27,
+    "category": "relationship",
+    "question": "How does a C2B payment initiation file relate to the bank's status report?",
+    "ground_truth": "The customer submits a C2B payment initiation file (pain.001) and the bank responds with a C2B payment status report (pain.002).",
+    "answer": "A C2B payment initiation file is the customer‑to‑bank file that the customer sends to the bank to start one or more payments.  \nAfter the bank processes that file, it produces a **C2B Payment Status Report** that tells the customer what happened to each payment in the file (e.g., accepted, rejected, pending, settled).  \n\nIn short, the initiation file is the input that triggers the bank’s processing, and the status report is the output that reports the result of that processing for the payments contained in the file.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "graph_traversal_path": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ],
+      "paths": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ]
+    },
+    "retrieval_latency_s": 20.175,
+    "generation_latency_s": 20.175,
+    "total_latency_s": 20.175,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 34,
+    "category": "hierarchical",
+    "question": "What are the main sections of the ISO 20022 Payments Guide?",
+    "ground_truth": "Background, The structure and content of the Payment Message, Agreed additional functionalities, Combining invoices and credit notes, XML message examples, Examples of Payment Status Report messages, and VOP.",
+    "answer": "Based on the portions of the guide that were retrieved, the **ISO 20022 Payments Guide** is organized into a number of top‑level and detailed subsections. The main sections that appear in the document are:\n\n| Top‑level heading | Example subsections (as shown in the excerpt) |\n|-------------------|-----------------------------------------------|\n| **Background** | – (introductory material) |\n| **1.1 Usage of ISO 20022 in Finland** | – (explains how the standard is applied locally) |\n| **1.2 Address structure** | – (covers the format of address data) |\n| **Creditor identification code** | – (code supplied by the Originator) |\n| **Message root** | – (root element of the ISO 20022 message) |\n| **Customer Payment Status Report V10** | – (a report for customer‑payment status) |\n| **2.164 – 2.172** | – (a series of detailed numbered sections that dive into specific message components, validation rules, and implementation guidance) |\n\nIn short, the guide is structured with an introductory **Background** chapter, followed by numbered chapters (e.g., 1.1, 1.2) that describe usage, address formatting, and other foundational topics, and then moves into more granular sections such as **Creditor identification code**, **Message root**, **Customer Payment Status Report V10**, and a set of detailed technical subsections numbered **2.164** through **2.172**.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+      "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+    ],
+    "retrieved_relationships": [
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Creditor identification code', 'section.description': 'Code supplied by the Originator'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Message root', 'section.description': 'Root element of the message'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Customer Payment Status Report V10', 'section.description': 'A report for customer payment status'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.164', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.165', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.166', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.169', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.170', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.171', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.172', 'section.description': 'Section of the document'}"
+    ],
+    "graph_traversal_path": [
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Creditor identification code', 'section.description': 'Code supplied by the Originator'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Message root', 'section.description': 'Root element of the message'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Customer Payment Status Report V10', 'section.description': 'A report for customer payment status'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.164', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.165', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.166', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.169', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.170', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.171', 'section.description': 'Section of the document'}",
+      "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.172', 'section.description': 'Section of the document'}"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+        "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+      ],
+      "relationships": [
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Creditor identification code', 'section.description': 'Code supplied by the Originator'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Message root', 'section.description': 'Root element of the message'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Customer Payment Status Report V10', 'section.description': 'A report for customer payment status'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.164', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.165', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.166', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.169', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.170', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.171', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.172', 'section.description': 'Section of the document'}"
+      ],
+      "paths": [
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Creditor identification code', 'section.description': 'Code supplied by the Originator'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Message root', 'section.description': 'Root element of the message'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': 'Customer Payment Status Report V10', 'section.description': 'A report for customer payment status'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.164', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.165', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.166', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.169', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.170', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.171', 'section.description': 'Section of the document'}",
+        "{'guide.name': 'ISO 20022 Payments Guide', 'guide.description': 'Guide for ISO 20022 payment implementation', 'type(r)': 'CONTAINS', 'section.name': '2.172', 'section.description': 'Section of the document'}"
+      ]
+    },
+    "retrieval_latency_s": 30.876,
+    "generation_latency_s": 30.876,
+    "total_latency_s": 30.876,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 45,
+    "category": "workflow",
+    "question": "How does a customer initiate a credit transfer?",
+    "ground_truth": "The customer creates the pain.001 payment initiation message and submits it to the bank (the Debtor Agent).",
+    "answer": "A customer starts a credit‑transfer by sending a **Customer Credit Transfer Initiation** message (the ISO 20022 XML element **CstmrCdtTrfInitn**).  \nThis message—defined in the “Initiation V09” message type—contains all the required payment details (debtor, creditor, amount, creditor’s address, etc.) and is submitted to the customer’s payment service provider (PSP) in accordance with the SEPA Credit Transfer (or SEPA Instant Credit Transfer) implementation guidelines. In short, the customer initiates the transfer by creating and transmitting a CstmrCdtTrfInitn XML request to the PSP.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "{'n1.name': 'CstmrCdtTrfInitn', 'n1.description': 'Customer credit transfer initiation XML element', 'type(r)': 'DEFINES', 'n2.name': 'Customer Credit Transfer Initiation', 'n2.description': 'Type of payment initiation message'}",
+      "{'n1.name': 'SEPA Credit Transfer Customer-to-PSP Implementation Guidelines', 'n1.description': 'Guidelines for SEPA credit transfer implementation', 'type(r)': 'PUBLISHED_BY', 'n2.name': 'SEPA Credit Transfer', 'n2.description': 'Payment scheme for credit transfers in the SEPA area'}",
+      "{'n1.name': 'SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines', 'n1.description': 'Guidelines for SEPA instant credit transfer implementation', 'type(r)': 'PUBLISHED_BY', 'n2.name': 'SEPA Instant Credit Transfer', 'n2.description': 'Single Euro Payments Area instant credit transfer scheme'}",
+      "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess...",
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "{'n1.name': 'Customer Credit Transfer Initiation', 'n1.description': 'Customer credit transfer initiation', 'type(r)': 'RELATED_TO', 'n2.name': 'Credit Transfer Initiation', 'n2.description': 'Credit transfer initiation'}",
+      "{'n1.name': 'Customer Credit Transfer', 'n1.description': 'Payment scheme for customer credit transfer', 'type(r)': 'CONTAINS', 'n2.name': 'Initiation V09', 'n2.description': 'Message type for initiation of customer credit transfer'}"
+    ],
+    "graph_traversal_path": [
+      "{'n1.name': 'Customer Credit Transfer Initiation', 'n1.description': 'Customer credit transfer initiation', 'type(r)': 'RELATED_TO', 'n2.name': 'Credit Transfer Initiation', 'n2.description': 'Credit transfer initiation'}",
+      "{'n1.name': 'Customer Credit Transfer', 'n1.description': 'Payment scheme for customer credit transfer', 'type(r)': 'CONTAINS', 'n2.name': 'Initiation V09', 'n2.description': 'Message type for initiation of customer credit transfer'}"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "{'n1.name': 'CstmrCdtTrfInitn', 'n1.description': 'Customer credit transfer initiation XML element', 'type(r)': 'DEFINES', 'n2.name': 'Customer Credit Transfer Initiation', 'n2.description': 'Type of payment initiation message'}",
+        "{'n1.name': 'SEPA Credit Transfer Customer-to-PSP Implementation Guidelines', 'n1.description': 'Guidelines for SEPA credit transfer implementation', 'type(r)': 'PUBLISHED_BY', 'n2.name': 'SEPA Credit Transfer', 'n2.description': 'Payment scheme for credit transfers in the SEPA area'}",
+        "{'n1.name': 'SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines', 'n1.description': 'Guidelines for SEPA instant credit transfer implementation', 'type(r)': 'PUBLISHED_BY', 'n2.name': 'SEPA Instant Credit Transfer', 'n2.description': 'Single Euro Payments Area instant credit transfer scheme'}",
+        "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess...",
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "{'n1.name': 'Customer Credit Transfer Initiation', 'n1.description': 'Customer credit transfer initiation', 'type(r)': 'RELATED_TO', 'n2.name': 'Credit Transfer Initiation', 'n2.description': 'Credit transfer initiation'}",
+        "{'n1.name': 'Customer Credit Transfer', 'n1.description': 'Payment scheme for customer credit transfer', 'type(r)': 'CONTAINS', 'n2.name': 'Initiation V09', 'n2.description': 'Message type for initiation of customer credit transfer'}"
+      ],
+      "paths": [
+        "{'n1.name': 'Customer Credit Transfer Initiation', 'n1.description': 'Customer credit transfer initiation', 'type(r)': 'RELATED_TO', 'n2.name': 'Credit Transfer Initiation', 'n2.description': 'Credit transfer initiation'}",
+        "{'n1.name': 'Customer Credit Transfer', 'n1.description': 'Payment scheme for customer credit transfer', 'type(r)': 'CONTAINS', 'n2.name': 'Initiation V09', 'n2.description': 'Message type for initiation of customer credit transfer'}"
+      ]
+    },
+    "retrieval_latency_s": 32.839,
+    "generation_latency_s": 32.839,
+    "total_latency_s": 32.839,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 46,
+    "category": "workflow",
+    "question": "What happens after the customer submits a C2B payment file to the bank?",
+    "ground_truth": "The bank processes the file and sends the matching results to the customer as a C2B payment status report.",
+    "answer": "After the customer uploads a **C2B payment file** to the bank, the bank does not process the payments immediately.  \nThe file first goes through the **VOP (Verification‑of‑Payees) Procedure**. This step validates the payees and the payment details in the file against the bank’s rules and any regulatory requirements. Only after the VOP check is successfully completed does the bank move on to actually execute the payments and later generate a **C2B Payment Status Report** that tells the customer whether each payment was accepted, rejected, or is pending.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "graph_traversal_path": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ],
+      "paths": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ]
+    },
+    "retrieval_latency_s": 20.868,
+    "generation_latency_s": 20.868,
+    "total_latency_s": 20.868,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 48,
+    "category": "workflow",
+    "question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+    "ground_truth": "The customer sends the pain.001 payment initiation message, and the bank returns a pain.002 payment status report.",
+    "answer": "**Message flow for a C2B credit‑transfer**\n\n1. **Customer → Bank** – The customer sends a **C2B payment (credit‑transfer) message** that is built on the **ISO 20022 standard** (the “Customer‑to‑Bank Payment” uses ISO 20022).  \n2. **Bank → Customer** – After the bank has received the payment, validated it (e.g., through the VOP procedure that the C2B payment file follows), the bank returns a **C2B Payment Status Report** to the customer, indicating whether the transfer was accepted, rejected, or is pending.\n\nSo the basic flow is:\n\n```\nCustomer → (ISO 20022 C2B credit‑transfer message) → Bank\nBank → (C2B Payment Status Report) → Customer\n```",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "graph_traversal_path": [
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+      "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+      "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+      "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+      "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ],
+      "paths": [
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "C2B Payment Status Report -[]-> ? | C2B Payment Status Report: Report containing payment status",
+        "Customer-to-Bank -[]-> ? | Customer-to-Bank: Payment role",
+        "C2B -[]-> ? | C2B: Customer-to-Bank payment role",
+        "C2B Payment Files -[FOLLOWS]-> VOP Procedure | C2B Payment Files: Type of payment file | VOP Procedure: Procedure for verifying payees",
+        "C2B Payment File -[]-> ? | C2B Payment File: File type used for C2B payments"
+      ]
+    },
+    "retrieval_latency_s": 24.018,
+    "generation_latency_s": 24.018,
+    "total_latency_s": 24.018,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 49,
+    "category": "workflow",
+    "question": "How is a returned payment reported?",
+    "ground_truth": "The return message is generated with Group Status ACCP or PART, returning the value of the original MessageIdentification.",
+    "answer": "A returned payment is communicated by sending a **Payment Status Report**.  \nThe report is linked to the original transaction through the **PaymentInformationId** (the identifier of the payment information) and carries the appropriate status code (e.g., the Original Payment Status Code or Payment Status Code) that indicates that the payment has been returned. In short, a returned payment is reported via a Payment Status Report message that references the original payment’s identifier and includes a status code denoting the return.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "PaymentInformationId -[IDENTIFIED_BY]-> Payment Status Report | PaymentInformationId: Payment information identification | Payment Status Report: Message used for payment status reporting",
+      "Category Purpose Code -[]-> ? | Category Purpose Code: Code indicating the purpose of a payment",
+      "SALA Code -[IS_A]-> Category Purpose Code | SALA Code: Code indicating a salary or pension payment | Category Purpose Code: Code indicating the purpose of a payment",
+      "PART -[]-> ? | PART: Payment information status value",
+      "Original Payment Information Status Code -[]-> ? | Original Payment Information Status Code: Code representing the status of the original payment information",
+      "Payment Status Code -[]-> ? | Payment Status Code: Code representing the status of the payment",
+      "Original Payment Status Code -[]-> ? | Original Payment Status Code: Code representing the status of the original payment",
+      "Payment Account Identifier -[]-> ? | Payment Account Identifier: Unique identifier for a payment account",
+      "URGP -[]-> ? | URGP: Urgent payment code",
+      "INTC -[IS_VALUE_OF]-> Cd | INTC: Code for international payment | Cd: XML element for code",
+      "SDVA -[]-> ? | SDVA: Code for same day value payment",
+      "Single Euro Payments Area -[]-> ? | Single Euro Payments Area: European Union initiative for harmonized payment services",
+      "Verification of Payee -[]-> ? | Verification of Payee: Payment concept",
+      "Message Content -[]-> ? | Message Content: Payment concept",
+      "VOP Response Types -[]-> ? | VOP Response Types: Payment concept",
+      "Single Euro Payments Area (SEPA) -[PART_OF]-> European Union | Single Euro Payments Area (SEPA): European Union initiative for harmonized payment services | European Union: International organization",
+      "Single Euro Payments Area (SEPA) Objective -[IS_A]-> Harmonized Payment Services | Single Euro Payments Area (SEPA) Objective: Concept related to SEPA | Harmonized Payment Services: Concept related to payment services",
+      "Harmonized Payment Services -[]-> ? | Harmonized Payment Services: Concept related to payment services",
+      "Basic Payment Services -[]-> ? | Basic Payment Services: Concept related to payment services",
+      "Additional Payment Services -[]-> ? | Additional Payment Services: Concept related to payment services",
+      "ISO 20022 Payments Guide Purpose -[DESCRIBES]-> ISO 20022 Standard | ISO 20022 Payments Guide Purpose: Concept related to the guide | ISO 20022 Standard: Universal financial industry message scheme",
+      "Domestic Urgent Payments -[]-> ? | Domestic Urgent Payments: Type of payment",
+      "Currency Payments -[]-> ? | Currency Payments: Type of payment",
+      "Credit Transfers -[]-> ? | Credit Transfers: Type of payment",
+      "Direct Debits -[]-> ? | Direct Debits: Type of payment"
+    ],
+    "graph_traversal_path": [
+      "PaymentInformationId -[IDENTIFIED_BY]-> Payment Status Report | PaymentInformationId: Payment information identification | Payment Status Report: Message used for payment status reporting",
+      "Category Purpose Code -[]-> ? | Category Purpose Code: Code indicating the purpose of a payment",
+      "SALA Code -[IS_A]-> Category Purpose Code | SALA Code: Code indicating a salary or pension payment | Category Purpose Code: Code indicating the purpose of a payment",
+      "PART -[]-> ? | PART: Payment information status value",
+      "Original Payment Information Status Code -[]-> ? | Original Payment Information Status Code: Code representing the status of the original payment information",
+      "Payment Status Code -[]-> ? | Payment Status Code: Code representing the status of the payment",
+      "Original Payment Status Code -[]-> ? | Original Payment Status Code: Code representing the status of the original payment",
+      "Payment Account Identifier -[]-> ? | Payment Account Identifier: Unique identifier for a payment account",
+      "URGP -[]-> ? | URGP: Urgent payment code",
+      "INTC -[IS_VALUE_OF]-> Cd | INTC: Code for international payment | Cd: XML element for code",
+      "SDVA -[]-> ? | SDVA: Code for same day value payment",
+      "Single Euro Payments Area -[]-> ? | Single Euro Payments Area: European Union initiative for harmonized payment services",
+      "Verification of Payee -[]-> ? | Verification of Payee: Payment concept",
+      "Message Content -[]-> ? | Message Content: Payment concept",
+      "VOP Response Types -[]-> ? | VOP Response Types: Payment concept",
+      "Single Euro Payments Area (SEPA) -[PART_OF]-> European Union | Single Euro Payments Area (SEPA): European Union initiative for harmonized payment services | European Union: International organization",
+      "Single Euro Payments Area (SEPA) Objective -[IS_A]-> Harmonized Payment Services | Single Euro Payments Area (SEPA) Objective: Concept related to SEPA | Harmonized Payment Services: Concept related to payment services",
+      "Harmonized Payment Services -[]-> ? | Harmonized Payment Services: Concept related to payment services",
+      "Basic Payment Services -[]-> ? | Basic Payment Services: Concept related to payment services",
+      "Additional Payment Services -[]-> ? | Additional Payment Services: Concept related to payment services",
+      "ISO 20022 Payments Guide Purpose -[DESCRIBES]-> ISO 20022 Standard | ISO 20022 Payments Guide Purpose: Concept related to the guide | ISO 20022 Standard: Universal financial industry message scheme",
+      "Domestic Urgent Payments -[]-> ? | Domestic Urgent Payments: Type of payment",
+      "Currency Payments -[]-> ? | Currency Payments: Type of payment",
+      "Credit Transfers -[]-> ? | Credit Transfers: Type of payment",
+      "Direct Debits -[]-> ? | Direct Debits: Type of payment"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "PaymentInformationId -[IDENTIFIED_BY]-> Payment Status Report | PaymentInformationId: Payment information identification | Payment Status Report: Message used for payment status reporting",
+        "Category Purpose Code -[]-> ? | Category Purpose Code: Code indicating the purpose of a payment",
+        "SALA Code -[IS_A]-> Category Purpose Code | SALA Code: Code indicating a salary or pension payment | Category Purpose Code: Code indicating the purpose of a payment",
+        "PART -[]-> ? | PART: Payment information status value",
+        "Original Payment Information Status Code -[]-> ? | Original Payment Information Status Code: Code representing the status of the original payment information",
+        "Payment Status Code -[]-> ? | Payment Status Code: Code representing the status of the payment",
+        "Original Payment Status Code -[]-> ? | Original Payment Status Code: Code representing the status of the original payment",
+        "Payment Account Identifier -[]-> ? | Payment Account Identifier: Unique identifier for a payment account",
+        "URGP -[]-> ? | URGP: Urgent payment code",
+        "INTC -[IS_VALUE_OF]-> Cd | INTC: Code for international payment | Cd: XML element for code",
+        "SDVA -[]-> ? | SDVA: Code for same day value payment",
+        "Single Euro Payments Area -[]-> ? | Single Euro Payments Area: European Union initiative for harmonized payment services",
+        "Verification of Payee -[]-> ? | Verification of Payee: Payment concept",
+        "Message Content -[]-> ? | Message Content: Payment concept",
+        "VOP Response Types -[]-> ? | VOP Response Types: Payment concept",
+        "Single Euro Payments Area (SEPA) -[PART_OF]-> European Union | Single Euro Payments Area (SEPA): European Union initiative for harmonized payment services | European Union: International organization",
+        "Single Euro Payments Area (SEPA) Objective -[IS_A]-> Harmonized Payment Services | Single Euro Payments Area (SEPA) Objective: Concept related to SEPA | Harmonized Payment Services: Concept related to payment services",
+        "Harmonized Payment Services -[]-> ? | Harmonized Payment Services: Concept related to payment services",
+        "Basic Payment Services -[]-> ? | Basic Payment Services: Concept related to payment services",
+        "Additional Payment Services -[]-> ? | Additional Payment Services: Concept related to payment services",
+        "ISO 20022 Payments Guide Purpose -[DESCRIBES]-> ISO 20022 Standard | ISO 20022 Payments Guide Purpose: Concept related to the guide | ISO 20022 Standard: Universal financial industry message scheme",
+        "Domestic Urgent Payments -[]-> ? | Domestic Urgent Payments: Type of payment",
+        "Currency Payments -[]-> ? | Currency Payments: Type of payment",
+        "Credit Transfers -[]-> ? | Credit Transfers: Type of payment",
+        "Direct Debits -[]-> ? | Direct Debits: Type of payment"
+      ],
+      "paths": [
+        "PaymentInformationId -[IDENTIFIED_BY]-> Payment Status Report | PaymentInformationId: Payment information identification | Payment Status Report: Message used for payment status reporting",
+        "Category Purpose Code -[]-> ? | Category Purpose Code: Code indicating the purpose of a payment",
+        "SALA Code -[IS_A]-> Category Purpose Code | SALA Code: Code indicating a salary or pension payment | Category Purpose Code: Code indicating the purpose of a payment",
+        "PART -[]-> ? | PART: Payment information status value",
+        "Original Payment Information Status Code -[]-> ? | Original Payment Information Status Code: Code representing the status of the original payment information",
+        "Payment Status Code -[]-> ? | Payment Status Code: Code representing the status of the payment",
+        "Original Payment Status Code -[]-> ? | Original Payment Status Code: Code representing the status of the original payment",
+        "Payment Account Identifier -[]-> ? | Payment Account Identifier: Unique identifier for a payment account",
+        "URGP -[]-> ? | URGP: Urgent payment code",
+        "INTC -[IS_VALUE_OF]-> Cd | INTC: Code for international payment | Cd: XML element for code",
+        "SDVA -[]-> ? | SDVA: Code for same day value payment",
+        "Single Euro Payments Area -[]-> ? | Single Euro Payments Area: European Union initiative for harmonized payment services",
+        "Verification of Payee -[]-> ? | Verification of Payee: Payment concept",
+        "Message Content -[]-> ? | Message Content: Payment concept",
+        "VOP Response Types -[]-> ? | VOP Response Types: Payment concept",
+        "Single Euro Payments Area (SEPA) -[PART_OF]-> European Union | Single Euro Payments Area (SEPA): European Union initiative for harmonized payment services | European Union: International organization",
+        "Single Euro Payments Area (SEPA) Objective -[IS_A]-> Harmonized Payment Services | Single Euro Payments Area (SEPA) Objective: Concept related to SEPA | Harmonized Payment Services: Concept related to payment services",
+        "Harmonized Payment Services -[]-> ? | Harmonized Payment Services: Concept related to payment services",
+        "Basic Payment Services -[]-> ? | Basic Payment Services: Concept related to payment services",
+        "Additional Payment Services -[]-> ? | Additional Payment Services: Concept related to payment services",
+        "ISO 20022 Payments Guide Purpose -[DESCRIBES]-> ISO 20022 Standard | ISO 20022 Payments Guide Purpose: Concept related to the guide | ISO 20022 Standard: Universal financial industry message scheme",
+        "Domestic Urgent Payments -[]-> ? | Domestic Urgent Payments: Type of payment",
+        "Currency Payments -[]-> ? | Currency Payments: Type of payment",
+        "Credit Transfers -[]-> ? | Credit Transfers: Type of payment",
+        "Direct Debits -[]-> ? | Direct Debits: Type of payment"
+      ]
+    },
+    "retrieval_latency_s": 29.787,
+    "generation_latency_s": 29.787,
+    "total_latency_s": 29.787,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 51,
+    "category": "workflow",
+    "question": "How does the bank verify the payee before payment?",
+    "ground_truth": "The bank submits the data for verification of the payee (VOP service) and returns the matching results to the customer.",
+    "answer": "The bank checks the payee’s identity by applying the **Verification of Payee (VOP) scheme** that is used in the Single Euro Payments Area (SEPA).  \n\nWhen a payment instruction is received (in an ISO 20022 message), the bank:\n\n1. **Extracts the creditor’s details** – name, address and account information (IBAN and the creditor‑bank’s BIC).  \n2. **Cross‑references those details** with the data held by the creditor’s bank (or a central VOP database).  \n3. **Confirms that the name/address match the account holder** of the supplied IBAN/BIC.  \n\nIf the information matches, the payment proceeds. If it does not, the transaction is rejected and a rejection‑reason code is returned (e.g., RC01 for an incorrect bank‑identifier code or other relevant codes from the Rejection Reason Codes set).  \n\nThus, the bank verifies the payee by using the SEPA‑wide VOP scheme to validate the creditor’s name, address and account identifiers before authorising the payment.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+      "[Source (page 37)] 37 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n\n<Othr>\n\n\n\n\n\n\n\n<Id>0987654321</Id>\n\n\n\n\n\n\n\n<SchmeNm>\n\n\n\n\n\n\n\n\n<Cd>BANK</Cd>\n\n\n\n\n\n\n\n</SchmeNm>\n\n\n\n\n\n\n</Othr>\n\n\n\n\n\n</OrgId>\n\n\n\n\n</Id>\n\n\n\n</Dbtr>\n\n\n\n<DbtrAcct>\n\n\n\n\n<Id>\n\n\n\n\n\n<IBAN>FI8529501800020574</IBAN>\n\n\n\n\n</Id>\n\n\n\n</DbtrAcct>\n\n\n\n<DbtrAgt>\n\n\n\n\n<FinInstnId>\n\n\n\n\n\n<BICFI>BANKFIHH</BICFI>\n\n\n\n\n</FinInstnId>\n\n\n\n</DbtrAgt>\n\n\n\n<ChrgBr>SLEV</ChrgBr>\n\n\n\n<CdtTrfTxInf>\n\n\n\n\n<PmtId>\n\n\n\n\n\n<InstrId>InstrId000002</InstrId>\n\n\n\n\n\n<EndToEndId>EndToEndId000002</EndToEndId>\n\n\n\n...",
+      "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess..."
+    ],
+    "retrieved_relationships": [
+      "BANKFIHH -[]-> ? | BANKFIHH: BIC FI identifier",
+      "AG02 -[PART_OF]-> Rejection Reason Codes | AG02: Rejection reason code for invalid bank operation code | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "RC01 -[PART_OF]-> Rejection Reason Codes | RC01: Rejection reason code for incorrect bank identifier code format | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank Operation Code -[RELATED_TO]-> Rejection Reason Codes | Bank Operation Code: Code used for bank operations | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank Identifier Code -[RELATED_TO]-> Rejection Reason Codes | Bank Identifier Code: Unique identifier for a bank | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "BIC Code -[GOVERNED_BY]-> ISO 9362 | BIC Code: Bank Identifier Code | ISO 9362: Standard for BIC Code",
+      "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+      "Interbank Payments -[]-> ? | Interbank Payments: Type of payment",
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "Interbank Payment Systems -[]-> ? | Interbank Payment Systems: Financial system",
+      "IBAN -[]-> ? | IBAN: International Bank Account Number element",
+      "BICFI -[IDENTIFIED_BY]-> BANKFIHH | BICFI: A BIC (Bank Identifier Code) for a financial institution | BANKFIHH: BIC FI identifier",
+      "Verification of Payee (VOP) Scheme -[APPLIES_TO]-> Single Euro Payments Area (SEPA) | Verification of Payee (VOP) Scheme: Scheme for verifying payees | Single Euro Payments Area (SEPA): Geographic region for euro payments",
+      "IBAN -[RELATED_TO]-> CdtrAcct | IBAN: International Bank Account Number | CdtrAcct: Creditor account element",
+      "AnyBIC -[IDENTIFIED_BY]-> BANKFIHH | AnyBIC: Any BIC (Bank Identifier Code) | BANKFIHH: BIC FI identifier",
+      "Bank -[CONTAINS]-> Debtor Agent | Bank: A financial institution providing banking services | Debtor Agent: Party that acts on behalf of the debtor",
+      "Bank -[USES]-> Rejection Reason Codes | Bank: A financial institution providing banking services | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank -[RELATED_TO]-> Customer-to-PSP Conditions | Bank: A financial institution providing banking services | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider",
+      "Bank -[RELATED_TO]-> Account | Bank: A financial institution providing banking services | Account: Account",
+      "Bank -[CREATES]-> Payment Status Report | Bank: A financial institution providing banking services | Payment Status Report: Message used for payment status reporting",
+      "Bank -[PLAYS_ROLE]-> C2B | Bank: A financial institution providing banking services | C2B: Customer-to-Bank payment role",
+      "Bank -[HOLDS]-> Account | Bank: A financial institution providing banking services | Account: A financial account held by a customer",
+      "Debtor's Bank -[]-> ? | Debtor's Bank: Bank of the debtor",
+      "Debtor Bank -[]-> ? | Debtor Bank: Bank of the debtor",
+      "Creditor Bank -[IDENTIFIED_BY]-> BIC Code | Creditor Bank: Bank of the creditor | BIC Code: Bank Identifier Code"
+    ],
+    "graph_traversal_path": [
+      "BANKFIHH -[]-> ? | BANKFIHH: BIC FI identifier",
+      "AG02 -[PART_OF]-> Rejection Reason Codes | AG02: Rejection reason code for invalid bank operation code | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "RC01 -[PART_OF]-> Rejection Reason Codes | RC01: Rejection reason code for incorrect bank identifier code format | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank Operation Code -[RELATED_TO]-> Rejection Reason Codes | Bank Operation Code: Code used for bank operations | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank Identifier Code -[RELATED_TO]-> Rejection Reason Codes | Bank Identifier Code: Unique identifier for a bank | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "BIC Code -[GOVERNED_BY]-> ISO 9362 | BIC Code: Bank Identifier Code | ISO 9362: Standard for BIC Code",
+      "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+      "Interbank Payments -[]-> ? | Interbank Payments: Type of payment",
+      "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+      "Interbank Payment Systems -[]-> ? | Interbank Payment Systems: Financial system",
+      "IBAN -[]-> ? | IBAN: International Bank Account Number element",
+      "BICFI -[IDENTIFIED_BY]-> BANKFIHH | BICFI: A BIC (Bank Identifier Code) for a financial institution | BANKFIHH: BIC FI identifier",
+      "Verification of Payee (VOP) Scheme -[APPLIES_TO]-> Single Euro Payments Area (SEPA) | Verification of Payee (VOP) Scheme: Scheme for verifying payees | Single Euro Payments Area (SEPA): Geographic region for euro payments",
+      "IBAN -[RELATED_TO]-> CdtrAcct | IBAN: International Bank Account Number | CdtrAcct: Creditor account element",
+      "AnyBIC -[IDENTIFIED_BY]-> BANKFIHH | AnyBIC: Any BIC (Bank Identifier Code) | BANKFIHH: BIC FI identifier",
+      "Bank -[CONTAINS]-> Debtor Agent | Bank: A financial institution providing banking services | Debtor Agent: Party that acts on behalf of the debtor",
+      "Bank -[USES]-> Rejection Reason Codes | Bank: A financial institution providing banking services | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+      "Bank -[RELATED_TO]-> Customer-to-PSP Conditions | Bank: A financial institution providing banking services | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider",
+      "Bank -[RELATED_TO]-> Account | Bank: A financial institution providing banking services | Account: Account",
+      "Bank -[CREATES]-> Payment Status Report | Bank: A financial institution providing banking services | Payment Status Report: Message used for payment status reporting",
+      "Bank -[PLAYS_ROLE]-> C2B | Bank: A financial institution providing banking services | C2B: Customer-to-Bank payment role",
+      "Bank -[HOLDS]-> Account | Bank: A financial institution providing banking services | Account: A financial account held by a customer",
+      "Debtor's Bank -[]-> ? | Debtor's Bank: Bank of the debtor",
+      "Debtor Bank -[]-> ? | Debtor Bank: Bank of the debtor",
+      "Creditor Bank -[IDENTIFIED_BY]-> BIC Code | Creditor Bank: Bank of the creditor | BIC Code: Bank Identifier Code"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+        "[Source (page 37)] 37 (61)\n\nISO 20022 Payments Guide\n\n\n\n\n\n\n\n\n<Othr>\n\n\n\n\n\n\n\n<Id>0987654321</Id>\n\n\n\n\n\n\n\n<SchmeNm>\n\n\n\n\n\n\n\n\n<Cd>BANK</Cd>\n\n\n\n\n\n\n\n</SchmeNm>\n\n\n\n\n\n\n</Othr>\n\n\n\n\n\n</OrgId>\n\n\n\n\n</Id>\n\n\n\n</Dbtr>\n\n\n\n<DbtrAcct>\n\n\n\n\n<Id>\n\n\n\n\n\n<IBAN>FI8529501800020574</IBAN>\n\n\n\n\n</Id>\n\n\n\n</DbtrAcct>\n\n\n\n<DbtrAgt>\n\n\n\n\n<FinInstnId>\n\n\n\n\n\n<BICFI>BANKFIHH</BICFI>\n\n\n\n\n</FinInstnId>\n\n\n\n</DbtrAgt>\n\n\n\n<ChrgBr>SLEV</ChrgBr>\n\n\n\n<CdtTrfTxInf>\n\n\n\n\n<PmtId>\n\n\n\n\n\n<InstrId>InstrId000002</InstrId>\n\n\n\n\n\n<EndToEndId>EndToEndId000002</EndToEndId>\n\n\n\n...",
+        "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess..."
+      ],
+      "relationships": [
+        "BANKFIHH -[]-> ? | BANKFIHH: BIC FI identifier",
+        "AG02 -[PART_OF]-> Rejection Reason Codes | AG02: Rejection reason code for invalid bank operation code | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "RC01 -[PART_OF]-> Rejection Reason Codes | RC01: Rejection reason code for incorrect bank identifier code format | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank Operation Code -[RELATED_TO]-> Rejection Reason Codes | Bank Operation Code: Code used for bank operations | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank Identifier Code -[RELATED_TO]-> Rejection Reason Codes | Bank Identifier Code: Unique identifier for a bank | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "BIC Code -[GOVERNED_BY]-> ISO 9362 | BIC Code: Bank Identifier Code | ISO 9362: Standard for BIC Code",
+        "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+        "Interbank Payments -[]-> ? | Interbank Payments: Type of payment",
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "Interbank Payment Systems -[]-> ? | Interbank Payment Systems: Financial system",
+        "IBAN -[]-> ? | IBAN: International Bank Account Number element",
+        "BICFI -[IDENTIFIED_BY]-> BANKFIHH | BICFI: A BIC (Bank Identifier Code) for a financial institution | BANKFIHH: BIC FI identifier",
+        "Verification of Payee (VOP) Scheme -[APPLIES_TO]-> Single Euro Payments Area (SEPA) | Verification of Payee (VOP) Scheme: Scheme for verifying payees | Single Euro Payments Area (SEPA): Geographic region for euro payments",
+        "IBAN -[RELATED_TO]-> CdtrAcct | IBAN: International Bank Account Number | CdtrAcct: Creditor account element",
+        "AnyBIC -[IDENTIFIED_BY]-> BANKFIHH | AnyBIC: Any BIC (Bank Identifier Code) | BANKFIHH: BIC FI identifier",
+        "Bank -[CONTAINS]-> Debtor Agent | Bank: A financial institution providing banking services | Debtor Agent: Party that acts on behalf of the debtor",
+        "Bank -[USES]-> Rejection Reason Codes | Bank: A financial institution providing banking services | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank -[RELATED_TO]-> Customer-to-PSP Conditions | Bank: A financial institution providing banking services | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider",
+        "Bank -[RELATED_TO]-> Account | Bank: A financial institution providing banking services | Account: Account",
+        "Bank -[CREATES]-> Payment Status Report | Bank: A financial institution providing banking services | Payment Status Report: Message used for payment status reporting",
+        "Bank -[PLAYS_ROLE]-> C2B | Bank: A financial institution providing banking services | C2B: Customer-to-Bank payment role",
+        "Bank -[HOLDS]-> Account | Bank: A financial institution providing banking services | Account: A financial account held by a customer",
+        "Debtor's Bank -[]-> ? | Debtor's Bank: Bank of the debtor",
+        "Debtor Bank -[]-> ? | Debtor Bank: Bank of the debtor",
+        "Creditor Bank -[IDENTIFIED_BY]-> BIC Code | Creditor Bank: Bank of the creditor | BIC Code: Bank Identifier Code"
+      ],
+      "paths": [
+        "BANKFIHH -[]-> ? | BANKFIHH: BIC FI identifier",
+        "AG02 -[PART_OF]-> Rejection Reason Codes | AG02: Rejection reason code for invalid bank operation code | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "RC01 -[PART_OF]-> Rejection Reason Codes | RC01: Rejection reason code for incorrect bank identifier code format | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank Operation Code -[RELATED_TO]-> Rejection Reason Codes | Bank Operation Code: Code used for bank operations | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank Identifier Code -[RELATED_TO]-> Rejection Reason Codes | Bank Identifier Code: Unique identifier for a bank | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "BIC Code -[GOVERNED_BY]-> ISO 9362 | BIC Code: Bank Identifier Code | ISO 9362: Standard for BIC Code",
+        "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+        "Interbank Payments -[]-> ? | Interbank Payments: Type of payment",
+        "Customer-to-Bank Payment -[USING]-> ISO 20022 Standard | Customer-to-Bank Payment: Type of payment | ISO 20022 Standard: Universal financial industry message scheme",
+        "Interbank Payment Systems -[]-> ? | Interbank Payment Systems: Financial system",
+        "IBAN -[]-> ? | IBAN: International Bank Account Number element",
+        "BICFI -[IDENTIFIED_BY]-> BANKFIHH | BICFI: A BIC (Bank Identifier Code) for a financial institution | BANKFIHH: BIC FI identifier",
+        "Verification of Payee (VOP) Scheme -[APPLIES_TO]-> Single Euro Payments Area (SEPA) | Verification of Payee (VOP) Scheme: Scheme for verifying payees | Single Euro Payments Area (SEPA): Geographic region for euro payments",
+        "IBAN -[RELATED_TO]-> CdtrAcct | IBAN: International Bank Account Number | CdtrAcct: Creditor account element",
+        "AnyBIC -[IDENTIFIED_BY]-> BANKFIHH | AnyBIC: Any BIC (Bank Identifier Code) | BANKFIHH: BIC FI identifier",
+        "Bank -[CONTAINS]-> Debtor Agent | Bank: A financial institution providing banking services | Debtor Agent: Party that acts on behalf of the debtor",
+        "Bank -[USES]-> Rejection Reason Codes | Bank: A financial institution providing banking services | Rejection Reason Codes: Codes used for rejection reasons in financial transactions",
+        "Bank -[RELATED_TO]-> Customer-to-PSP Conditions | Bank: A financial institution providing banking services | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider",
+        "Bank -[RELATED_TO]-> Account | Bank: A financial institution providing banking services | Account: Account",
+        "Bank -[CREATES]-> Payment Status Report | Bank: A financial institution providing banking services | Payment Status Report: Message used for payment status reporting",
+        "Bank -[PLAYS_ROLE]-> C2B | Bank: A financial institution providing banking services | C2B: Customer-to-Bank payment role",
+        "Bank -[HOLDS]-> Account | Bank: A financial institution providing banking services | Account: A financial account held by a customer",
+        "Debtor's Bank -[]-> ? | Debtor's Bank: Bank of the debtor",
+        "Debtor Bank -[]-> ? | Debtor Bank: Bank of the debtor",
+        "Creditor Bank -[IDENTIFIED_BY]-> BIC Code | Creditor Bank: Bank of the creditor | BIC Code: Bank Identifier Code"
+      ]
+    },
+    "retrieval_latency_s": 34.481,
+    "generation_latency_s": 34.481,
+    "total_latency_s": 34.481,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "GraphRAG",
+    "question_id": 53,
+    "category": "comparison",
+    "question": "What is the difference between a payment initiation message and a payment status report?",
+    "ground_truth": "pain.001 initiates the payment; pain.002 reports the payment status.",
+    "answer": "I don’t know.",
+    "retrieved_chunks": [],
+    "similarity_scores": [],
+    "retrieved_entities": [
+      "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+    ],
+    "retrieved_relationships": [
+      "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+      "Euro-Amount Credit Transfer Between Euro Countries -[]-> ? | Euro-Amount Credit Transfer Between Euro Countries: Type of credit transfer",
+      "Euro-Amount Credit Transfer Between EU and EEA States -[RELATED_TO]-> EU | Euro-Amount Credit Transfer Between EU and EEA States: Type of credit transfer | EU: European Union",
+      "Customer-to-PSP Conditions -[RELATED_TO]-> Bank | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider | Bank: A financial institution providing banking services",
+      "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+      "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+      "Inter-PSP Verification -[VERIFIES]-> IBAN | Inter-PSP Verification: Service for verifying payees between payment service providers | IBAN: International Bank Account Number",
+      "Inter-PSP Verification -[VERIFIES]-> Name of Payee | Inter-PSP Verification: Service for verifying payees between payment service providers | Name of Payee: Name of the party receiving a payment",
+      "Small Deviation -[DEFINES]-> Close Match | Small Deviation: Small deviation between names | Close Match: Status code for close match"
+    ],
+    "graph_traversal_path": [
+      "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+      "Euro-Amount Credit Transfer Between Euro Countries -[]-> ? | Euro-Amount Credit Transfer Between Euro Countries: Type of credit transfer",
+      "Euro-Amount Credit Transfer Between EU and EEA States -[RELATED_TO]-> EU | Euro-Amount Credit Transfer Between EU and EEA States: Type of credit transfer | EU: European Union",
+      "Customer-to-PSP Conditions -[RELATED_TO]-> Bank | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider | Bank: A financial institution providing banking services",
+      "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+      "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+      "Inter-PSP Verification -[VERIFIES]-> IBAN | Inter-PSP Verification: Service for verifying payees between payment service providers | IBAN: International Bank Account Number",
+      "Inter-PSP Verification -[VERIFIES]-> Name of Payee | Inter-PSP Verification: Service for verifying payees between payment service providers | Name of Payee: Name of the party receiving a payment",
+      "Small Deviation -[DEFINES]-> Close Match | Small Deviation: Small deviation between names | Close Match: Status code for close match"
+    ],
+    "retrieved_subgraph": {
+      "entities": [
+        "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+      ],
+      "relationships": [
+        "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+        "Euro-Amount Credit Transfer Between Euro Countries -[]-> ? | Euro-Amount Credit Transfer Between Euro Countries: Type of credit transfer",
+        "Euro-Amount Credit Transfer Between EU and EEA States -[RELATED_TO]-> EU | Euro-Amount Credit Transfer Between EU and EEA States: Type of credit transfer | EU: European Union",
+        "Customer-to-PSP Conditions -[RELATED_TO]-> Bank | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider | Bank: A financial institution providing banking services",
+        "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+        "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+        "Inter-PSP Verification -[VERIFIES]-> IBAN | Inter-PSP Verification: Service for verifying payees between payment service providers | IBAN: International Bank Account Number",
+        "Inter-PSP Verification -[VERIFIES]-> Name of Payee | Inter-PSP Verification: Service for verifying payees between payment service providers | Name of Payee: Name of the party receiving a payment",
+        "Small Deviation -[DEFINES]-> Close Match | Small Deviation: Small deviation between names | Close Match: Status code for close match"
+      ],
+      "paths": [
+        "Transactions Between Banks and Customers -[REGULATED_BY]-> ISO 20022 Standard | Transactions Between Banks and Customers: Concept related to financial transactions | ISO 20022 Standard: Universal financial industry message scheme",
+        "Euro-Amount Credit Transfer Between Euro Countries -[]-> ? | Euro-Amount Credit Transfer Between Euro Countries: Type of credit transfer",
+        "Euro-Amount Credit Transfer Between EU and EEA States -[RELATED_TO]-> EU | Euro-Amount Credit Transfer Between EU and EEA States: Type of credit transfer | EU: European Union",
+        "Customer-to-PSP Conditions -[RELATED_TO]-> Bank | Customer-to-PSP Conditions: Conditions between the customer and the payment service provider | Bank: A financial institution providing banking services",
+        "Character set -[USED_BY]-> Banks | Character set: Set of characters used for transmission between banks | Banks: Financial institutions operating in Finland",
+        "Character set -[RELATED_TO]-> Payment on behalf | Character set: Set of characters used for transmission between banks | Payment on behalf: Payment made on behalf of another party",
+        "Inter-PSP Verification -[VERIFIES]-> IBAN | Inter-PSP Verification: Service for verifying payees between payment service providers | IBAN: International Bank Account Number",
+        "Inter-PSP Verification -[VERIFIES]-> Name of Payee | Inter-PSP Verification: Service for verifying payees between payment service providers | Name of Payee: Name of the party receiving a payment",
+        "Small Deviation -[DEFINES]-> Close Match | Small Deviation: Small deviation between names | Close Match: Status code for close match"
+      ]
+    },
+    "retrieval_latency_s": 20.47,
+    "generation_latency_s": 20.47,
+    "total_latency_s": 20.47,
+    "error": null,
+    "extra": {}
+  }
+]

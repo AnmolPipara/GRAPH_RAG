@@ -1,0 +1,134 @@
+[
+  {
+    "id": 2,
+    "category": "fact_lookup",
+    "question": "What is the phone number for Finance Finland?",
+    "ground_truth": "+358 20 793 4200",
+    "evidence_page": 2,
+    "evidence": "Tel: +358 20 793 4200",
+    "original_question": "What is the phone number for Finance Finland?",
+    "original_ground_truth": "+358 20 793 9000",
+    "reason": "Original GT +358 20 793 9000 does not exist in the corpus or PDF; the doc states +358 20 793 4200."
+  },
+  {
+    "id": 5,
+    "category": "fact_lookup",
+    "question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+    "ground_truth": "140 characters.",
+    "evidence_page": 32,
+    "evidence": "One occurrence of 140 characters of unstructured remittance information",
+    "original_question": "What is the version number of the guide?",
+    "original_ground_truth": "Version 3.1.",
+    "reason": "The guide states no version number (cover shows only the year 2025); replaced with a supported fact of equal difficulty."
+  },
+  {
+    "id": 7,
+    "category": "fact_lookup",
+    "question": "What is the fax number for Finance Finland?",
+    "ground_truth": "+358 20 793 4202",
+    "evidence_page": 2,
+    "evidence": "Fax: +358 20 793 4202",
+    "original_question": "What is the email address for Finance Finland payments team?",
+    "original_ground_truth": "payments@finanssiala.fi",
+    "reason": "payments@finanssiala.fi exists nowhere; the only email in the corpus is a placeholder. Replaced with the supported fax fact."
+  },
+  {
+    "id": 8,
+    "category": "fact_lookup",
+    "question": "What is the ISO 20022 website provided by Finance Finland?",
+    "ground_truth": "www.finanssiala.fi",
+    "evidence_page": 32,
+    "evidence": "available on the FFI website at www.finanssiala.fi",
+    "original_question": "What is the ISO 20022 website provided by Finance Finland?",
+    "original_ground_truth": "www.finanssiala.fi/iso20022",
+    "reason": "Path '/iso20022' is never stated; the supported answer is the FFI website domain."
+  },
+  {
+    "id": 27,
+    "category": "relationship",
+    "question": "How does a C2B payment initiation file relate to the bank's status report?",
+    "ground_truth": "The customer submits a C2B payment initiation file (pain.001) and the bank responds with a C2B payment status report (pain.002).",
+    "evidence_page": 53,
+    "evidence": "the customer submits the normal C2B payment file to the [bank] ... sent to the customer as a C2B payment status report",
+    "original_question": "How does pain.001 relate to pacs.008?",
+    "original_ground_truth": "pain.001 initiates the payment and pacs.008 clears it between banks.",
+    "reason": "pacs.008 is absent from the corpus; re-grounded on the pain.001/pain.002 pair the guide actually covers."
+  },
+  {
+    "id": 34,
+    "category": "hierarchical",
+    "question": "What are the main sections of the ISO 20022 Payments Guide?",
+    "ground_truth": "Background, The structure and content of the Payment Message, Agreed additional functionalities, Combining invoices and credit notes, XML message examples, Examples of Payment Status Report messages, and VOP.",
+    "evidence_page": 3,
+    "evidence": "Contents: Background ... The structure and content of the Payment Message ... Agreed additional functionalities ... XML message example ... Examples of Payment Status Report messages ... VOP",
+    "original_question": "What are the main sections of the ISO 20022 Payments Guide?",
+    "original_ground_truth": "Introduction, General Principles, Message Structure, Payment Types, Definitions, Appendices.",
+    "reason": "Original GT listed generic sections that do not match the guide's real table of contents."
+  },
+  {
+    "id": 45,
+    "category": "workflow",
+    "question": "How does a customer initiate a credit transfer?",
+    "ground_truth": "The customer creates the pain.001 payment initiation message and submits it to the bank (the Debtor Agent).",
+    "evidence_page": 53,
+    "evidence": "the customer submits the normal C2B payment file to the [bank]",
+    "original_question": "What is the workflow for initiating a credit transfer?",
+    "original_ground_truth": "Debtor creates pain.001, sends to Debtor Agent, Agent sends pacs.008 to Creditor Agent.",
+    "reason": "The pacs.008 interbank hop is absent from the corpus; kept the supported customer-to-bank leg."
+  },
+  {
+    "id": 46,
+    "category": "workflow",
+    "question": "What happens after the customer submits a C2B payment file to the bank?",
+    "ground_truth": "The bank processes the file and sends the matching results to the customer as a C2B payment status report.",
+    "evidence_page": 53,
+    "evidence": "The matching results are then sent to the customer as a C2B payment status report (see 7.2.2 Status codes submitted to the customer).",
+    "original_question": "How does a direct debit process work?",
+    "original_ground_truth": "Creditor sends pain.008, Creditor Agent sends pacs.003 to Debtor Agent.",
+    "reason": "pain.008/pacs.003 (direct debit messages) are absent; replaced with the supported C2B status-report workflow."
+  },
+  {
+    "id": 48,
+    "category": "workflow",
+    "question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+    "ground_truth": "The customer sends the pain.001 payment initiation message, and the bank returns a pain.002 payment status report.",
+    "evidence_page": 39,
+    "evidence": "Pain.002.001.10 Payment Status Report standard is used to structure the return",
+    "original_question": "What is the sequence of messages in a cross-border payment?",
+    "original_ground_truth": "pain.001, pacs.008, pacs.009, and pain.002.",
+    "reason": "pacs.008/pacs.009 are absent; the in-corpus sequence is pain.001 then pain.002."
+  },
+  {
+    "id": 49,
+    "category": "workflow",
+    "question": "How is a returned payment reported?",
+    "ground_truth": "The return message is generated with Group Status ACCP or PART, returning the value of the original MessageIdentification.",
+    "evidence_page": 40,
+    "evidence": "Return message Group Status is ACCP ... Return message returns the value of the original MessageIdentification ... Return message Group Status is PART",
+    "original_question": "How is a payment cancellation processed?",
+    "original_ground_truth": "camt.056 is sent, the agent processes it, and a status report is returned.",
+    "reason": "camt.056 (cancellation) is absent; replaced with the return-message semantics the guide documents."
+  },
+  {
+    "id": 51,
+    "category": "workflow",
+    "question": "How does the bank verify the payee before payment?",
+    "ground_truth": "The bank submits the data for verification of the payee (VOP service) and returns the matching results to the customer.",
+    "evidence_page": 53,
+    "evidence": "includes a separate file type for the VOP service, which only submits the data for the verification of the payee ... The matching results are then sent to the customer as a C2B payment status report",
+    "original_question": "How does a failed payment investigation work?",
+    "original_ground_truth": "camt.056 or camt.087 is sent and camt.029 is returned with the resolution.",
+    "reason": "camt.056/camt.087/camt.029 (investigation messages) are absent; replaced with the VOP verification workflow the guide covers."
+  },
+  {
+    "id": 53,
+    "category": "comparison",
+    "question": "What is the difference between a payment initiation message and a payment status report?",
+    "ground_truth": "pain.001 initiates the payment; pain.002 reports the payment status.",
+    "evidence_page": 39,
+    "evidence": "Pain.002.001.10 Payment Status Report standard is used to structure the return",
+    "original_question": "What is the difference between pain.001 and pacs.008?",
+    "original_ground_truth": "pain.001 is payment initiation, pacs.008 is interbank clearing.",
+    "reason": "pacs.008 is absent; re-grounded on the two message types present in the corpus."
+  }
+]

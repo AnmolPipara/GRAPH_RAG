@@ -1,0 +1,888 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "glossary-documentsection",
+      "canonical_name": "Glossary",
+      "name": "Glossary",
+      "type": "DocumentSection",
+      "description": "Section containing definitions of terms",
+      "aliases": [
+        "Glossary Section"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "9 Glossary",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "at-identifier",
+      "canonical_name": "AT",
+      "name": "AT",
+      "type": "Identifier",
+      "description": "Code for account type",
+      "aliases": [
+        "Account Type"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "AT name",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rulebook-definition-definition",
+      "canonical_name": "Rulebook Definition",
+      "name": "Rulebook Definition",
+      "type": "Definition",
+      "description": "Definition from the rulebook",
+      "aliases": [
+        "Rulebook"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Rulebook Definition",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-term-term",
+      "canonical_name": "Finnish Term",
+      "name": "Finnish Term",
+      "type": "Term",
+      "description": "Term in Finnish language",
+      "aliases": [
+        "Finnish"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Finnish term",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-definition-definition",
+      "canonical_name": "Finnish Definition",
+      "name": "Finnish Definition",
+      "type": "Definition",
+      "description": "Definition in Finnish language",
+      "aliases": [
+        "Finnish"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Finnish definition",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-term-term",
+      "canonical_name": "Swedish Term",
+      "name": "Swedish Term",
+      "type": "Term",
+      "description": "Term in Swedish language",
+      "aliases": [
+        "Swedish"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Swedish term",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-definition-definition",
+      "canonical_name": "Swedish Definition",
+      "name": "Swedish Definition",
+      "type": "Definition",
+      "description": "Definition in Swedish language",
+      "aliases": [
+        "Swedish"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Swedish definition",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [
+        "International Bank Account Number"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The IBAN of the account",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Party that initiates the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The account number (only the IBAN) of the Originator",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-instruction-paymentinstruction",
+      "canonical_name": "Credit Transfer Instruction",
+      "name": "Credit Transfer Instruction",
+      "type": "PaymentInstruction",
+      "description": "Instruction for transferring credit",
+      "aliases": [
+        "Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Instruction",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksun-veloitustili-term",
+      "canonical_name": "Maksun veloitustili",
+      "name": "Maksun veloitustili",
+      "type": "Term",
+      "description": "Finnish term for account to be debited",
+      "aliases": [
+        "Maksussa käytettävä"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Maksun veloitustili",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "betalningens-debiteringskonto-term",
+      "canonical_name": "Betalningens debiteringskonto",
+      "name": "Betalningens debiteringskonto",
+      "type": "Term",
+      "description": "Swedish term for account to be debited",
+      "aliases": [
+        "Betalarens/betalningsuppdragets debiteringskonto"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Betalningens debiteringskonto",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-nimi-term",
+      "canonical_name": "Maksajan nimi",
+      "name": "Maksajan nimi",
+      "type": "Term",
+      "description": "Finnish term for name of the originator",
+      "aliases": [
+        "Maksajan nimi"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Maksajan nimi",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "betalarens-namn-term",
+      "canonical_name": "Betalarens namn",
+      "name": "Betalarens namn",
+      "type": "Term",
+      "description": "Swedish term for name of the originator",
+      "aliases": [
+        "Betalarens namn"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Betalarens namn",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-osoite-term",
+      "canonical_name": "Maksajan osoite",
+      "name": "Maksajan osoite",
+      "type": "Term",
+      "description": "Finnish term for address of the originator",
+      "aliases": [
+        "Maksajan osoite"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Maksajan osoite",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "betalarens-adress-term",
+      "canonical_name": "Betalarens adress",
+      "name": "Betalarens adress",
+      "type": "Term",
+      "description": "Swedish term for address of the originator",
+      "aliases": [
+        "Betalarens adress"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Betalarens adress",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "määrä-term",
+      "canonical_name": "Määrä",
+      "name": "Määrä",
+      "type": "Term",
+      "description": "Finnish term for amount",
+      "aliases": [
+        "Maksun rahamäärä"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Määrä",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "belopp-term",
+      "canonical_name": "Belopp",
+      "name": "Belopp",
+      "type": "Term",
+      "description": "Swedish term for amount",
+      "aliases": [
+        "Betalningens belopp"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Belopp",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-paymentinformation",
+      "canonical_name": "Remittance Information",
+      "name": "Remittance Information",
+      "type": "PaymentInformation",
+      "description": "Information sent by the originator to the creditor",
+      "aliases": [
+        "Remittance Info"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Remittance Information sent by the Originator",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "viitenumero-viesti-term",
+      "canonical_name": "Viitenumero / Viesti",
+      "name": "Viitenumero / Viesti",
+      "type": "Term",
+      "description": "Finnish term for reference number or message",
+      "aliases": [
+        "Laskun yksilöintitiedot"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Viitenumero / Viesti",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "referensnummermeddelande-term",
+      "canonical_name": "Referensnummer/meddelande",
+      "name": "Referensnummer/meddelande",
+      "type": "Term",
+      "description": "Swedish term for reference number or message",
+      "aliases": [
+        "Betalningens detaljuppgift"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Referensnummer/meddelande",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymenttype",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentType",
+      "description": "Type of payment where the originator's account is debited",
+      "aliases": [
+        "Credit Transfer Instruction"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Instruction",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-currency",
+      "canonical_name": "Euro",
+      "name": "Euro",
+      "type": "Currency",
+      "description": "Official currency of the European Union",
+      "aliases": [
+        "EUR"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The amount of the credit transfer in euro",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party that receives the payment",
+      "aliases": [
+        "Payee"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Remittance Information sent by the Originator to the Creditor",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-holder-paymentrole",
+      "canonical_name": "Account Holder",
+      "name": "Account Holder",
+      "type": "PaymentRole",
+      "description": "Party that holds the account",
+      "aliases": [
+        "Account Owner"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The information should reflect the name of the account holder being debited",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-number-identifier",
+      "canonical_name": "Account Number",
+      "name": "Account Number",
+      "type": "Identifier",
+      "description": "Unique number assigned to an account",
+      "aliases": [
+        "Account No"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The account number (only the IBAN) of the Originator",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-format-dataformat",
+      "canonical_name": "IBAN Format",
+      "name": "IBAN Format",
+      "type": "DataFormat",
+      "description": "Format for International Bank Account Numbers",
+      "aliases": [
+        "IBAN"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The account number (only the IBAN) of the Originator",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unstructured-remittance-information-paymentinformation",
+      "canonical_name": "Unstructured Remittance Information",
+      "name": "Unstructured Remittance Information",
+      "type": "PaymentInformation",
+      "description": "Remittance information without a specific format",
+      "aliases": [
+        "Unstructured Remittance"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "A maximum of 140 characters for unstructured Remittance Information",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structured-remittance-information-paymentinformation",
+      "canonical_name": "Structured Remittance Information",
+      "name": "Structured Remittance Information",
+      "type": "PaymentInformation",
+      "description": "Remittance information with a specific format",
+      "aliases": [
+        "Structured Remittance"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "structured Remittance Information of a maximum of 140 characters",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "detailed-rules-regulation",
+      "canonical_name": "Detailed Rules",
+      "name": "Detailed Rules",
+      "type": "Regulation",
+      "description": "Specific rules for structured remittance information",
+      "aliases": [
+        "Rules"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "according to detailed rules to be defined",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "character-limit-constraint",
+      "canonical_name": "Character Limit",
+      "name": "Character Limit",
+      "type": "Constraint",
+      "description": "Maximum number of characters allowed",
+      "aliases": [
+        "Char Limit"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "A maximum of 140 characters",
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "CONTAINS",
+      "target": "glossary-documentsection",
+      "description": "ISO 20022 contains a glossary",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "glossary-documentsection",
+      "relation": "CONTAINS",
+      "target": "at-identifier",
+      "description": "Glossary contains the term AT",
+      "confidence": 0.95,
+      "evidence": "AT name",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "at-identifier",
+      "relation": "RELATED_TO",
+      "target": "rulebook-definition-definition",
+      "description": "AT is related to the rulebook definition",
+      "confidence": 0.95,
+      "evidence": "Rulebook Definition",
+      "implicit": true,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rulebook-definition-definition",
+      "relation": "TRANSLATED_TO",
+      "target": "finnish-term-term",
+      "description": "Rulebook definition is translated to Finnish term",
+      "confidence": 0.95,
+      "evidence": "Finnish term",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-term-term",
+      "relation": "DEFINED_BY",
+      "target": "finnish-definition-definition",
+      "description": "Finnish term is defined by Finnish definition",
+      "confidence": 0.95,
+      "evidence": "Finnish definition",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-definition-definition",
+      "relation": "TRANSLATED_TO",
+      "target": "swedish-term-term",
+      "description": "Finnish definition is translated to Swedish term",
+      "confidence": 0.95,
+      "evidence": "Swedish term",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swedish-term-term",
+      "relation": "DEFINED_BY",
+      "target": "swedish-definition-definition",
+      "description": "Swedish term is defined by Swedish definition",
+      "confidence": 0.95,
+      "evidence": "Swedish definition",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iban-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "originator-paymentrole",
+      "description": "Originator is identified by IBAN",
+      "confidence": 0.99,
+      "evidence": "The IBAN of the account of the Originator",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-paymentrole",
+      "relation": "INITIATES",
+      "target": "credit-transfer-instruction-paymentinstruction",
+      "description": "Originator initiates the credit transfer instruction",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Instruction",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-instruction-paymentinstruction",
+      "relation": "PAYMENT_TO",
+      "target": "creditor-paymentrole",
+      "description": "Credit transfer instruction is a payment to the creditor",
+      "confidence": 0.99,
+      "evidence": "The Remittance Information sent by the Originator to the Creditor",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "RECEIVES",
+      "target": "remittance-information-paymentinformation",
+      "description": "Creditor receives the remittance information",
+      "confidence": 0.99,
+      "evidence": "The Remittance Information sent by the Originator to the Creditor",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-paymentinformation",
+      "relation": "CONTAINS",
+      "target": "unstructured-remittance-information-paymentinformation",
+      "description": "Remittance information can be unstructured",
+      "confidence": 0.95,
+      "evidence": "A maximum of 140 characters for unstructured Remittance Information",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-paymentinformation",
+      "relation": "CONTAINS",
+      "target": "structured-remittance-information-paymentinformation",
+      "description": "Remittance information can be structured",
+      "confidence": 0.95,
+      "evidence": "structured Remittance Information of a maximum of 140 characters",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-remittance-information-paymentinformation",
+      "relation": "REGULATED_BY",
+      "target": "detailed-rules-regulation",
+      "description": "Structured remittance information is regulated by detailed rules",
+      "confidence": 0.95,
+      "evidence": "according to detailed rules to be defined",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "detailed-rules-regulation",
+      "relation": "SPECIFIES",
+      "target": "character-limit-constraint",
+      "description": "Detailed rules specify the character limit",
+      "confidence": 0.95,
+      "evidence": "A maximum of 140 characters",
+      "implicit": false,
+      "source_pages": [
+        59
+      ],
+      "source_chunks": [
+        32
+      ],
+      "frequency": 1
+    }
+  ]
+}

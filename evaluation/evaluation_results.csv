@@ -1,0 +1,35 @@
+question_id,category,question,ground_truth,vector_answer,graph_answer,vector_retrieval_latency,graph_retrieval_latency,vector_generation_latency,graph_generation_latency,vector_total_latency,graph_total_latency,vector_error,graph_error,vector_num_chunks,graph_num_entities,graph_num_relationships
+1,fact_lookup,What is the address of Finance Finland?,"Itamerenkatu 11-13, FI-00180 Helsinki, Finland.","Finance Finland’s address is:
+
+**Itämerenkatu 11‑13, FI‑00180 Helsinki, Finland**【Page 3】.","Finance Finland’s address is:
+
+**Itämerenkatu 11‑13  
+FI‑00180 Helsinki  
+Finland**",0.425,3.883,0.743,3.883,1.168,3.883,,,5,2,9
+2,fact_lookup,What is the phone number for Finance Finland?,+358 20 793 9000,The phone number for Finance Finland is **+358 20 793 4200**【Page 3】.,The phone number for Finance Finland is **+358 20 793 4200**.,0.185,4.012,0.68,4.012,0.865,4.012,,,5,2,9
+3,fact_lookup,Who published the ISO 20022 Payments Guide?,Finance Finland (Finanssiala ry).,I don’t know.,The ISO 20022 Payments Guide was published by **Finance Finland** (the Finnish financial authority).,0.206,27.319,1.012,27.319,1.218,27.319,,,5,2,23
+4,fact_lookup,How many pages does the ISO 20022 Payments Guide have?,61 pages.,I don’t know.,The ISO 20022 Payments Guide is 61 pages long.,0.199,33.693,0.665,33.693,0.864,33.693,,,5,2,23
+5,fact_lookup,What is the version number of the guide?,Version 3.1.,The guide is the **ISO 20022 Payments Guide – version V10** (as indicated by the repeated “Customer Payment Status Report V10” headings)【Page 44】.,I don’t know.,0.185,21.91,1.206,21.91,1.392,21.91,,,5,2,25
+6,fact_lookup,What is the publication year of the ISO 20022 Payments Guide?,2025.,The ISO 20022 Payments Guide was published in **2025**【Page 1】.,The ISO 20022 Payments Guide was published in **2025**.,0.209,26.109,0.717,26.109,0.926,26.109,,,5,4,0
+7,fact_lookup,What is the email address for Finance Finland payments team?,payments@finanssiala.fi,I don’t know the email address for the Finance Finland payments team.,I don’t know.,0.224,25.801,0.896,25.801,1.12,25.801,,,5,2,9
+8,fact_lookup,What is the ISO 20022 website provided by Finance Finland?,www.finanssiala.fi/iso20022,"The ISO 20022 website listed by Finance Finland is:
+
+**www.financefinland.fi**【Page 2】","The ISO 20022 website listed by Finance Finland is:
+
+**www.financefinland.fi**",0.205,26.589,8.339,26.589,8.544,26.589,,,5,5,1
+9,definition,What is ISO 20022?,ISO 20022 is an international standard for financial messaging.,I don’t know.,"ISO 20022 is an international standard for financial‑industry messaging. It defines a universal, XML‑based scheme for payment‑related messages—such as credit‑transfer initiations (e.g., CustomerCreditTransferInitiationV09, identified by the schema pain.001.001.09) and status reports (e.g., pain.002.001.10). The standard provides a common “payment message” format, a glossary of terms, and a set of rejection‑reason codes, and it is used by payment schemes like SEPA Credit Transfer and by payment market infrastructures worldwide.",0.181,35.688,9.395,35.688,9.576,35.688,,,5,7,6
+10,definition,What is a Group Header in ISO 20022 payment messages?,"Block A containing message identification, creation date, and number of transactions.","The **Group Header** (Block A) is the first section of an ISO 20022 payment message. It holds the identification data for the whole message, such as a unique message‑identification, the creation date‑time, the total number of transactions included, and the control sum of those transactions. In status‑report messages it can also carry information about the initiating party, debtor‑agent and creditor‑agent. 【Page 11】.","**Group Header ( `GrpHdr` )**  
+
+In an ISO 20022 payment message the *Group Header* is the top‑level XML element that describes the whole batch of transactions that follow. It does not contain any individual payment details; instead it supplies meta‑information that applies to the entire message, such as:
+
+| Item (sub‑element) | Meaning |
+|--------------------|---------|
+| **MsgId** (Message Identification) | A unique identifier for the whole message. |
+| **CreDtTm** (Creation Date‑Time) | The date and time the message was created. |
+| **NbOfTxs** (Number of Transactions) | How many individual transaction entries are included. |
+| **CtrlSum** (Control Sum) | The total amount of all transactions (used for integrity checking). |
+| **InitgPty** (Initiating Party) | The party that initiates the payment batch. |
+| **DbtrAgt** (Debtor Agent) | The debtor’s bank or financial institution. |
+| **CdtrAgt** (Creditor Agent) | The creditor’s bank or financial institution (when present). |
+
+Thus, the Group Header serves as a “wrapper” that identifies the message, timestamps it, and provides summary data and key party information for the set of credit‑transfer (or other) transactions that are listed later in the message. It enables the receiving system to validate and process the batch as a whole before handling the individual transaction details.",0.222,22.104,9.409,22.104,9.631,22.104,,,5,3,10

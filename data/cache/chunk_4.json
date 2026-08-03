@@ -1,0 +1,916 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "Payment market infrastructures are being migrated to ISO 20022",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-market-infrastructures-businessconcept",
+      "canonical_name": "Payment Market Infrastructures",
+      "name": "Payment Market Infrastructures",
+      "type": "BusinessConcept",
+      "description": "Infrastructures for payment markets",
+      "aliases": [
+        "PMI"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Payment market infrastructures are being migrated to ISO 20022",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swift4-payment-market-practice-group-organization",
+      "canonical_name": "Swift4 Payment Market Practice Group",
+      "name": "Swift4 Payment Market Practice Group",
+      "type": "Organization",
+      "description": "Group for payment market practices",
+      "aliases": [
+        "PMPG"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "society-for-worldwide-interbank-financial-telecommunication-organization",
+      "canonical_name": "Society for Worldwide Interbank Financial Telecommunication",
+      "name": "Society for Worldwide Interbank Financial Telecommunication",
+      "type": "Organization",
+      "description": "Society for worldwide interbank financial telecommunication",
+      "aliases": [
+        "SWIFT"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "https://www.swift.com/ - Society for Worldwide Interbank Financial Telecommunication",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-organization",
+      "canonical_name": "European Payments Council",
+      "name": "European Payments Council",
+      "type": "Organization",
+      "description": "Council for European payments",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The European Payments Council (EPC) has therefore taken the decision",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structured-address-businessconcept",
+      "canonical_name": "Structured Address",
+      "name": "Structured Address",
+      "type": "BusinessConcept",
+      "description": "Address with structured format",
+      "aliases": [
+        "StructuredAddress"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The provision of a structured address must comply with the following requirements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unstructured-address-businessconcept",
+      "canonical_name": "Unstructured Address",
+      "name": "Unstructured Address",
+      "type": "BusinessConcept",
+      "description": "Address with unstructured format",
+      "aliases": [
+        "UnstructuredAddress"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Under the unstructured address format, the address can be provided using the 'Address Line' address elements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hybrid-address-businessconcept",
+      "canonical_name": "Hybrid Address",
+      "name": "Hybrid Address",
+      "type": "BusinessConcept",
+      "description": "Address with hybrid format",
+      "aliases": [
+        "HybridAddress"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The hybrid address is a mix of structured and unstructured address details",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "address-line-dataelement",
+      "canonical_name": "Address Line",
+      "name": "Address Line",
+      "type": "DataElement",
+      "description": "Line of address",
+      "aliases": [
+        "AddressLine"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The 'Address Line' data element cannot be used",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "country-dataelement",
+      "canonical_name": "Country",
+      "name": "Country",
+      "type": "DataElement",
+      "description": "Country of address",
+      "aliases": [
+        "CountryElement"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The 'Country' and 'Town Name' data elements must be used",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "town-name-dataelement",
+      "canonical_name": "Town Name",
+      "name": "Town Name",
+      "type": "DataElement",
+      "description": "Town name of address",
+      "aliases": [
+        "TownName"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The 'Country' and 'Town Name' data elements must be used",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-payments-paymentscheme",
+      "canonical_name": "SEPA Payments",
+      "name": "SEPA Payments",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area payments",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The pain.001.001.09 message version enables the use of structured addresses in SEPA payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100109-messagetype",
+      "canonical_name": "Pain.001.001.09",
+      "name": "Pain.001.001.09",
+      "type": "MessageType",
+      "description": "Message type for pain.001.001.09",
+      "aliases": [
+        "Pain00100109"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The pain.001.001.09 message version enables the use of structured addresses in SEPA payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "know-your-customer-businessprocess",
+      "canonical_name": "Know-Your-Customer",
+      "name": "Know-Your-Customer",
+      "type": "BusinessProcess",
+      "description": "Process for knowing the customer",
+      "aliases": [
+        "KYC"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The various processes across the payments ecosystem, such as know-your-customer and anti-money laundering screening",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anti-money-laundering-businessprocess",
+      "canonical_name": "Anti-Money Laundering",
+      "name": "Anti-Money Laundering",
+      "type": "BusinessProcess",
+      "description": "Process for anti-money laundering",
+      "aliases": [
+        "AML"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The various processes across the payments ecosystem, such as know-your-customer and anti-money laundering screening",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-message-xmlmessage",
+      "canonical_name": "Payment Message",
+      "name": "Payment Message",
+      "type": "XMLMessage",
+      "description": "Message for payment",
+      "aliases": [
+        "PaymentMessage"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The structure and content of the Payment Message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "november-2026-date",
+      "canonical_name": "November 2026",
+      "name": "November 2026",
+      "type": "Date",
+      "description": "Date of November 2026",
+      "aliases": [
+        "Nov2026"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Under the unstructured address format, the address can be provided using the 'Address Line' address elements. At the time of writing, the EPC had decided that the unstructured address format will no longer be allowed after November 2026",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "epc-payment-schemes-paymentscheme",
+      "canonical_name": "EPC Payment Schemes",
+      "name": "EPC Payment Schemes",
+      "type": "PaymentScheme",
+      "description": "Payment schemes of the European Payments Council",
+      "aliases": [
+        "EPCPS"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "guidance-document-document",
+      "canonical_name": "Guidance Document",
+      "name": "Guidance Document",
+      "type": "Document",
+      "description": "Document providing guidance",
+      "aliases": [
+        "GuidanceDoc"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-233-documentsection",
+      "canonical_name": "Section 2.3.3",
+      "name": "Section 2.3.3",
+      "type": "DocumentSection",
+      "description": "Section 2.3.3 of the document",
+      "aliases": [
+        "Section2.3.3"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "All other 12 data elements may be used depending on the components of the address (see section 2.3.3 Payment Information)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businessconcept",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessConcept",
+      "description": "Information related to payment",
+      "aliases": [
+        "PaymentInfo"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "All other 12 data elements may be used depending on the components of the address (see section 2.3.3 Payment Information)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-specific-implementation-guidelines-document",
+      "canonical_name": "Bank-Specific Implementation Guidelines",
+      "name": "Bank-Specific Implementation Guidelines",
+      "type": "Document",
+      "description": "Guidelines for bank-specific implementation",
+      "aliases": [
+        "BSIG"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Each bank's specific schedule and guidelines for the use of different addresses should be checked from the bank-specific implementation guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "data-systems-system",
+      "canonical_name": "Data Systems",
+      "name": "Data Systems",
+      "type": "System",
+      "description": "Systems for data",
+      "aliases": [
+        "DataSystems"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The implementation of structured or hybrid addresses may require changes to the data systems that are used to compile or source payment materials",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-materials-businessconcept",
+      "canonical_name": "Payment Materials",
+      "name": "Payment Materials",
+      "type": "BusinessConcept",
+      "description": "Materials related to payment",
+      "aliases": [
+        "PaymentMaterials"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The implementation of structured or hybrid addresses may require changes to the data systems that are used to compile or source payment materials",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-parties-businessconcept",
+      "canonical_name": "Payment Parties",
+      "name": "Payment Parties",
+      "type": "BusinessConcept",
+      "description": "Parties involved in payment",
+      "aliases": [
+        "PaymentParties"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "countries-location",
+      "canonical_name": "Countries",
+      "name": "Countries",
+      "type": "Location",
+      "description": "Countries involved in payment",
+      "aliases": [
+        "CountryList"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "recommendation-document",
+      "canonical_name": "Recommendation",
+      "name": "Recommendation",
+      "type": "Document",
+      "description": "Document providing recommendation",
+      "aliases": [
+        "Rec"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "ENABLES",
+      "target": "payment-market-infrastructures-businessconcept",
+      "description": "ISO 20022 enables payment market infrastructures",
+      "confidence": 0.95,
+      "evidence": "Payment market infrastructures are being migrated to ISO 20022",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swift4-payment-market-practice-group-organization",
+      "relation": "ISSUES",
+      "target": "recommendation-document",
+      "description": "Swift4 Payment Market Practice Group issues recommendation",
+      "confidence": 0.98,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "RELEASES",
+      "target": "guidance-document-document",
+      "description": "European Payments Council releases guidance document",
+      "confidence": 0.98,
+      "evidence": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-address-businessconcept",
+      "relation": "EXCLUDES",
+      "target": "address-line-dataelement",
+      "description": "Structured address excludes address line",
+      "confidence": 0.98,
+      "evidence": "The 'Address Line' data element cannot be used",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-address-businessconcept",
+      "relation": "INCLUDES",
+      "target": "country-dataelement",
+      "description": "Structured address includes country",
+      "confidence": 0.98,
+      "evidence": "The 'Country' and 'Town Name' data elements must be used",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-address-businessconcept",
+      "relation": "INCLUDES",
+      "target": "town-name-dataelement",
+      "description": "Structured address includes town name",
+      "confidence": 0.98,
+      "evidence": "The 'Country' and 'Town Name' data elements must be used",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "unstructured-address-businessconcept",
+      "relation": "INCLUDES",
+      "target": "address-line-dataelement",
+      "description": "Unstructured address includes address line",
+      "confidence": 0.98,
+      "evidence": "Under the unstructured address format, the address can be provided using the 'Address Line' address elements",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "hybrid-address-businessconcept",
+      "relation": "COMBINES",
+      "target": "structured-address-businessconcept",
+      "description": "Hybrid address combines structured address",
+      "confidence": 0.98,
+      "evidence": "The hybrid address is a mix of structured and unstructured address details",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "hybrid-address-businessconcept",
+      "relation": "COMBINES",
+      "target": "unstructured-address-businessconcept",
+      "description": "Hybrid address combines unstructured address",
+      "confidence": 0.98,
+      "evidence": "The hybrid address is a mix of structured and unstructured address details",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-payments-paymentscheme",
+      "relation": "ENABLES",
+      "target": "pain00100109-messagetype",
+      "description": "SEPA payments enables pain.001.001.09",
+      "confidence": 0.98,
+      "evidence": "The pain.001.001.09 message version enables the use of structured addresses in SEPA payments",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "INCLUDES",
+      "target": "structured-address-businessconcept",
+      "description": "Payment message includes structured address",
+      "confidence": 0.98,
+      "evidence": "The structure and content of the Payment Message",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "INCLUDES",
+      "target": "unstructured-address-businessconcept",
+      "description": "Payment message includes unstructured address",
+      "confidence": 0.98,
+      "evidence": "The structure and content of the Payment Message",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "INCLUDES",
+      "target": "hybrid-address-businessconcept",
+      "description": "Payment message includes hybrid address",
+      "confidence": 0.98,
+      "evidence": "The structure and content of the Payment Message",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "MANAGES",
+      "target": "epc-payment-schemes-paymentscheme",
+      "description": "European Payments Council manages EPC payment schemes",
+      "confidence": 0.98,
+      "evidence": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "guidance-document-document",
+      "relation": "PROVIDES_GUIDANCE_FOR",
+      "target": "epc-payment-schemes-paymentscheme",
+      "description": "Guidance document provides guidance for EPC payment schemes",
+      "confidence": 0.98,
+      "evidence": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "section-233-documentsection",
+      "relation": "PART_OF",
+      "target": "payment-information-businessconcept",
+      "description": "Section 2.3.3 is part of payment information",
+      "confidence": 0.98,
+      "evidence": "All other 12 data elements may be used depending on the components of the address (see section 2.3.3 Payment Information)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-specific-implementation-guidelines-document",
+      "relation": "PROVIDES_GUIDANCE_FOR",
+      "target": "payment-parties-businessconcept",
+      "description": "Bank-specific implementation guidelines provide guidance for payment parties",
+      "confidence": 0.98,
+      "evidence": "Each bank's specific schedule and guidelines for the use of different addresses should be checked from the bank-specific implementation guidelines",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "data-systems-system",
+      "relation": "USED_FOR",
+      "target": "payment-materials-businessconcept",
+      "description": "Data systems are used for payment materials",
+      "confidence": 0.95,
+      "evidence": "The implementation of structured or hybrid addresses may require changes to the data systems that are used to compile or source payment materials",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-parties-businessconcept",
+      "relation": "LOCATED_IN",
+      "target": "countries-location",
+      "description": "Payment parties are located in countries",
+      "confidence": 0.95,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "recommendation-document",
+      "relation": "ISSUED_BY",
+      "target": "swift4-payment-market-practice-group-organization",
+      "description": "Recommendation is issued by Swift4 Payment Market Practice Group",
+      "confidence": 0.98,
+      "evidence": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "httpswwwswiftcom-cross-chunk",
+      "relation": "URL_OF",
+      "target": "society-for-worldwide-interbank-financial-telecommunication-organization",
+      "description": "https://www.swift.com/ is URL of Society for Worldwide Interbank Financial Telecommunication",
+      "confidence": 0.99,
+      "evidence": "https://www.swift.com/ - Society for Worldwide Interbank Financial Telecommunication",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "httpswwwswiftcomswift-resource250266download-cross-chunk",
+      "relation": "URL_OF",
+      "target": "swift4-payment-market-practice-group-organization",
+      "description": "https://www.swift.com/swift-resource/250266/download is URL of Swift4 Payment Market Practice Group",
+      "confidence": 0.99,
+      "evidence": "https://www.swift.com/swift-resource/250266/download",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "httpswwweuropeanpaymentscouncileudocument-libraryguidance-documentsepc-guidance-document-provision-addresses-under--cross-chunk",
+      "relation": "URL_OF",
+      "target": "european-payments-council-organization",
+      "description": "https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/epc-guidance-document-provision-addresses-under- is URL of European Payments Council",
+      "confidence": 0.99,
+      "evidence": "https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/epc-guidance-document-provision-addresses-under-",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        4
+      ],
+      "frequency": 1
+    }
+  ]
+}

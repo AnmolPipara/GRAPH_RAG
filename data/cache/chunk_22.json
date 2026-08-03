@@ -1,0 +1,1132 @@
+{
+  "entities": [
+    {
+      "id": "614-section",
+      "canonical_name": "6.1.4",
+      "name": "6.1.4",
+      "type": "Section",
+      "description": "Section identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.1.4",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-xmlelement",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-field",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Index",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-field",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mult",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-field",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation guide",
+      "name": "Implementation guide",
+      "type": "Document",
+      "description": "Document name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "10-messageelement",
+      "canonical_name": "1.0",
+      "name": "1.0",
+      "type": "MessageElement",
+      "description": "Message element identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.0",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-payment-status-report-v10-document",
+      "canonical_name": "Customer Payment Status Report V10",
+      "name": "Customer Payment Status Report V10",
+      "type": "Document",
+      "description": "Document name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-xmlelement",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-identification-xmlelement",
+      "canonical_name": "Message Identification",
+      "name": "Message Identification",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unique-identifier-field",
+      "canonical_name": "Unique identifier",
+      "name": "Unique identifier",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Unique identifier of the Payment Status Report message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creation-date-time-xmlelement",
+      "canonical_name": "Creation Date Time",
+      "name": "Creation Date Time",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creation Date Time",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-paymentrole",
+      "canonical_name": "Initiating Party",
+      "name": "Initiating Party",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Initiating Party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-agent-paymentrole",
+      "canonical_name": "Debtor Agent",
+      "name": "Debtor Agent",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debtor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-agent-paymentrole",
+      "canonical_name": "Creditor Agent",
+      "name": "Creditor Agent",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creditor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-group-information-and-status-xmlelement",
+      "canonical_name": "Original Group Information And Status",
+      "name": "Original Group Information And Status",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-message-identification-xmlelement",
+      "canonical_name": "Original Message Identification",
+      "name": "Original Message Identification",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Message Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-message-name-xmlelement",
+      "canonical_name": "Original Message Name",
+      "name": "Original Message Name",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Message Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-creation-date-time-xmlelement",
+      "canonical_name": "Original Creation Date Time",
+      "name": "Original Creation Date Time",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Creation Date Time",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-number-of-transactions-field",
+      "canonical_name": "Original Number Of Transactions",
+      "name": "Original Number Of Transactions",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Number Of Transactions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-control-sum-field",
+      "canonical_name": "Original Control Sum",
+      "name": "Original Control Sum",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original Control Sum",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-status-field",
+      "canonical_name": "Group Status",
+      "name": "Group Status",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-information-xmlelement",
+      "canonical_name": "Status Reason Information",
+      "name": "Status Reason Information",
+      "type": "XMLElement",
+      "description": "XML element name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status Reason Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Originator",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-field",
+      "canonical_name": "Reason",
+      "name": "Reason",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-field",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Standard name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Document name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100109-messageidentifier",
+      "canonical_name": "pain.001.001.09",
+      "name": "pain.001.001.09",
+      "type": "MessageIdentifier",
+      "description": "Message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pain.001.001.09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-payment-status-report-document",
+      "canonical_name": "Customer Payment Status Report",
+      "name": "Customer Payment Status Report",
+      "type": "Document",
+      "description": "Document name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Payment Status Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "v10-version",
+      "canonical_name": "V10",
+      "name": "V10",
+      "type": "Version",
+      "description": "Version number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "party-paymentrole",
+      "canonical_name": "Party",
+      "name": "Party",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-servicing-bank-financialinstitution",
+      "canonical_name": "Account-servicing bank",
+      "name": "Account-servicing bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Account-servicing bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "point-to-point-reference-field",
+      "canonical_name": "Point to point reference",
+      "name": "Point to point reference",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Point to point reference",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructing-party-paymentrole",
+      "canonical_name": "Instructing party",
+      "name": "Instructing party",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Instructing party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-name-identifier-field",
+      "canonical_name": "Message name identifier",
+      "name": "Message name identifier",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message name identifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-field",
+      "canonical_name": "Status",
+      "name": "Status",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-report-document",
+      "canonical_name": "Status report",
+      "name": "Status report",
+      "type": "Document",
+      "description": "Document name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-message-message",
+      "canonical_name": "Original message",
+      "name": "Original message",
+      "type": "Message",
+      "description": "Message type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Original message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-of-transactions-businessconcept",
+      "canonical_name": "Group of transactions",
+      "name": "Group of transactions",
+      "type": "BusinessConcept",
+      "description": "Business concept",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group of transactions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessconcept",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessConcept",
+      "description": "Business concept",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "control-sum-field",
+      "canonical_name": "Control sum",
+      "name": "Control sum",
+      "type": "Field",
+      "description": "Field name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Control sum",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-code-identifier",
+      "canonical_name": "Reason code",
+      "name": "Reason code",
+      "type": "Identifier",
+      "description": "Code type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Reason code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "614-section",
+      "relation": "CONTAINS",
+      "target": "group-header-xmlelement",
+      "description": "Section 6.1.4 contains Group Header",
+      "confidence": 0.99,
+      "evidence": "6.1.4 Group Header",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-xmlelement",
+      "relation": "CONTAINS",
+      "target": "message-identification-xmlelement",
+      "description": "Group Header contains Message Identification",
+      "confidence": 0.99,
+      "evidence": "Group Header ++Message Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-identification-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "unique-identifier-field",
+      "description": "Message Identification is identified by Unique identifier",
+      "confidence": 0.99,
+      "evidence": "Unique identifier of the Payment Status Report message",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-xmlelement",
+      "relation": "CONTAINS",
+      "target": "creation-date-time-xmlelement",
+      "description": "Group Header contains Creation Date Time",
+      "confidence": 0.99,
+      "evidence": "Group Header ++Creation Date Time",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-xmlelement",
+      "relation": "CONTAINS",
+      "target": "initiating-party-paymentrole",
+      "description": "Group Header contains Initiating Party",
+      "confidence": 0.99,
+      "evidence": "Group Header ++Initiating Party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-xmlelement",
+      "relation": "CONTAINS",
+      "target": "debtor-agent-paymentrole",
+      "description": "Group Header contains Debtor Agent",
+      "confidence": 0.99,
+      "evidence": "Group Header ++Debtor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-xmlelement",
+      "relation": "CONTAINS",
+      "target": "creditor-agent-paymentrole",
+      "description": "Group Header contains Creditor Agent",
+      "confidence": 0.99,
+      "evidence": "Group Header ++Creditor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "original-message-identification-xmlelement",
+      "description": "Original Group Information And Status contains Original Message Identification",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Original Message Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-message-identification-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "point-to-point-reference-field",
+      "description": "Original Message Identification is identified by Point to point reference",
+      "confidence": 0.99,
+      "evidence": "Point to point reference, as assigned by the original instructing party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "original-message-name-xmlelement",
+      "description": "Original Group Information And Status contains Original Message Name",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Original Message Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-message-name-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "message-name-identifier-field",
+      "description": "Original Message Name is identified by Message name identifier",
+      "confidence": 0.99,
+      "evidence": "Specifies the original message name identifier to which the message refers",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "original-creation-date-time-xmlelement",
+      "description": "Original Group Information And Status contains Original Creation Date Time",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Original Creation Date Time",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "original-number-of-transactions-field",
+      "description": "Original Group Information And Status contains Original Number Of Transactions",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Original Number Of Transactions",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "original-control-sum-field",
+      "description": "Original Group Information And Status contains Original Control Sum",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Original Control Sum",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "group-status-field",
+      "description": "Original Group Information And Status contains Group Status",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Group Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-xmlelement",
+      "relation": "CONTAINS",
+      "target": "status-reason-information-xmlelement",
+      "description": "Original Group Information And Status contains Status Reason Information",
+      "confidence": 0.99,
+      "evidence": "Original Group Information And Status ++Status Reason Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "originator-paymentrole",
+      "description": "Status Reason Information is identified by Originator",
+      "confidence": 0.99,
+      "evidence": "Originator party that issues the status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-xmlelement",
+      "relation": "CONTAINS",
+      "target": "reason-field",
+      "description": "Status Reason Information contains Reason",
+      "confidence": 0.99,
+      "evidence": "Status Reason Information +++Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-field",
+      "relation": "IDENTIFIED_BY",
+      "target": "code-field",
+      "description": "Reason is identified by Code",
+      "confidence": 0.99,
+      "evidence": "Reason code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "customer-payment-status-report-v10-document",
+      "description": "ISO 20022 Payments Guide contains Customer Payment Status Report V10",
+      "confidence": 0.99,
+      "evidence": "Customer Payment Status Report V10",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-payment-status-report-v10-document",
+      "relation": "CONTAINS",
+      "target": "group-header-xmlelement",
+      "description": "Customer Payment Status Report V10 contains Group Header",
+      "confidence": 0.99,
+      "evidence": "Customer Payment Status Report V10 +Group Header",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        22
+      ],
+      "frequency": 1
+    }
+  ]
+}

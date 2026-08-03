@@ -1,0 +1,1187 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "The ISO concepts of different parties are described in the table below.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "The party whose account is debited with the payment.",
+      "aliases": [
+        "Originator",
+        "Ordering Party",
+        "Buyer"
+      ],
+      "attributes": {
+        "side": "debit"
+      },
+      "confidence": 0.99,
+      "evidence": "The party whose account is debited with the payment.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "aliases": [
+        "Originator Reference Party"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-paymentrole",
+      "canonical_name": "Initiating Party",
+      "name": "Initiating Party",
+      "type": "PaymentRole",
+      "description": "The party on whose initiative the payment data is established.",
+      "aliases": [
+        "Initiator"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The party on whose initiative the payment data is established.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "The party whose account is credited with the payment.",
+      "aliases": [
+        "Beneficiary",
+        "Seller"
+      ],
+      "attributes": {
+        "side": "credit"
+      },
+      "confidence": 0.99,
+      "evidence": "The party whose account is credited with the payment.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-paymentrole",
+      "canonical_name": "Ultimate Creditor",
+      "name": "Ultimate Creditor",
+      "type": "PaymentRole",
+      "description": "The party who is the ultimate creditor of the payment.",
+      "aliases": [
+        "Ultimate Beneficiary",
+        "Beneficiary Reference Party"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The party who is the ultimate creditor of the payment.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-agent-paymentrole",
+      "canonical_name": "Debtor Agent",
+      "name": "Debtor Agent",
+      "type": "PaymentRole",
+      "description": "The bank of the debtor.",
+      "aliases": [
+        "Bank (Originating Bank",
+        "Originator's Bank",
+        "Debtor's Bank)"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The bank of the debtor.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-agent-paymentrole",
+      "canonical_name": "Creditor Agent",
+      "name": "Creditor Agent",
+      "type": "PaymentRole",
+      "description": "The bank of the creditor.",
+      "aliases": [
+        "Bank (Creditor's Bank",
+        "Seller's Bank)"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The bank of the creditor.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swift-organization",
+      "canonical_name": "SWIFT",
+      "name": "SWIFT",
+      "type": "Organization",
+      "description": "Society for Worldwide Interbank Financial Telecommunication",
+      "aliases": [
+        "Society for Worldwide Interbank Financial Telecommunication"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Source: SWIFT",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "case-1-businessconcept",
+      "canonical_name": "Case 1",
+      "name": "Case 1",
+      "type": "BusinessConcept",
+      "description": "The account owner pays an invoice directly.",
+      "aliases": [
+        "Direct Payment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The account owner pays an invoice directly.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "case-2-businessconcept",
+      "canonical_name": "Case 2",
+      "name": "Case 2",
+      "type": "BusinessConcept",
+      "description": "The invoice has been sent to the subsidiary, but the head-office initiates the payment on its behalf.",
+      "aliases": [
+        "Indirect Payment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The invoice has been sent to the subsidiary, but the head-office initiates the payment on its behalf.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "case-3-businessconcept",
+      "canonical_name": "Case 3",
+      "name": "Case 3",
+      "type": "BusinessConcept",
+      "description": "The head-office initiates the payment on behalf of its subsidiary.",
+      "aliases": [
+        "Subsidiary Payment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The head-office initiates the payment on behalf of its subsidiary.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "case-4-businessconcept",
+      "canonical_name": "Case 4",
+      "name": "Case 4",
+      "type": "BusinessConcept",
+      "description": "The shared service centre initiates the payment from the account of the head-office on behalf of the subsidiary.",
+      "aliases": [
+        "Shared Service Payment"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The shared service centre initiates the payment from the account of the head-office on behalf of the subsidiary.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-message-xmlmessage",
+      "canonical_name": "Payment Message",
+      "name": "Payment Message",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [
+        "Payment Initiation Message"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Block A of payment message",
+      "aliases": [
+        "Block A"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header can occur only once.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "messageidentification-dataelement",
+      "canonical_name": "MessageIdentification",
+      "name": "MessageIdentification",
+      "type": "DataElement",
+      "description": "Identifying element of the payment message",
+      "aliases": [
+        "Message ID"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as MessageIdentification",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creationdateandtime-dataelement",
+      "canonical_name": "CreationDateAndTime",
+      "name": "CreationDateAndTime",
+      "type": "DataElement",
+      "description": "Date and time of payment message creation",
+      "aliases": [
+        "Creation Date"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as CreationDateAndTime",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "numberoftransactions-dataelement",
+      "canonical_name": "NumberOfTransactions",
+      "name": "NumberOfTransactions",
+      "type": "DataElement",
+      "description": "Number of transactions in the payment message",
+      "aliases": [
+        "Transaction Count"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as NumberOfTransactions",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiatingparty-dataelement",
+      "canonical_name": "InitiatingParty",
+      "name": "InitiatingParty",
+      "type": "DataElement",
+      "description": "Party initiating the payment",
+      "aliases": [
+        "Initiator"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as InitiatingParty",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block of payment message containing payment information",
+      "aliases": [
+        "Payment Details"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Block of payment message containing credit transfer transaction information",
+      "aliases": [
+        "Credit Transfer Details"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "Payments Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "table-documentsection",
+      "canonical_name": "Table",
+      "name": "Table",
+      "type": "DocumentSection",
+      "description": "Table describing ISO 20022 concepts",
+      "aliases": [
+        "Concepts Table"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The ISO concepts of different parties are described in the table below.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "party-businessconcept",
+      "canonical_name": "Party",
+      "name": "Party",
+      "type": "BusinessConcept",
+      "description": "Entity involved in a payment transaction",
+      "aliases": [
+        "Payment Party"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The ISO concepts of different parties are described in the table below.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "invoice-document",
+      "canonical_name": "Invoice",
+      "name": "Invoice",
+      "type": "Document",
+      "description": "Document requesting payment for goods or services",
+      "aliases": [
+        "Bill"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-owner-paymentrole",
+      "canonical_name": "Account Owner",
+      "name": "Account Owner",
+      "type": "PaymentRole",
+      "description": "The owner of the account being debited or credited",
+      "aliases": [
+        "Account Holder"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The account owner pays an invoice directly.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "head-office-organization",
+      "canonical_name": "Head-Office",
+      "name": "Head-Office",
+      "type": "Organization",
+      "description": "The main office of a company",
+      "aliases": [
+        "Head Office"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The head-office initiates the payment on behalf of its subsidiary.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "subsidiary-organization",
+      "canonical_name": "Subsidiary",
+      "name": "Subsidiary",
+      "type": "Organization",
+      "description": "A company owned or controlled by another company",
+      "aliases": [
+        "Subsidiary Company"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The head-office initiates the payment on behalf of its subsidiary.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "shared-service-centre-organization",
+      "canonical_name": "Shared Service Centre",
+      "name": "Shared Service Centre",
+      "type": "Organization",
+      "description": "A centralized unit providing services to multiple companies",
+      "aliases": [
+        "Shared Services"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The shared service centre initiates the payment from the account of the head-office on behalf of the subsidiary.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "financing-company-organization",
+      "canonical_name": "Financing Company",
+      "name": "Financing Company",
+      "type": "Organization",
+      "description": "A company providing financial services",
+      "aliases": [
+        "Financier"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-paymentrole",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "PaymentRole",
+      "description": "The party receiving goods or services",
+      "aliases": [
+        "Buyer"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "seller-paymentrole",
+      "canonical_name": "Seller",
+      "name": "Seller",
+      "type": "PaymentRole",
+      "description": "The party providing goods or services",
+      "aliases": [
+        "Supplier"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The party who is the ultimate creditor of the payment.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "A financial institution providing banking services",
+      "aliases": [
+        "Banking Institution"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The bank of the debtor.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-businessconcept",
+      "canonical_name": "Account",
+      "name": "Account",
+      "type": "BusinessConcept",
+      "description": "A financial account held by a customer",
+      "aliases": [
+        "Bank Account"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The account owner pays an invoice directly.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessconcept",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessConcept",
+      "description": "A financial transaction",
+      "aliases": [
+        "Payment Transaction"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-businessconcept",
+      "canonical_name": "Payment",
+      "name": "Payment",
+      "type": "BusinessConcept",
+      "description": "The act of paying or being paid",
+      "aliases": [
+        "Payment Transaction"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "DEFINES",
+      "target": "debtor-paymentrole",
+      "description": "ISO 20022 defines the concept of Debtor",
+      "confidence": 0.99,
+      "evidence": "The ISO concepts of different parties are described in the table below.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "ultimate-debtor-paymentrole",
+      "description": "Debtor is related to Ultimate Debtor",
+      "confidence": 0.98,
+      "evidence": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiating-party-paymentrole",
+      "relation": "INITIATES",
+      "target": "debtor-paymentrole",
+      "description": "Initiating Party initiates the payment for Debtor",
+      "confidence": 0.98,
+      "evidence": "The party on whose initiative the payment data is established.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "ultimate-creditor-paymentrole",
+      "description": "Creditor is related to Ultimate Creditor",
+      "confidence": 0.98,
+      "evidence": "The party who is the ultimate creditor of the payment.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-agent-paymentrole",
+      "relation": "REPRESENTS",
+      "target": "debtor-paymentrole",
+      "description": "Debtor Agent represents Debtor",
+      "confidence": 0.98,
+      "evidence": "The bank of the debtor.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-agent-paymentrole",
+      "relation": "REPRESENTS",
+      "target": "creditor-paymentrole",
+      "description": "Creditor Agent represents Creditor",
+      "confidence": 0.98,
+      "evidence": "The bank of the creditor.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swift-organization",
+      "relation": "SUPPORTS",
+      "target": "iso-20022-standard",
+      "description": "SWIFT supports ISO 20022",
+      "confidence": 0.99,
+      "evidence": "Source: SWIFT",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "case-1-businessconcept",
+      "relation": "INVOLVES",
+      "target": "debtor-paymentrole",
+      "description": "Case 1 involves Debtor",
+      "confidence": 0.98,
+      "evidence": "The account owner pays an invoice directly.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "case-2-businessconcept",
+      "relation": "INVOLVES",
+      "target": "creditor-paymentrole",
+      "description": "Case 2 involves Creditor",
+      "confidence": 0.98,
+      "evidence": "The invoice has been sent to the subsidiary, but the head-office initiates the payment on its behalf.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "case-3-businessconcept",
+      "relation": "INVOLVES",
+      "target": "head-office-organization",
+      "description": "Case 3 involves Head-Office",
+      "confidence": 0.98,
+      "evidence": "The head-office initiates the payment on behalf of its subsidiary.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "case-4-businessconcept",
+      "relation": "INVOLVES",
+      "target": "shared-service-centre-organization",
+      "description": "Case 4 involves Shared Service Centre",
+      "confidence": 0.98,
+      "evidence": "The shared service centre initiates the payment from the account of the head-office on behalf of the subsidiary.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "group-header-businesscomponent",
+      "description": "Payment Message contains Group Header",
+      "confidence": 0.99,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "messageidentification-dataelement",
+      "description": "Group Header contains MessageIdentification",
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as MessageIdentification",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creationdateandtime-dataelement",
+      "description": "Group Header contains CreationDateAndTime",
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as CreationDateAndTime",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "numberoftransactions-dataelement",
+      "description": "Group Header contains NumberOfTransactions",
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as NumberOfTransactions",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "initiatingparty-dataelement",
+      "description": "Group Header contains InitiatingParty",
+      "confidence": 0.98,
+      "evidence": "It contains identifying elements common to the entire message, such as InitiatingParty",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Payment Information is part of Payment Message",
+      "confidence": 0.98,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Credit Transfer Transaction Information is part of Payment Message",
+      "confidence": 0.98,
+      "evidence": "Payment initiation message is composed of three blocks: Group Header, Payment Information and Credit Transfer Transaction Information.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Payments Guide publishes ISO 20022",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "table-documentsection",
+      "relation": "DESCRIBES",
+      "target": "party-businessconcept",
+      "description": "Table describes Party",
+      "confidence": 0.98,
+      "evidence": "The ISO concepts of different parties are described in the table below.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "invoice-document",
+      "relation": "SENT_TO",
+      "target": "debtor-paymentrole",
+      "description": "Invoice is sent to Debtor",
+      "confidence": 0.98,
+      "evidence": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-owner-paymentrole",
+      "relation": "OWNS",
+      "target": "account-businessconcept",
+      "description": "Account Owner owns Account",
+      "confidence": 0.98,
+      "evidence": "The account owner pays an invoice directly.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "head-office-organization",
+      "relation": "INITIATES_PAYMENT_FOR",
+      "target": "subsidiary-organization",
+      "description": "Head-Office initiates payment for Subsidiary",
+      "confidence": 0.98,
+      "evidence": "The head-office initiates the payment on behalf of its subsidiary.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "shared-service-centre-organization",
+      "relation": "INITIATES_PAYMENT_FOR",
+      "target": "head-office-organization",
+      "description": "Shared Service Centre initiates payment for Head-Office",
+      "confidence": 0.98,
+      "evidence": "The shared service centre initiates the payment from the account of the head-office on behalf of the subsidiary.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "financing-company-organization",
+      "relation": "PROVIDES_FINANCING_TO",
+      "target": "customer-paymentrole",
+      "description": "Financing Company provides financing to Customer",
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "seller-paymentrole",
+      "relation": "PROVIDES_GOODS_OR_SERVICES_TO",
+      "target": "customer-paymentrole",
+      "description": "Seller provides goods or services to Customer",
+      "confidence": 0.98,
+      "evidence": "The party who is the ultimate creditor of the payment.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "HOLDS",
+      "target": "account-businessconcept",
+      "description": "Bank holds Account",
+      "confidence": 0.98,
+      "evidence": "The bank of the debtor.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-businessconcept",
+      "relation": "IS_TYPE_OF",
+      "target": "payment-businessconcept",
+      "description": "Transaction is type of Payment",
+      "confidence": 0.98,
+      "evidence": "The payment is credited to the account of a financing company, but the ultimate creditor is a customer of the financing company.",
+      "implicit": false,
+      "source_pages": [
+        7
+      ],
+      "source_chunks": [
+        5
+      ],
+      "frequency": 1
+    }
+  ]
+}

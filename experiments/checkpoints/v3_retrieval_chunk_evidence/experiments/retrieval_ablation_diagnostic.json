@@ -1,0 +1,634 @@
+{
+  "stats": {
+    "n_questions": 12,
+    "gt_page_on": {
+      "v2": 3,
+      "v3": 5
+    },
+    "gt_chunk_on": {
+      "v2": 0,
+      "v3": 5
+    },
+    "evidence_recall_mean": {
+      "v2": 0.4258,
+      "v3": 0.6286
+    },
+    "precision_mean": {
+      "v2": 0.0402,
+      "v3": 0.0308
+    },
+    "gt_rank_in_candidates": {
+      "2": 5,
+      "5": 1,
+      "7": 2,
+      "8": 2,
+      "27": 3,
+      "34": null,
+      "45": null,
+      "46": 1,
+      "48": null,
+      "49": null,
+      "51": null,
+      "53": null
+    }
+  },
+  "gate": {
+    "decision": "PROCEED",
+    "reasons": [
+      "GT-page attach (same def, QA-facing) v2=3 v3=5 (Δ+2)",
+      "GT-chunk attach v2=0 v3=5 (Δ+5)",
+      "evidence recall mean v2=0.4258 v3=0.6286 (Δ+0.2028)",
+      "precision mean v2=0.0402 v3=0.0308",
+      "v3 attaches chunk page RANGES (pages X-Y), v2 attaches single pages — same GT-page test applied to both."
+    ]
+  },
+  "records": [
+    {
+      "question_id": 2,
+      "category": "fact_lookup",
+      "question": "What is the phone number for Finance Finland?",
+      "evidence_page": 2,
+      "gt_chunks": [
+        0,
+        1
+      ],
+      "candidate_chunks": [
+        0,
+        1,
+        3,
+        17,
+        18,
+        24,
+        34
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+        ],
+        "recall": 1.0,
+        "precision": 0.0769,
+        "gt_page_on": true,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 17, pages 31-32)] 3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandinavian characters are\ntransmitted between all banks operating in Finland. The Basic Latin characters are\ntransmitted to other SEPA countries.\nThe Byte Order Mark (BOM) presentation format is not allowed.\nCertain special characters are replaced with predefined entities according to the XML\nstandard. The entities are as follows:\nSign\nEntity\nSEPA Rulebook\n&\n&amp;\n\n<\n&lt;\n\n>\n&gt;\n\n\"\n&quot;\n\n'\n&apos;\nAllowed to other SEPA countries\n\nThe character set and reference at the beginning of the message (e.g. <?xml\nversion=\"1.0\" encoding=\"UTF-8\"?> must correspond to each other.\nSpecial characters, including Scandinavian letters (Åå Ää Öö), may not be included in\nidentifying elements (MsgId, PaymentInformationId, InstructionId and EndToEndId).\nAlso note that the values in the identifying elements MsgId, PaymentInformationId,\nInstructionId and EndToEndId may not start with a forward slash (/) or contain two\nconsecutive forward slashes (//).\n\n3.3\nPayment on behalf and the Ultimate Debtor\nIt is possible...",
+          "[Source (chunk 3, pages 4-5)] 20022 Payment Initiation message in credit transfers. This description is based on\nthe current accepted SEPA Credit Transfer Customer-to-PSP Implementation\nGuidelines1 (version 2023 1.1) and the SEPA Instant Credit Transfer Customer-to-\nPSP Implementation Guidelines2 (version 2023 1.2). The latest versions of the SEPA\nRulebooks and Implementation Guidelines should always be checked from the\nEuropean Payments Council (EPC) website at www.europeanpaymentscouncil.eu.\nThis guide is updated as necessary, and changes are therefore possible. Please note\nthat any links provided in this document may have changed after it was published.\n\n1.1\nUsage of ISO 20022 in Finland\nThe purpose of this description is to introduce the data content of ISO 20022\npayment initiation from the credit transfer point of view. Message definition is about\nthe message sent by the customer to the bank or payment service provider\n(C2B/C2PSP), in which the data elements required by SEPA are present. The name\nof the ISO standard message is \"CustomerCreditTransferInitiationV09\" and the XML\nscheme identifier is \"pain.001.001.09\". Finland currently uses pain.001.001.02 and\npain.001.001.03 instead of the more recent versio...",
+          "[Source (chunk 18, pages 32-34)] 4.1\nPayment Date (AOS1)\nBanks operating in Finland have agreed that the Payment Date is transmitted from\nthe Debtor Bank to the Creditor Bank. The Payment Date is used, for example, in\ncalculating the penalty interest. A list of banks that provide the AOS1 and a more\ndetailed description of the AOS1 is available on the FFI website at www.finanssiala.fi.\n\n4.2\nCombining invoices and credit notes / Extended Remittance Information (ERI)\nThe additional optional service of combining invoices (AOS2) was replaced in\nNovember 2019 with the AOS Extended Remittance Information (ERI), which is an\noptional part of the European Payments Council SEPA Credit Transfer Rulebook.\nThe ERI service gives Debtors the possibility to transmit several invoices or credit\nnotes in a single credit transfer. The transfer can contain the following combination of\nremittance information:\n• One occurrence of 140 characters of unstructured remittance information\n• Up to 999 occurrences of 280 characters of structured remittance information\nbased on the ISO 20022 standard\nFor more detailed information, see the EPC's \"Guidance on the usage of ERI\" at\nwww.europeanpaymentscouncil.eu. EPC also maintains a list of banks t..."
+        ],
+        "recall": 0.0,
+        "precision": 0.0,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 6,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 5
+    },
+    {
+      "question_id": 5,
+      "category": "fact_lookup",
+      "question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+      "evidence_page": 32,
+      "gt_chunks": [
+        18
+      ],
+      "candidate_chunks": [
+        1,
+        4,
+        17,
+        18,
+        20
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 5)] 5 (61)\n\nISO 20022 Payments Guide\n\n\nIt is therefore advisable to use ISO 20022-compliant reporting messages also in\naccount reporting.\n1.2\nAddress structure\nPayment market infrastructures are being migrated to ISO 20022. The various\nprocesses across the payments ecosystem, such as know-your-customer and anti-\nmoney laundering screening, can be improved by using the versatile and structured\nISO 20022 address information. The Swift4 Payment Market Practice Group (PMPG)\nhas issued a recommendation f...",
+          "[Source (page 6)] 6 (61)\n\nISO 20022 Payments Guide\n\n\ncharacters of unstructured \"Address Line\". Elements available in a structured format\nmust be mapped into the respective structured address elements. The structured\nelements \"Country\" and \"Town Name\" are mandatory. Structured elements cannot be\nrepeated in the \"Address Line\" elements.\n\nThe structure and content of the Payment Message\n2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDe...",
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+        ],
+        "recall": 0.4286,
+        "precision": 0.0254,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 18, pages 32-34)] 4.1\nPayment Date (AOS1)\nBanks operating in Finland have agreed that the Payment Date is transmitted from\nthe Debtor Bank to the Creditor Bank. The Payment Date is used, for example, in\ncalculating the penalty interest. A list of banks that provide the AOS1 and a more\ndetailed description of the AOS1 is available on the FFI website at www.finanssiala.fi.\n\n4.2\nCombining invoices and credit notes / Extended Remittance Information (ERI)\nThe additional optional service of combining invoices (AOS2) was replaced in\nNovember 2019 with the AOS Extended Remittance Information (ERI), which is an\noptional part of the European Payments Council SEPA Credit Transfer Rulebook.\nThe ERI service gives Debtors the possibility to transmit several invoices or credit\nnotes in a single credit transfer. The transfer can contain the following combination of\nremittance information:\n• One occurrence of 140 characters of unstructured remittance information\n• Up to 999 occurrences of 280 characters of structured remittance information\nbased on the ISO 20022 standard\nFor more detailed information, see the EPC's \"Guidance on the usage of ERI\" at\nwww.europeanpaymentscouncil.eu. EPC also maintains a list of banks t...",
+          "[Source (chunk 4, pages 5-6)] 1.2\nAddress structure\nPayment market infrastructures are being migrated to ISO 20022. The various\nprocesses across the payments ecosystem, such as know-your-customer and anti-\nmoney laundering screening, can be improved by using the versatile and structured\nISO 20022 address information. The Swift4 Payment Market Practice Group (PMPG)\nhas issued a recommendation for how structured addresses5 should be used when\nthe payment parties are located in different countries. The pain.001.001.09 message\nversion enables the use of structured addresses in SEPA payments.\nMaking the transition from an unstructured address to a fully structured address is\nchallenging. The European Payments Council (EPC) has therefore taken the decision\nto enable hybrid addresses to facilitate a more flexible transition. This flexibility is\nparticularly useful when assimilating systems and processes to the new\nrequirements. At the time of writing, the EPC had set no end date for the provision of\nan address in a hybrid format. The EPC has released a guidance document6 on the\nprovision of addresses under the EPC payment schemes.\nIt should be noted that the implementation of structured or hybrid addresses may\nrequire...",
+          "[Source (chunk 17, pages 31-32)] 3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandinavian characters are\ntransmitted between all banks operating in Finland. The Basic Latin characters are\ntransmitted to other SEPA countries.\nThe Byte Order Mark (BOM) presentation format is not allowed.\nCertain special characters are replaced with predefined entities according to the XML\nstandard. The entities are as follows:\nSign\nEntity\nSEPA Rulebook\n&\n&amp;\n\n<\n&lt;\n\n>\n&gt;\n\n\"\n&quot;\n\n'\n&apos;\nAllowed to other SEPA countries\n\nThe character set and reference at the beginning of the message (e.g. <?xml\nversion=\"1.0\" encoding=\"UTF-8\"?> must correspond to each other.\nSpecial characters, including Scandinavian letters (Åå Ää Öö), may not be included in\nidentifying elements (MsgId, PaymentInformationId, InstructionId and EndToEndId).\nAlso note that the values in the identifying elements MsgId, PaymentInformationId,\nInstructionId and EndToEndId may not start with a forward slash (/) or contain two\nconsecutive forward slashes (//).\n\n3.3\nPayment on behalf and the Ultimate Debtor\nIt is possible..."
+        ],
+        "recall": 1.0,
+        "precision": 0.0263,
+        "gt_page_on": true,
+        "gt_chunk_on": true,
+        "n_pages": 6,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 1
+    },
+    {
+      "question_id": 7,
+      "category": "fact_lookup",
+      "question": "What is the fax number for Finance Finland?",
+      "evidence_page": 2,
+      "gt_chunks": [
+        0,
+        1
+      ],
+      "candidate_chunks": [
+        0,
+        1,
+        3,
+        17,
+        18,
+        24,
+        34
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+        ],
+        "recall": 1.0,
+        "precision": 0.0769,
+        "gt_page_on": true,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 17, pages 31-32)] 3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandinavian characters are\ntransmitted between all banks operating in Finland. The Basic Latin characters are\ntransmitted to other SEPA countries.\nThe Byte Order Mark (BOM) presentation format is not allowed.\nCertain special characters are replaced with predefined entities according to the XML\nstandard. The entities are as follows:\nSign\nEntity\nSEPA Rulebook\n&\n&amp;\n\n<\n&lt;\n\n>\n&gt;\n\n\"\n&quot;\n\n'\n&apos;\nAllowed to other SEPA countries\n\nThe character set and reference at the beginning of the message (e.g. <?xml\nversion=\"1.0\" encoding=\"UTF-8\"?> must correspond to each other.\nSpecial characters, including Scandinavian letters (Åå Ää Öö), may not be included in\nidentifying elements (MsgId, PaymentInformationId, InstructionId and EndToEndId).\nAlso note that the values in the identifying elements MsgId, PaymentInformationId,\nInstructionId and EndToEndId may not start with a forward slash (/) or contain two\nconsecutive forward slashes (//).\n\n3.3\nPayment on behalf and the Ultimate Debtor\nIt is possible...",
+          "[Source (chunk 0, pages 1-2)] 2025\n\n2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n\n1.2 Address structure .............................................................................................................. 5\n\n1.2.1 Structured address .................................................................................................. 5\n\n1.2.2 Unstructured address .............................................................................................. 5\n\n1.2.3 Hybrid address ........................................................................................................ 5\n\nThe structure and content of the Payment Message ................................................................. 6\n\n2.1 Parties of the Transaction .............................................",
+          "[Source (chunk 1, pages 2-3)] 3.1 Creditor reference ........................................................................................................... 31\n\n3.2 Character set .................................................................................................................. 31\n\n3.3 Payment on behalf and the Ultimate Debtor ................................................................... 31\n\n3.4 Ultimate Creditor ............................................................................................................. 31\n\n3.5 Salaries and pensions .................................................................................................... 32\n\nUse of extended information elements .................................................................................... 32\n\n4.1 Payment Date (AOS1) .................................................................................................... 32\n\n4.2 Combining invoices and credit notes / Extended Remittance Information (ERI) ............ 32\n\nExamples ................................................................................................................................. 33\n\n5.1 Creditor reference in a credit transfer tran..."
+        ],
+        "recall": 1.0,
+        "precision": 0.0237,
+        "gt_page_on": true,
+        "gt_chunk_on": true,
+        "n_pages": 5,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 2
+    },
+    {
+      "question_id": 8,
+      "category": "fact_lookup",
+      "question": "What is the ISO 20022 website provided by Finance Finland?",
+      "evidence_page": 32,
+      "gt_chunks": [
+        18
+      ],
+      "candidate_chunks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 4)] 4 (61)\n\nISO 20022 Payments Guide\n\n\nISO 20022 payments\n\nBackground\nInternational payment systems will migrate to the ISO 20022 standard of the\nInternational Organization for Standardization (ISO) in interbank payments by 2025.\nEuropean banks, payment institutions and the euro area clearing and settlement\nsystems have already adopted the ISO 20022 standard. Regulation (EU) No\n260/2012 of the European Parliament and the Council establishing technical and\nbusiness requirements for credit transfers a..."
+        ],
+        "recall": 0.3333,
+        "precision": 0.0225,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 3, pages 4-5)] 20022 Payment Initiation message in credit transfers. This description is based on\nthe current accepted SEPA Credit Transfer Customer-to-PSP Implementation\nGuidelines1 (version 2023 1.1) and the SEPA Instant Credit Transfer Customer-to-\nPSP Implementation Guidelines2 (version 2023 1.2). The latest versions of the SEPA\nRulebooks and Implementation Guidelines should always be checked from the\nEuropean Payments Council (EPC) website at www.europeanpaymentscouncil.eu.\nThis guide is updated as necessary, and changes are therefore possible. Please note\nthat any links provided in this document may have changed after it was published.\n\n1.1\nUsage of ISO 20022 in Finland\nThe purpose of this description is to introduce the data content of ISO 20022\npayment initiation from the credit transfer point of view. Message definition is about\nthe message sent by the customer to the bank or payment service provider\n(C2B/C2PSP), in which the data elements required by SEPA are present. The name\nof the ISO standard message is \"CustomerCreditTransferInitiationV09\" and the XML\nscheme identifier is \"pain.001.001.09\". Finland currently uses pain.001.001.02 and\npain.001.001.03 instead of the more recent versio...",
+          "[Source (chunk 18, pages 32-34)] 4.1\nPayment Date (AOS1)\nBanks operating in Finland have agreed that the Payment Date is transmitted from\nthe Debtor Bank to the Creditor Bank. The Payment Date is used, for example, in\ncalculating the penalty interest. A list of banks that provide the AOS1 and a more\ndetailed description of the AOS1 is available on the FFI website at www.finanssiala.fi.\n\n4.2\nCombining invoices and credit notes / Extended Remittance Information (ERI)\nThe additional optional service of combining invoices (AOS2) was replaced in\nNovember 2019 with the AOS Extended Remittance Information (ERI), which is an\noptional part of the European Payments Council SEPA Credit Transfer Rulebook.\nThe ERI service gives Debtors the possibility to transmit several invoices or credit\nnotes in a single credit transfer. The transfer can contain the following combination of\nremittance information:\n• One occurrence of 140 characters of unstructured remittance information\n• Up to 999 occurrences of 280 characters of structured remittance information\nbased on the ISO 20022 standard\nFor more detailed information, see the EPC's \"Guidance on the usage of ERI\" at\nwww.europeanpaymentscouncil.eu. EPC also maintains a list of banks t...",
+          "[Source (chunk 6, pages 8-10)] 2.2.2\nPayment Information - Block B\nPayment Information can occur multiple times. It contains information related to the\ndebit side of the transaction. This information can include for example\nPaymentInformationIdentifier, Debtor, DebtorAccount, PaymentTypeInformation and\nRequestedExecutionDate. The Payment Information block of the message needs to\nbe repeated if, for example, the requested execution date, payment type and/or\ndebtor account changes.\n\n2.2.3\nCredit Transfer Transaction Information - Block C\nCredit Transfer Transaction Information is an element in the Payment Information\nblock. It is mandatory and can occur multiple times. It contains information related to\nthe credit side of the transaction, such as Creditor, CreditorAgent and\nRemittanceInformation.\n\n2.2.4\nRemittance Information\nThe optional Remittance Information element can occur multiple times when used to\nprovide additional structured remittance information to support the bundling of\ninvoices and credit notes to one payment. This is defined with Extended Remittance\nInformation (ERI7), which supports multiple occurrences of structured remittance\ninformation in the RemittanceInformation element. See section 4.2 for..."
+        ],
+        "recall": 1.0,
+        "precision": 0.0269,
+        "gt_page_on": true,
+        "gt_chunk_on": true,
+        "n_pages": 8,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 2
+    },
+    {
+      "question_id": 27,
+      "category": "relationship",
+      "question": "How does a C2B payment initiation file relate to the bank's status report?",
+      "evidence_page": 53,
+      "gt_chunks": [
+        29
+      ],
+      "candidate_chunks": [
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 4)] 4 (61)\n\nISO 20022 Payments Guide\n\n\nISO 20022 payments\n\nBackground\nInternational payment systems will migrate to the ISO 20022 standard of the\nInternational Organization for Standardization (ISO) in interbank payments by 2025.\nEuropean banks, payment institutions and the euro area clearing and settlement\nsystems have already adopted the ISO 20022 standard. Regulation (EU) No\n260/2012 of the European Parliament and the Council establishing technical and\nbusiness requirements for credit transfers a...",
+          "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess..."
+        ],
+        "recall": 0.4545,
+        "precision": 0.0382,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 30, pages 54-56)] 7.2.2\nStatus codes submitted to the customer\nWith corporate customers, the payer's bank submits the VOP responses as part of\nthe C2B payment status report. Please check with the bank in question to ensure\nhow long the matching results are valid.\nThe following VOP status codes are based on the valid ISO 20022 transaction status\ncodes.\nMATCH - code: RCVC (ReceivedVerificationCompleted)\nCLOSE MATCH - code: RVMC (ReceivedVerificationCompletedMatchClosely);\nTogether with the 'Close match' response, the responding PSP also sends the name\nof the payee as registered by the responding PSP\nNO MATCH - code: RVNM (ReceivedVerificationCompletedNoMatch)\nNOT POSSIBLE - code: RVNA (ReceivedVerificationCompletedNotApplicable)\nIf the verification is performed for a legal person using an identification code, only\nMATCH, NO MATCH and NOT POSSIBLE responses are possible.\nWhen processing the responses, a possible alternative is to report negative matching\noutcomes only (Close match, No match, Not possible).\n\n9 https://www.europeanpaymentscouncil.eu/document-library/other/epc-recommendations-matching-processes-under-verification-\npayee-scheme\n\n55 (61)\n\nISO 20022 Payments Guide\n\nDomestic urgent payments a...",
+          "[Source (chunk 28, pages 52-53)] 9 October 2025, a payer's payment service provider (PSP, banks included) must offer\nto the payer a service ensuring verification of the payee to whom the payer intends to\nsend a credit transfer. This applies to both standard and instant credit transfers\ndenominated in euro within the European Union. The payer's PSP must verify\nwhether the payment account identifier and the name of the payee provided by the\npayer match those registered by the payee's PSP. The purpose of this verification of\npayee (VOP) service is to reduce the risk of fraud and payment errors. When the\npayee is a legal person, data elements other than the name of the payee that\nunambiguously identify the payee, such as a business ID, VAT number or Legal\nEntity Identifier (LEI), can be used if both the payer's and the payee's PSPs enable\nthe verification of the payee against this data element.\nThe Instant Payments Regulation also determines that PSPs must allow payment\nservice users that are not consumers and submit files of multiple payment orders to\nchoose whether they want to use the verification service (opt-in) or submit their\npayment orders without it (opt-out).\nThe European Payment Council's Verification of Pa...",
+          "[Source (chunk 29, pages 53-54)] 7.1.1\nThe VOP data file\nCorporate customers may have the payee information verified through their system\nbefore submitting the payments to their bank in the C2B payment file.\nThe channel offered by the bank includes a separate file type for the VOP service,\nwhich only submits the data for the verification of the payee, not for payment. The\nmatching results are then sent to the customer as a C2B payment status report (see\n\n7.2.2 Status codes submitted to the customer).\nWhen the customer has checked the matching result and made any possible\nchanges to the payment orders as a result, the customer submits the normal C2B\npayment file to the bank.\nIn this solution,\n\n1. Corporate customers can opt in to the VOP service by making a VOP request\nusing the designated file type included in the data transfer channel.\n\n2. Corporate customers wishing to opt out of the VOP service continue to submit\nthe normal C2B payment file to the bank in the current manner. In this case,\nthe payment orders in the file will not be subject to a VOP check.\n\n7.2\nVOP response types and status codes submitted to the customer\n\n7.2.1\nVOP response types\nThe Instant Payments Regulation determines the following VOP respo..."
+        ],
+        "recall": 1.0,
+        "precision": 0.0485,
+        "gt_page_on": true,
+        "gt_chunk_on": true,
+        "n_pages": 5,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 3
+    },
+    {
+      "question_id": 34,
+      "category": "hierarchical",
+      "question": "What are the main sections of the ISO 20022 Payments Guide?",
+      "evidence_page": 3,
+      "gt_chunks": [],
+      "candidate_chunks": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        25,
+        26,
+        28,
+        31,
+        33,
+        34
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 4)] 4 (61)\n\nISO 20022 Payments Guide\n\n\nISO 20022 payments\n\nBackground\nInternational payment systems will migrate to the ISO 20022 standard of the\nInternational Organization for Standardization (ISO) in interbank payments by 2025.\nEuropean banks, payment institutions and the euro area clearing and settlement\nsystems have already adopted the ISO 20022 standard. Regulation (EU) No\n260/2012 of the European Parliament and the Council establishing technical and\nbusiness requirements for credit transfers a...",
+          "[Source (page 1)] ISO 20022 Payments Guide\n2025"
+        ],
+        "recall": 0.2778,
+        "precision": 0.0595,
+        "gt_page_on": true,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 28, pages 52-53)] 9 October 2025, a payer's payment service provider (PSP, banks included) must offer\nto the payer a service ensuring verification of the payee to whom the payer intends to\nsend a credit transfer. This applies to both standard and instant credit transfers\ndenominated in euro within the European Union. The payer's PSP must verify\nwhether the payment account identifier and the name of the payee provided by the\npayer match those registered by the payee's PSP. The purpose of this verification of\npayee (VOP) service is to reduce the risk of fraud and payment errors. When the\npayee is a legal person, data elements other than the name of the payee that\nunambiguously identify the payee, such as a business ID, VAT number or Legal\nEntity Identifier (LEI), can be used if both the payer's and the payee's PSPs enable\nthe verification of the payee against this data element.\nThe Instant Payments Regulation also determines that PSPs must allow payment\nservice users that are not consumers and submit files of multiple payment orders to\nchoose whether they want to use the verification service (opt-in) or submit their\npayment orders without it (opt-out).\nThe European Payment Council's Verification of Pa...",
+          "[Source (chunk 3, pages 4-5)] 20022 Payment Initiation message in credit transfers. This description is based on\nthe current accepted SEPA Credit Transfer Customer-to-PSP Implementation\nGuidelines1 (version 2023 1.1) and the SEPA Instant Credit Transfer Customer-to-\nPSP Implementation Guidelines2 (version 2023 1.2). The latest versions of the SEPA\nRulebooks and Implementation Guidelines should always be checked from the\nEuropean Payments Council (EPC) website at www.europeanpaymentscouncil.eu.\nThis guide is updated as necessary, and changes are therefore possible. Please note\nthat any links provided in this document may have changed after it was published.\n\n1.1\nUsage of ISO 20022 in Finland\nThe purpose of this description is to introduce the data content of ISO 20022\npayment initiation from the credit transfer point of view. Message definition is about\nthe message sent by the customer to the bank or payment service provider\n(C2B/C2PSP), in which the data elements required by SEPA are present. The name\nof the ISO standard message is \"CustomerCreditTransferInitiationV09\" and the XML\nscheme identifier is \"pain.001.001.09\". Finland currently uses pain.001.001.02 and\npain.001.001.03 instead of the more recent versio...",
+          "[Source (chunk 5, pages 6-8)] 2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDescription\nDebtor\n\nOriginator\nOrdering Party Buyer\nThe party whose account is debited\nwith the payment.\nUltimate\nDebtor\nOriginator Reference Party\n\nThe party who originally ordered\ngoods or services and to whom the\nseller has sent the invoice. Ultimate\nDebtor or Originator Reference Party\nis used when the receiver of the\ninvoice is different from the debtor.\nInitiating\nParty\n\nThe party on whose initiative the\npayment data is established. This\nmight be the debtor itself, an agent, or\nthe company service centre.\nCreditor\nBeneficiary\nSeller\nThe party whose account is credited\nwith the payment.\nUltimate\nCreditor\nUltimate Beneficiary\nBeneficiary Reference Party\nThe party who is the ultimate creditor\nof the payment. For example, a\npayment is credited to the account of\na financing company, but the ultimate\ncreditor is a customer of the financing\ncompany.\nDebtor\nagent\nBank (Originating Bank\nOriginator's Bank\nDebtor's Bank)\nParty is the bank of the debtor.\n\nCreditor\nagent\nBank (Creditor's Bank\nSeller's Bank)\nParty is the bank of the creditor.\n\n7 (61)\n\nISO 20022 Pa..."
+        ],
+        "recall": 0.4444,
+        "precision": 0.0332,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 7,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    },
+    {
+      "question_id": 45,
+      "category": "workflow",
+      "question": "How does a customer initiate a credit transfer?",
+      "evidence_page": 53,
+      "gt_chunks": [
+        29
+      ],
+      "candidate_chunks": [
+        4,
+        5,
+        10,
+        12,
+        15
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 5)] 5 (61)\n\nISO 20022 Payments Guide\n\n\nIt is therefore advisable to use ISO 20022-compliant reporting messages also in\naccount reporting.\n1.2\nAddress structure\nPayment market infrastructures are being migrated to ISO 20022. The various\nprocesses across the payments ecosystem, such as know-your-customer and anti-\nmoney laundering screening, can be improved by using the versatile and structured\nISO 20022 address information. The Swift4 Payment Market Practice Group (PMPG)\nhas issued a recommendation f...",
+          "[Source (page 6)] 6 (61)\n\nISO 20022 Payments Guide\n\n\ncharacters of unstructured \"Address Line\". Elements available in a structured format\nmust be mapped into the respective structured address elements. The structured\nelements \"Country\" and \"Town Name\" are mandatory. Structured elements cannot be\nrepeated in the \"Address Line\" elements.\n\nThe structure and content of the Payment Message\n2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDe...",
+          "[Source (page 20)] 20 (61)\n\nISO 20022 Payments Guide\n\n\n2.3.4\nCredit Transfer Transaction Information\nCredit Transfer Transaction Information contains elements related to the transaction.\nIndex\nMult\nMessage Element\nImplementation guide\n2.78\n1..n\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n\n2.79\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n\n2.80\n0..1\nCustomer Credit Tran..."
+        ],
+        "recall": 0.375,
+        "precision": 0.0268,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 5, pages 6-8)] 2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDescription\nDebtor\n\nOriginator\nOrdering Party Buyer\nThe party whose account is debited\nwith the payment.\nUltimate\nDebtor\nOriginator Reference Party\n\nThe party who originally ordered\ngoods or services and to whom the\nseller has sent the invoice. Ultimate\nDebtor or Originator Reference Party\nis used when the receiver of the\ninvoice is different from the debtor.\nInitiating\nParty\n\nThe party on whose initiative the\npayment data is established. This\nmight be the debtor itself, an agent, or\nthe company service centre.\nCreditor\nBeneficiary\nSeller\nThe party whose account is credited\nwith the payment.\nUltimate\nCreditor\nUltimate Beneficiary\nBeneficiary Reference Party\nThe party who is the ultimate creditor\nof the payment. For example, a\npayment is credited to the account of\na financing company, but the ultimate\ncreditor is a customer of the financing\ncompany.\nDebtor\nagent\nBank (Originating Bank\nOriginator's Bank\nDebtor's Bank)\nParty is the bank of the debtor.\n\nCreditor\nagent\nBank (Creditor's Bank\nSeller's Bank)\nParty is the bank of the creditor.\n\n7 (61)\n\nISO 20022 Pa...",
+          "[Source (chunk 10, pages 16-18)] 2.33\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Post Code\n\n2.34\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Town Name\n\n2.35\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Town Location Name\n\n2.36\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++District Name\n\n2.37\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Country Sub Division\n\n2.38\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Country\nDebtor's country code.\n\n2.39\n0..2\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Postal Address\n++++Address Line\nDebtor's address, maximum of two lines\nof unstructured address information.\n\n17 (61)\n\nISO 20022 Payments Guide\n\n\n2.40\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Identification\n\n2.41\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Debtor\n+++Identification\n++++Organisation\nIdentification\nUnique and unambiguo...",
+          "[Source (chunk 12, pages 20-22)] 2.80\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n++++Instruction\nIdentification\nUnique transaction identification\nassigned by the debtor, used between\nthe debtor and the debtor's bank. The\nidentification is returned only to the\ndebtor.\nOn an electronic account statement, the\nidentifier is returned in the T11 06 field\nfor additional information. On a\ncamt.053 XML account statement, the\nidentifier is returned in the same or\ncorresponding XML element as used in\npain.001 payment data.\n\n2.81\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n++++End To End\nIdentification\nUnique identifier assigned by the debtor\nto identify the transaction. This\nidentification is forwarded and reported\nto both the debtor and the creditor.\n\n2.83\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Type\nInformation\n\n2.85\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Type\nInformation\n++++Service Level..."
+        ],
+        "recall": 0.5,
+        "precision": 0.0252,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 9,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    },
+    {
+      "question_id": 46,
+      "category": "workflow",
+      "question": "What happens after the customer submits a C2B payment file to the bank?",
+      "evidence_page": 53,
+      "gt_chunks": [
+        29
+      ],
+      "candidate_chunks": [
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 4)] 4 (61)\n\nISO 20022 Payments Guide\n\n\nISO 20022 payments\n\nBackground\nInternational payment systems will migrate to the ISO 20022 standard of the\nInternational Organization for Standardization (ISO) in interbank payments by 2025.\nEuropean banks, payment institutions and the euro area clearing and settlement\nsystems have already adopted the ISO 20022 standard. Regulation (EU) No\n260/2012 of the European Parliament and the Council establishing technical and\nbusiness requirements for credit transfers a...",
+          "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess..."
+        ],
+        "recall": 0.2143,
+        "precision": 0.0229,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 29, pages 53-54)] 7.1.1\nThe VOP data file\nCorporate customers may have the payee information verified through their system\nbefore submitting the payments to their bank in the C2B payment file.\nThe channel offered by the bank includes a separate file type for the VOP service,\nwhich only submits the data for the verification of the payee, not for payment. The\nmatching results are then sent to the customer as a C2B payment status report (see\n\n7.2.2 Status codes submitted to the customer).\nWhen the customer has checked the matching result and made any possible\nchanges to the payment orders as a result, the customer submits the normal C2B\npayment file to the bank.\nIn this solution,\n\n1. Corporate customers can opt in to the VOP service by making a VOP request\nusing the designated file type included in the data transfer channel.\n\n2. Corporate customers wishing to opt out of the VOP service continue to submit\nthe normal C2B payment file to the bank in the current manner. In this case,\nthe payment orders in the file will not be subject to a VOP check.\n\n7.2\nVOP response types and status codes submitted to the customer\n\n7.2.1\nVOP response types\nThe Instant Payments Regulation determines the following VOP respo...",
+          "[Source (chunk 30, pages 54-56)] 7.2.2\nStatus codes submitted to the customer\nWith corporate customers, the payer's bank submits the VOP responses as part of\nthe C2B payment status report. Please check with the bank in question to ensure\nhow long the matching results are valid.\nThe following VOP status codes are based on the valid ISO 20022 transaction status\ncodes.\nMATCH - code: RCVC (ReceivedVerificationCompleted)\nCLOSE MATCH - code: RVMC (ReceivedVerificationCompletedMatchClosely);\nTogether with the 'Close match' response, the responding PSP also sends the name\nof the payee as registered by the responding PSP\nNO MATCH - code: RVNM (ReceivedVerificationCompletedNoMatch)\nNOT POSSIBLE - code: RVNA (ReceivedVerificationCompletedNotApplicable)\nIf the verification is performed for a legal person using an identification code, only\nMATCH, NO MATCH and NOT POSSIBLE responses are possible.\nWhen processing the responses, a possible alternative is to report negative matching\noutcomes only (Close match, No match, Not possible).\n\n9 https://www.europeanpaymentscouncil.eu/document-library/other/epc-recommendations-matching-processes-under-verification-\npayee-scheme\n\n55 (61)\n\nISO 20022 Payments Guide\n\nDomestic urgent payments a...",
+          "[Source (chunk 2, pages 3-4)] 6.2.3 Message content approved ................................................................................... 50\n\n6.2.4 Payments partially accepted in message for further processing ........................... 50\n\n6.2.5 Rejection reason codes ......................................................................................... 51\n\nRecommendation for the Verification of Payee in payment files ............................................ 52\n\n7.1 VOP in C2B payment files and its implementation ......................................................... 53\n\n7.1.1 The VOP data file .................................................................................................. 53\n\n7.2 VOP response types and status codes submitted to the customer ................................ 53\n\n7.2.1 VOP response types.............................................................................................. 53\n\n7.2.2 Status codes submitted to the customer ............................................................... 54\n\nDomestic urgent payments and currency payments ................................................................ 55\n\n8.1 Domestic urgent payments (POPS) .................."
+        ],
+        "recall": 1.0,
+        "precision": 0.0757,
+        "gt_page_on": true,
+        "gt_chunk_on": true,
+        "n_pages": 6,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": 1
+    },
+    {
+      "question_id": 48,
+      "category": "workflow",
+      "question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+      "evidence_page": 39,
+      "gt_chunks": [
+        21
+      ],
+      "candidate_chunks": [
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 3)] 3 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\n6.1.3 Message root ......................................................................................................... 40\n6.1.4 Group Header ........................................................................................................ 40\n6.1.5 Original Group Information And St...",
+          "[Source (page 4)] 4 (61)\n\nISO 20022 Payments Guide\n\n\nISO 20022 payments\n\nBackground\nInternational payment systems will migrate to the ISO 20022 standard of the\nInternational Organization for Standardization (ISO) in interbank payments by 2025.\nEuropean banks, payment institutions and the euro area clearing and settlement\nsystems have already adopted the ISO 20022 standard. Regulation (EU) No\n260/2012 of the European Parliament and the Council establishing technical and\nbusiness requirements for credit transfers a...",
+          "[Source (page 52)] 52 (61)\n\nISO 20022 Payments Guide\n\n\nBE04\nSpecification of creditor's address, which is required for payment, is\nmissing/not correct\nED05\nSettlement of the transaction has failed\nERIN\nThe Extended Remittance Information (ERI) option is not supported\nFF01\nInvalid file format\nMD07\nEnd customer is deceased\nMODI\nUsed when a requested modification is successful\nMS02\nReason has not been specified by end customer\nMS03\nReason has not been specified by agent\nRC01\nBank identifier code specified in the mess..."
+        ],
+        "recall": 0.3636,
+        "precision": 0.0305,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 2, pages 3-4)] 6.2.3 Message content approved ................................................................................... 50\n\n6.2.4 Payments partially accepted in message for further processing ........................... 50\n\n6.2.5 Rejection reason codes ......................................................................................... 51\n\nRecommendation for the Verification of Payee in payment files ............................................ 52\n\n7.1 VOP in C2B payment files and its implementation ......................................................... 53\n\n7.1.1 The VOP data file .................................................................................................. 53\n\n7.2 VOP response types and status codes submitted to the customer ................................ 53\n\n7.2.1 VOP response types.............................................................................................. 53\n\n7.2.2 Status codes submitted to the customer ............................................................... 54\n\nDomestic urgent payments and currency payments ................................................................ 55\n\n8.1 Domestic urgent payments (POPS) ..................",
+          "[Source (chunk 3, pages 4-5)] 20022 Payment Initiation message in credit transfers. This description is based on\nthe current accepted SEPA Credit Transfer Customer-to-PSP Implementation\nGuidelines1 (version 2023 1.1) and the SEPA Instant Credit Transfer Customer-to-\nPSP Implementation Guidelines2 (version 2023 1.2). The latest versions of the SEPA\nRulebooks and Implementation Guidelines should always be checked from the\nEuropean Payments Council (EPC) website at www.europeanpaymentscouncil.eu.\nThis guide is updated as necessary, and changes are therefore possible. Please note\nthat any links provided in this document may have changed after it was published.\n\n1.1\nUsage of ISO 20022 in Finland\nThe purpose of this description is to introduce the data content of ISO 20022\npayment initiation from the credit transfer point of view. Message definition is about\nthe message sent by the customer to the bank or payment service provider\n(C2B/C2PSP), in which the data elements required by SEPA are present. The name\nof the ISO standard message is \"CustomerCreditTransferInitiationV09\" and the XML\nscheme identifier is \"pain.001.001.09\". Finland currently uses pain.001.001.02 and\npain.001.001.03 instead of the more recent versio...",
+          "[Source (chunk 30, pages 54-56)] 7.2.2\nStatus codes submitted to the customer\nWith corporate customers, the payer's bank submits the VOP responses as part of\nthe C2B payment status report. Please check with the bank in question to ensure\nhow long the matching results are valid.\nThe following VOP status codes are based on the valid ISO 20022 transaction status\ncodes.\nMATCH - code: RCVC (ReceivedVerificationCompleted)\nCLOSE MATCH - code: RVMC (ReceivedVerificationCompletedMatchClosely);\nTogether with the 'Close match' response, the responding PSP also sends the name\nof the payee as registered by the responding PSP\nNO MATCH - code: RVNM (ReceivedVerificationCompletedNoMatch)\nNOT POSSIBLE - code: RVNA (ReceivedVerificationCompletedNotApplicable)\nIf the verification is performed for a legal person using an identification code, only\nMATCH, NO MATCH and NOT POSSIBLE responses are possible.\nWhen processing the responses, a possible alternative is to report negative matching\noutcomes only (Close match, No match, Not possible).\n\n9 https://www.europeanpaymentscouncil.eu/document-library/other/epc-recommendations-matching-processes-under-verification-\npayee-scheme\n\n55 (61)\n\nISO 20022 Payments Guide\n\nDomestic urgent payments a..."
+        ],
+        "recall": 0.6364,
+        "precision": 0.0337,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 6,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    },
+    {
+      "question_id": 49,
+      "category": "workflow",
+      "question": "How is a returned payment reported?",
+      "evidence_page": 40,
+      "gt_chunks": [
+        21
+      ],
+      "candidate_chunks": [
+        0,
+        12,
+        34
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 1)] ISO 20022 Payments Guide\n2025",
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru...",
+          "[Source (page 20)] 20 (61)\n\nISO 20022 Payments Guide\n\n\n2.3.4\nCredit Transfer Transaction Information\nCredit Transfer Transaction Information contains elements related to the transaction.\nIndex\nMult\nMessage Element\nImplementation guide\n2.78\n1..n\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n\n2.79\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n\n2.80\n0..1\nCustomer Credit Tran..."
+        ],
+        "recall": 0.1818,
+        "precision": 0.0303,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 12, pages 20-22)] 2.80\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n++++Instruction\nIdentification\nUnique transaction identification\nassigned by the debtor, used between\nthe debtor and the debtor's bank. The\nidentification is returned only to the\ndebtor.\nOn an electronic account statement, the\nidentifier is returned in the T11 06 field\nfor additional information. On a\ncamt.053 XML account statement, the\nidentifier is returned in the same or\ncorresponding XML element as used in\npain.001 payment data.\n\n2.81\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Identification\n++++End To End\nIdentification\nUnique identifier assigned by the debtor\nto identify the transaction. This\nidentification is forwarded and reported\nto both the debtor and the creditor.\n\n2.83\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Type\nInformation\n\n2.85\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Payment Type\nInformation\n++++Service Level...",
+          "[Source (chunk 34, pages 60-61)] 60 (61)\n\nISO 20022 Payments Guide\n\n\nAT name\nRulebook Definition\nFinnish term\nFinnish definition\nSwedish term\nSwedish definition\nThe Creditor identification\ncode\nA code supplied by the\nOriginator\nSaajan tunniste\nMaksajan antama saajan\nyksilöintitieto\nMottagarens identifikation Mottagarens\nidentifikation, given av\nbetalaren\nThe Originator's reference\nof the Credit Transfer\nTransaction\nThis reference identifies\nfor a given Originator\neach credit transfer\ntransaction presented to\nthe Originator PSP, in a\nunique way. This number\nwill be transmitted in the\nentire process of the\nhandling of the credit\ntransfer transactions from\nacceptance until the\nfinality of the transaction.\nIt must be returned in any\nexception handling\nprocess-step by any party\ninvolved. The Originator\ncannot request for any\nother referencing\ninformation to be returned\nto him, in order to identify\na SEPA credit transfer.\nThe Originator must\ndefine the internal\nstructure of this reference;\nit can only be expected to\nbe meaningful to the\nOriginator.\nMaksutapahtuman\ntunniste\nMaksajan antama\ntapahtuman yksilöintitieto,\nvälitetään sekä\nmaksajalle että saajalle\nmuuttumattomana.\nTransaktionens\nidentifikation\nTransaktionens\nid...",
+          "[Source (chunk 0, pages 1-2)] 2025\n\n2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n\n1.2 Address structure .............................................................................................................. 5\n\n1.2.1 Structured address .................................................................................................. 5\n\n1.2.2 Unstructured address .............................................................................................. 5\n\n1.2.3 Hybrid address ........................................................................................................ 5\n\nThe structure and content of the Payment Message ................................................................. 6\n\n2.1 Parties of the Transaction ............................................."
+        ],
+        "recall": 0.1818,
+        "precision": 0.0108,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 7,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    },
+    {
+      "question_id": 51,
+      "category": "workflow",
+      "question": "How does the bank verify the payee before payment?",
+      "evidence_page": 53,
+      "gt_chunks": [
+        29
+      ],
+      "candidate_chunks": [
+        1,
+        5,
+        6,
+        17,
+        33
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 6)] 6 (61)\n\nISO 20022 Payments Guide\n\n\ncharacters of unstructured \"Address Line\". Elements available in a structured format\nmust be mapped into the respective structured address elements. The structured\nelements \"Country\" and \"Town Name\" are mandatory. Structured elements cannot be\nrepeated in the \"Address Line\" elements.\n\nThe structure and content of the Payment Message\n2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDe...",
+          "[Source (page 7)] 7 (61)\n\nISO 20022 Payments Guide\n\n\nSome example scenarios and the related parties are illustrated in the following\npicture:\nSource: SWIFT\n\nCase 1:\nIn this scenario, the account owner pays an invoice directly. They are\nthe Ultimate Debtor, the Debtor and the one initiating the payment.\nCase 2:\nIn this scenario, the invoice has been sent to the subsidiary, but the\nhead-office (i.e. the account owner) is the one initiating the payment on\nits behalf. The Creditor of the payment is different from the...",
+          "[Source (page 8)] 8 (61)\n\nISO 20022 Payments Guide\n\n\n2.2\nPayment Message structure\nPayment initiation message is composed of three blocks: Group Header, Payment\nInformation and Credit Transfer Transaction Information.\nSource: SWIFT\n2.2.1\nGroup Header - Block A\nGroup Header can occur only once. It contains identifying elements common to the\nentire message, such as MessageIdentification, CreationDateAndTime,\nNumberOfTransactions and InitiatingParty.\n2.2.2\nPayment Information - Block B\nPayment Information can occur ..."
+        ],
+        "recall": 0.2083,
+        "precision": 0.0435,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 6, pages 8-10)] 2.2.2\nPayment Information - Block B\nPayment Information can occur multiple times. It contains information related to the\ndebit side of the transaction. This information can include for example\nPaymentInformationIdentifier, Debtor, DebtorAccount, PaymentTypeInformation and\nRequestedExecutionDate. The Payment Information block of the message needs to\nbe repeated if, for example, the requested execution date, payment type and/or\ndebtor account changes.\n\n2.2.3\nCredit Transfer Transaction Information - Block C\nCredit Transfer Transaction Information is an element in the Payment Information\nblock. It is mandatory and can occur multiple times. It contains information related to\nthe credit side of the transaction, such as Creditor, CreditorAgent and\nRemittanceInformation.\n\n2.2.4\nRemittance Information\nThe optional Remittance Information element can occur multiple times when used to\nprovide additional structured remittance information to support the bundling of\ninvoices and credit notes to one payment. This is defined with Extended Remittance\nInformation (ERI7), which supports multiple occurrences of structured remittance\ninformation in the RemittanceInformation element. See section 4.2 for...",
+          "[Source (chunk 5, pages 6-8)] 2.1\nParties of the Transaction\nThe ISO concepts of different parties are described in the table below.\nParty\nISO 20022\nSynonyms\nDescription\nDebtor\n\nOriginator\nOrdering Party Buyer\nThe party whose account is debited\nwith the payment.\nUltimate\nDebtor\nOriginator Reference Party\n\nThe party who originally ordered\ngoods or services and to whom the\nseller has sent the invoice. Ultimate\nDebtor or Originator Reference Party\nis used when the receiver of the\ninvoice is different from the debtor.\nInitiating\nParty\n\nThe party on whose initiative the\npayment data is established. This\nmight be the debtor itself, an agent, or\nthe company service centre.\nCreditor\nBeneficiary\nSeller\nThe party whose account is credited\nwith the payment.\nUltimate\nCreditor\nUltimate Beneficiary\nBeneficiary Reference Party\nThe party who is the ultimate creditor\nof the payment. For example, a\npayment is credited to the account of\na financing company, but the ultimate\ncreditor is a customer of the financing\ncompany.\nDebtor\nagent\nBank (Originating Bank\nOriginator's Bank\nDebtor's Bank)\nParty is the bank of the debtor.\n\nCreditor\nagent\nBank (Creditor's Bank\nSeller's Bank)\nParty is the bank of the creditor.\n\n7 (61)\n\nISO 20022 Pa...",
+          "[Source (chunk 17, pages 31-32)] 3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandinavian characters are\ntransmitted between all banks operating in Finland. The Basic Latin characters are\ntransmitted to other SEPA countries.\nThe Byte Order Mark (BOM) presentation format is not allowed.\nCertain special characters are replaced with predefined entities according to the XML\nstandard. The entities are as follows:\nSign\nEntity\nSEPA Rulebook\n&\n&amp;\n\n<\n&lt;\n\n>\n&gt;\n\n\"\n&quot;\n\n'\n&apos;\nAllowed to other SEPA countries\n\nThe character set and reference at the beginning of the message (e.g. <?xml\nversion=\"1.0\" encoding=\"UTF-8\"?> must correspond to each other.\nSpecial characters, including Scandinavian letters (Åå Ää Öö), may not be included in\nidentifying elements (MsgId, PaymentInformationId, InstructionId and EndToEndId).\nAlso note that the values in the identifying elements MsgId, PaymentInformationId,\nInstructionId and EndToEndId may not start with a forward slash (/) or contain two\nconsecutive forward slashes (//).\n\n3.3\nPayment on behalf and the Ultimate Debtor\nIt is possible..."
+        ],
+        "recall": 0.4167,
+        "precision": 0.0452,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 7,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    },
+    {
+      "question_id": 53,
+      "category": "comparison",
+      "question": "What is the difference between a payment initiation message and a payment status report?",
+      "evidence_page": 39,
+      "gt_chunks": [
+        21
+      ],
+      "candidate_chunks": [
+        1,
+        2,
+        8,
+        13,
+        17,
+        28
+      ],
+      "v2": {
+        "attached_lines": [
+          "[Source (page 12)] 12 (61)\n\nISO 20022 Payments Guide\n\n\n1.11\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Group Header\n++Initiating Party\n+++Identification\n++++Private Identification\nIdentification of a private person.\n2.3.3\nPayment Information\nPaymentInformation contains elements related to the debit side of the transaction.\nThe information is common to all the credit transfers (Block C) attached to this\nPaymentInformation.\nIndex\nMult\nMessage Element\nImplementation guide\n2.0\n1..n\nCustomer Credit Transfer\nInitiati...",
+          "[Source (page 13)] 13 (61)\n\nISO 20022 Payments Guide\n\n\n2.6\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Payment Type\nInformation\nSet of elements used to further specify the\npayment type. PaymentTypeInformation is\nusually used at this level and not at the\nlevel of individual transactions.\n\nFor International and bank specific\npayments it may be necessary to\ndetermine the payment type also in the\nCredit Transfer Transaction Information\nblock (C)\n2.7\n0..1\nCustomer Credit Transfer\nInitiation V09\n...",
+          "[Source (page 2)] 2 (61)\n\nISO 20022 Payments Guide\n\nItämerenkatu 11-13\nTel: +358 20 793 4200\nwww.financefinland.fi\nFI-00180 Helsinki\nFax: +358 20 793 4202\nFinland\nfirstname.lastname@financefinland.fi\nTwitter.com/finfinance\n\nContents\n\nBackground ................................................................................................................................ 4\n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4\n1.2 Address stru..."
+        ],
+        "recall": 0.2727,
+        "precision": 0.0286,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 3,
+        "n_chunks": 0,
+        "n_lines": 3
+      },
+      "v3": {
+        "attached_lines": [
+          "[Source (chunk 2, pages 3-4)] 6.2.3 Message content approved ................................................................................... 50\n\n6.2.4 Payments partially accepted in message for further processing ........................... 50\n\n6.2.5 Rejection reason codes ......................................................................................... 51\n\nRecommendation for the Verification of Payee in payment files ............................................ 52\n\n7.1 VOP in C2B payment files and its implementation ......................................................... 53\n\n7.1.1 The VOP data file .................................................................................................. 53\n\n7.2 VOP response types and status codes submitted to the customer ................................ 53\n\n7.2.1 VOP response types.............................................................................................. 53\n\n7.2.2 Status codes submitted to the customer ............................................................... 54\n\nDomestic urgent payments and currency payments ................................................................ 55\n\n8.1 Domestic urgent payments (POPS) ..................",
+          "[Source (chunk 13, pages 22-24)] 2.98\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Charge Bearer\nIf the information is already provided in\nthe Payment Information block (B), it will\nbe ignored in Block C when the payment\nis a credit transfer. With other payment\ntypes, it is necessary to include the\ninformation in Block C to differentiate\nbetween charges in the same payment\nbatch.\n\n2.100\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Ultimate Debtor\nIf there are payments from more than\none ultimate debtor in the same\npayment batch, the information can be\nspecified at the level of individual\npayments.\n\n2.101\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Ultimate Debtor\n++++Name\n\n2.103\n0..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Ultimate Debtor\n++++Identification\n\n23 (61)\n\nISO 20022 Payments Guide\n\n\n2.104\n1..1\nCustomer Credit Transfer\nInitiation V09\n+Payment Information\n++Credit Transfer\nTransaction Information\n+++Ultimate Debtor\n++++Identification\n+++++Organi...",
+          "[Source (chunk 17, pages 31-32)] 3.1\nCreditor reference\nThe domestic creditor reference is presented in a structured message (see section 5\nfor examples).\n\n3.2\nCharacter set\nBanks intend to keep the current character set. The Scandinavian characters are\ntransmitted between all banks operating in Finland. The Basic Latin characters are\ntransmitted to other SEPA countries.\nThe Byte Order Mark (BOM) presentation format is not allowed.\nCertain special characters are replaced with predefined entities according to the XML\nstandard. The entities are as follows:\nSign\nEntity\nSEPA Rulebook\n&\n&amp;\n\n<\n&lt;\n\n>\n&gt;\n\n\"\n&quot;\n\n'\n&apos;\nAllowed to other SEPA countries\n\nThe character set and reference at the beginning of the message (e.g. <?xml\nversion=\"1.0\" encoding=\"UTF-8\"?> must correspond to each other.\nSpecial characters, including Scandinavian letters (Åå Ää Öö), may not be included in\nidentifying elements (MsgId, PaymentInformationId, InstructionId and EndToEndId).\nAlso note that the values in the identifying elements MsgId, PaymentInformationId,\nInstructionId and EndToEndId may not start with a forward slash (/) or contain two\nconsecutive forward slashes (//).\n\n3.3\nPayment on behalf and the Ultimate Debtor\nIt is possible..."
+        ],
+        "recall": 0.3636,
+        "precision": 0.02,
+        "gt_page_on": false,
+        "gt_chunk_on": false,
+        "n_pages": 7,
+        "n_chunks": 3,
+        "n_lines": 3
+      },
+      "gt_rank_in_candidates": null
+    }
+  ]
+}

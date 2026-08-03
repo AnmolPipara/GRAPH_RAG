@@ -1,0 +1,1898 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "Payments Guide"
+      ],
+      "attributes": {
+        "standard": "ISO 20022"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-identification-code-identifier",
+      "canonical_name": "Creditor identification code",
+      "name": "Creditor identification code",
+      "type": "Identifier",
+      "description": "Code supplied by the Originator",
+      "aliases": [
+        "Creditor ID"
+      ],
+      "attributes": {
+        "supplier": "Originator"
+      },
+      "confidence": 0.98,
+      "evidence": "The Creditor identification code",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Party that initiates the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {
+        "role": "initiator"
+      },
+      "confidence": 0.99,
+      "evidence": "The Originator",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originators-reference-identifier",
+      "canonical_name": "Originator's reference",
+      "name": "Originator's reference",
+      "type": "Identifier",
+      "description": "Reference number for the credit transfer transaction",
+      "aliases": [
+        "Originator reference"
+      ],
+      "attributes": {
+        "purpose": "credit transfer transaction"
+      },
+      "confidence": 0.98,
+      "evidence": "The Originator's reference",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-businessprocess",
+      "canonical_name": "Credit Transfer Transaction",
+      "name": "Credit Transfer Transaction",
+      "type": "BusinessProcess",
+      "description": "Process of transferring credit",
+      "aliases": [
+        "Credit transfer"
+      ],
+      "attributes": {
+        "type": "credit"
+      },
+      "confidence": 0.98,
+      "evidence": "Credit Transfer Transaction",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-businessprocess",
+      "canonical_name": "SEPA credit transfer",
+      "name": "SEPA credit transfer",
+      "type": "BusinessProcess",
+      "description": "Single Euro Payments Area credit transfer",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {
+        "area": "Single Euro Payments Area"
+      },
+      "confidence": 0.98,
+      "evidence": "SEPA credit transfer",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-reference-party-paymentrole",
+      "canonical_name": "Originator Reference Party",
+      "name": "Originator Reference Party",
+      "type": "PaymentRole",
+      "description": "Party on behalf of whom the Originator makes a payment",
+      "aliases": [
+        "Originator reference party"
+      ],
+      "attributes": {
+        "role": "beneficiary"
+      },
+      "confidence": 0.98,
+      "evidence": "Originator Reference Party",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-reference-party-paymentrole",
+      "canonical_name": "Creditor Reference Party",
+      "name": "Creditor Reference Party",
+      "type": "PaymentRole",
+      "description": "Party on behalf of whom the Creditor receives a payment",
+      "aliases": [
+        "Creditor reference party"
+      ],
+      "attributes": {
+        "role": "beneficiary"
+      },
+      "confidence": 0.98,
+      "evidence": "Creditor Reference Party",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos-organization",
+      "canonical_name": "AOS",
+      "name": "AOS",
+      "type": "Organization",
+      "description": "Agreed-on standards organization",
+      "aliases": [
+        "Agreed-on standards"
+      ],
+      "attributes": {
+        "purpose": "standards"
+      },
+      "confidence": 0.95,
+      "evidence": "AOS agreed on",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-language",
+      "canonical_name": "Finnish",
+      "name": "Finnish",
+      "type": "Language",
+      "description": "Language spoken in Finland",
+      "aliases": [
+        "FI"
+      ],
+      "attributes": {
+        "country": "Finland"
+      },
+      "confidence": 0.95,
+      "evidence": "Finnish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-language",
+      "canonical_name": "Swedish",
+      "name": "Swedish",
+      "type": "Language",
+      "description": "Language spoken in Sweden",
+      "aliases": [
+        "SV"
+      ],
+      "attributes": {
+        "country": "Sweden"
+      },
+      "confidence": 0.95,
+      "evidence": "Swedish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "canonical_name": "Maksajan antama saajan yksilöintitieto",
+      "name": "Maksajan antama saajan yksilöintitieto",
+      "type": "Identifier",
+      "description": "Finnish term for creditor identification code",
+      "aliases": [
+        "Maksajan antama"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-identifikation-identifier",
+      "canonical_name": "Mottagarens identifikation",
+      "name": "Mottagarens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for creditor identification code",
+      "aliases": [
+        "Mottagarens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksutapahtuman-tunniste-identifier",
+      "canonical_name": "Maksutapahtuman tunniste",
+      "name": "Maksutapahtuman tunniste",
+      "type": "Identifier",
+      "description": "Finnish term for originator's reference",
+      "aliases": [
+        "Maksutapahtuman"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksutapahtuman tunniste",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaktionens-identifikation-identifier",
+      "canonical_name": "Transaktionens identifikation",
+      "name": "Transaktionens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for originator's reference",
+      "aliases": [
+        "Transaktionens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "alkuperäinen-laskun-saaja-paymentrole",
+      "canonical_name": "Alkuperäinen laskun saaja",
+      "name": "Alkuperäinen laskun saaja",
+      "type": "PaymentRole",
+      "description": "Finnish term for originator reference party",
+      "aliases": [
+        "Alkuperäinen"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Alkuperäinen laskun saaja",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ursprunglig-fakturamottagare-paymentrole",
+      "canonical_name": "Ursprunglig fakturamottagare",
+      "name": "Ursprunglig fakturamottagare",
+      "type": "PaymentRole",
+      "description": "Swedish term for originator reference party",
+      "aliases": [
+        "Ursprunglig"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Ursprunglig fakturamottagare",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lopullinen-saaja-paymentrole",
+      "canonical_name": "Lopullinen saaja",
+      "name": "Lopullinen saaja",
+      "type": "PaymentRole",
+      "description": "Finnish term for creditor reference party",
+      "aliases": [
+        "Lopullinen"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Lopullinen saaja",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slutlig-mottagare-paymentrole",
+      "canonical_name": "Slutlig mottagare",
+      "name": "Slutlig mottagare",
+      "type": "PaymentRole",
+      "description": "Swedish term for creditor reference party",
+      "aliases": [
+        "Slutlig"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Slutlig mottagare",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "part-som-ursprungligen-businessconcept",
+      "canonical_name": "Part som ursprungligen",
+      "name": "Part som ursprungligen",
+      "type": "BusinessConcept",
+      "description": "Swedish term for originator reference party",
+      "aliases": [
+        "Part som"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Part som ursprungligen",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-tunniste-identifier",
+      "canonical_name": "Saajan tunniste",
+      "name": "Saajan tunniste",
+      "type": "Identifier",
+      "description": "Finnish term for creditor identification code",
+      "aliases": [
+        "Saajan"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Saajan tunniste",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-identifikation-identifier",
+      "canonical_name": "Mottagarens identifikation",
+      "name": "Mottagarens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for creditor identification code",
+      "aliases": [
+        "Mottagarens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-identifier",
+      "canonical_name": "Maksajan antama",
+      "name": "Maksajan antama",
+      "type": "Identifier",
+      "description": "Finnish term for originator's reference",
+      "aliases": [
+        "Maksajan"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksajan antama",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaktionens-identifikation-identifier",
+      "canonical_name": "Transaktionens identifikation",
+      "name": "Transaktionens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for originator's reference",
+      "aliases": [
+        "Transaktionens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rulebook-definition-documentsection",
+      "canonical_name": "Rulebook Definition",
+      "name": "Rulebook Definition",
+      "type": "DocumentSection",
+      "description": "Section of the rulebook",
+      "aliases": [
+        "Rulebook"
+      ],
+      "attributes": {
+        "document": "ISO 20022 Payments Guide"
+      },
+      "confidence": 0.95,
+      "evidence": "Rulebook Definition",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-term-term",
+      "canonical_name": "Finnish term",
+      "name": "Finnish term",
+      "type": "Term",
+      "description": "Term in Finnish language",
+      "aliases": [
+        "Finnish"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Finnish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-term-term",
+      "canonical_name": "Swedish term",
+      "name": "Swedish term",
+      "type": "Term",
+      "description": "Term in Swedish language",
+      "aliases": [
+        "Swedish"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Swedish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-definition-definition",
+      "canonical_name": "Finnish definition",
+      "name": "Finnish definition",
+      "type": "Definition",
+      "description": "Definition in Finnish language",
+      "aliases": [
+        "Finnish"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Finnish definition",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-definition-definition",
+      "canonical_name": "Swedish definition",
+      "name": "Swedish definition",
+      "type": "Definition",
+      "description": "Definition in Swedish language",
+      "aliases": [
+        "Swedish"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Swedish definition",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "at-name-identifier",
+      "canonical_name": "AT name",
+      "name": "AT name",
+      "type": "Identifier",
+      "description": "Identifier for the AT name",
+      "aliases": [
+        "AT"
+      ],
+      "attributes": {
+        "type": "identifier"
+      },
+      "confidence": 0.95,
+      "evidence": "AT name",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-60-documentsection",
+      "canonical_name": "Section 60",
+      "name": "Section 60",
+      "type": "DocumentSection",
+      "description": "Section 60 of the document",
+      "aliases": [
+        "Section 60"
+      ],
+      "attributes": {
+        "document": "ISO 20022 Payments Guide"
+      },
+      "confidence": 0.95,
+      "evidence": "Section 60",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-61-documentsection",
+      "canonical_name": "Section 61",
+      "name": "Section 61",
+      "type": "DocumentSection",
+      "description": "Section 61 of the document",
+      "aliases": [
+        "Section 61"
+      ],
+      "attributes": {
+        "document": "ISO 20022 Payments Guide"
+      },
+      "confidence": 0.95,
+      "evidence": "Section 61",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "part-som-ursprungligen-köpt-vara-eller-service-businessconcept",
+      "canonical_name": "Part som ursprungligen köpt vara eller service",
+      "name": "Part som ursprungligen köpt vara eller service",
+      "type": "BusinessConcept",
+      "description": "Swedish term for originator reference party",
+      "aliases": [
+        "Part som"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Part som ursprungligen köpt vara eller service",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ursprunglig-fakturamottagare-paymentrole",
+      "canonical_name": "Ursprunglig fakturamottagare",
+      "name": "Ursprunglig fakturamottagare",
+      "type": "PaymentRole",
+      "description": "Swedish term for originator reference party",
+      "aliases": [
+        "Ursprunglig"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Ursprunglig fakturamottagare",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slutlig-mottagare-paymentrole",
+      "canonical_name": "Slutlig mottagare",
+      "name": "Slutlig mottagare",
+      "type": "PaymentRole",
+      "description": "Swedish term for creditor reference party",
+      "aliases": [
+        "Slutlig"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Slutlig mottagare",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lopullinen-saaja-paymentrole",
+      "canonical_name": "Lopullinen saaja",
+      "name": "Lopullinen saaja",
+      "type": "PaymentRole",
+      "description": "Finnish term for creditor reference party",
+      "aliases": [
+        "Lopullinen"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Lopullinen saaja",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "alkuperäinen-laskun-saaja-paymentrole",
+      "canonical_name": "Alkuperäinen laskun saaja",
+      "name": "Alkuperäinen laskun saaja",
+      "type": "PaymentRole",
+      "description": "Finnish term for originator reference party",
+      "aliases": [
+        "Alkuperäinen"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Alkuperäinen laskun saaja",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "canonical_name": "Maksajan antama saajan yksilöintitieto",
+      "name": "Maksajan antama saajan yksilöintitieto",
+      "type": "Identifier",
+      "description": "Finnish term for creditor identification code",
+      "aliases": [
+        "Maksajan antama"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-identifikation-identifier",
+      "canonical_name": "Mottagarens identifikation",
+      "name": "Mottagarens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for creditor identification code",
+      "aliases": [
+        "Mottagarens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksutapahtuman-tunniste-identifier",
+      "canonical_name": "Maksutapahtuman tunniste",
+      "name": "Maksutapahtuman tunniste",
+      "type": "Identifier",
+      "description": "Finnish term for originator's reference",
+      "aliases": [
+        "Maksutapahtuman"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksutapahtuman tunniste",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaktionens-identifikation-identifier",
+      "canonical_name": "Transaktionens identifikation",
+      "name": "Transaktionens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for originator's reference",
+      "aliases": [
+        "Transaktionens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "saajan-tunniste-identifier",
+      "canonical_name": "Saajan tunniste",
+      "name": "Saajan tunniste",
+      "type": "Identifier",
+      "description": "Finnish term for creditor identification code",
+      "aliases": [
+        "Saajan"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Saajan tunniste",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mottagarens-identifikation-identifier",
+      "canonical_name": "Mottagarens identifikation",
+      "name": "Mottagarens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for creditor identification code",
+      "aliases": [
+        "Mottagarens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "maksajan-antama-identifier",
+      "canonical_name": "Maksajan antama",
+      "name": "Maksajan antama",
+      "type": "Identifier",
+      "description": "Finnish term for originator's reference",
+      "aliases": [
+        "Maksajan"
+      ],
+      "attributes": {
+        "language": "Finnish"
+      },
+      "confidence": 0.95,
+      "evidence": "Maksajan antama",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaktionens-identifikation-identifier",
+      "canonical_name": "Transaktionens identifikation",
+      "name": "Transaktionens identifikation",
+      "type": "Identifier",
+      "description": "Swedish term for originator's reference",
+      "aliases": [
+        "Transaktionens"
+      ],
+      "attributes": {
+        "language": "Swedish"
+      },
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rulebook-document",
+      "canonical_name": "Rulebook",
+      "name": "Rulebook",
+      "type": "Document",
+      "description": "Document containing rules and definitions",
+      "aliases": [
+        "Rule book"
+      ],
+      "attributes": {
+        "purpose": "rules and definitions"
+      },
+      "confidence": 0.95,
+      "evidence": "Rulebook Definition",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-language",
+      "canonical_name": "Finnish",
+      "name": "Finnish",
+      "type": "Language",
+      "description": "Language spoken in Finland",
+      "aliases": [
+        "FI"
+      ],
+      "attributes": {
+        "country": "Finland"
+      },
+      "confidence": 0.95,
+      "evidence": "Finnish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "swedish-language",
+      "canonical_name": "Swedish",
+      "name": "Swedish",
+      "type": "Language",
+      "description": "Language spoken in Sweden",
+      "aliases": [
+        "SV"
+      ],
+      "attributes": {
+        "country": "Sweden"
+      },
+      "confidence": 0.95,
+      "evidence": "Swedish term",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party that receives a payment",
+      "aliases": [
+        "Payee"
+      ],
+      "attributes": {
+        "role": "recipient"
+      },
+      "confidence": 0.95,
+      "evidence": "Creditor identification code",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-psp-financialinstitution",
+      "canonical_name": "Originator PSP",
+      "name": "Originator PSP",
+      "type": "FinancialInstitution",
+      "description": "Payment service provider for the originator",
+      "aliases": [
+        "PSP"
+      ],
+      "attributes": {
+        "role": "originator"
+      },
+      "confidence": 0.95,
+      "evidence": "Originator PSP",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-businessprocess",
+      "canonical_name": "Credit transfer transaction",
+      "name": "Credit transfer transaction",
+      "type": "BusinessProcess",
+      "description": "Process of transferring credit",
+      "aliases": [
+        "Credit transfer"
+      ],
+      "attributes": {
+        "type": "credit"
+      },
+      "confidence": 0.95,
+      "evidence": "Credit transfer transaction",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-standard",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "Standard",
+      "description": "Single Euro Payments Area",
+      "aliases": [
+        "Single Euro Payments Area"
+      ],
+      "attributes": {
+        "area": "Single Euro Payments Area"
+      },
+      "confidence": 0.95,
+      "evidence": "SEPA credit transfer",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-standard",
+      "canonical_name": "Single Euro Payments Area",
+      "name": "Single Euro Payments Area",
+      "type": "Standard",
+      "description": "Area for single euro payments",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {
+        "area": "Single Euro Payments Area"
+      },
+      "confidence": 0.95,
+      "evidence": "Single Euro Payments Area",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-businessprocess",
+      "canonical_name": "Payment",
+      "name": "Payment",
+      "type": "BusinessProcess",
+      "description": "Process of making a payment",
+      "aliases": [
+        "Pay"
+      ],
+      "attributes": {
+        "type": "payment"
+      },
+      "confidence": 0.95,
+      "evidence": "Payment",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessprocess",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessProcess",
+      "description": "Process of transferring value",
+      "aliases": [
+        "Transfer"
+      ],
+      "attributes": {
+        "type": "transaction"
+      },
+      "confidence": 0.95,
+      "evidence": "Transaction",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-businessconcept",
+      "canonical_name": "Credit",
+      "name": "Credit",
+      "type": "BusinessConcept",
+      "description": "Concept of credit",
+      "aliases": [
+        "Credit concept"
+      ],
+      "attributes": {
+        "type": "credit"
+      },
+      "confidence": 0.95,
+      "evidence": "Credit",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-businessconcept",
+      "canonical_name": "Debit",
+      "name": "Debit",
+      "type": "BusinessConcept",
+      "description": "Concept of debit",
+      "aliases": [
+        "Debit concept"
+      ],
+      "attributes": {
+        "type": "debit"
+      },
+      "confidence": 0.95,
+      "evidence": "Debit",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "psp-financialinstitution",
+      "canonical_name": "PSP",
+      "name": "PSP",
+      "type": "FinancialInstitution",
+      "description": "Payment service provider",
+      "aliases": [
+        "Payment service provider"
+      ],
+      "attributes": {
+        "role": "payment service provider"
+      },
+      "confidence": 0.95,
+      "evidence": "PSP",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-service-provider-financialinstitution",
+      "canonical_name": "Payment service provider",
+      "name": "Payment service provider",
+      "type": "FinancialInstitution",
+      "description": "Provider of payment services",
+      "aliases": [
+        "PSP"
+      ],
+      "attributes": {
+        "role": "payment service provider"
+      },
+      "confidence": 0.95,
+      "evidence": "Payment service provider",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country in Northern Europe",
+      "aliases": [
+        "FI"
+      ],
+      "attributes": {
+        "region": "Northern Europe"
+      },
+      "confidence": 0.95,
+      "evidence": "Finland",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sweden-location",
+      "canonical_name": "Sweden",
+      "name": "Sweden",
+      "type": "Location",
+      "description": "Country in Northern Europe",
+      "aliases": [
+        "SE"
+      ],
+      "attributes": {
+        "region": "Northern Europe"
+      },
+      "confidence": 0.95,
+      "evidence": "Sweden",
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes the payments guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "creditor-identification-code-identifier",
+      "description": "The payments guide contains the creditor identification code",
+      "confidence": 0.98,
+      "evidence": "The Creditor identification code",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-identification-code-identifier",
+      "relation": "SUPPLIED_BY",
+      "target": "originator-paymentrole",
+      "description": "The creditor identification code is supplied by the originator",
+      "confidence": 0.98,
+      "evidence": "A code supplied by the Originator",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-paymentrole",
+      "relation": "CREATES",
+      "target": "originators-reference-identifier",
+      "description": "The originator creates the originator's reference",
+      "confidence": 0.98,
+      "evidence": "The Originator's reference",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originators-reference-identifier",
+      "relation": "IDENTIFIES",
+      "target": "credit-transfer-transaction-businessprocess",
+      "description": "The originator's reference identifies the credit transfer transaction",
+      "confidence": 0.98,
+      "evidence": "This reference identifies for a given Originator each credit transfer transaction",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-businessprocess",
+      "relation": "PART_OF",
+      "target": "sepa-credit-transfer-businessprocess",
+      "description": "The credit transfer transaction is part of the SEPA credit transfer",
+      "confidence": 0.98,
+      "evidence": "SEPA credit transfer",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-credit-transfer-businessprocess",
+      "relation": "PART_OF",
+      "target": "single-euro-payments-area-standard",
+      "description": "The SEPA credit transfer is part of the Single Euro Payments Area",
+      "confidence": 0.98,
+      "evidence": "Single Euro Payments Area",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-reference-party-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "originator-paymentrole",
+      "description": "The originator reference party is related to the originator",
+      "confidence": 0.98,
+      "evidence": "The Originator Reference Party is a person on behalf of or in connection with whom the Originator purports to make a payment",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-reference-party-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "creditor-paymentrole",
+      "description": "The creditor reference party is related to the creditor",
+      "confidence": 0.98,
+      "evidence": "The Creditor Reference Party is a person on behalf of or in connection with whom the Creditor receives a payment",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "aos-organization",
+      "relation": "AGREES_ON",
+      "target": "originator-reference-party-paymentrole",
+      "description": "AOS agrees on the originator reference party",
+      "confidence": 0.95,
+      "evidence": "AOS agreed on: Originator Reference Party",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-language",
+      "relation": "TRANSLATES_TO",
+      "target": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "description": "Finnish translates to Maksajan antama saajan yksilöintitieto",
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swedish-language",
+      "relation": "TRANSLATES_TO",
+      "target": "mottagarens-identifikation-identifier",
+      "description": "Swedish translates to Mottagarens identifikation",
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-identification-code-identifier",
+      "description": "Maksajan antama saajan yksilöintitieto translates to Creditor identification code",
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "mottagarens-identifikation-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-identification-code-identifier",
+      "description": "Mottagarens identifikation translates to Creditor identification code",
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "maksutapahtuman-tunniste-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "originators-reference-identifier",
+      "description": "Maksutapahtuman tunniste translates to Originator's reference",
+      "confidence": 0.95,
+      "evidence": "Maksutapahtuman tunniste",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaktionens-identifikation-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "originators-reference-identifier",
+      "description": "Transaktionens identifikation translates to Originator's reference",
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "alkuperäinen-laskun-saaja-paymentrole",
+      "relation": "TRANSLATES_TO",
+      "target": "originator-reference-party-paymentrole",
+      "description": "Alkuperäinen laskun saaja translates to Originator Reference Party",
+      "confidence": 0.95,
+      "evidence": "Alkuperäinen laskun saaja",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ursprunglig-fakturamottagare-paymentrole",
+      "relation": "TRANSLATES_TO",
+      "target": "originator-reference-party-paymentrole",
+      "description": "Ursprunglig fakturamottagare translates to Originator Reference Party",
+      "confidence": 0.95,
+      "evidence": "Ursprunglig fakturamottagare",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "lopullinen-saaja-paymentrole",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-reference-party-paymentrole",
+      "description": "Lopullinen saaja translates to Creditor Reference Party",
+      "confidence": 0.95,
+      "evidence": "Lopullinen saaja",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "slutlig-mottagare-paymentrole",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-reference-party-paymentrole",
+      "description": "Slutlig mottagare translates to Creditor Reference Party",
+      "confidence": 0.95,
+      "evidence": "Slutlig mottagare",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "part-som-ursprungligen-businessconcept",
+      "relation": "TRANSLATES_TO",
+      "target": "originator-reference-party-paymentrole",
+      "description": "Part som ursprungligen translates to Originator Reference Party",
+      "confidence": 0.95,
+      "evidence": "Part som ursprungligen",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "saajan-tunniste-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-identification-code-identifier",
+      "description": "Saajan tunniste translates to Creditor identification code",
+      "confidence": 0.95,
+      "evidence": "Saajan tunniste",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "mottagarens-identifikation-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "creditor-identification-code-identifier",
+      "description": "Mottagarens identifikation translates to Creditor identification code",
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "maksajan-antama-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "originators-reference-identifier",
+      "description": "Maksajan antama translates to Originator's reference",
+      "confidence": 0.95,
+      "evidence": "Maksajan antama",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaktionens-identifikation-identifier",
+      "relation": "TRANSLATES_TO",
+      "target": "originators-reference-identifier",
+      "description": "Transaktionens identifikation translates to Originator's reference",
+      "confidence": 0.95,
+      "evidence": "Transaktionens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rulebook-document",
+      "relation": "CONTAINS",
+      "target": "rulebook-definition-documentsection",
+      "description": "The rulebook contains the rulebook definition",
+      "confidence": 0.95,
+      "evidence": "Rulebook Definition",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-term-term",
+      "relation": "TRANSLATES_TO",
+      "target": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "description": "Finnish term translates to Maksajan antama saajan yksilöintitieto",
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swedish-term-term",
+      "relation": "TRANSLATES_TO",
+      "target": "mottagarens-identifikation-identifier",
+      "description": "Swedish term translates to Mottagarens identifikation",
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finnish-definition-definition",
+      "relation": "DEFINES",
+      "target": "maksajan-antama-saajan-yksilöintitieto-identifier",
+      "description": "Finnish definition defines Maksajan antama saajan yksilöintitieto",
+      "confidence": 0.95,
+      "evidence": "Maksajan antama saajan yksilöintitieto",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "swedish-definition-definition",
+      "relation": "DEFINES",
+      "target": "mottagarens-identifikation-identifier",
+      "description": "Swedish definition defines Mottagarens identifikation",
+      "confidence": 0.95,
+      "evidence": "Mottagarens identifikation",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "at-name-identifier",
+      "relation": "IDENTIFIES",
+      "target": "at-cross-chunk",
+      "description": "AT name identifies AT",
+      "confidence": 0.95,
+      "evidence": "AT name",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "section-60-documentsection",
+      "relation": "PART_OF",
+      "target": "iso-20022-payments-guide-document",
+      "description": "Section 60 is part of the ISO 20022 Payments Guide",
+      "confidence": 0.95,
+      "evidence": "Section 60",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "section-61-documentsection",
+      "relation": "PART_OF",
+      "target": "iso-20022-payments-guide-document",
+      "description": "Section 61 is part of the ISO 20022 Payments Guide",
+      "confidence": 0.95,
+      "evidence": "Section 61",
+      "implicit": false,
+      "source_pages": [
+        61
+      ],
+      "source_chunks": [
+        34
+      ],
+      "frequency": 1
+    }
+  ]
+}

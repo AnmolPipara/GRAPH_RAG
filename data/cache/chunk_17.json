@@ -1,0 +1,1422 @@
+{
+  "entities": [
+    {
+      "id": "creditor-reference-businessconcept",
+      "canonical_name": "Creditor Reference",
+      "name": "Creditor Reference",
+      "type": "BusinessConcept",
+      "description": "Domestic creditor reference presented in a structured message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.1 Creditor reference",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-5-documentsection",
+      "canonical_name": "Section 5",
+      "name": "Section 5",
+      "type": "DocumentSection",
+      "description": "Section containing examples of structured messages",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "see section 5 for examples",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "character-set-technicalconcept",
+      "canonical_name": "Character Set",
+      "name": "Character Set",
+      "type": "TechnicalConcept",
+      "description": "Set of characters used for transmission between banks",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.2 Character set",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "banks-organization",
+      "canonical_name": "Banks",
+      "name": "Banks",
+      "type": "Organization",
+      "description": "Financial institutions operating in Finland",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Banks intend to keep the current character set",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scandinavian-characters-technicalconcept",
+      "canonical_name": "Scandinavian Characters",
+      "name": "Scandinavian Characters",
+      "type": "TechnicalConcept",
+      "description": "Characters specific to Scandinavian languages",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Scandinavian characters are transmitted between all banks operating in Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "basic-latin-characters-technicalconcept",
+      "canonical_name": "Basic Latin Characters",
+      "name": "Basic Latin Characters",
+      "type": "TechnicalConcept",
+      "description": "Characters from the Basic Latin character set",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Basic Latin characters are transmitted to other SEPA countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-countries-location",
+      "canonical_name": "SEPA Countries",
+      "name": "SEPA Countries",
+      "type": "Location",
+      "description": "Countries participating in the Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "transmitted to other SEPA countries",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "byte-order-mark-bom-technicalconcept",
+      "canonical_name": "Byte Order Mark (BOM)",
+      "name": "Byte Order Mark (BOM)",
+      "type": "TechnicalConcept",
+      "description": "Byte order mark presentation format",
+      "aliases": [
+        "BOM"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The Byte Order Mark (BOM) presentation format is not allowed",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-standard-standard",
+      "canonical_name": "XML Standard",
+      "name": "XML Standard",
+      "type": "Standard",
+      "description": "Standard for Extensible Markup Language",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "according to the XML standard",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "entity-technicalconcept",
+      "canonical_name": "Entity",
+      "name": "Entity",
+      "type": "TechnicalConcept",
+      "description": "Predefined entity in XML",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Certain special characters are replaced with predefined entities",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sign-technicalconcept",
+      "canonical_name": "Sign",
+      "name": "Sign",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Sign Entity SEPA Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-rulebook-document",
+      "canonical_name": "SEPA Rulebook",
+      "name": "SEPA Rulebook",
+      "type": "Document",
+      "description": "Rulebook for the Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ampersand--technicalconcept",
+      "canonical_name": "Ampersand (&)",
+      "name": "Ampersand (&)",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        "&"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "& amp;",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "less-than-sign--technicalconcept",
+      "canonical_name": "Less-Than Sign (<)",
+      "name": "Less-Than Sign (<)",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        "<"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "< lt;",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "greater-than-sign--technicalconcept",
+      "canonical_name": "Greater-Than Sign (>)",
+      "name": "Greater-Than Sign (>)",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        ">"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "> gt;",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "quotation-mark--technicalconcept",
+      "canonical_name": "Quotation Mark (\")",
+      "name": "Quotation Mark (\")",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        "\""
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "\" quot;",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "apostrophe--technicalconcept",
+      "canonical_name": "Apostrophe (')",
+      "name": "Apostrophe (')",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        "'"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "' apos;",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-declaration-technicalconcept",
+      "canonical_name": "XML Declaration",
+      "name": "XML Declaration",
+      "type": "TechnicalConcept",
+      "description": "Declaration at the beginning of an XML document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "utf-8-technicalconcept",
+      "canonical_name": "UTF-8",
+      "name": "UTF-8",
+      "type": "TechnicalConcept",
+      "description": "Character encoding standard",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "encoding=\"UTF-8\"",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid-identifier",
+      "canonical_name": "MsgId",
+      "name": "MsgId",
+      "type": "Identifier",
+      "description": "Message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "MsgId",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "paymentinformationid-identifier",
+      "canonical_name": "PaymentInformationId",
+      "name": "PaymentInformationId",
+      "type": "Identifier",
+      "description": "Payment information identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "PaymentInformationId",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructionid-identifier",
+      "canonical_name": "InstructionId",
+      "name": "InstructionId",
+      "type": "Identifier",
+      "description": "Instruction identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "InstructionId",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "endtoendid-identifier",
+      "canonical_name": "EndToEndId",
+      "name": "EndToEndId",
+      "type": "Identifier",
+      "description": "End-to-end identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "EndToEndId",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "forward-slash--technicalconcept",
+      "canonical_name": "Forward Slash (/)",
+      "name": "Forward Slash (/)",
+      "type": "TechnicalConcept",
+      "description": "Special character in XML",
+      "aliases": [
+        "/"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "may not start with a forward slash (/)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "Original recipient of the invoice",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-information-businessconcept",
+      "canonical_name": "Ultimate Debtor Information",
+      "name": "Ultimate Debtor Information",
+      "type": "BusinessConcept",
+      "description": "Information about the ultimate debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Ultimate Debtor information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-paymentrole",
+      "canonical_name": "Ultimate Creditor",
+      "name": "Ultimate Creditor",
+      "type": "PaymentRole",
+      "description": "Ultimate beneficiary of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Ultimate Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-field-dataelement",
+      "canonical_name": "Ultimate Creditor Field",
+      "name": "Ultimate Creditor Field",
+      "type": "DataElement",
+      "description": "Field containing the ultimate creditor information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Ultimate Creditor field",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-information-businessconcept",
+      "canonical_name": "Ultimate Creditor Information",
+      "name": "Ultimate Creditor Information",
+      "type": "BusinessConcept",
+      "description": "Information about the ultimate creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Ultimate Creditor information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "electronic-account-statement-document",
+      "canonical_name": "Electronic Account Statement",
+      "name": "Electronic Account Statement",
+      "type": "Document",
+      "description": "Statement of account activity in electronic format",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "electronic account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "t1111-sepa-supplementary-data-technicalconcept",
+      "canonical_name": "T11/11 SEPA Supplementary Data",
+      "name": "T11/11 SEPA Supplementary Data",
+      "type": "TechnicalConcept",
+      "description": "Supplementary data for SEPA transactions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "T11/11 SEPA supplementary data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "t1100-details-technicalconcept",
+      "canonical_name": "T11/00 Details",
+      "name": "T11/00 Details",
+      "type": "TechnicalConcept",
+      "description": "Details for SEPA transactions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "T11/00 details",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-xml-account-statement-document",
+      "canonical_name": "Camt.053 XML Account Statement",
+      "name": "Camt.053 XML Account Statement",
+      "type": "Document",
+      "description": "XML account statement according to the Camt.053 standard",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Camt.053 XML account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-pain001-xml-data-technicalconcept",
+      "canonical_name": "Payment Pain.001 XML Data",
+      "name": "Payment Pain.001 XML Data",
+      "type": "TechnicalConcept",
+      "description": "XML data for payment initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment pain.001 XML data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "salaries-and-pensions-businessconcept",
+      "canonical_name": "Salaries and Pensions",
+      "name": "Salaries and Pensions",
+      "type": "BusinessConcept",
+      "description": "Recurring payments for salaries and pensions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Salaries and pensions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-code-identifier",
+      "canonical_name": "Category Purpose Code",
+      "name": "Category Purpose Code",
+      "type": "Identifier",
+      "description": "Code indicating the purpose of a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Category Purpose code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sala-code-identifier",
+      "canonical_name": "SALA Code",
+      "name": "SALA Code",
+      "type": "Identifier",
+      "description": "Code indicating a salary or pension payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SALA code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymentscheme",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for transferring funds",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtors-bank-financialinstitution",
+      "canonical_name": "Debtor's Bank",
+      "name": "Debtor's Bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "debtor's bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-information-elements-technicalconcept",
+      "canonical_name": "Extended Information Elements",
+      "name": "Extended Information Elements",
+      "type": "TechnicalConcept",
+      "description": "Additional information elements for payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "extended information elements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-remittance-information-eri-technicalconcept",
+      "canonical_name": "Extended Remittance Information (ERI)",
+      "name": "Extended Remittance Information (ERI)",
+      "type": "TechnicalConcept",
+      "description": "Additional remittance information for payments",
+      "aliases": [
+        "ERI"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Extended Remittance Information (ERI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "additional-optional-service-aos-technicalconcept",
+      "canonical_name": "Additional Optional Service (AOS)",
+      "name": "Additional Optional Service (AOS)",
+      "type": "TechnicalConcept",
+      "description": "Additional service for payments",
+      "aliases": [
+        "AOS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Additional Optional Service (AOS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "banks-operating-in-finland-organization",
+      "canonical_name": "Banks Operating in Finland",
+      "name": "Banks Operating in Finland",
+      "type": "Organization",
+      "description": "Banks operating in Finland",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Banks operating in Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "basic-services-businessconcept",
+      "canonical_name": "Basic Services",
+      "name": "Basic Services",
+      "type": "BusinessConcept",
+      "description": "Standard services offered by banks",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "basic services",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country in Northern Europe",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-sepa-location",
+      "canonical_name": "Single Euro Payments Area (SEPA)",
+      "name": "Single Euro Payments Area (SEPA)",
+      "type": "Location",
+      "description": "Area for euro payments",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-elements-technicalconcept",
+      "canonical_name": "XML Elements",
+      "name": "XML Elements",
+      "type": "TechnicalConcept",
+      "description": "Elements in an XML document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "XML elements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-standard",
+      "canonical_name": "Camt.053",
+      "name": "Camt.053",
+      "type": "Standard",
+      "description": "Standard for XML account statements",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Camt.053",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain001-standard",
+      "canonical_name": "Pain.001",
+      "name": "Pain.001",
+      "type": "Standard",
+      "description": "Standard for payment initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pain.001",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "creditor-reference-businessconcept",
+      "relation": "REFERENCES",
+      "target": "section-5-documentsection",
+      "description": "Creditor reference references section 5",
+      "confidence": 0.99,
+      "evidence": "see section 5 for examples",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "character-set-technicalconcept",
+      "relation": "USED_BY",
+      "target": "banks-organization",
+      "description": "Banks use the character set",
+      "confidence": 0.99,
+      "evidence": "Banks intend to keep the current character set",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "scandinavian-characters-technicalconcept",
+      "relation": "USED_BY",
+      "target": "banks-organization",
+      "description": "Banks use Scandinavian characters",
+      "confidence": 0.99,
+      "evidence": "Scandinavian characters are transmitted between all banks operating in Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "basic-latin-characters-technicalconcept",
+      "relation": "USED_BY",
+      "target": "sepa-countries-location",
+      "description": "SEPA countries use Basic Latin characters",
+      "confidence": 0.99,
+      "evidence": "The Basic Latin characters are transmitted to other SEPA countries",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "byte-order-mark-bom-technicalconcept",
+      "relation": "PROHIBITED_BY",
+      "target": "xml-standard-standard",
+      "description": "XML standard prohibits the use of BOM",
+      "confidence": 0.99,
+      "evidence": "The Byte Order Mark (BOM) presentation format is not allowed",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "entity-technicalconcept",
+      "relation": "DEFINED_BY",
+      "target": "xml-standard-standard",
+      "description": "XML standard defines entities",
+      "confidence": 0.99,
+      "evidence": "according to the XML standard",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sign-technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Sign is an entity",
+      "confidence": 0.99,
+      "evidence": "Sign Entity SEPA Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ampersand--technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Ampersand is an entity",
+      "confidence": 0.99,
+      "evidence": "& amp;",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "less-than-sign--technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Less-Than Sign is an entity",
+      "confidence": 0.99,
+      "evidence": "< lt;",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "greater-than-sign--technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Greater-Than Sign is an entity",
+      "confidence": 0.99,
+      "evidence": "> gt;",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "quotation-mark--technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Quotation Mark is an entity",
+      "confidence": 0.99,
+      "evidence": "\" quot;",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "apostrophe--technicalconcept",
+      "relation": "IS_A",
+      "target": "entity-technicalconcept",
+      "description": "Apostrophe is an entity",
+      "confidence": 0.99,
+      "evidence": "' apos;",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xml-declaration-technicalconcept",
+      "relation": "USES",
+      "target": "utf-8-technicalconcept",
+      "description": "XML declaration uses UTF-8",
+      "confidence": 0.99,
+      "evidence": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "msgid-identifier",
+      "relation": "RELATED_TO",
+      "target": "paymentinformationid-identifier",
+      "description": "MsgId is related to PaymentInformationId",
+      "confidence": 0.99,
+      "evidence": "MsgId, PaymentInformationId",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instructionid-identifier",
+      "relation": "RELATED_TO",
+      "target": "endtoendid-identifier",
+      "description": "InstructionId is related to EndToEndId",
+      "confidence": 0.99,
+      "evidence": "InstructionId, EndToEndId",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-information-businessconcept",
+      "description": "Ultimate Debtor contains Ultimate Debtor Information",
+      "confidence": 0.99,
+      "evidence": "Ultimate Debtor information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "ultimate-creditor-field-dataelement",
+      "description": "Ultimate Creditor contains Ultimate Creditor Field",
+      "confidence": 0.99,
+      "evidence": "Ultimate Creditor field",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-creditor-field-dataelement",
+      "relation": "CONTAINS",
+      "target": "ultimate-creditor-information-businessconcept",
+      "description": "Ultimate Creditor Field contains Ultimate Creditor Information",
+      "confidence": 0.99,
+      "evidence": "Ultimate Creditor information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "electronic-account-statement-document",
+      "relation": "CONTAINS",
+      "target": "t1111-sepa-supplementary-data-technicalconcept",
+      "description": "Electronic Account Statement contains T11/11 SEPA Supplementary Data",
+      "confidence": 0.99,
+      "evidence": "T11/11 SEPA supplementary data",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "t1111-sepa-supplementary-data-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "t1100-details-technicalconcept",
+      "description": "T11/11 SEPA Supplementary Data is related to T11/00 Details",
+      "confidence": 0.99,
+      "evidence": "T11/11 SEPA supplementary data, T11/00 details",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "camt053-xml-account-statement-document",
+      "relation": "RELATED_TO",
+      "target": "payment-pain001-xml-data-technicalconcept",
+      "description": "Camt.053 XML Account Statement is related to Payment Pain.001 XML Data",
+      "confidence": 0.99,
+      "evidence": "Camt.053 XML account statement, payment pain.001 XML data",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "salaries-and-pensions-businessconcept",
+      "relation": "USES",
+      "target": "category-purpose-code-identifier",
+      "description": "Salaries and Pensions use Category Purpose Code",
+      "confidence": 0.99,
+      "evidence": "Category Purpose code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-code-identifier",
+      "relation": "IS_A",
+      "target": "category-purpose-code-identifier",
+      "description": "SALA Code is a Category Purpose Code",
+      "confidence": 0.99,
+      "evidence": "SALA code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-paymentscheme",
+      "relation": "INVOLVES",
+      "target": "debtors-bank-financialinstitution",
+      "description": "Credit Transfer involves Debtor's Bank",
+      "confidence": 0.99,
+      "evidence": "credit transfer, debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-information-elements-technicalconcept",
+      "relation": "CONTAINS",
+      "target": "extended-remittance-information-eri-technicalconcept",
+      "description": "Extended Information Elements contain Extended Remittance Information (ERI)",
+      "confidence": 0.99,
+      "evidence": "Extended Remittance Information (ERI)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-remittance-information-eri-technicalconcept",
+      "relation": "RELATED_TO",
+      "target": "additional-optional-service-aos-technicalconcept",
+      "description": "Extended Remittance Information (ERI) is related to Additional Optional Service (AOS)",
+      "confidence": 0.99,
+      "evidence": "Extended Remittance Information (ERI), Additional Optional Service (AOS)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "banks-operating-in-finland-organization",
+      "relation": "OFFERS",
+      "target": "basic-services-businessconcept",
+      "description": "Banks Operating in Finland offer Basic Services",
+      "confidence": 0.99,
+      "evidence": "Banks operating in Finland, basic services",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "APPLIES_TO",
+      "target": "finland-location",
+      "description": "ISO 20022 Payments Guide applies to Finland",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide, Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "single-euro-payments-area-sepa-location",
+      "relation": "INCLUDES",
+      "target": "finland-location",
+      "description": "Single Euro Payments Area (SEPA) includes Finland",
+      "confidence": 0.99,
+      "evidence": "SEPA, Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xml-elements-technicalconcept",
+      "relation": "DEFINED_BY",
+      "target": "camt053-standard",
+      "description": "XML Elements are defined by Camt.053",
+      "confidence": 0.99,
+      "evidence": "Camt.053",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain001-standard",
+      "relation": "USES",
+      "target": "xml-elements-technicalconcept",
+      "description": "Pain.001 uses XML Elements",
+      "confidence": 0.99,
+      "evidence": "pain.001, XML elements",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        17
+      ],
+      "frequency": 1
+    }
+  ]
+}

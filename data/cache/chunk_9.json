@@ -1,0 +1,952 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-messagetype",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "MessageType",
+      "description": "Message type for customer credit transfer initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.12 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Component containing payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-businesscomponent",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "BusinessComponent",
+      "description": "Component containing payment type information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++Payment Type Information",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-businesscomponent",
+      "canonical_name": "Local Instrument",
+      "name": "Local Instrument",
+      "type": "BusinessComponent",
+      "description": "Component containing local instrument information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Local Instrument",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-dataelement",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "DataElement",
+      "description": "Data element for code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Code",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "inst-identifier",
+      "canonical_name": "INST",
+      "name": "INST",
+      "type": "Identifier",
+      "description": "Code for SEPA instant credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Code 'INST' can be used to specify payment as SEPA instant credit transfer",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-instant-credit-transfer-paymentscheme",
+      "canonical_name": "SEPA Instant Credit Transfer",
+      "name": "SEPA Instant Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for SEPA instant credit transfer",
+      "aliases": [
+        "SCT Inst"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA instant credit transfer (SCT Inst)",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-businesscomponent",
+      "canonical_name": "Category Purpose",
+      "name": "Category Purpose",
+      "type": "BusinessComponent",
+      "description": "Component containing category purpose information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Category Purpose",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sala-identifier",
+      "canonical_name": "SALA",
+      "name": "SALA",
+      "type": "Identifier",
+      "description": "Code for category purpose",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "'SALA' code, see section 4.5",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "trea-identifier",
+      "canonical_name": "TREA",
+      "name": "TREA",
+      "type": "Identifier",
+      "description": "Code for category purpose",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "with value 'TREA'",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Role of the debtor in the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The party whose account is debited with the payment",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "name-dataelement",
+      "canonical_name": "Name",
+      "name": "Name",
+      "type": "DataElement",
+      "description": "Data element for name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Name",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "postal-address-businesscomponent",
+      "canonical_name": "Postal Address",
+      "name": "Postal Address",
+      "type": "BusinessComponent",
+      "description": "Component containing postal address information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Postal Address",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "department-dataelement",
+      "canonical_name": "Department",
+      "name": "Department",
+      "type": "DataElement",
+      "description": "Data element for department",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Department",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sub-department-dataelement",
+      "canonical_name": "Sub Department",
+      "name": "Sub Department",
+      "type": "DataElement",
+      "description": "Data element for sub department",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Sub Department",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "street-name-dataelement",
+      "canonical_name": "Street Name",
+      "name": "Street Name",
+      "type": "DataElement",
+      "description": "Data element for street name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Street Name",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "building-number-dataelement",
+      "canonical_name": "Building Number",
+      "name": "Building Number",
+      "type": "DataElement",
+      "description": "Data element for building number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Building Number",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "building-name-dataelement",
+      "canonical_name": "Building Name",
+      "name": "Building Name",
+      "type": "DataElement",
+      "description": "Data element for building name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Building Name",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "floor-dataelement",
+      "canonical_name": "Floor",
+      "name": "Floor",
+      "type": "DataElement",
+      "description": "Data element for floor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Floor",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "post-box-dataelement",
+      "canonical_name": "Post Box",
+      "name": "Post Box",
+      "type": "DataElement",
+      "description": "Data element for post box",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Post Box",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "room-dataelement",
+      "canonical_name": "Room",
+      "name": "Room",
+      "type": "DataElement",
+      "description": "Data element for room",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Room",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-45-documentsection",
+      "canonical_name": "Section 4.5",
+      "name": "Section 4.5",
+      "type": "DocumentSection",
+      "description": "Section 4.5 of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "see section 4.5",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-42-documentsection",
+      "canonical_name": "Section 4.2",
+      "name": "Section 4.2",
+      "type": "DocumentSection",
+      "description": "Section 4.2 of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "see section 4.2",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-12-documentsection",
+      "canonical_name": "Section 1.2",
+      "name": "Section 1.2",
+      "type": "DocumentSection",
+      "description": "Section 1.2 of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "see section 1.2",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Standard for financial messaging",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-paymentscheme",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "PaymentScheme",
+      "description": "Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA instant credit transfer",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sct-inst-paymentscheme",
+      "canonical_name": "SCT Inst",
+      "name": "SCT Inst",
+      "type": "PaymentScheme",
+      "description": "SEPA Credit Transfer Instant",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA instant credit transfer (SCT Inst)",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-businesscomponent",
+      "canonical_name": "Proprietary",
+      "name": "Proprietary",
+      "type": "BusinessComponent",
+      "description": "Component containing proprietary information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Proprietary",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requested-execution-date-businesscomponent",
+      "canonical_name": "Requested Execution Date",
+      "name": "Requested Execution Date",
+      "type": "BusinessComponent",
+      "description": "Component containing requested execution date information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++Requested Execution Date",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "date-dataelement",
+      "canonical_name": "Date",
+      "name": "Date",
+      "type": "DataElement",
+      "description": "Data element for date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Date",
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-messagetype",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer Credit Transfer Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-type-information-businesscomponent",
+      "description": "Payment Information contains Payment Type Information",
+      "confidence": 0.99,
+      "evidence": "++Payment Type Information",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-type-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "local-instrument-businesscomponent",
+      "description": "Payment Type Information contains Local Instrument",
+      "confidence": 0.99,
+      "evidence": "+++Local Instrument",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "local-instrument-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "code-dataelement",
+      "description": "Local Instrument contains Code",
+      "confidence": 0.99,
+      "evidence": "++++Code",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "code-dataelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "inst-identifier",
+      "description": "Code is identified by INST",
+      "confidence": 0.99,
+      "evidence": "Code 'INST' can be used to specify payment as SEPA instant credit transfer",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "inst-identifier",
+      "relation": "RELATED_TO",
+      "target": "sepa-instant-credit-transfer-paymentscheme",
+      "description": "INST is related to SEPA Instant Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "SEPA instant credit transfer (SCT Inst)",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-instant-credit-transfer-paymentscheme",
+      "relation": "PART_OF",
+      "target": "sepa-paymentscheme",
+      "description": "SEPA Instant Credit Transfer is part of SEPA",
+      "confidence": 0.99,
+      "evidence": "SEPA instant credit transfer",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-type-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "category-purpose-businesscomponent",
+      "description": "Payment Type Information contains Category Purpose",
+      "confidence": 0.99,
+      "evidence": "+++Category Purpose",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "category-purpose-businesscomponent",
+      "relation": "IDENTIFIED_BY",
+      "target": "sala-identifier",
+      "description": "Category Purpose is identified by SALA",
+      "confidence": 0.99,
+      "evidence": "'SALA' code, see section 4.5",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "category-purpose-businesscomponent",
+      "relation": "IDENTIFIED_BY",
+      "target": "trea-identifier",
+      "description": "Category Purpose is identified by TREA",
+      "confidence": 0.99,
+      "evidence": "with value 'TREA'",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-paymentrole",
+      "description": "Payment Information contains Debtor",
+      "confidence": 0.99,
+      "evidence": "++Debtor",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "name-dataelement",
+      "description": "Debtor contains Name",
+      "confidence": 0.99,
+      "evidence": "+++Name",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "postal-address-businesscomponent",
+      "description": "Debtor contains Postal Address",
+      "confidence": 0.99,
+      "evidence": "+++Postal Address",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "department-dataelement",
+      "description": "Postal Address contains Department",
+      "confidence": 0.99,
+      "evidence": "++++Department",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "sub-department-dataelement",
+      "description": "Postal Address contains Sub Department",
+      "confidence": 0.99,
+      "evidence": "++++Sub Department",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "street-name-dataelement",
+      "description": "Postal Address contains Street Name",
+      "confidence": 0.99,
+      "evidence": "++++Street Name",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "building-number-dataelement",
+      "description": "Postal Address contains Building Number",
+      "confidence": 0.99,
+      "evidence": "++++Building Number",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "building-name-dataelement",
+      "description": "Postal Address contains Building Name",
+      "confidence": 0.99,
+      "evidence": "++++Building Name",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "floor-dataelement",
+      "description": "Postal Address contains Floor",
+      "confidence": 0.99,
+      "evidence": "++++Floor",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "post-box-dataelement",
+      "description": "Postal Address contains Post Box",
+      "confidence": 0.99,
+      "evidence": "++++Post Box",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "room-dataelement",
+      "description": "Postal Address contains Room",
+      "confidence": 0.99,
+      "evidence": "++++Room",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-credit-transfer-initiation-v09-messagetype",
+      "relation": "PUBLISHED_BY",
+      "target": "iso-20022-payments-guide-document",
+      "description": "Customer Credit Transfer Initiation V09 is published by ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "requested-execution-date-businesscomponent",
+      "description": "Payment Information contains Requested Execution Date",
+      "confidence": 0.99,
+      "evidence": "++Requested Execution Date",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "requested-execution-date-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "date-dataelement",
+      "description": "Requested Execution Date contains Date",
+      "confidence": 0.99,
+      "evidence": "+++Date",
+      "implicit": false,
+      "source_pages": [
+        14
+      ],
+      "source_chunks": [
+        9
+      ],
+      "frequency": 1
+    }
+  ]
+}

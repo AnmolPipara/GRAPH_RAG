@@ -1,0 +1,1246 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.164 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block of payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businesscomponent",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessComponent",
+      "description": "Type of payment transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Block of transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Transaction Information",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-businesscomponent",
+      "canonical_name": "Remittance Information",
+      "name": "Remittance Information",
+      "type": "BusinessComponent",
+      "description": "Block of remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Remittance Information",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unstructured-businesscomponent",
+      "canonical_name": "Unstructured",
+      "name": "Unstructured",
+      "type": "BusinessComponent",
+      "description": "Type of remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Unstructured",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structured-businesscomponent",
+      "canonical_name": "Structured",
+      "name": "Structured",
+      "type": "BusinessComponent",
+      "description": "Type of remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Structured",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-reference-information-businesscomponent",
+      "canonical_name": "Creditor Reference Information",
+      "name": "Creditor Reference Information",
+      "type": "BusinessComponent",
+      "description": "Block of creditor reference information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Creditor Reference Information",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "type-dataelement",
+      "canonical_name": "Type",
+      "name": "Type",
+      "type": "DataElement",
+      "description": "Type of creditor reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++++Type",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-or-proprietary-dataelement",
+      "canonical_name": "Code Or Proprietary",
+      "name": "Code Or Proprietary",
+      "type": "DataElement",
+      "description": "Type of creditor reference code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++++Code Or Proprietary",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-dataelement",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "DataElement",
+      "description": "Creditor reference code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++++++Code",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scor-identifier",
+      "canonical_name": "SCOR",
+      "name": "SCOR",
+      "type": "Identifier",
+      "description": "Creditor reference code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Only value 'SCOR' is allowed",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "issuer-dataelement",
+      "canonical_name": "Issuer",
+      "name": "Issuer",
+      "type": "DataElement",
+      "description": "Issuer of creditor reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++++Issuer",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-organization",
+      "canonical_name": "ISO",
+      "name": "ISO",
+      "type": "Organization",
+      "description": "International Organization for Standardization",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "International RF creditor reference (ISO 11649) uses value 'ISO'",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-11649-standard",
+      "canonical_name": "ISO 11649",
+      "name": "ISO 11649",
+      "type": "Standard",
+      "description": "International Standard of Reference Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "International RF creditor reference (ISO 11649)",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reference-dataelement",
+      "canonical_name": "Reference",
+      "name": "Reference",
+      "type": "DataElement",
+      "description": "Creditor reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++++Reference",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-creditor-reference-businessconcept",
+      "canonical_name": "Finnish Creditor Reference",
+      "name": "Finnish Creditor Reference",
+      "type": "BusinessConcept",
+      "description": "Type of creditor reference used in Finland",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finnish creditor reference or international RF",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "international-rf-creditor-reference-businessconcept",
+      "canonical_name": "International RF Creditor Reference",
+      "name": "International RF Creditor Reference",
+      "type": "BusinessConcept",
+      "description": "Type of creditor reference used internationally",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finnish creditor reference or international RF",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eri-businessconcept",
+      "canonical_name": "ERI",
+      "name": "ERI",
+      "type": "BusinessConcept",
+      "description": "Electronic Remittance Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "For the bundling of invoices and credit notes, see section 4.2 on ERI",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos-businessconcept",
+      "canonical_name": "AOS",
+      "name": "AOS",
+      "type": "BusinessConcept",
+      "description": "Account Owner Service",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Alternatives for structured remittance information, see examples: • Bundling invoices and credit notes, see AOS section 4.2",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-42-documentsection",
+      "canonical_name": "Section 4.2",
+      "name": "Section 4.2",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "For the bundling of invoices and credit notes, see section 4.2 on ERI",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2164-documentsection",
+      "canonical_name": "2.164",
+      "name": "2.164",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.164",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2165-documentsection",
+      "canonical_name": "2.165",
+      "name": "2.165",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.165",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2166-documentsection",
+      "canonical_name": "2.166",
+      "name": "2.166",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.166",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2169-documentsection",
+      "canonical_name": "2.169",
+      "name": "2.169",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.169",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2170-documentsection",
+      "canonical_name": "2.170",
+      "name": "2.170",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.170",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2171-documentsection",
+      "canonical_name": "2.171",
+      "name": "2.171",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.171",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2172-documentsection",
+      "canonical_name": "2.172",
+      "name": "2.172",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.172",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2174-documentsection",
+      "canonical_name": "2.174",
+      "name": "2.174",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.174",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2175-documentsection",
+      "canonical_name": "2.175",
+      "name": "2.175",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.175",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "30-identifier",
+      "canonical_name": "30",
+      "name": "30",
+      "type": "Identifier",
+      "description": "Code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "30 (61)",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "31-identifier",
+      "canonical_name": "31",
+      "name": "31",
+      "type": "Identifier",
+      "description": "Code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "31 (61)",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "61-identifier",
+      "canonical_name": "61",
+      "name": "61",
+      "type": "Identifier",
+      "description": "Code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "29 (61)",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "140-identifier",
+      "canonical_name": "140",
+      "name": "140",
+      "type": "Identifier",
+      "description": "Code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "max 140 characters",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eri-exception-businessconcept",
+      "canonical_name": "ERI Exception",
+      "name": "ERI Exception",
+      "type": "BusinessConcept",
+      "description": "Exception for Electronic Remittance Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "with the exception of ERI, which allows both",
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer Credit Transfer Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-businesscomponent",
+      "description": "Payment Information contains Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit Transfer contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "+++Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "remittance-information-businesscomponent",
+      "description": "Transaction Information contains Remittance Information",
+      "confidence": 0.99,
+      "evidence": "+++Remittance Information",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "unstructured-businesscomponent",
+      "description": "Remittance Information contains Unstructured",
+      "confidence": 0.99,
+      "evidence": "++++Unstructured",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "structured-businesscomponent",
+      "description": "Remittance Information contains Structured",
+      "confidence": 0.99,
+      "evidence": "++++Structured",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-reference-information-businesscomponent",
+      "description": "Structured contains Creditor Reference Information",
+      "confidence": 0.99,
+      "evidence": "+++++Creditor Reference Information",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-reference-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "type-dataelement",
+      "description": "Creditor Reference Information contains Type",
+      "confidence": 0.99,
+      "evidence": "++++++Type",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "type-dataelement",
+      "relation": "CONTAINS",
+      "target": "code-or-proprietary-dataelement",
+      "description": "Type contains Code Or Proprietary",
+      "confidence": 0.99,
+      "evidence": "+++++++Code Or Proprietary",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "code-or-proprietary-dataelement",
+      "relation": "CONTAINS",
+      "target": "code-dataelement",
+      "description": "Code Or Proprietary contains Code",
+      "confidence": 0.99,
+      "evidence": "++++++++Code",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "code-dataelement",
+      "relation": "RELATED_TO",
+      "target": "scor-identifier",
+      "description": "Code is related to SCOR",
+      "confidence": 0.99,
+      "evidence": "Only value 'SCOR' is allowed",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "type-dataelement",
+      "relation": "CONTAINS",
+      "target": "issuer-dataelement",
+      "description": "Type contains Issuer",
+      "confidence": 0.99,
+      "evidence": "+++++++Issuer",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "issuer-dataelement",
+      "relation": "RELATED_TO",
+      "target": "iso-organization",
+      "description": "Issuer is related to ISO",
+      "confidence": 0.99,
+      "evidence": "International RF creditor reference (ISO 11649) uses value 'ISO'",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-reference-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "reference-dataelement",
+      "description": "Creditor Reference Information contains Reference",
+      "confidence": 0.99,
+      "evidence": "++++++Reference",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reference-dataelement",
+      "relation": "RELATED_TO",
+      "target": "finnish-creditor-reference-businessconcept",
+      "description": "Reference is related to Finnish Creditor Reference",
+      "confidence": 0.99,
+      "evidence": "Finnish creditor reference or international RF",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reference-dataelement",
+      "relation": "RELATED_TO",
+      "target": "international-rf-creditor-reference-businessconcept",
+      "description": "Reference is related to International RF Creditor Reference",
+      "confidence": 0.99,
+      "evidence": "Finnish creditor reference or international RF",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "unstructured-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "eri-businessconcept",
+      "description": "Unstructured is related to ERI",
+      "confidence": 0.99,
+      "evidence": "with the exception of ERI, which allows both",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structured-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "eri-businessconcept",
+      "description": "Structured is related to ERI",
+      "confidence": 0.99,
+      "evidence": "with the exception of ERI, which allows both",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "eri-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "aos-businessconcept",
+      "description": "ERI is related to AOS",
+      "confidence": 0.99,
+      "evidence": "Alternatives for structured remittance information, see examples: • Bundling invoices and credit notes, see AOS section 4.2",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2164-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.164",
+      "confidence": 0.99,
+      "evidence": "2.164",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2165-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.165",
+      "confidence": 0.99,
+      "evidence": "2.165",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2166-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.166",
+      "confidence": 0.99,
+      "evidence": "2.166",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2169-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.169",
+      "confidence": 0.99,
+      "evidence": "2.169",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2170-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.170",
+      "confidence": 0.99,
+      "evidence": "2.170",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2171-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.171",
+      "confidence": 0.99,
+      "evidence": "2.171",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2172-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.172",
+      "confidence": 0.99,
+      "evidence": "2.172",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2174-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.174",
+      "confidence": 0.99,
+      "evidence": "2.174",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "2175-documentsection",
+      "description": "ISO 20022 Payments Guide contains 2.175",
+      "confidence": 0.99,
+      "evidence": "2.175",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2164-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.164 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.164",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2165-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.165 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.165",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2166-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.166 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.166",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2169-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.169 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.169",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2170-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.170 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.170",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2171-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.171 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.171",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2172-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.172 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.172",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2174-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.174 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.174",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2175-documentsection",
+      "relation": "PART_OF",
+      "target": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "description": "2.175 is part of Customer Credit Transfer Initiation V09",
+      "confidence": 0.99,
+      "evidence": "2.175",
+      "implicit": false,
+      "source_pages": [
+        29
+      ],
+      "source_chunks": [
+        16
+      ],
+      "frequency": 1
+    }
+  ]
+}

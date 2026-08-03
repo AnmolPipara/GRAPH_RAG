@@ -1,0 +1,1440 @@
+{
+  "entities": [
+    {
+      "id": "customer-payment-status-report-v10-document",
+      "canonical_name": "Customer Payment Status Report V10",
+      "name": "Customer Payment Status Report V10",
+      "type": "Document",
+      "description": "A report for customer payment status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.41 Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-and-status-businesscomponent",
+      "canonical_name": "Original Payment Information And Status",
+      "name": "Original Payment Information And Status",
+      "type": "BusinessComponent",
+      "description": "Part of the customer payment status report",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.41 +Original Payment Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-and-status-businesscomponent",
+      "canonical_name": "Transaction Information And Status",
+      "name": "Transaction Information And Status",
+      "type": "BusinessComponent",
+      "description": "Part of the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.41 ++Transaction Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-transaction-businesscomponent",
+      "canonical_name": "Original Transaction",
+      "name": "Original Transaction",
+      "type": "BusinessComponent",
+      "description": "Part of the transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.41 +++Original Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-debtor-paymentrole",
+      "canonical_name": "Ultimate Debtor",
+      "name": "Ultimate Debtor",
+      "type": "PaymentRole",
+      "description": "The party whose account is debited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.41 ++++Ultimate Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "The party whose account is debited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.42 ++++Debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-account-account",
+      "canonical_name": "Debtor Account",
+      "name": "Debtor Account",
+      "type": "Account",
+      "description": "The account of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.43 ++++Debtor Account",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-agent-paymentrole",
+      "canonical_name": "Debtor Agent",
+      "name": "Debtor Agent",
+      "type": "PaymentRole",
+      "description": "The agent of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.44 ++++Debtor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "A guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "48 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-agent-paymentrole",
+      "canonical_name": "Creditor Agent",
+      "name": "Creditor Agent",
+      "type": "PaymentRole",
+      "description": "The agent of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.46 ++++Creditor Agent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "The party whose account is credited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.48 ++++Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-account-account",
+      "canonical_name": "Creditor Account",
+      "name": "Creditor Account",
+      "type": "Account",
+      "description": "The account of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.49 ++++Creditor Account",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-paymentrole",
+      "canonical_name": "Ultimate Creditor",
+      "name": "Ultimate Creditor",
+      "type": "PaymentRole",
+      "description": "The ultimate party whose account is credited",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.50 ++++Ultimate Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "purpose-businesscomponent",
+      "canonical_name": "Purpose",
+      "name": "Purpose",
+      "type": "BusinessComponent",
+      "description": "The purpose of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.51 ++++Purpose",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-approved-businessconcept",
+      "canonical_name": "Message Structure Approved",
+      "name": "Message Structure Approved",
+      "type": "BusinessConcept",
+      "description": "A message structure that has been approved",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.1 Message structure approved",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-rejected-businessconcept",
+      "canonical_name": "Message Structure Rejected",
+      "name": "Message Structure Rejected",
+      "type": "BusinessConcept",
+      "description": "A message structure that has been rejected",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.2 Message structure rejected",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-technology",
+      "canonical_name": "XML",
+      "name": "XML",
+      "type": "Technology",
+      "description": "A markup language",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "document-xmlelement",
+      "canonical_name": "Document",
+      "name": "Document",
+      "type": "XMLElement",
+      "description": "The root element of the XML document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Document>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cstmrpmtstsrpt-xmlelement",
+      "canonical_name": "CstmrPmtStsRpt",
+      "name": "CstmrPmtStsRpt",
+      "type": "XMLElement",
+      "description": "A customer payment status report",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grphdr-xmlelement",
+      "canonical_name": "GrpHdr",
+      "name": "GrpHdr",
+      "type": "XMLElement",
+      "description": "A group header",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpHdr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid-xmlelement",
+      "canonical_name": "MsgId",
+      "name": "MsgId",
+      "type": "XMLElement",
+      "description": "A message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credttm-xmlelement",
+      "canonical_name": "CreDtTm",
+      "name": "CreDtTm",
+      "type": "XMLElement",
+      "description": "A creation date and time",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dbtragt-xmlelement",
+      "canonical_name": "DbtrAgt",
+      "name": "DbtrAgt",
+      "type": "XMLElement",
+      "description": "A debtor agent",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<DbtrAgt>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fininstnid-xmlelement",
+      "canonical_name": "FinInstnId",
+      "name": "FinInstnId",
+      "type": "XMLElement",
+      "description": "A financial institution identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<FinInstnId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bicfi-xmlelement",
+      "canonical_name": "BICFI",
+      "name": "BICFI",
+      "type": "XMLElement",
+      "description": "A BIC (Bank Identifier Code) for a financial institution",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlgrpinfandsts-xmlelement",
+      "canonical_name": "OrgnlGrpInfAndSts",
+      "name": "OrgnlGrpInfAndSts",
+      "type": "XMLElement",
+      "description": "Original group information and status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlmsgid-xmlelement",
+      "canonical_name": "OrgnlMsgId",
+      "name": "OrgnlMsgId",
+      "type": "XMLElement",
+      "description": "An original message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlmsgnmid-xmlelement",
+      "canonical_name": "OrgnlMsgNmId",
+      "name": "OrgnlMsgNmId",
+      "type": "XMLElement",
+      "description": "An original message name identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlcredttm-xmlelement",
+      "canonical_name": "OrgnlCreDtTm",
+      "name": "OrgnlCreDtTm",
+      "type": "XMLElement",
+      "description": "An original creation date and time",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCreDtTm>2023-04-03T10:30:00</OrgnlCreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlnboftxs-xmlelement",
+      "canonical_name": "OrgnlNbOfTxs",
+      "name": "OrgnlNbOfTxs",
+      "type": "XMLElement",
+      "description": "The original number of transactions",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlNbOfTxs>2</OrgnlNbOfTxs>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlctrlsum-xmlelement",
+      "canonical_name": "OrgnlCtrlSum",
+      "name": "OrgnlCtrlSum",
+      "type": "XMLElement",
+      "description": "The original control sum",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCtrlSum>3000.03</OrgnlCtrlSum>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grpsts-xmlelement",
+      "canonical_name": "GrpSts",
+      "name": "GrpSts",
+      "type": "XMLElement",
+      "description": "The group status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACTC</GrpSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stsrsninf-xmlelement",
+      "canonical_name": "StsRsnInf",
+      "name": "StsRsnInf",
+      "type": "XMLElement",
+      "description": "Status reason information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<StsRsnInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgtr-xmlelement",
+      "canonical_name": "Orgtr",
+      "name": "Orgtr",
+      "type": "XMLElement",
+      "description": "The originator",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Orgtr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "id-xmlelement",
+      "canonical_name": "Id",
+      "name": "Id",
+      "type": "XMLElement",
+      "description": "An identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Id>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgid-xmlelement",
+      "canonical_name": "OrgId",
+      "name": "OrgId",
+      "type": "XMLElement",
+      "description": "An organisation identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-xmlelement",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "XMLElement",
+      "description": "Any BIC (Bank Identifier Code)",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AnyBIC>BANKFIHH</AnyBIC>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "A standard for financial messaging",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bankfihh-bic",
+      "canonical_name": "BANKFIHH",
+      "name": "BANKFIHH",
+      "type": "BIC",
+      "description": "A BIC (Bank Identifier Code) for a financial institution",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid1-messageid",
+      "canonical_name": "MSGID1",
+      "name": "MSGID1",
+      "type": "MessageId",
+      "description": "A message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2023-04-12t120000-datetime",
+      "canonical_name": "2023-04-12T12:00:00",
+      "name": "2023-04-12T12:00:00",
+      "type": "DateTime",
+      "description": "A date and time",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100109-messagename",
+      "canonical_name": "pain.001.001.09",
+      "name": "pain.001.001.09",
+      "type": "MessageName",
+      "description": "A message name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "actc-statuscode",
+      "canonical_name": "ACTC",
+      "name": "ACTC",
+      "type": "StatusCode",
+      "description": "A status code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACTC</GrpSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rjtc-statuscode",
+      "canonical_name": "RJTC",
+      "name": "RJTC",
+      "type": "StatusCode",
+      "description": "A status code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpSts>RJTC</GrpSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid000001-messageid",
+      "canonical_name": "MSGID000001",
+      "name": "MSGID000001",
+      "type": "MessageId",
+      "description": "A message identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-payment-status-report-v10-document",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-and-status-businesscomponent",
+      "description": "The report contains original payment information and status",
+      "confidence": 0.99,
+      "evidence": "3.41 +Original Payment Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-and-status-businesscomponent",
+      "description": "The original payment information contains transaction information and status",
+      "confidence": 0.99,
+      "evidence": "3.41 ++Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-transaction-businesscomponent",
+      "description": "The transaction information contains the original transaction",
+      "confidence": 0.99,
+      "evidence": "3.41 +++Original Transaction",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "ultimate-debtor-paymentrole",
+      "description": "The original transaction contains the ultimate debtor",
+      "confidence": 0.99,
+      "evidence": "3.41 ++++Ultimate Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-paymentrole",
+      "description": "The original transaction contains the debtor",
+      "confidence": 0.99,
+      "evidence": "3.42 ++++Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-account-account",
+      "description": "The original transaction contains the debtor account",
+      "confidence": 0.99,
+      "evidence": "3.43 ++++Debtor Account",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-agent-paymentrole",
+      "description": "The original transaction contains the debtor agent",
+      "confidence": 0.99,
+      "evidence": "3.44 ++++Debtor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PUBLISHES",
+      "target": "customer-payment-status-report-v10-document",
+      "description": "The guide publishes the report",
+      "confidence": 0.99,
+      "evidence": "48 (61) ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-agent-paymentrole",
+      "description": "The original transaction contains the creditor agent",
+      "confidence": 0.99,
+      "evidence": "3.46 ++++Creditor Agent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-paymentrole",
+      "description": "The original transaction contains the creditor",
+      "confidence": 0.99,
+      "evidence": "3.48 ++++Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-account-account",
+      "description": "The original transaction contains the creditor account",
+      "confidence": 0.99,
+      "evidence": "3.49 ++++Creditor Account",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "ultimate-creditor-paymentrole",
+      "description": "The original transaction contains the ultimate creditor",
+      "confidence": 0.99,
+      "evidence": "3.50 ++++Ultimate Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "purpose-businesscomponent",
+      "description": "The original transaction contains the purpose",
+      "confidence": 0.99,
+      "evidence": "3.51 ++++Purpose",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-structure-approved-businessconcept",
+      "relation": "USES",
+      "target": "xml-technology",
+      "description": "The approved message structure uses XML",
+      "confidence": 0.99,
+      "evidence": "6.2.1 Message structure approved",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-structure-rejected-businessconcept",
+      "relation": "USES",
+      "target": "xml-technology",
+      "description": "The rejected message structure uses XML",
+      "confidence": 0.99,
+      "evidence": "6.2.2 Message structure rejected",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "document-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cstmrpmtstsrpt-xmlelement",
+      "description": "The document contains the customer payment status report",
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "grphdr-xmlelement",
+      "description": "The report contains the group header",
+      "confidence": 0.99,
+      "evidence": "<GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "msgid-xmlelement",
+      "description": "The group header contains the message identifier",
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "credttm-xmlelement",
+      "description": "The group header contains the creation date and time",
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dbtragt-xmlelement",
+      "description": "The group header contains the debtor agent",
+      "confidence": 0.99,
+      "evidence": "<DbtrAgt>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "fininstnid-xmlelement",
+      "description": "The debtor agent contains the financial institution identifier",
+      "confidence": 0.99,
+      "evidence": "<FinInstnId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fininstnid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bicfi-xmlelement",
+      "description": "The financial institution identifier contains the BIC",
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlgrpinfandsts-xmlelement",
+      "description": "The report contains the original group information and status",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlmsgid-xmlelement",
+      "description": "The original group information contains the original message identifier",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlmsgnmid-xmlelement",
+      "description": "The original group information contains the original message name identifier",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlcredttm-xmlelement",
+      "description": "The original group information contains the original creation date and time",
+      "confidence": 0.99,
+      "evidence": "<OrgnlCreDtTm>2023-04-03T10:30:00</OrgnlCreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlnboftxs-xmlelement",
+      "description": "The original group information contains the original number of transactions",
+      "confidence": 0.99,
+      "evidence": "<OrgnlNbOfTxs>2</OrgnlNbOfTxs>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlctrlsum-xmlelement",
+      "description": "The original group information contains the original control sum",
+      "confidence": 0.99,
+      "evidence": "<OrgnlCtrlSum>3000.03</OrgnlCtrlSum>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "grpsts-xmlelement",
+      "description": "The original group information contains the group status",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACTC</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grpsts-xmlelement",
+      "relation": "EQUALS",
+      "target": "actc-statuscode",
+      "description": "The group status equals ACTC",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACTC</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grpsts-xmlelement",
+      "relation": "EQUALS",
+      "target": "rjtc-statuscode",
+      "description": "The group status equals RJTC",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>RJTC</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "The standard publishes the guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bankfihh-bic",
+      "relation": "EQUALS",
+      "target": "bicfi-xmlelement",
+      "description": "The BIC equals BANKFIHH",
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "msgid1-messageid",
+      "relation": "EQUALS",
+      "target": "msgid-xmlelement",
+      "description": "The message identifier equals MSGID1",
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2023-04-12t120000-datetime",
+      "relation": "EQUALS",
+      "target": "credttm-xmlelement",
+      "description": "The creation date and time equals 2023-04-12T12:00:00",
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain00100109-messagename",
+      "relation": "EQUALS",
+      "target": "orgnlmsgnmid-xmlelement",
+      "description": "The message name equals pain.001.001.09",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "actc-statuscode",
+      "relation": "EQUALS",
+      "target": "grpsts-xmlelement",
+      "description": "The status code equals ACTC",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACTC</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rjtc-statuscode",
+      "relation": "EQUALS",
+      "target": "grpsts-xmlelement",
+      "description": "The status code equals RJTC",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>RJTC</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "msgid000001-messageid",
+      "relation": "EQUALS",
+      "target": "orgnlmsgid-xmlelement",
+      "description": "The message identifier equals MSGID000001",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        25
+      ],
+      "frequency": 1
+    }
+  ]
+}

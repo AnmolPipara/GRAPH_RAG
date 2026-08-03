@@ -1,0 +1,3763 @@
+{
+  "entities_before": 1046,
+  "entities_after": 897,
+  "rels_before": 931,
+  "rels_after": 860,
+  "merge_groups": [
+    {
+      "canonical_name": "Tel: +358 20 793 4200",
+      "survivor": "tel-358-20-793-4200-contact",
+      "merged": [
+        {
+          "id": "tel-358-20-793-4200-phonenumber",
+          "type": "PhoneNumber",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "tel-358-20-793-4200-contact",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Fax: +358 20 793 4202",
+      "survivor": "fax-358-20-793-4202-contact",
+      "merged": [
+        {
+          "id": "fax-358-20-793-4202-faxnumber",
+          "type": "FaxNumber",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "fax-358-20-793-4202-contact",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Group Header",
+      "survivor": "group-header-businesscomponent",
+      "merged": [
+        {
+          "id": "group-header-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            42,
+            43,
+            44
+          ],
+          "freq": 8
+        },
+        {
+          "id": "group-header-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Information",
+      "survivor": "payment-information-businesscomponent",
+      "merged": [
+        {
+          "id": "payment-information-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "freq": 13
+        },
+        {
+          "id": "payment-information-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            5,
+            6,
+            12,
+            13
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Credit Transfer Transaction Information",
+      "survivor": "credit-transfer-transaction-information-businesscomponent",
+      "merged": [
+        {
+          "id": "credit-transfer-transaction-information-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "freq": 7
+        },
+        {
+          "id": "credit-transfer-transaction-information-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            12,
+            13
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Remittance Information",
+      "survivor": "remittance-information-businesscomponent",
+      "merged": [
+        {
+          "id": "remittance-information-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 5
+        },
+        {
+          "id": "remittance-information-paymentinformation",
+          "type": "PaymentInformation",
+          "pages": [
+            58,
+            59
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message Structure",
+      "survivor": "message-structure-businessconcept",
+      "merged": [
+        {
+          "id": "message-structure-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-structure-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Debit Booking Alternatives",
+      "survivor": "debit-booking-alternatives-businessconcept",
+      "merged": [
+        {
+          "id": "debit-booking-alternatives-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "debit-booking-alternatives-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message root",
+      "survivor": "message-root-xmlelement",
+      "merged": [
+        {
+          "id": "message-root-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-root-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-root-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            10,
+            11,
+            12,
+            39,
+            40
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Credit Transfer",
+      "survivor": "credit-transfer-businesscomponent",
+      "merged": [
+        {
+          "id": "credit-transfer-paymentscheme",
+          "type": "PaymentScheme",
+          "pages": [
+            1,
+            2,
+            31,
+            32,
+            34,
+            35,
+            36
+          ],
+          "freq": 3
+        },
+        {
+          "id": "credit-transfer-paymenttype",
+          "type": "PaymentType",
+          "pages": [
+            18,
+            19,
+            20,
+            27,
+            28,
+            52,
+            53,
+            58,
+            59
+          ],
+          "freq": 4
+        },
+        {
+          "id": "credit-transfer-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "freq": 5
+        },
+        {
+          "id": "credit-transfer-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Remittance",
+      "survivor": "remittance-businessprocess",
+      "merged": [
+        {
+          "id": "remittance-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            1,
+            2
+          ],
+          "freq": 1
+        },
+        {
+          "id": "remittance-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Creditor reference",
+      "survivor": "creditor-reference-businessconcept",
+      "merged": [
+        {
+          "id": "creditor-reference-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            2,
+            3,
+            31,
+            32
+          ],
+          "freq": 2
+        },
+        {
+          "id": "creditor-reference-dataelement",
+          "type": "DataElement",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Combining invoices and credit notes",
+      "survivor": "combining-invoices-and-credit-notes-businessconcept",
+      "merged": [
+        {
+          "id": "combining-invoices-and-credit-notes-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "combining-invoices-and-credit-notes-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Validation of message structure",
+      "survivor": "validation-of-message-structure-technicalconcept",
+      "merged": [
+        {
+          "id": "validation-of-message-structure-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "validation-of-message-structure-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Content validation",
+      "survivor": "content-validation-businessprocess",
+      "merged": [
+        {
+          "id": "content-validation-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "content-validation-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Original Group Information and Status",
+      "survivor": "original-group-information-and-status-businesscomponent",
+      "merged": [
+        {
+          "id": "original-group-information-and-status-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "original-group-information-and-status-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            42,
+            43,
+            44
+          ],
+          "freq": 2
+        },
+        {
+          "id": "original-group-information-and-status-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Original Payment Information And Status",
+      "survivor": "original-payment-information-and-status-businesscomponent",
+      "merged": [
+        {
+          "id": "original-payment-information-and-status-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "original-payment-information-and-status-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message structure approved",
+      "survivor": "message-structure-approved-technicalconcept",
+      "merged": [
+        {
+          "id": "message-structure-approved-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-structure-approved-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message structure rejected",
+      "survivor": "message-structure-rejected-technicalconcept",
+      "merged": [
+        {
+          "id": "message-structure-rejected-technicalconcept",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-structure-rejected-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Single Euro Payments Area",
+      "survivor": "single-euro-payments-area-concept",
+      "merged": [
+        {
+          "id": "single-euro-payments-area-concept",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "single-euro-payments-area-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            12,
+            13
+          ],
+          "freq": 1
+        },
+        {
+          "id": "single-euro-payments-area-standard",
+          "type": "Standard",
+          "pages": [
+            60,
+            61
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Domestic urgent payments",
+      "survivor": "domestic-urgent-payments-businessconcept",
+      "merged": [
+        {
+          "id": "domestic-urgent-payments-paymenttype",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "domestic-urgent-payments-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Currency Payments",
+      "survivor": "currency-payments-paymenttype",
+      "merged": [
+        {
+          "id": "currency-payments-paymenttype",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 2
+        },
+        {
+          "id": "currency-payments-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "European Union",
+      "survivor": "european-union-organization",
+      "merged": [
+        {
+          "id": "european-union-organization",
+          "type": "Organization",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "european-union-location",
+          "type": "Location",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Credit Transfers",
+      "survivor": "credit-transfers-paymenttype",
+      "merged": [
+        {
+          "id": "credit-transfers-paymenttype",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 2
+        },
+        {
+          "id": "credit-transfers-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            12,
+            13
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message Content",
+      "survivor": "message-content-businessconcept",
+      "merged": [
+        {
+          "id": "message-content-concept",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-content-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rejection Reason Codes",
+      "survivor": "rejection-reason-codes-businessconcept",
+      "merged": [
+        {
+          "id": "rejection-reason-codes-identifier",
+          "type": "Identifier",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "rejection-reason-codes-dataset",
+          "type": "Dataset",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        },
+        {
+          "id": "rejection-reason-codes-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            51,
+            52
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "VOP Data File",
+      "survivor": "vop-data-file-file",
+      "merged": [
+        {
+          "id": "vop-data-file-document",
+          "type": "Document",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "vop-data-file-file",
+          "type": "File",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Status codes",
+      "survivor": "status-codes-businessconcept",
+      "merged": [
+        {
+          "id": "status-codes-identifier",
+          "type": "Identifier",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "status-codes-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Recommendation for the Verification of Payee",
+      "survivor": "recommendation-for-the-verification-of-payee-documentsection",
+      "merged": [
+        {
+          "id": "recommendation-for-the-verification-of-payee-document",
+          "type": "Document",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "recommendation-for-the-verification-of-payee-documentsection",
+          "type": "DocumentSection",
+          "pages": [
+            51,
+            52
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Single Euro Payments Area (SEPA)",
+      "survivor": "single-euro-payments-area-sepa-location",
+      "merged": [
+        {
+          "id": "single-euro-payments-area-sepa-concept",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ],
+          "freq": 1
+        },
+        {
+          "id": "single-euro-payments-area-sepa-location",
+          "type": "Location",
+          "pages": [
+            31,
+            32,
+            52,
+            53
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "SEPA Credit Transfer",
+      "survivor": "sepa-credit-transfer-paymentscheme",
+      "merged": [
+        {
+          "id": "sepa-credit-transfer-paymentscheme",
+          "type": "PaymentScheme",
+          "pages": [
+            4,
+            5,
+            8,
+            9,
+            10
+          ],
+          "freq": 2
+        },
+        {
+          "id": "sepa-credit-transfer-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            60,
+            61
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "pain.001.001.09",
+      "survivor": "pain00100109-xmlelement",
+      "merged": [
+        {
+          "id": "pain00100109-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            4,
+            5
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain00100109-messagetype",
+          "type": "MessageType",
+          "pages": [
+            5,
+            6
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain00100109-messageidentifier",
+          "type": "MessageIdentifier",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain00100109-messagename",
+          "type": "MessageName",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain00100109-identifier",
+          "type": "Identifier",
+          "pages": [
+            50,
+            51
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Pain.001",
+      "survivor": "pain001-messagetype",
+      "merged": [
+        {
+          "id": "pain001-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            4,
+            5
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain001-xmlmessage",
+          "type": "XMLMessage",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain001-standard",
+          "type": "Standard",
+          "pages": [
+            31,
+            32
+          ],
+          "freq": 1
+        },
+        {
+          "id": "pain001-messagetype",
+          "type": "MessageType",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Customer",
+      "survivor": "customer-paymentrole",
+      "merged": [
+        {
+          "id": "customer-paymentrole",
+          "type": "PaymentRole",
+          "pages": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            27,
+            28
+          ],
+          "freq": 3
+        },
+        {
+          "id": "customer-person",
+          "type": "Person",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        },
+        {
+          "id": "customer-organization",
+          "type": "Organization",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        },
+        {
+          "id": "customer-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bank",
+      "survivor": "bank-financialinstitution",
+      "merged": [
+        {
+          "id": "bank-financialinstitution",
+          "type": "FinancialInstitution",
+          "pages": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            12,
+            13,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            39,
+            40,
+            51,
+            52,
+            53,
+            54
+          ],
+          "freq": 8
+        },
+        {
+          "id": "bank-identifier",
+          "type": "Identifier",
+          "pages": [
+            10,
+            11,
+            12,
+            16,
+            17,
+            18,
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "SEPA",
+      "survivor": "sepa-paymentscheme",
+      "merged": [
+        {
+          "id": "sepa-paymentscheme",
+          "type": "PaymentScheme",
+          "pages": [
+            4,
+            5,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "freq": 5
+        },
+        {
+          "id": "sepa-organization",
+          "type": "Organization",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "sepa-identifier",
+          "type": "Identifier",
+          "pages": [
+            12,
+            13,
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 2
+        },
+        {
+          "id": "sepa-standard",
+          "type": "Standard",
+          "pages": [
+            34,
+            35,
+            36,
+            60,
+            61
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Materials",
+      "survivor": "payment-materials-dataelement",
+      "merged": [
+        {
+          "id": "payment-materials-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            5,
+            6
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-materials-dataelement",
+          "type": "DataElement",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "MessageIdentification",
+      "survivor": "messageidentification-dataelement",
+      "merged": [
+        {
+          "id": "messageidentification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            6,
+            7,
+            8
+          ],
+          "freq": 1
+        },
+        {
+          "id": "messageidentification-identifier",
+          "type": "Identifier",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Party",
+      "survivor": "party-businessconcept",
+      "merged": [
+        {
+          "id": "party-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7,
+            8
+          ],
+          "freq": 1
+        },
+        {
+          "id": "party-paymentrole",
+          "type": "PaymentRole",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Account",
+      "survivor": "account-businessconcept",
+      "merged": [
+        {
+          "id": "account-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7,
+            8
+          ],
+          "freq": 1
+        },
+        {
+          "id": "account-account",
+          "type": "Account",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Transaction",
+      "survivor": "transaction-businessprocess",
+      "merged": [
+        {
+          "id": "transaction-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7,
+            8,
+            40,
+            41,
+            42,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 3
+        },
+        {
+          "id": "transaction-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21,
+            22,
+            60,
+            61
+          ],
+          "freq": 3
+        },
+        {
+          "id": "transaction-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment",
+      "survivor": "payment-businessprocess",
+      "merged": [
+        {
+          "id": "payment-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7,
+            8
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21,
+            22,
+            60,
+            61
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "PaymentTypeInformation",
+      "survivor": "paymenttypeinformation-xmlelement",
+      "merged": [
+        {
+          "id": "paymenttypeinformation-dataelement",
+          "type": "DataElement",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        },
+        {
+          "id": "paymenttypeinformation-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            12,
+            13
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "RemittanceInformation",
+      "survivor": "remittanceinformation-xmlelement",
+      "merged": [
+        {
+          "id": "remittanceinformation-dataelement",
+          "type": "DataElement",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        },
+        {
+          "id": "remittanceinformation-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Extended Remittance Information",
+      "survivor": "extended-remittance-information-businessconcept",
+      "merged": [
+        {
+          "id": "extended-remittance-information-standard",
+          "type": "Standard",
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "freq": 1
+        },
+        {
+          "id": "extended-remittance-information-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            32,
+            33,
+            34,
+            51,
+            52
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Index",
+      "survivor": "index-dataelement",
+      "merged": [
+        {
+          "id": "index-dataelement",
+          "type": "DataElement",
+          "pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            42,
+            43,
+            44
+          ],
+          "freq": 5
+        },
+        {
+          "id": "index-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mult",
+      "survivor": "mult-dataelement",
+      "merged": [
+        {
+          "id": "mult-dataelement",
+          "type": "DataElement",
+          "pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            42,
+            43,
+            44
+          ],
+          "freq": 5
+        },
+        {
+          "id": "mult-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message Element",
+      "survivor": "message-element-dataelement",
+      "merged": [
+        {
+          "id": "message-element-dataelement",
+          "type": "DataElement",
+          "pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            18,
+            19,
+            20
+          ],
+          "freq": 3
+        },
+        {
+          "id": "message-element-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            12,
+            13,
+            42,
+            43,
+            44
+          ],
+          "freq": 2
+        },
+        {
+          "id": "message-element-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Customer Credit Transfer Initiation",
+      "survivor": "customer-credit-transfer-initiation-businessprocess",
+      "merged": [
+        {
+          "id": "customer-credit-transfer-initiation-messagetype",
+          "type": "MessageType",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "customer-credit-transfer-initiation-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Message Identification",
+      "survivor": "message-identification-dataelement",
+      "merged": [
+        {
+          "id": "message-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "message-identification-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Creation Date Time",
+      "survivor": "creation-date-time-dataelement",
+      "merged": [
+        {
+          "id": "creation-date-time-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "creation-date-time-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Control Sum",
+      "survivor": "control-sum-dataelement",
+      "merged": [
+        {
+          "id": "control-sum-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "freq": 2
+        },
+        {
+          "id": "control-sum-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Identification",
+      "survivor": "identification-dataelement",
+      "merged": [
+        {
+          "id": "identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12,
+            20,
+            21,
+            22,
+            42,
+            43,
+            44
+          ],
+          "freq": 3
+        },
+        {
+          "id": "identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "Organisation Identification",
+      "survivor": "organisation-identification-dataelement",
+      "merged": [
+        {
+          "id": "organisation-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "organisation-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            18,
+            19,
+            20
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Private Identification",
+      "survivor": "private-identification-dataelement",
+      "merged": [
+        {
+          "id": "private-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12,
+            16,
+            17,
+            18,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "freq": 4
+        },
+        {
+          "id": "private-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            18,
+            19,
+            20,
+            27,
+            28
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "SEPA Credit Transfer Rulebook",
+      "survivor": "sepa-credit-transfer-rulebook-standard",
+      "merged": [
+        {
+          "id": "sepa-credit-transfer-rulebook-document",
+          "type": "Document",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "sepa-credit-transfer-rulebook-standard",
+          "type": "Standard",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "AOS",
+      "survivor": "aos-organization",
+      "merged": [
+        {
+          "id": "aos-acronym",
+          "type": "Acronym",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "aos-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "freq": 1
+        },
+        {
+          "id": "aos-organization",
+          "type": "Organization",
+          "pages": [
+            60,
+            61
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Code",
+      "survivor": "code-dataelement",
+      "merged": [
+        {
+          "id": "code-dataelement",
+          "type": "DataElement",
+          "pages": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            28,
+            29,
+            30,
+            31
+          ],
+          "freq": 4
+        },
+        {
+          "id": "code-identifier",
+          "type": "Identifier",
+          "pages": [
+            20,
+            21,
+            22,
+            42,
+            43,
+            44
+          ],
+          "freq": 2
+        },
+        {
+          "id": "code-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        },
+        {
+          "id": "code-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Organisation",
+      "survivor": "organisation-dataelement",
+      "merged": [
+        {
+          "id": "organisation-organization",
+          "type": "Organization",
+          "pages": [
+            10,
+            11,
+            12
+          ],
+          "freq": 1
+        },
+        {
+          "id": "organisation-dataelement",
+          "type": "DataElement",
+          "pages": [
+            16,
+            17,
+            18,
+            24,
+            25,
+            26,
+            27
+          ],
+          "freq": 2
+        },
+        {
+          "id": "organisation-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            27,
+            28
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "survivor": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "merged": [
+        {
+          "id": "customer-credit-transfer-initiation-v09-messagetype",
+          "type": "MessageType",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "freq": 2
+        },
+        {
+          "id": "customer-credit-transfer-initiation-v09-xmlmessage",
+          "type": "XMLMessage",
+          "pages": [
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "freq": 4
+        },
+        {
+          "id": "customer-credit-transfer-initiation-v09-standard",
+          "type": "Standard",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Type Information",
+      "survivor": "payment-type-information-businesscomponent",
+      "merged": [
+        {
+          "id": "payment-type-information-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            12,
+            13
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-type-information-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            20,
+            21,
+            22,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 4
+        },
+        {
+          "id": "payment-type-information-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Service Level",
+      "survivor": "service-level-dataelement",
+      "merged": [
+        {
+          "id": "service-level-dataelement",
+          "type": "DataElement",
+          "pages": [
+            12,
+            13,
+            20,
+            21,
+            22
+          ],
+          "freq": 3
+        },
+        {
+          "id": "service-level-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Local Instrument",
+      "survivor": "local-instrument-dataelement",
+      "merged": [
+        {
+          "id": "local-instrument-dataelement",
+          "type": "DataElement",
+          "pages": [
+            12,
+            13,
+            20,
+            21,
+            22
+          ],
+          "freq": 3
+        },
+        {
+          "id": "local-instrument-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Category Purpose",
+      "survivor": "category-purpose-businesscomponent",
+      "merged": [
+        {
+          "id": "category-purpose-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            20,
+            21,
+            22,
+            27,
+            28
+          ],
+          "freq": 3
+        },
+        {
+          "id": "category-purpose-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Proprietary",
+      "survivor": "proprietary-businesscomponent",
+      "merged": [
+        {
+          "id": "proprietary-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        },
+        {
+          "id": "proprietary-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        },
+        {
+          "id": "proprietary-identifier",
+          "type": "Identifier",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Requested Execution Date",
+      "survivor": "requested-execution-date-dataelement",
+      "merged": [
+        {
+          "id": "requested-execution-date-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "freq": 1
+        },
+        {
+          "id": "requested-execution-date-dataelement",
+          "type": "DataElement",
+          "pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 1
+        },
+        {
+          "id": "requested-execution-date-date",
+          "type": "Date",
+          "pages": [
+            59,
+            60
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Initiation V09",
+      "survivor": "initiation-v09-messagetype",
+      "merged": [
+        {
+          "id": "initiation-v09-messagetype",
+          "type": "MessageType",
+          "pages": [
+            16,
+            17,
+            18
+          ],
+          "freq": 1
+        },
+        {
+          "id": "initiation-v09-messageversion",
+          "type": "MessageVersion",
+          "pages": [
+            27,
+            28
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Debtor Account",
+      "survivor": "debtor-account-businesscomponent",
+      "merged": [
+        {
+          "id": "debtor-account-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            16,
+            17,
+            18
+          ],
+          "freq": 1
+        },
+        {
+          "id": "debtor-account-account",
+          "type": "Account",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "IBAN",
+      "survivor": "iban-identifier",
+      "merged": [
+        {
+          "id": "iban-identifier",
+          "type": "Identifier",
+          "pages": [
+            16,
+            17,
+            18,
+            27,
+            28,
+            34,
+            35,
+            36,
+            51,
+            52,
+            53,
+            58,
+            59,
+            60
+          ],
+          "freq": 7
+        },
+        {
+          "id": "iban-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        },
+        {
+          "id": "iban-standard",
+          "type": "Standard",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Currency",
+      "survivor": "currency-dataelement",
+      "merged": [
+        {
+          "id": "currency-dataelement",
+          "type": "DataElement",
+          "pages": [
+            16,
+            17,
+            18,
+            20,
+            21,
+            22
+          ],
+          "freq": 3
+        },
+        {
+          "id": "currency-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Proxy",
+      "survivor": "proxy-dataelement",
+      "merged": [
+        {
+          "id": "proxy-dataelement",
+          "type": "DataElement",
+          "pages": [
+            16,
+            17,
+            18
+          ],
+          "freq": 1
+        },
+        {
+          "id": "proxy-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            27,
+            28
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "BICFI",
+      "survivor": "bicfi-xmlelement",
+      "merged": [
+        {
+          "id": "bicfi-identifier",
+          "type": "Identifier",
+          "pages": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            34,
+            35,
+            36
+          ],
+          "freq": 3
+        },
+        {
+          "id": "bicfi-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "camt.053",
+      "survivor": "camt053-xmlmessage",
+      "merged": [
+        {
+          "id": "camt053-messagetype",
+          "type": "MessageType",
+          "pages": [
+            16,
+            17,
+            18
+          ],
+          "freq": 1
+        },
+        {
+          "id": "camt053-xmlmessage",
+          "type": "XMLMessage",
+          "pages": [
+            20,
+            21,
+            22,
+            27,
+            28
+          ],
+          "freq": 2
+        },
+        {
+          "id": "camt053-standard",
+          "type": "Standard",
+          "pages": [
+            31,
+            32
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Other",
+      "survivor": "other-dataelement",
+      "merged": [
+        {
+          "id": "other-dataelement",
+          "type": "DataElement",
+          "pages": [
+            16,
+            17,
+            18
+          ],
+          "freq": 1
+        },
+        {
+          "id": "other-identifier",
+          "type": "Identifier",
+          "pages": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ultimate Debtor Identification",
+      "survivor": "ultimate-debtor-identification-dataelement",
+      "merged": [
+        {
+          "id": "ultimate-debtor-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            18,
+            19,
+            20
+          ],
+          "freq": 1
+        },
+        {
+          "id": "ultimate-debtor-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            22,
+            23,
+            24
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Charge Bearer",
+      "survivor": "charge-bearer-paymentrole",
+      "merged": [
+        {
+          "id": "charge-bearer-paymentrole",
+          "type": "PaymentRole",
+          "pages": [
+            18,
+            19,
+            20,
+            22,
+            23,
+            24
+          ],
+          "freq": 2
+        },
+        {
+          "id": "charge-bearer-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Identification",
+      "survivor": "payment-identification-businesscomponent",
+      "merged": [
+        {
+          "id": "payment-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            18,
+            19,
+            20
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "AnyBIC",
+      "survivor": "anybic-identifier",
+      "merged": [
+        {
+          "id": "anybic-identifier",
+          "type": "Identifier",
+          "pages": [
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "freq": 4
+        },
+        {
+          "id": "anybic-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Instruction Identification",
+      "survivor": "instruction-identification-dataelement",
+      "merged": [
+        {
+          "id": "instruction-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        },
+        {
+          "id": "instruction-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "End To End Identification",
+      "survivor": "end-to-end-identification-dataelement",
+      "merged": [
+        {
+          "id": "end-to-end-identification-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 3
+        },
+        {
+          "id": "end-to-end-identification-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Amount",
+      "survivor": "amount-dataelement",
+      "merged": [
+        {
+          "id": "amount-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 3
+        },
+        {
+          "id": "amount-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Instructed Amount",
+      "survivor": "instructed-amount-dataelement",
+      "merged": [
+        {
+          "id": "instructed-amount-dataelement",
+          "type": "DataElement",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 2
+        },
+        {
+          "id": "instructed-amount-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Credit Transfer Transaction",
+      "survivor": "credit-transfer-transaction-businessprocess",
+      "merged": [
+        {
+          "id": "credit-transfer-transaction-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21,
+            22,
+            60,
+            61
+          ],
+          "freq": 4
+        },
+        {
+          "id": "credit-transfer-transaction-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Type",
+      "survivor": "payment-type-dataelement",
+      "merged": [
+        {
+          "id": "payment-type-businessprocess",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-type-dataelement",
+          "type": "DataElement",
+          "pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Creditor Name",
+      "survivor": "creditor-name-dataelement",
+      "merged": [
+        {
+          "id": "creditor-name-dataelement",
+          "type": "DataElement",
+          "pages": [
+            22,
+            23,
+            24
+          ],
+          "freq": 1
+        },
+        {
+          "id": "creditor-name-field",
+          "type": "Field",
+          "pages": [
+            59,
+            60
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "BIC",
+      "survivor": "bic-identifier",
+      "merged": [
+        {
+          "id": "bic-identifier",
+          "type": "Identifier",
+          "pages": [
+            22,
+            23,
+            24,
+            34,
+            35,
+            36
+          ],
+          "freq": 2
+        },
+        {
+          "id": "bic-acronym",
+          "type": "Acronym",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Creditor Account",
+      "survivor": "creditor-account-account",
+      "merged": [
+        {
+          "id": "creditor-account-accounttype",
+          "type": "AccountType",
+          "pages": [
+            27,
+            28
+          ],
+          "freq": 1
+        },
+        {
+          "id": "creditor-account-account",
+          "type": "Account",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Banks",
+      "survivor": "banks-organization",
+      "merged": [
+        {
+          "id": "banks-organization",
+          "type": "Organization",
+          "pages": [
+            31,
+            32
+          ],
+          "freq": 1
+        },
+        {
+          "id": "banks-financialinstitution",
+          "type": "FinancialInstitution",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "MsgId",
+      "survivor": "msgid-xmlelement",
+      "merged": [
+        {
+          "id": "msgid-identifier",
+          "type": "Identifier",
+          "pages": [
+            31,
+            32
+          ],
+          "freq": 1
+        },
+        {
+          "id": "msgid-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            34,
+            35,
+            36,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "EndToEndId",
+      "survivor": "endtoendid-xmlelement",
+      "merged": [
+        {
+          "id": "endtoendid-identifier",
+          "type": "Identifier",
+          "pages": [
+            31,
+            32
+          ],
+          "freq": 1
+        },
+        {
+          "id": "endtoendid-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "Unstructured Remittance Information",
+      "survivor": "unstructured-remittance-information-paymentinformation",
+      "merged": [
+        {
+          "id": "unstructured-remittance-information-dataelement",
+          "type": "DataElement",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        },
+        {
+          "id": "unstructured-remittance-information-paymentinformation",
+          "type": "PaymentInformation",
+          "pages": [
+            58,
+            59
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Structured Remittance Information",
+      "survivor": "structured-remittance-information-paymentinformation",
+      "merged": [
+        {
+          "id": "structured-remittance-information-dataelement",
+          "type": "DataElement",
+          "pages": [
+            32,
+            33,
+            34
+          ],
+          "freq": 1
+        },
+        {
+          "id": "structured-remittance-information-paymentinformation",
+          "type": "PaymentInformation",
+          "pages": [
+            58,
+            59
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "EUR",
+      "survivor": "eur-identifier",
+      "merged": [
+        {
+          "id": "eur-currency",
+          "type": "Currency",
+          "pages": [
+            34,
+            35,
+            36
+          ],
+          "freq": 1
+        },
+        {
+          "id": "eur-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "FI",
+      "survivor": "fi-identifier",
+      "merged": [
+        {
+          "id": "fi-location",
+          "type": "Location",
+          "pages": [
+            34,
+            35,
+            36
+          ],
+          "freq": 1
+        },
+        {
+          "id": "fi-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hohenstaufengasse",
+      "survivor": "hohenstaufengasse-location",
+      "merged": [
+        {
+          "id": "hohenstaufengasse-location",
+          "type": "Location",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        },
+        {
+          "id": "hohenstaufengasse-streetname",
+          "type": "StreetName",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "123",
+      "survivor": "123-identifier",
+      "merged": [
+        {
+          "id": "123-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        },
+        {
+          "id": "123-buildingnumber",
+          "type": "BuildingNumber",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "1010",
+      "survivor": "1010-identifier",
+      "merged": [
+        {
+          "id": "1010-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        },
+        {
+          "id": "1010-postalcode",
+          "type": "PostalCode",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Wien",
+      "survivor": "wien-location",
+      "merged": [
+        {
+          "id": "wien-location",
+          "type": "Location",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "freq": 1
+        },
+        {
+          "id": "wien-townname",
+          "type": "TownName",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "AT",
+      "survivor": "at-identifier",
+      "merged": [
+        {
+          "id": "at-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            58,
+            59
+          ],
+          "freq": 2
+        },
+        {
+          "id": "at-countrycode",
+          "type": "CountryCode",
+          "pages": [
+            56,
+            57,
+            58
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "BANKFIHH",
+      "survivor": "bankfihh-identifier",
+      "merged": [
+        {
+          "id": "bankfihh-identifier",
+          "type": "Identifier",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            50,
+            51
+          ],
+          "freq": 3
+        },
+        {
+          "id": "bankfihh-bic",
+          "type": "BIC",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "ACTC",
+      "survivor": "actc-identifier",
+      "merged": [
+        {
+          "id": "actc-identifier",
+          "type": "Identifier",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        },
+        {
+          "id": "actc-statuscode",
+          "type": "StatusCode",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Payment Order",
+      "survivor": "payment-order-messagetype",
+      "merged": [
+        {
+          "id": "payment-order-businessconcept",
+          "type": "BusinessConcept",
+          "pages": [
+            39,
+            40
+          ],
+          "freq": 1
+        },
+        {
+          "id": "payment-order-messagetype",
+          "type": "MessageType",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Customer Payment Status Report V10",
+      "survivor": "customer-payment-status-report-v10-document",
+      "merged": [
+        {
+          "id": "customer-payment-status-report-v10-document",
+          "type": "Document",
+          "pages": [
+            40,
+            41,
+            42,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 3
+        },
+        {
+          "id": "customer-payment-status-report-v10-xmlmessage",
+          "type": "XMLMessage",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Original Number Of Transactions",
+      "survivor": "original-number-of-transactions-dataelement",
+      "merged": [
+        {
+          "id": "original-number-of-transactions-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "original-number-of-transactions-dataelement",
+          "type": "DataElement",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Original Control Sum",
+      "survivor": "original-control-sum-dataelement",
+      "merged": [
+        {
+          "id": "original-control-sum-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "original-control-sum-dataelement",
+          "type": "DataElement",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Status Reason Information",
+      "survivor": "status-reason-information-businesscomponent",
+      "merged": [
+        {
+          "id": "status-reason-information-xmlelement",
+          "type": "XMLElement",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "status-reason-information-businesscomponent",
+          "type": "BusinessComponent",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "Reason",
+      "survivor": "reason-dataelement",
+      "merged": [
+        {
+          "id": "reason-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "reason-dataelement",
+          "type": "DataElement",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "canonical_name": "Customer Payment Status Report",
+      "survivor": "customer-payment-status-report-document",
+      "merged": [
+        {
+          "id": "customer-payment-status-report-document",
+          "type": "Document",
+          "pages": [
+            40,
+            41,
+            42,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 2
+        },
+        {
+          "id": "customer-payment-status-report-xmlmessage",
+          "type": "XMLMessage",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Status",
+      "survivor": "status-dataelement",
+      "merged": [
+        {
+          "id": "status-field",
+          "type": "Field",
+          "pages": [
+            40,
+            41,
+            42
+          ],
+          "freq": 1
+        },
+        {
+          "id": "status-dataelement",
+          "type": "DataElement",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 2
+        }
+      ]
+    },
+    {
+      "canonical_name": "External Reason Code List",
+      "survivor": "external-reason-code-list-dataset",
+      "merged": [
+        {
+          "id": "external-reason-code-list-identifier",
+          "type": "Identifier",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        },
+        {
+          "id": "external-reason-code-list-dataset",
+          "type": "Dataset",
+          "pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "External Code List",
+      "survivor": "external-code-list-dataset",
+      "merged": [
+        {
+          "id": "external-code-list-identifier",
+          "type": "Identifier",
+          "pages": [
+            42,
+            43,
+            44
+          ],
+          "freq": 1
+        },
+        {
+          "id": "external-code-list-dataset",
+          "type": "Dataset",
+          "pages": [
+            51,
+            52
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "MSGID1",
+      "survivor": "msgid1-identifier",
+      "merged": [
+        {
+          "id": "msgid1-messageid",
+          "type": "MessageId",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        },
+        {
+          "id": "msgid1-identifier",
+          "type": "Identifier",
+          "pages": [
+            50,
+            51
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "MSGID000001",
+      "survivor": "msgid000001-identifier",
+      "merged": [
+        {
+          "id": "msgid000001-messageid",
+          "type": "MessageId",
+          "pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "freq": 1
+        },
+        {
+          "id": "msgid000001-identifier",
+          "type": "Identifier",
+          "pages": [
+            50,
+            51
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Account Number",
+      "survivor": "account-number-dataelement",
+      "merged": [
+        {
+          "id": "account-number-dataelement",
+          "type": "DataElement",
+          "pages": [
+            51,
+            52
+          ],
+          "freq": 1
+        },
+        {
+          "id": "account-number-identifier",
+          "type": "Identifier",
+          "pages": [
+            58,
+            59
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Creditor Address",
+      "survivor": "creditor-address-dataelement",
+      "merged": [
+        {
+          "id": "creditor-address-dataelement",
+          "type": "DataElement",
+          "pages": [
+            51,
+            52
+          ],
+          "freq": 1
+        },
+        {
+          "id": "creditor-address-field",
+          "type": "Field",
+          "pages": [
+            59,
+            60
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Opt-in",
+      "survivor": "opt-in-process",
+      "merged": [
+        {
+          "id": "opt-in-option",
+          "type": "Option",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        },
+        {
+          "id": "opt-in-process",
+          "type": "Process",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Opt-out",
+      "survivor": "opt-out-process",
+      "merged": [
+        {
+          "id": "opt-out-option",
+          "type": "Option",
+          "pages": [
+            52,
+            53
+          ],
+          "freq": 1
+        },
+        {
+          "id": "opt-out-process",
+          "type": "Process",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Match",
+      "survivor": "match-statuscode",
+      "merged": [
+        {
+          "id": "match-statuscode",
+          "type": "StatusCode",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        },
+        {
+          "id": "match-identifier",
+          "type": "Identifier",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Close Match",
+      "survivor": "close-match-statuscode",
+      "merged": [
+        {
+          "id": "close-match-statuscode",
+          "type": "StatusCode",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        },
+        {
+          "id": "close-match-identifier",
+          "type": "Identifier",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "No Match",
+      "survivor": "no-match-statuscode",
+      "merged": [
+        {
+          "id": "no-match-statuscode",
+          "type": "StatusCode",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        },
+        {
+          "id": "no-match-identifier",
+          "type": "Identifier",
+          "pages": [
+            54,
+            55,
+            56
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "PSP",
+      "survivor": "psp-paymentrole",
+      "merged": [
+        {
+          "id": "psp-paymentrole",
+          "type": "PaymentRole",
+          "pages": [
+            53,
+            54
+          ],
+          "freq": 1
+        },
+        {
+          "id": "psp-financialinstitution",
+          "type": "FinancialInstitution",
+          "pages": [
+            60,
+            61
+          ],
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rulebook Definition",
+      "survivor": "rulebook-definition-definition",
+      "merged": [
+        {
+          "id": "rulebook-definition-definition",
+          "type": "Definition",
+          "pages": [
+            58,
+            59
+          ],
+          "freq": 1
+        },
+        {
+          "id": "rulebook-definition-documentsection",
+          "type": "DocumentSection",
+          "pages": [
+            60,
+            61
+          ],
+          "freq": 1
+        }
+      ]
+    }
+  ],
+  "dropped": {
+    "unresolvable": 46,
+    "self_loop": 3,
+    "duplicate": 22
+  },
+  "resolved_dangling": [
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "paymenttype-cross-chunk",
+      "new": "payment-type-dataelement",
+      "relation": "IS_A"
+    },
+    {
+      "old": "scheme-name-cross-chunk",
+      "new": "schemename-dataelement",
+      "relation": "DEFINES"
+    }
+  ]
+}

@@ -1,0 +1,1256 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "Payments Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-credit-transfer-paymentscheme",
+      "canonical_name": "Customer Credit Transfer",
+      "name": "Customer Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Type of payment scheme",
+      "aliases": [
+        "Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiation-v09-messageversion",
+      "canonical_name": "Initiation V09",
+      "name": "Initiation V09",
+      "type": "MessageVersion",
+      "description": "Version of the initiation message",
+      "aliases": [
+        "V09"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Component of the payment message",
+      "aliases": [
+        "PaymentInfo"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymenttype",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "CreditTransfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Component of the payment message",
+      "aliases": [
+        "TransactionInfo"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-account-accounttype",
+      "canonical_name": "Creditor Account",
+      "name": "Creditor Account",
+      "type": "AccountType",
+      "description": "Type of account",
+      "aliases": [
+        "CreditorAccount"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Creditor Account",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-businesscomponent",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "BusinessComponent",
+      "description": "Component of the creditor account",
+      "aliases": [
+        "Identification"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [
+        "IBAN"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++IBAN",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Role of the creditor",
+      "aliases": [
+        "Creditor"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creditor's account",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proxy-businesscomponent",
+      "canonical_name": "Proxy",
+      "name": "Proxy",
+      "type": "BusinessComponent",
+      "description": "Component of the creditor account",
+      "aliases": [
+        "Proxy"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Proxy",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ultimate-creditor-paymentrole",
+      "canonical_name": "Ultimate Creditor",
+      "name": "Ultimate Creditor",
+      "type": "PaymentRole",
+      "description": "Role of the ultimate creditor",
+      "aliases": [
+        "UltimateCreditor"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Ultimate Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "name-dataelement",
+      "canonical_name": "Name",
+      "name": "Name",
+      "type": "DataElement",
+      "description": "Element of the ultimate creditor",
+      "aliases": [
+        "Name"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-businesscomponent",
+      "canonical_name": "Organisation",
+      "name": "Organisation",
+      "type": "BusinessComponent",
+      "description": "Component of the ultimate creditor identification",
+      "aliases": [
+        "Organisation"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Organisation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-identifier",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "Identifier",
+      "description": "Type of organisation identifier",
+      "aliases": [
+        "AnyBIC"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AnyBIC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lei-identifier",
+      "canonical_name": "LEI",
+      "name": "LEI",
+      "type": "Identifier",
+      "description": "Legal Entity Identifier",
+      "aliases": [
+        "LEI"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "LEI",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-businesscomponent",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "BusinessComponent",
+      "description": "Component of the ultimate creditor identification",
+      "aliases": [
+        "PrivateIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-personal-identification-number-identifier",
+      "canonical_name": "Finnish Personal Identification Number",
+      "name": "Finnish Personal Identification Number",
+      "type": "Identifier",
+      "description": "Type of personal identifier",
+      "aliases": [
+        "FinnishPersonalIdentificationNumber"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finnish personal identification number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "date-and-place-of-birth-dataelement",
+      "canonical_name": "Date and Place of Birth",
+      "name": "Date and Place of Birth",
+      "type": "DataElement",
+      "description": "Element of the private identification",
+      "aliases": [
+        "DateAndPlaceOfBirth"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "date and place of birth",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "purpose-businesscomponent",
+      "canonical_name": "Purpose",
+      "name": "Purpose",
+      "type": "BusinessComponent",
+      "description": "Component of the payment message",
+      "aliases": [
+        "Purpose"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Purpose",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "purposecode-identifier",
+      "canonical_name": "PurposeCode",
+      "name": "PurposeCode",
+      "type": "Identifier",
+      "description": "Code for the purpose of the payment",
+      "aliases": [
+        "PurposeCode"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The PurposeCode value",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-businesscomponent",
+      "canonical_name": "Category Purpose",
+      "name": "Category Purpose",
+      "type": "BusinessComponent",
+      "description": "Component of the purpose",
+      "aliases": [
+        "CategoryPurpose"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Category Purpose value",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sala-identifier",
+      "canonical_name": "SALA",
+      "name": "SALA",
+      "type": "Identifier",
+      "description": "Code for the category purpose",
+      "aliases": [
+        "SALA"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Category Purpose value SALA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stdy-identifier",
+      "canonical_name": "STDY",
+      "name": "STDY",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "STDY"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "STDY (Study)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bech-identifier",
+      "canonical_name": "BECH",
+      "name": "BECH",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "BECH"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "BECH (ChildBenefit)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pens-identifier",
+      "canonical_name": "PENS",
+      "name": "PENS",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "PENS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "PENS (PensionPayment)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bene-identifier",
+      "canonical_name": "BENE",
+      "name": "BENE",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "BENE"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "BENE (UnemploymentDisabilityBenefit)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ssbe-identifier",
+      "canonical_name": "SSBE",
+      "name": "SSBE",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "SSBE"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SSBE (SocialSecurityBenefit )",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "agrt-identifier",
+      "canonical_name": "AGRT",
+      "name": "AGRT",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "AGRT"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AGRT (Agricultural Payment)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "taxs-identifier",
+      "canonical_name": "TAXS",
+      "name": "TAXS",
+      "type": "Identifier",
+      "description": "Code for the purpose",
+      "aliases": [
+        "TAXS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "TAXS (TaxPayment)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-xmlmessage",
+      "canonical_name": "camt.053",
+      "name": "camt.053",
+      "type": "XMLMessage",
+      "description": "Type of XML message",
+      "aliases": [
+        "camt053"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "camt.053 XML account statements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Role of the debtor",
+      "aliases": [
+        "Debtor"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "debtor's electronic account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "financing-company-organization",
+      "canonical_name": "Financing Company",
+      "name": "Financing Company",
+      "type": "Organization",
+      "description": "Type of company",
+      "aliases": [
+        "FinancingCompany"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "financing company",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-paymentrole",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "PaymentRole",
+      "description": "Role of the customer",
+      "aliases": [
+        "Customer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "customer of the company",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-statement-document",
+      "canonical_name": "Account Statement",
+      "name": "Account Statement",
+      "type": "Document",
+      "description": "Type of document",
+      "aliases": [
+        "AccountStatement"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes the payments guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-credit-transfer-paymentscheme",
+      "relation": "CONTAINS",
+      "target": "initiation-v09-messageversion",
+      "description": "Customer credit transfer contains initiation V09",
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiation-v09-messageversion",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Initiation V09 contains payment information",
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-paymenttype",
+      "description": "Payment information contains credit transfer",
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-paymenttype",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit transfer contains transaction information",
+      "confidence": 0.99,
+      "evidence": "+++Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-account-accounttype",
+      "description": "Transaction information contains creditor account",
+      "confidence": 0.99,
+      "evidence": "+++Creditor Account",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-account-accounttype",
+      "relation": "CONTAINS",
+      "target": "identification-businesscomponent",
+      "description": "Creditor account contains identification",
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "iban-identifier",
+      "description": "Identification contains IBAN",
+      "confidence": 0.99,
+      "evidence": "+++++IBAN",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-account-accounttype",
+      "relation": "CONTAINS",
+      "target": "proxy-businesscomponent",
+      "description": "Creditor account contains proxy",
+      "confidence": 0.99,
+      "evidence": "++++Proxy",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "ultimate-creditor-paymentrole",
+      "description": "Transaction information contains ultimate creditor",
+      "confidence": 0.99,
+      "evidence": "+++Ultimate Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "name-dataelement",
+      "description": "Ultimate creditor contains name",
+      "confidence": 0.99,
+      "evidence": "++++Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ultimate-creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "identification-businesscomponent",
+      "description": "Ultimate creditor contains identification",
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "organisation-businesscomponent",
+      "description": "Identification contains organisation",
+      "confidence": 0.99,
+      "evidence": "+++++Organisation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "anybic-identifier",
+      "description": "Organisation contains AnyBIC",
+      "confidence": 0.99,
+      "evidence": "AnyBIC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "lei-identifier",
+      "description": "Organisation contains LEI",
+      "confidence": 0.99,
+      "evidence": "LEI",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "private-identification-businesscomponent",
+      "description": "Identification contains private identification",
+      "confidence": 0.99,
+      "evidence": "+++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "finnish-personal-identification-number-identifier",
+      "description": "Private identification contains Finnish personal identification number",
+      "confidence": 0.99,
+      "evidence": "Finnish personal identification number",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "date-and-place-of-birth-dataelement",
+      "description": "Private identification contains date and place of birth",
+      "confidence": 0.99,
+      "evidence": "date and place of birth",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "purpose-businesscomponent",
+      "description": "Transaction information contains purpose",
+      "confidence": 0.99,
+      "evidence": "+++Purpose",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "purpose-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "purposecode-identifier",
+      "description": "Purpose contains purpose code",
+      "confidence": 0.99,
+      "evidence": "The PurposeCode value",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "purposecode-identifier",
+      "relation": "CONTAINS",
+      "target": "category-purpose-businesscomponent",
+      "description": "Purpose code contains category purpose",
+      "confidence": 0.99,
+      "evidence": "Category Purpose value",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "category-purpose-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "sala-identifier",
+      "description": "Category purpose contains SALA",
+      "confidence": 0.99,
+      "evidence": "Category Purpose value SALA",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "stdy-identifier",
+      "description": "SALA contains STDY",
+      "confidence": 0.99,
+      "evidence": "STDY (Study)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "bech-identifier",
+      "description": "SALA contains BECH",
+      "confidence": 0.99,
+      "evidence": "BECH (ChildBenefit)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "pens-identifier",
+      "description": "SALA contains PENS",
+      "confidence": 0.99,
+      "evidence": "PENS (PensionPayment)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "bene-identifier",
+      "description": "SALA contains BENE",
+      "confidence": 0.99,
+      "evidence": "BENE (UnemploymentDisabilityBenefit)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "ssbe-identifier",
+      "description": "SALA contains SSBE",
+      "confidence": 0.99,
+      "evidence": "SSBE (SocialSecurityBenefit )",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "agrt-identifier",
+      "description": "SALA contains AGRT",
+      "confidence": 0.99,
+      "evidence": "AGRT (Agricultural Payment)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sala-identifier",
+      "relation": "CONTAINS",
+      "target": "taxs-identifier",
+      "description": "SALA contains TAXS",
+      "confidence": 0.99,
+      "evidence": "TAXS (TaxPayment)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "camt053-xmlmessage",
+      "relation": "USED_BY",
+      "target": "debtor-paymentrole",
+      "description": "camt.053 used by debtor",
+      "confidence": 0.99,
+      "evidence": "camt.053 XML account statements for both the debtor and the creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "camt053-xmlmessage",
+      "relation": "USED_BY",
+      "target": "creditor-paymentrole",
+      "description": "camt.053 used by creditor",
+      "confidence": 0.99,
+      "evidence": "camt.053 XML account statements for both the debtor and the creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "financing-company-organization",
+      "relation": "SERVICES",
+      "target": "customer-paymentrole",
+      "description": "Financing company services customer",
+      "confidence": 0.99,
+      "evidence": "customer of the company",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-statement-document",
+      "relation": "GENERATED_FOR",
+      "target": "debtor-paymentrole",
+      "description": "Account statement generated for debtor",
+      "confidence": 0.99,
+      "evidence": "debtor's electronic account statement",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        15
+      ],
+      "frequency": 1
+    }
+  ]
+}

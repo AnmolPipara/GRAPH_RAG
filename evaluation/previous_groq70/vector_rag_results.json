@@ -1,0 +1,312 @@
+[
+  {
+    "system": "VectorRAG",
+    "question_id": 1,
+    "category": "fact_lookup",
+    "question": "What is the address of Finance Finland?",
+    "ground_truth": "Itamerenkatu 11-13, FI-00180 Helsinki, Finland.",
+    "answer": "The address of Finance Finland is Itämerenkatu 11-13, FI-00180 Helsinki, Finland (Page 2 and Page 3).",
+    "retrieved_chunks": [
+      "<FinInstnId> \n \n \n \n \n \n \n<BICFI>BANKFIHH</BICFI> \n \n \n \n \n \n</FinInstnId> \n \n \n \n \n</CdtrAgt> \n \n \n \n \n<Cdtr> \n \n \n \n \n \n<Nm>SAAJA TOIMITTAJA OY</Nm> \n \n \n \n \n \n<PstlAdr> \n \n \n \n \n \n \n<StrtNm>KOTIKATU</StrtNm> \n \n \n \n \n \n \n<BldgNb>321</BldgNb> \n \n \n \n \n \n \n<PstCd>00100</PstCd> \n \n \n \n \n \n \n<TwnNm>HELSINKI</TwnNm> \n \n \n \n \n \n \n<Ctry>FI</Ctry> \n \n \n \n \n \n</PstlAdr> \n \n \n \n \n</Cdtr> \n \n \n \n \n<CdtrAcct> \n \n \n \n \n \n<Id> \n \n \n \n \n \n \n<IBAN>FI1029501800020566</IBAN> \n \n \n \n \n \n</Id>",
+      "3 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \n6.1.3 Message root ......................................................................................................... 40 \n6.1.4 Group Header ........................................................................................................ 40 \n6.1.5 Original Group Information And Status .................................................................. 41 \n6.1.6 Original Payment Information And Status ............................................................. 43 \n6.2 Examples of Payment Status Report messages ............................................................ 49 \n6.2.1 Message structure approved ................................................................................. 49",
+      "2 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \nContents \n1 \nBackground ................................................................................................................................ 4 \n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4 \n1.2 Address structure .............................................................................................................. 5 \n1.2.1 Structured address .................................................................................................. 5 \n1.2.2 Unstructured address .............................................................................................. 5",
+      "Optional Service (AOS). Banks operating in Finland provide AOSs in addition to the \nbasic services related to credit transfer. The additional information these services \ninvolve are only transmitted between banks that have agreed on their use. \n4.1 \nPayment Date (AOS1) \nBanks operating in Finland have agreed that the Payment Date is transmitted from \nthe Debtor Bank to the Creditor Bank. The Payment Date is used, for example, in \ncalculating the penalty interest. A list of banks that provide the AOS1 and a more \ndetailed description of the AOS1 is available on the FFI website at www.finanssiala.fi.  \n4.2 \n Combining invoices and credit notes / Extended Remittance Information (ERI) \nThe additional optional service of combining invoices (AOS2) was replaced in \nNovember 2019 with the AOS Extended Remittance Information (ERI), which is an \noptional part of the European Payments Council SEPA Credit Transfer Rulebook.",
+      "28 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.152 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identifier. \n \n2.153 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Private Identification \nEither a Finnish personal identification \nnumber, date and place of birth or one \noccurrence of “Other” personal identifier. \n2.158 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Purpose \nThe PurposeCode value (or similar \ndescription of the payment’s purpose) is \nnot printed on the debtor’s electronic \naccount statement.  \nThe value can be printed on camt.053 \nXML account statements for both the"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 1.189,
+    "generation_latency_s": 0.886,
+    "total_latency_s": 2.076,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 2,
+    "category": "fact_lookup",
+    "question": "What is the phone number for Finance Finland?",
+    "ground_truth": "+358 20 793 9000",
+    "answer": "The phone number for Finance Finland is +358 20 793 4200 (Page 2 and Page 3).",
+    "retrieved_chunks": [
+      "<FinInstnId> \n \n \n \n \n \n \n<BICFI>BANKFIHH</BICFI> \n \n \n \n \n \n</FinInstnId> \n \n \n \n \n</CdtrAgt> \n \n \n \n \n<Cdtr> \n \n \n \n \n \n<Nm>SAAJA TOIMITTAJA OY</Nm> \n \n \n \n \n \n<PstlAdr> \n \n \n \n \n \n \n<StrtNm>KOTIKATU</StrtNm> \n \n \n \n \n \n \n<BldgNb>321</BldgNb> \n \n \n \n \n \n \n<PstCd>00100</PstCd> \n \n \n \n \n \n \n<TwnNm>HELSINKI</TwnNm> \n \n \n \n \n \n \n<Ctry>FI</Ctry> \n \n \n \n \n \n</PstlAdr> \n \n \n \n \n</Cdtr> \n \n \n \n \n<CdtrAcct> \n \n \n \n \n \n<Id> \n \n \n \n \n \n \n<IBAN>FI1029501800020566</IBAN> \n \n \n \n \n \n</Id>",
+      "3 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \n6.1.3 Message root ......................................................................................................... 40 \n6.1.4 Group Header ........................................................................................................ 40 \n6.1.5 Original Group Information And Status .................................................................. 41 \n6.1.6 Original Payment Information And Status ............................................................. 43 \n6.2 Examples of Payment Status Report messages ............................................................ 49 \n6.2.1 Message structure approved ................................................................................. 49",
+      "2 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \nContents \n1 \nBackground ................................................................................................................................ 4 \n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4 \n1.2 Address structure .............................................................................................................. 5 \n1.2.1 Structured address .................................................................................................. 5 \n1.2.2 Unstructured address .............................................................................................. 5",
+      "28 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.152 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identifier. \n \n2.153 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Private Identification \nEither a Finnish personal identification \nnumber, date and place of birth or one \noccurrence of “Other” personal identifier. \n2.158 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Purpose \nThe PurposeCode value (or similar \ndescription of the payment’s purpose) is \nnot printed on the debtor’s electronic \naccount statement.  \nThe value can be printed on camt.053 \nXML account statements for both the",
+      "++++Identification \nCreditor’s identifier. \n2.136 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification \n+++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identifier. \n2.137 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification \n+++++Private Identification \nEither a Finnish personal identification \nnumber, date and place of birth or one \noccurrence of “Other” personal identifier."
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.212,
+    "generation_latency_s": 0.384,
+    "total_latency_s": 0.596,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 3,
+    "category": "fact_lookup",
+    "question": "Who published the ISO 20022 Payments Guide?",
+    "ground_truth": "Finance Finland (Finanssiala ry).",
+    "answer": "I don't know. The provided context does not mention the publisher of the ISO 20022 Payments Guide. It only mentions the title of the guide and its version (2025) on Page 1.",
+    "retrieved_chunks": [
+      "ISO 20022 Payments Guide \n2025",
+      "46 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.29 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n \n3.31 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Amount \n \n3.34 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Requested Execution \nDate \n \n3.37 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Type \nInformation \n \n3.38 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Method",
+      "47 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.40 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Remittance Information \n \n3.41 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Ultimate Debtor \n \n3.42 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor \n \n3.43 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Account \n \n3.44 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Agent",
+      "48 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.46 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor Agent \n \n3.48 \n1..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor \n \n3.49 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor Account \n \n3.50 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Ultimate Creditor \n \n3.51 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Purpose",
+      "26 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.132 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country Sub Division \n \n2.133 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country \n \n2.134 \n0..2 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Address Line \nCreditor’s address, maximum of two \nlines of unstructured information.  \n2.135 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification \nCreditor’s identifier. \n2.136 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.209,
+    "generation_latency_s": 0.726,
+    "total_latency_s": 0.935,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 4,
+    "category": "fact_lookup",
+    "question": "How many pages does the ISO 20022 Payments Guide have?",
+    "ground_truth": "61 pages.",
+    "answer": "The context does not explicitly state the total number of pages in the ISO 20022 Payments Guide. However, the page numbers provided in the context range from page 1 to page 47, and the notation \"(61)\" on each page suggests that the total number of pages might be 61. But without a clear statement, I don't know the answer for certain.",
+    "retrieved_chunks": [
+      "ISO 20022 Payments Guide \n2025",
+      "46 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.29 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n \n3.31 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Amount \n \n3.34 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Requested Execution \nDate \n \n3.37 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Type \nInformation \n \n3.38 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Method",
+      "47 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.40 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Remittance Information \n \n3.41 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Ultimate Debtor \n \n3.42 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor \n \n3.43 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Account \n \n3.44 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Agent",
+      "24 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.120 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Department \n \n2.121 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Sub Department \n \n2.122 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Street Name \n \n2.123 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Building Number \n \n2.124 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Building Name \n \n2.125 \n0..1 \nCustomer Credit Transfer \nInitiation V09",
+      "25 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.126 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Post Box \n \n2.127 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Room \n \n2.128 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Post Code \n \n2.129 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Town Name \n \n2.130 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Town Location Name \n \n2.131 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.234,
+    "generation_latency_s": 0.483,
+    "total_latency_s": 0.717,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 5,
+    "category": "fact_lookup",
+    "question": "What is the version number of the guide?",
+    "ground_truth": "Version 3.1.",
+    "answer": "The version number of the guide is not explicitly stated in the context, but the date \"18 June 2025\" is mentioned on page 46, and it is referred to as the \"ISO 20022 Payments Guide\". However, the version number of the \"Customer Payment Status Report\" is mentioned as \"V10\" in several places (e.g. page 44, page 42, page 40, and page 46).",
+    "retrieved_chunks": [
+      "3.14 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Instruction \nIdentification \nUnique identification, as assigned by the \noriginal instructing party for the original \ninstructed party, to unambiguously \nidentify the original instruction. \n3.15 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original End To End \nIdentification \nUnique identification, as assigned by the \noriginal initiating party, to unambiguously \nidentify the original transaction.",
+      "++++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \n++++Proprietary \n \n2.12 \n0..n \n+++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Additional Information \n \n2.13 \n0..n \n++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Number Of Transactions \nPer Status",
+      "++Credit Transfer \nTransaction Information \n+++Payment Type \nInformation \n++++Local Instrument \n+++++Proprietary \n \n2.91 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Payment Type \nInformation \n++++Category Purpose \n \n2.92 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Payment Type \nInformation \n++++Category Purpose \n+++++Code",
+      "1.3 \n0..1 \nCustomer Payment Status \nReport V10 \n+Group Header \n++Initiating Party \nParty that creates the message. \n1.5 \n0..1 \nCustomer Payment Status \nReport V10 \n+Group Header \n++Debtor Agent \nThe debtor’s account-servicing bank.",
+      "46 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.29 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n \n3.31 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Amount \n \n3.34 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Requested Execution \nDate \n \n3.37 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Type \nInformation \n \n3.38 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Method"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.207,
+    "generation_latency_s": 0.62,
+    "total_latency_s": 0.827,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 6,
+    "category": "fact_lookup",
+    "question": "What is the publication year of the ISO 20022 Payments Guide?",
+    "ground_truth": "2025.",
+    "answer": "The publication year of the ISO 20022 Payments Guide is 2025, as stated on Page 1.",
+    "retrieved_chunks": [
+      "ISO 20022 Payments Guide \n2025",
+      "46 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.29 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n \n3.31 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Amount \n \n3.34 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Requested Execution \nDate \n \n3.37 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Type \nInformation \n \n3.38 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Method",
+      "47 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.40 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Remittance Information \n \n3.41 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Ultimate Debtor \n \n3.42 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor \n \n3.43 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Account \n \n3.44 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Debtor Agent",
+      "48 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.46 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor Agent \n \n3.48 \n1..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor \n \n3.49 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Creditor Account \n \n3.50 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Ultimate Creditor \n \n3.51 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Purpose",
+      "26 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.132 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country Sub Division \n \n2.133 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country \n \n2.134 \n0..2 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Address Line \nCreditor’s address, maximum of two \nlines of unstructured information.  \n2.135 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification \nCreditor’s identifier. \n2.136 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.231,
+    "generation_latency_s": 0.374,
+    "total_latency_s": 0.605,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 7,
+    "category": "fact_lookup",
+    "question": "What is the email address for Finance Finland payments team?",
+    "ground_truth": "payments@finanssiala.fi",
+    "answer": "I don't know. The provided context does not mention an email address for Finance Finland payments team.",
+    "retrieved_chunks": [
+      "28 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.152 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identifier. \n \n2.153 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Private Identification \nEither a Finnish personal identification \nnumber, date and place of birth or one \noccurrence of “Other” personal identifier. \n2.158 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Purpose \nThe PurposeCode value (or similar \ndescription of the payment’s purpose) is \nnot printed on the debtor’s electronic \naccount statement.  \nThe value can be printed on camt.053 \nXML account statements for both the",
+      "<PstlAdr> \n \n \n \n \n \n<StrtNm>Aleksanterinkatu</StrtNm> \n \n \n \n \n \n<BldgNb>123</BldgNb> \n \n \n \n \n \n<PstCd>00100</PstCd> \n \n \n \n \n \n<TwnNm>HELSINKI</TwnNm> \n \n \n \n \n \n<Ctry>FI</Ctry> \n \n \n \n \n</PstlAdr> \n \n \n \n \n<Id> \n \n \n \n \n \n<OrgId> \n \n \n \n \n \n<!-- \n \n \n \n \n \nPosition of LEI in the schema, if in use \n \n \n \n \n \n<LEI>888888IFQI8W88M8IY88</LEI> \n \n \n \n \n \n--> \n \n \n \n<Othr> \n \n \n \n<Id>1234567890</Id> \n \n \n \n<SchmeNm> \n \n \n \n<Cd>BANK</Cd> \n \n \n \n</SchmeNm> \n \n \n \n</Othr> \n \n \n \n \n \n</OrgId> \n \n \n \n \n</Id> \n \n \n \n</InitgPty> \n \n \n</GrpHdr> \n<!-- \n********************************************************* \nPayment with a message \n********************************************************* \n--> \n \n \n<PmtInf> \n \n \n \n<PmtInfId>20230403-12345678912</PmtInfId> \n \n \n \n \n \n \n<PmtMtd>TRF</PmtMtd> \n \n \n \n<BtchBookg>false</BtchBookg> \n \n \n \n<PmtTpInf> \n \n \n \n \n<SvcLvl>",
+      "++Ultimate Debtor \n+++Identification \n \n \n2.71 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Ultimate Debtor \n+++Identification \n++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identification. \n \n2.72 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Ultimate Debtor \n+++Identification \n++++Private Identification \nEither a Finnish personal identification \nnumber, date of place and birth or one \noccurrence of “Other” personal identifier \nis allowed. \n \n2.75 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Charge Bearer \nSpecifies which party/parties will bear the \ncharges associated with the processing of \nthe payment transaction. Recommended \nuse is on the PaymentInformation level. \n \nWith SEPA payments ”SLEV” = Service \nlevel",
+      "<FinInstnId> \n \n \n \n \n \n \n<BICFI>BANKFIHH</BICFI> \n \n \n \n \n \n</FinInstnId> \n \n \n \n \n</CdtrAgt> \n \n \n \n \n<Cdtr> \n \n \n \n \n \n<Nm>SAAJA TOIMITTAJA OY</Nm> \n \n \n \n \n \n<PstlAdr> \n \n \n \n \n \n \n<StrtNm>KOTIKATU</StrtNm> \n \n \n \n \n \n \n<BldgNb>321</BldgNb> \n \n \n \n \n \n \n<PstCd>00100</PstCd> \n \n \n \n \n \n \n<TwnNm>HELSINKI</TwnNm> \n \n \n \n \n \n \n<Ctry>FI</Ctry> \n \n \n \n \n \n</PstlAdr> \n \n \n \n \n</Cdtr> \n \n \n \n \n<CdtrAcct> \n \n \n \n \n \n<Id> \n \n \n \n \n \n \n<IBAN>FI1029501800020566</IBAN> \n \n \n \n \n \n</Id>",
+      "32 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \nT11/11 SEPA supplementary data. Other information can be forwarded as T11/00 \ndetails. In Camt.053 XML account statement the information has its own XML \nelements, which correspond to the payment pain.001 XML data.  \n3.5 \nSalaries and pensions \nSalaries and pensions are paid as credit transfers. These recurring payments are \nrecognised by the Category Purpose code ”SALA”. The code tells the debtor’s bank \nthat this is a salary/pension payment order. Credit transfers with the SALA code are \nmade as a combined debit on the debtor’s account statement. \n \n \n4 \nUse of extended information elements \nIn addition to credit transfer requirements, banks can agree on the use of extended \ninformation elements, such as Extended Remittance Information (ERI) or Additional \nOptional Service (AOS). Banks operating in Finland provide AOSs in addition to the \nbasic services related to credit transfer. The additional information these services"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.203,
+    "generation_latency_s": 0.424,
+    "total_latency_s": 0.627,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 8,
+    "category": "fact_lookup",
+    "question": "What is the ISO 20022 website provided by Finance Finland?",
+    "ground_truth": "www.finanssiala.fi/iso20022",
+    "answer": "I don't know the ISO 20022 website provided by Finance Finland, as it is not mentioned in the given context. However, the context does provide the website for Finance Finland, which is www.financefinland.fi (Page 2).",
+    "retrieved_chunks": [
+      "2 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \nContents \n1 \nBackground ................................................................................................................................ 4 \n1.1 Usage of ISO 20022 in Finland ......................................................................................... 4 \n1.2 Address structure .............................................................................................................. 5 \n1.2.1 Structured address .................................................................................................. 5 \n1.2.2 Unstructured address .............................................................................................. 5",
+      "This guide is updated as necessary, and changes are therefore possible. Please note \nthat any links provided in this document may have changed after it was published.   \n1.1 \nUsage of ISO 20022 in Finland \nThe purpose of this description is to introduce the data content of ISO 20022 \npayment initiation from the credit transfer point of view. Message definition is about \nthe message sent by the customer to the bank or payment service provider \n(C2B/C2PSP), in which the data elements required by SEPA are present. The name \nof the ISO standard message is ”CustomerCreditTransferInitiationV09” and the XML \nscheme identifier is ”pain.001.001.09”. Finland currently uses pain.001.001.02 and \npain.001.001.03 instead of the more recent version. Please check with each bank for \nits bank-specific implementation schedule and description of the usage of \npain.001.001.09. \nThe complete ISO 20022 message definition and the ISO 20022 Message Definition",
+      "3 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \nItämerenkatu 11-13 \nTel: +358 20 793 4200 \nwww.financefinland.fi \nFI-00180 Helsinki \nFax: +358 20 793 4202 \nFinland \nfirstname.lastname@financefinland.fi \nTwitter.com/finfinance \n \n6.1.3 Message root ......................................................................................................... 40 \n6.1.4 Group Header ........................................................................................................ 40 \n6.1.5 Original Group Information And Status .................................................................. 41 \n6.1.6 Original Payment Information And Status ............................................................. 43 \n6.2 Examples of Payment Status Report messages ............................................................ 49 \n6.2.1 Message structure approved ................................................................................. 49",
+      "+++++++Issuer \nIssuer is not used with the Finnish \ncreditor reference. International RF \ncreditor reference (ISO 11649) uses \nvalue “ISO”.  \n2.175 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Remittance Information \n++++Structured \n+++++Creditor Reference \nInformation \n++++++Reference \nFinnish creditor reference or \ninternational RF.",
+      "28 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.152 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Organisation \nIdentification \nEither AnyBIC, LEI or one occurrence of \n“Other” organisation identifier. \n \n2.153 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Ultimate Creditor \n++++Identification \n+++++Private Identification \nEither a Finnish personal identification \nnumber, date and place of birth or one \noccurrence of “Other” personal identifier. \n2.158 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Purpose \nThe PurposeCode value (or similar \ndescription of the payment’s purpose) is \nnot printed on the debtor’s electronic \naccount statement.  \nThe value can be printed on camt.053 \nXML account statements for both the"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.231,
+    "generation_latency_s": 0.381,
+    "total_latency_s": 0.611,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 9,
+    "category": "definition",
+    "question": "What is ISO 20022?",
+    "ground_truth": "ISO 20022 is an international standard for financial messaging.",
+    "answer": "I don't know what ISO 20022 is, as the provided context only appears to be excerpts from an \"ISO 20022 Payments Guide\" and does not provide a definition or explanation of what ISO 20022 is.",
+    "retrieved_chunks": [
+      "46 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n3.29 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n \n3.31 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Amount \n \n3.34 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Requested Execution \nDate \n \n3.37 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Type \nInformation \n \n3.38 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Transaction Information \nAnd Status \n+++Original Transaction \nReference \n++++Payment Method",
+      "26 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.132 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country Sub Division \n \n2.133 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Country \n \n2.134 \n0..2 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Address Line \nCreditor’s address, maximum of two \nlines of unstructured information.  \n2.135 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification \nCreditor’s identifier. \n2.136 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Identification",
+      "25 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.126 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Post Box \n \n2.127 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Room \n \n2.128 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Post Code \n \n2.129 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Town Name \n \n2.130 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information \n++Credit Transfer \nTransaction Information \n+++Creditor \n++++Postal Address \n+++++Town Location Name \n \n2.131 \n0..1 \nCustomer Credit Transfer \nInitiation V09 \n+Payment Information",
+      "42 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.7 \n0..n \n++Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \nSet of elements used to provide detailed \ninformation on the status of the original \nmessage. \n2.8 \n1..1 \n+++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Originator \nParty that issues the status. \n2.9 \n1..1 \n +++Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \nSpecifies the reason for the status report. \n2.10 \n1..1 \n++++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \n++++Code \nReason code. \n2.11 \n1..1 \n++++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \n++++Proprietary \n \n2.12 \n0..n \n+++ Customer Payment \nStatus Report V10",
+      "ISO 20022 Payments Guide \n2025"
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.196,
+    "generation_latency_s": 0.532,
+    "total_latency_s": 0.728,
+    "error": null,
+    "extra": {}
+  },
+  {
+    "system": "VectorRAG",
+    "question_id": 10,
+    "category": "definition",
+    "question": "What is a Group Header in ISO 20022 payment messages?",
+    "ground_truth": "Block A containing message identification, creation date, and number of transactions.",
+    "answer": "A Group Header in ISO 20022 payment messages, as defined in the context (Page 11), is a block (Block A) that contains the ID information of the payment message, specifically within the \"Customer Credit Transfer Initiation V09\" message. It includes elements such as Message Identification, Creation Date Time, Number Of Transactions, and Control Sum, which provide essential information about the payment instruction(s).",
+    "retrieved_chunks": [
+      "11 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.3.2 \nGroup Header \nGroupHeader (Block A) contains the ID information of the payment message. \nIndex \nMult \nMessage Element \nImplementation guide \n \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n \n1.0 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Group Header \n \n1.1 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Group Header \n++Message Identification \nUnique identification of the message \nassigned by the Initiating Party. \n1.2 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Group Header \n++Creation Date Time \nDate and time at which a (group of) \npayment instruction(s) was created. \nProvided by the Initiating Party. \n1.4 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Group Header \n++Number Of Transactions \nNumber of payments in Credit Transfer \nTransaction Information (Block C). \n1.5 \n1..1 \nCustomer Credit Transfer \nInitiation V09 \n+Group Header \n++Control Sum \nControl sum for the payment(s). \n1.6 \n1..1",
+      "41 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n1.6 \n0..1 \nCustomer Payment Status \nReport V10 \n+Group Header \n++Creditor Agent \nThe creditor’s account-servicing bank. \n6.1.5 \nOriginal Group Information And Status  \nIndex \nMult \nMessage Element \nImplementation guide \n2.0 \n1..1 \n+ Customer Payment Status \nReport V10 \n+Original Group Information \nAnd Status \nOriginal group information concerning \nthe group of transactions to which the \nstatus report message refers to. \n2.1 \n1..1 \n++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Original Message \nIdentification \nPoint to point reference, as assigned by \nthe original instructing party, to \nunambiguously identify the original \nmessage. \n2.2 \n1..1 \n++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Original Message Name \nIdentification \nSpecifies the original message name \nidentifier to which the message refers, \ne.g. pain.001.001.09. \n2.3 \n0..1 \n++ Customer Payment",
+      "43 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n6.1.6 \nOriginal Payment Information And Status \nIndex \nMult \nMessage Element \nImplementation guide \n3.0 \n0..n \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \nInformation concerning the original \npayment information, to which the status \nreport message refers. \n3.1 \n1..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Original Payment \nInformation \nIdentification \nUnique identification, as assigned by the \noriginal sending party, to unambiguously \nidentify the original payment information \ngroup. \n3.2 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Original Number Of \nTransactions \nNumber of individual transactions \ncontained in the original payment \ninformation group. \n3.3 \n0..1 \nCustomer Payment Status \nReport V10 \n+Original Payment \nInformation And Status \n++Original Control Sum",
+      "42 (61) \n18 June 2025 \n \nISO 20022 Payments Guide \n \n \n2.7 \n0..n \n++Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \nSet of elements used to provide detailed \ninformation on the status of the original \nmessage. \n2.8 \n1..1 \n+++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Originator \nParty that issues the status. \n2.9 \n1..1 \n +++Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \nSpecifies the reason for the status report. \n2.10 \n1..1 \n++++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \n++++Code \nReason code. \n2.11 \n1..1 \n++++ Customer Payment \nStatus Report V10 \n+Original Group Information \nAnd Status \n++Status Reason \nInformation \n+++Reason \n++++Proprietary \n \n2.12 \n0..n \n+++ Customer Payment \nStatus Report V10",
+      "1.3 \n0..1 \nCustomer Payment Status \nReport V10 \n+Group Header \n++Initiating Party \nParty that creates the message. \n1.5 \n0..1 \nCustomer Payment Status \nReport V10 \n+Group Header \n++Debtor Agent \nThe debtor’s account-servicing bank."
+    ],
+    "similarity_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieved_entities": [],
+    "retrieved_relationships": [],
+    "graph_traversal_path": [],
+    "retrieved_subgraph": {},
+    "retrieval_latency_s": 0.254,
+    "generation_latency_s": 5.981,
+    "total_latency_s": 6.235,
+    "error": null,
+    "extra": {}
+  }
+]

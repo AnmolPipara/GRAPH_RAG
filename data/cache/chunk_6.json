@@ -1,0 +1,838 @@
+{
+  "entities": [
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Contains information related to the debit side of the transaction",
+      "aliases": [
+        "Block B"
+      ],
+      "attributes": {
+        "block": "B",
+        "multiplicity": "1..n"
+      },
+      "confidence": 0.99,
+      "evidence": "2.2.2 Payment Information - Block B",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {
+        "side": "debit"
+      },
+      "confidence": 0.99,
+      "evidence": "Debtor, DebtorAccount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "paymentinformationidentifier-dataelement",
+      "canonical_name": "PaymentInformationIdentifier",
+      "name": "PaymentInformationIdentifier",
+      "type": "DataElement",
+      "description": "Identifier for payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "PaymentInformationIdentifier",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtoraccount-dataelement",
+      "canonical_name": "DebtorAccount",
+      "name": "DebtorAccount",
+      "type": "DataElement",
+      "description": "Account of the debtor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "DebtorAccount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "paymenttypeinformation-dataelement",
+      "canonical_name": "PaymentTypeInformation",
+      "name": "PaymentTypeInformation",
+      "type": "DataElement",
+      "description": "Information about the payment type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "PaymentTypeInformation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requestedexecutiondate-dataelement",
+      "canonical_name": "RequestedExecutionDate",
+      "name": "RequestedExecutionDate",
+      "type": "DataElement",
+      "description": "Date requested for execution of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "RequestedExecutionDate",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Contains information related to the credit side of the transaction",
+      "aliases": [
+        "Block C"
+      ],
+      "attributes": {
+        "block": "C",
+        "multiplicity": "1..n"
+      },
+      "confidence": 0.99,
+      "evidence": "2.2.3 Credit Transfer Transaction Information - Block C",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party whose account is credited",
+      "aliases": [],
+      "attributes": {
+        "side": "credit"
+      },
+      "confidence": 0.99,
+      "evidence": "Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditoragent-paymentrole",
+      "canonical_name": "CreditorAgent",
+      "name": "CreditorAgent",
+      "type": "PaymentRole",
+      "description": "Agent of the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "CreditorAgent",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittanceinformation-dataelement",
+      "canonical_name": "RemittanceInformation",
+      "name": "RemittanceInformation",
+      "type": "DataElement",
+      "description": "Information about the remittance",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "RemittanceInformation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-remittance-information-standard",
+      "canonical_name": "Extended Remittance Information",
+      "name": "Extended Remittance Information",
+      "type": "Standard",
+      "description": "Standard for extended remittance information",
+      "aliases": [
+        "ERI"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Extended Remittance Information (ERI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-organization",
+      "canonical_name": "European Payments Council",
+      "name": "European Payments Council",
+      "type": "Organization",
+      "description": "Organization responsible for the SEPA payment schemes",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "https://www.europeanpaymentscouncil.eu/",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-paymentscheme",
+      "canonical_name": "SEPA Credit Transfer",
+      "name": "SEPA Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for credit transfers in the SEPA area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "SEPA Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Contains general information about the message",
+      "aliases": [],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "1. GROUP HEADER (1..1)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "batchbooking-dataelement",
+      "canonical_name": "BatchBooking",
+      "name": "BatchBooking",
+      "type": "DataElement",
+      "description": "Element that instructs the debit bookings",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "BatchBooking",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 standard",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-businessconcept",
+      "canonical_name": "Message Structure",
+      "name": "Message Structure",
+      "type": "BusinessConcept",
+      "description": "The structure of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.2.5 Message structure",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-businessconcept",
+      "canonical_name": "Debit Booking Alternatives",
+      "name": "Debit Booking Alternatives",
+      "type": "BusinessConcept",
+      "description": "Alternatives for debit bookings",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.2.6 Debit booking alternatives",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-content-businessconcept",
+      "canonical_name": "Message Content",
+      "name": "Message Content",
+      "type": "BusinessConcept",
+      "description": "The content of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.3 Message content",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-schema-technicalconcept",
+      "canonical_name": "XML Schema",
+      "name": "XML Schema",
+      "type": "TechnicalConcept",
+      "description": "Schema for XML messages",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "XML schema",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-payments-paymentscheme",
+      "canonical_name": "SEPA Payments",
+      "name": "SEPA Payments",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for the SEPA area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "SEPA payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "international-transfers-paymentscheme",
+      "canonical_name": "International Transfers",
+      "name": "International Transfers",
+      "type": "PaymentScheme",
+      "description": "Payment scheme for international transfers",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "international transfers",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-specific-rules-businessconcept",
+      "canonical_name": "Bank-Specific Rules",
+      "name": "Bank-Specific Rules",
+      "type": "BusinessConcept",
+      "description": "Rules specific to each bank",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "bank-specific rules",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-descriptions-businessconcept",
+      "canonical_name": "Service Descriptions",
+      "name": "Service Descriptions",
+      "type": "BusinessConcept",
+      "description": "Descriptions of the services offered by the bank",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "service descriptions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "technical-implementation-businessconcept",
+      "canonical_name": "Technical Implementation",
+      "name": "Technical Implementation",
+      "type": "BusinessConcept",
+      "description": "The technical implementation of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "technical implementation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-dataelement",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "DataElement",
+      "description": "Index of the message elements",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Index",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-dataelement",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "DataElement",
+      "description": "Multiplicity of the message elements",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Mult",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-dataelement",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "DataElement",
+      "description": "Element of the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation Guide",
+      "name": "Implementation Guide",
+      "type": "Document",
+      "description": "Guide for implementing the payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtor-paymentrole",
+      "description": "Payment Information contains Debtor",
+      "confidence": 0.99,
+      "evidence": "Payment Information contains Debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "debtoraccount-dataelement",
+      "description": "Payment Information contains DebtorAccount",
+      "confidence": 0.99,
+      "evidence": "Payment Information contains DebtorAccount",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "paymenttypeinformation-dataelement",
+      "description": "Payment Information contains PaymentTypeInformation",
+      "confidence": 0.99,
+      "evidence": "Payment Information contains PaymentTypeInformation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "requestedexecutiondate-dataelement",
+      "description": "Payment Information contains RequestedExecutionDate",
+      "confidence": 0.99,
+      "evidence": "Payment Information contains RequestedExecutionDate",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-paymentrole",
+      "description": "Credit Transfer Transaction Information contains Creditor",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information contains Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditoragent-paymentrole",
+      "description": "Credit Transfer Transaction Information contains CreditorAgent",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information contains CreditorAgent",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "remittanceinformation-dataelement",
+      "description": "Credit Transfer Transaction Information contains RemittanceInformation",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information contains RemittanceInformation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittanceinformation-dataelement",
+      "relation": "RELATED_TO",
+      "target": "extended-remittance-information-standard",
+      "description": "RemittanceInformation is related to Extended Remittance Information",
+      "confidence": 0.98,
+      "evidence": "RemittanceInformation is related to Extended Remittance Information",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "PUBLISHES",
+      "target": "sepa-credit-transfer-paymentscheme",
+      "description": "European Payments Council publishes SEPA Credit Transfer",
+      "confidence": 0.98,
+      "evidence": "European Payments Council publishes SEPA Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "batchbooking-dataelement",
+      "description": "Group Header contains BatchBooking",
+      "confidence": 0.99,
+      "evidence": "Group Header contains BatchBooking",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "DEFINES",
+      "target": "message-structure-businessconcept",
+      "description": "ISO 20022 defines Message Structure",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 defines Message Structure",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-structure-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "debit-booking-alternatives-businessconcept",
+      "description": "Message Structure is related to Debit Booking Alternatives",
+      "confidence": 0.98,
+      "evidence": "Message Structure is related to Debit Booking Alternatives",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-content-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "xml-schema-technicalconcept",
+      "description": "Message Content is related to XML Schema",
+      "confidence": 0.98,
+      "evidence": "Message Content is related to XML Schema",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-payments-paymentscheme",
+      "relation": "DIFFERS_FROM",
+      "target": "international-transfers-paymentscheme",
+      "description": "SEPA Payments differs from International Transfers",
+      "confidence": 0.98,
+      "evidence": "SEPA Payments differs from International Transfers",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-specific-rules-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "service-descriptions-businessconcept",
+      "description": "Bank-Specific Rules is related to Service Descriptions",
+      "confidence": 0.98,
+      "evidence": "Bank-Specific Rules is related to Service Descriptions",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "technical-implementation-businessconcept",
+      "relation": "DEPENDS_ON",
+      "target": "message-content-businessconcept",
+      "description": "Technical Implementation depends on Message Content",
+      "confidence": 0.98,
+      "evidence": "Technical Implementation depends on Message Content",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "index-dataelement",
+      "relation": "RELATED_TO",
+      "target": "mult-dataelement",
+      "description": "Index is related to Mult",
+      "confidence": 0.98,
+      "evidence": "Index is related to Mult",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-element-dataelement",
+      "relation": "DOCUMENTED_BY",
+      "target": "implementation-guide-document",
+      "description": "Message Element is documented by Implementation Guide",
+      "confidence": 0.98,
+      "evidence": "Message Element is documented by Implementation Guide",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        6
+      ],
+      "frequency": 1
+    }
+  ]
+}

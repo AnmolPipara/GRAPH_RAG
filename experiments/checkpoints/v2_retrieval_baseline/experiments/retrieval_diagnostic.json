@@ -1,0 +1,1384 @@
+{
+  "stats": {
+    "n_questions": 12,
+    "llm_cypher_success": 3,
+    "llm_cypher_empty": 6,
+    "llm_cypher_error": 3,
+    "gt_page_attached": 6,
+    "evidence_tokens_reachable": 12,
+    "gt_evidence_on_page": 11,
+    "failure_classes": {
+      "S_LLM_CYPHER_SUCCEEDED": 3,
+      "E5_GT_PAGE_OUT_OF_CAPS": 3,
+      "E3_CYPHER_SYNTAX_ERROR": 3,
+      "E1_INVENTED_PROPERTY_RECOVERED": 2,
+      "E2_INFERRED_OVERCONSTRAINED_RECOVERED": 1
+    },
+    "leaked_queries": {
+      "2": [
+        "MATCH (org:Organization)-[r]->(c:Contact) WHERE toLower(org.canonical_name) CONTAINS toLower(\"Finance Finland\") ... RETURN org.name, org.description, type(r), c.name, c.description, c.phoneNumber LIMIT 20",
+        "MATCH (org:Organization)-[r:HAS|HAS_NUMBER]->(pn:PhoneNumber) ... RETURN org.name, org.description, pn.name, pn.description, pn.value LIMIT 20"
+      ],
+      "7": [
+        "MATCH (org:Organization)-[r]->(c:Contact) ... RETURN org.name, org.description, type(r), c.name, c.faxNumber LIMIT 20",
+        "MATCH (org:Organization)-[r]->(fax:FaxNumber) ... RETURN org.name, org.description, type(r), fax.value LIMIT 20"
+      ]
+    }
+  },
+  "records": [
+    {
+      "question_id": 2,
+      "category": "fact_lookup",
+      "question": "What is the phone number for Finance Finland?",
+      "ground_truth": "+358 20 793 4200",
+      "evidence_page": 2,
+      "keywords": [
+        "Finance Finland"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 12,
+      "leaked_cypher": [
+        "MATCH (org:Organization)-[r]->(c:Contact) WHERE toLower(org.canonical_name) CONTAINS toLower(\"Finance Finland\") ... RETURN org.name, org.description, type(r), c.name, c.description, c.phoneNumber LIMIT 20",
+        "MATCH (org:Organization)-[r:HAS|HAS_NUMBER]->(pn:PhoneNumber) ... RETURN org.name, org.description, pn.name, pn.description, pn.value LIMIT 20"
+      ],
+      "matched_entities": [
+        {
+          "name": "Tel: +358 20 793 4200",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Fax: +358 20 793 4202",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Itämerenkatu 11-13",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "FI-00180 Helsinki",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Finland",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Finance Finland",
+          "type": "Organization",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "attached_pages": [
+        2,
+        3,
+        2,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 2,
+          "chars": 500
+        },
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 1,
+          "chars": 29
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 2,
+          "tokens": [
+            "358",
+            "4200",
+            "793",
+            "tel"
+          ]
+        },
+        {
+          "page": 3,
+          "tokens": [
+            "358",
+            "4200",
+            "793",
+            "tel"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E1_INVENTED_PROPERTY_RECOVERED"
+    },
+    {
+      "question_id": 5,
+      "category": "fact_lookup",
+      "question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+      "ground_truth": "140 characters.",
+      "evidence_page": 32,
+      "keywords": [
+        "characters",
+        "unstructured",
+        "remittance"
+      ],
+      "llm_cypher_outcome": "success",
+      "fallback_reason": null,
+      "fallback_context_rows": null,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Unstructured Address",
+          "type": "BusinessConcept",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "name": "Character set",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Scandinavian Characters",
+          "type": "TechnicalConcept",
+          "pages": [
+            31,
+            32
+          ]
+        },
+        {
+          "name": "Basic Latin Characters",
+          "type": "TechnicalConcept",
+          "pages": [
+            31,
+            32
+          ]
+        },
+        {
+          "name": "Ustrd",
+          "type": "XMLElement",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        {
+          "name": "Unstructured Remittance Information",
+          "type": "DataElement",
+          "pages": [
+            32,
+            33
+          ]
+        }
+      ],
+      "attached_pages": [
+        5,
+        6,
+        2,
+        3,
+        31,
+        32,
+        31,
+        32,
+        36,
+        37,
+        32,
+        33
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 5,
+          "chars": 500
+        },
+        {
+          "page": 6,
+          "chars": 500
+        },
+        {
+          "page": 2,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 5,
+          "tokens": [
+            "information"
+          ]
+        },
+        {
+          "page": 6,
+          "tokens": [
+            "characters",
+            "unstructured"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "S_LLM_CYPHER_SUCCEEDED"
+    },
+    {
+      "question_id": 7,
+      "category": "fact_lookup",
+      "question": "What is the fax number for Finance Finland?",
+      "ground_truth": "+358 20 793 4202",
+      "evidence_page": 2,
+      "keywords": [
+        "Finance Finland"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 12,
+      "leaked_cypher": [
+        "MATCH (org:Organization)-[r]->(c:Contact) ... RETURN org.name, org.description, type(r), c.name, c.faxNumber LIMIT 20",
+        "MATCH (org:Organization)-[r]->(fax:FaxNumber) ... RETURN org.name, org.description, type(r), fax.value LIMIT 20"
+      ],
+      "matched_entities": [
+        {
+          "name": "Tel: +358 20 793 4200",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Fax: +358 20 793 4202",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Itämerenkatu 11-13",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "FI-00180 Helsinki",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Finland",
+          "type": "Location",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Finance Finland",
+          "type": "Organization",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "attached_pages": [
+        2,
+        3,
+        2,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 2,
+          "chars": 500
+        },
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 1,
+          "chars": 29
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 2,
+          "tokens": [
+            "358",
+            "4202",
+            "793",
+            "fax"
+          ]
+        },
+        {
+          "page": 3,
+          "tokens": [
+            "358",
+            "4202",
+            "793",
+            "fax"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E1_INVENTED_PROPERTY_RECOVERED"
+    },
+    {
+      "question_id": 8,
+      "category": "fact_lookup",
+      "question": "What is the ISO 20022 website provided by Finance Finland?",
+      "ground_truth": "www.finanssiala.fi",
+      "evidence_page": 32,
+      "keywords": [
+        "ISO 20022",
+        "Finance Finland"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 28,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Tel: +358 20 793 4200",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Fax: +358 20 793 4202",
+          "type": "Contact",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "ISO 20022 Payments Guide Purpose",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "ISO20022 Website",
+          "type": "System",
+          "pages": [
+            51,
+            52
+          ]
+        },
+        {
+          "name": "CustomerCreditTransferInitiationV09",
+          "type": "MessageType",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "ISO 20022",
+          "type": "Standard",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "attached_pages": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        4,
+        51,
+        52,
+        4,
+        5,
+        1,
+        2
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 2,
+          "chars": 500
+        },
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 4,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 2,
+          "tokens": [
+            "www"
+          ]
+        },
+        {
+          "page": 3,
+          "tokens": [
+            "www"
+          ]
+        },
+        {
+          "page": 4,
+          "tokens": [
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E5_GT_PAGE_OUT_OF_CAPS"
+    },
+    {
+      "question_id": 27,
+      "category": "relationship",
+      "question": "How does a C2B payment initiation file relate to the bank's status report?",
+      "ground_truth": "The customer submits a C2B payment initiation file (pain.001) and the bank responds with a C2B payment status report (pain.002).",
+      "evidence_page": 53,
+      "keywords": [
+        "C2B"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 9,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Customer-to-Bank Payment",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B Payment Files",
+          "type": "FileType",
+          "pages": [
+            52,
+            53
+          ]
+        },
+        {
+          "name": "C2B Payment File",
+          "type": "FileType",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "C2B Payment Status Report",
+          "type": "Document",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "Customer-to-Bank",
+          "type": "PaymentRole",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B",
+          "type": "PaymentRole",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "attached_pages": [
+        3,
+        4,
+        52,
+        53,
+        53,
+        54,
+        53,
+        54,
+        3,
+        4,
+        4,
+        5
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 4,
+          "chars": 500
+        },
+        {
+          "page": 52,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 4,
+          "tokens": [
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 52,
+          "tokens": [
+            "bank",
+            "customer",
+            "file",
+            "payment",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E2_INFERRED_OVERCONSTRAINED_RECOVERED"
+    },
+    {
+      "question_id": 34,
+      "category": "hierarchical",
+      "question": "What are the main sections of the ISO 20022 Payments Guide?",
+      "ground_truth": "Background, The structure and content of the Payment Message, Agreed additional functionalities, Combining invoices and credit notes, XML message examples, Examples of Payment Status Report messages, and VOP.",
+      "evidence_page": 3,
+      "keywords": [
+        "ISO 20022 Payments Guide"
+      ],
+      "llm_cypher_outcome": "success",
+      "fallback_reason": null,
+      "fallback_context_rows": null,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "ISO 20022 Payments Guide Purpose",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "ISO 20022 Payments Guide",
+          "type": "Document",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "attached_pages": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 4,
+          "chars": 500
+        },
+        {
+          "page": 1,
+          "chars": 29
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 3,
+          "tokens": [
+            "and",
+            "message"
+          ]
+        },
+        {
+          "page": 4,
+          "tokens": [
+            "and",
+            "background",
+            "payment",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": false,
+      "failure_class": "S_LLM_CYPHER_SUCCEEDED"
+    },
+    {
+      "question_id": 45,
+      "category": "workflow",
+      "question": "How does a customer initiate a credit transfer?",
+      "ground_truth": "The customer creates the pain.001 payment initiation message and submits it to the bank (the Debtor Agent).",
+      "evidence_page": 53,
+      "keywords": [
+        "customer",
+        "initiate",
+        "credit"
+      ],
+      "llm_cypher_outcome": "success",
+      "fallback_reason": null,
+      "fallback_context_rows": null,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Know-Your-Customer",
+          "type": "BusinessProcess",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "name": "Customer Credit Transfer Initiation",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "name": "Customer Credit Transfer",
+          "type": "PaymentScheme",
+          "pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "name": "Case 2",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Case 3",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Case 4",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "attached_pages": [
+        5,
+        6,
+        20,
+        21,
+        16,
+        17,
+        6,
+        7,
+        6,
+        7,
+        6,
+        7
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 5,
+          "chars": 500
+        },
+        {
+          "page": 6,
+          "chars": 500
+        },
+        {
+          "page": 20,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 5,
+          "tokens": [
+            "customer",
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 6,
+          "tokens": [
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 20,
+          "tokens": [
+            "customer",
+            "payment",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "S_LLM_CYPHER_SUCCEEDED"
+    },
+    {
+      "question_id": 46,
+      "category": "workflow",
+      "question": "What happens after the customer submits a C2B payment file to the bank?",
+      "ground_truth": "The bank processes the file and sends the matching results to the customer as a C2B payment status report.",
+      "evidence_page": 53,
+      "keywords": [
+        "C2B"
+      ],
+      "llm_cypher_outcome": "error",
+      "fallback_reason": "Cypher error",
+      "fallback_context_rows": 9,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Customer-to-Bank Payment",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B Payment Files",
+          "type": "FileType",
+          "pages": [
+            52,
+            53
+          ]
+        },
+        {
+          "name": "C2B Payment File",
+          "type": "FileType",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "C2B Payment Status Report",
+          "type": "Document",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "Customer-to-Bank",
+          "type": "PaymentRole",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B",
+          "type": "PaymentRole",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "attached_pages": [
+        3,
+        4,
+        52,
+        53,
+        53,
+        54,
+        53,
+        54,
+        3,
+        4,
+        4,
+        5
+      ],
+      "gt_page_attached": true,
+      "attached_paras": [
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 4,
+          "chars": 500
+        },
+        {
+          "page": 52,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 4,
+          "tokens": [
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 52,
+          "tokens": [
+            "customer",
+            "payment",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E3_CYPHER_SYNTAX_ERROR"
+    },
+    {
+      "question_id": 48,
+      "category": "workflow",
+      "question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+      "ground_truth": "The customer sends the pain.001 payment initiation message, and the bank returns a pain.002 payment status report.",
+      "evidence_page": 39,
+      "keywords": [
+        "C2B"
+      ],
+      "llm_cypher_outcome": "error",
+      "fallback_reason": "Cypher error",
+      "fallback_context_rows": 9,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Customer-to-Bank Payment",
+          "type": "PaymentType",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B Payment Files",
+          "type": "FileType",
+          "pages": [
+            52,
+            53
+          ]
+        },
+        {
+          "name": "C2B Payment File",
+          "type": "FileType",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "C2B Payment Status Report",
+          "type": "Document",
+          "pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "name": "Customer-to-Bank",
+          "type": "PaymentRole",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "C2B",
+          "type": "PaymentRole",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "attached_pages": [
+        3,
+        4,
+        52,
+        53,
+        53,
+        54,
+        53,
+        54,
+        3,
+        4,
+        4,
+        5
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 3,
+          "chars": 500
+        },
+        {
+          "page": 4,
+          "chars": 500
+        },
+        {
+          "page": 52,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 4,
+          "tokens": [
+            "payment",
+            "standard",
+            "the"
+          ]
+        },
+        {
+          "page": 52,
+          "tokens": [
+            "payment",
+            "the",
+            "used"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E3_CYPHER_SYNTAX_ERROR"
+    },
+    {
+      "question_id": 49,
+      "category": "workflow",
+      "question": "How is a returned payment reported?",
+      "ground_truth": "The return message is generated with Group Status ACCP or PART, returning the value of the original MessageIdentification.",
+      "evidence_page": 40,
+      "keywords": [
+        "returned",
+        "payment",
+        "reported"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 28,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Payment initiation",
+          "type": "BusinessProcess",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Payment processing",
+          "type": "BusinessProcess",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Payment Type",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "name": "Payment",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "name": "Payment Clearance",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "name": "Payment Settlement",
+          "type": "BusinessProcess",
+          "pages": [
+            20,
+            21
+          ]
+        }
+      ],
+      "attached_pages": [
+        1,
+        2,
+        1,
+        2,
+        20,
+        21,
+        20,
+        21,
+        20,
+        21,
+        20,
+        21
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 1,
+          "chars": 29
+        },
+        {
+          "page": 2,
+          "chars": 500
+        },
+        {
+          "page": 20,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 20,
+          "tokens": [
+            "message",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E5_GT_PAGE_OUT_OF_CAPS"
+    },
+    {
+      "question_id": 51,
+      "category": "workflow",
+      "question": "How does the bank verify the payee before payment?",
+      "ground_truth": "The bank submits the data for verification of the payee (VOP service) and returns the matching results to the customer.",
+      "evidence_page": 53,
+      "keywords": [
+        "bank",
+        "verify",
+        "payee"
+      ],
+      "llm_cypher_outcome": "empty",
+      "fallback_reason": "empty context",
+      "fallback_context_rows": 28,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Account",
+          "type": "BusinessConcept",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Bank-Specific Rules",
+          "type": "BusinessConcept",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Service Descriptions",
+          "type": "BusinessConcept",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Basic Services",
+          "type": "BusinessConcept",
+          "pages": [
+            31,
+            32
+          ]
+        },
+        {
+          "name": "Banking Business Day",
+          "type": "BusinessConcept",
+          "pages": [
+            59,
+            60
+          ]
+        },
+        {
+          "name": "Character set",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "attached_pages": [
+        6,
+        7,
+        8,
+        9,
+        8,
+        9,
+        31,
+        32,
+        59,
+        60,
+        2,
+        3
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 6,
+          "chars": 500
+        },
+        {
+          "page": 7,
+          "chars": 500
+        },
+        {
+          "page": 8,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 6,
+          "tokens": [
+            "are",
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 7,
+          "tokens": [
+            "are",
+            "payment",
+            "sent",
+            "the"
+          ]
+        },
+        {
+          "page": 8,
+          "tokens": [
+            "only",
+            "payment",
+            "the"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E5_GT_PAGE_OUT_OF_CAPS"
+    },
+    {
+      "question_id": 53,
+      "category": "comparison",
+      "question": "What is the difference between a payment initiation message and a payment status report?",
+      "ground_truth": "pain.001 initiates the payment; pain.002 reports the payment status.",
+      "evidence_page": 39,
+      "keywords": [
+        "difference",
+        "between",
+        "payment"
+      ],
+      "llm_cypher_outcome": "error",
+      "fallback_reason": "Cypher error",
+      "fallback_context_rows": 12,
+      "leaked_cypher": [],
+      "matched_entities": [
+        {
+          "name": "Customer-to-PSP Conditions",
+          "type": "BusinessConcept",
+          "pages": [
+            12,
+            13
+          ]
+        },
+        {
+          "name": "Character set",
+          "type": "TechnicalConcept",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Transactions Between Banks and Customers",
+          "type": "Concept",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Euro-Amount Credit Transfer Between Euro Countries",
+          "type": "PaymentType",
+          "pages": [
+            22,
+            23
+          ]
+        },
+        {
+          "name": "Euro-Amount Credit Transfer Between EU and EEA States",
+          "type": "PaymentType",
+          "pages": [
+            22,
+            23
+          ]
+        },
+        {
+          "name": "Inter-PSP Verification",
+          "type": "Service",
+          "pages": [
+            52,
+            53
+          ]
+        }
+      ],
+      "attached_pages": [
+        12,
+        13,
+        2,
+        3,
+        3,
+        4,
+        22,
+        23,
+        22,
+        23,
+        52,
+        53
+      ],
+      "gt_page_attached": false,
+      "attached_paras": [
+        {
+          "page": 12,
+          "chars": 500
+        },
+        {
+          "page": 13,
+          "chars": 500
+        },
+        {
+          "page": 2,
+          "chars": 500
+        }
+      ],
+      "evidence_tokens_reachable": true,
+      "evidence_tokens_hit": [
+        {
+          "page": 12,
+          "tokens": [
+            "payment",
+            "the"
+          ]
+        },
+        {
+          "page": 13,
+          "tokens": [
+            "payment",
+            "the",
+            "used"
+          ]
+        }
+      ],
+      "gt_evidence_on_page": true,
+      "failure_class": "E3_CYPHER_SYNTAX_ERROR"
+    }
+  ]
+}

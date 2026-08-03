@@ -1,0 +1,2003 @@
+{
+  "entities": [
+    {
+      "id": "2025-date",
+      "canonical_name": "2025",
+      "name": "2025",
+      "type": "Date",
+      "description": "Year",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2025",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "itämerenkatu-11-13-location",
+      "canonical_name": "Itämerenkatu 11-13",
+      "name": "Itämerenkatu 11-13",
+      "type": "Location",
+      "description": "Street address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Itämerenkatu 11-13",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finance-finland-organization",
+      "canonical_name": "Finance Finland",
+      "name": "Finance Finland",
+      "type": "Organization",
+      "description": "Financial industry organization in Finland",
+      "aliases": [
+        "Finanssiala ry"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "www.financefinland.fi",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tel-358-20-793-4200-phonenumber",
+      "canonical_name": "Tel: +358 20 793 4200",
+      "name": "Tel: +358 20 793 4200",
+      "type": "PhoneNumber",
+      "description": "Phone number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Tel: +358 20 793 4200",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fi-00180-helsinki-location",
+      "canonical_name": "FI-00180 Helsinki",
+      "name": "FI-00180 Helsinki",
+      "type": "Location",
+      "description": "Postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "FI-00180 Helsinki",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fax-358-20-793-4202-faxnumber",
+      "canonical_name": "Fax: +358 20 793 4202",
+      "name": "Fax: +358 20 793 4202",
+      "type": "FaxNumber",
+      "description": "Fax number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Fax: +358 20 793 4202",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country in Europe",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finland",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "twittercomfinfinance-socialmedia",
+      "canonical_name": "Twitter.com/finfinance",
+      "name": "Twitter.com/finfinance",
+      "type": "SocialMedia",
+      "description": "Twitter handle of Finance Finland",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Twitter.com/finfinance",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "background-documentsection",
+      "canonical_name": "Background",
+      "name": "Background",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Background",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "11-usage-of-iso-20022-in-finland-documentsection",
+      "canonical_name": "1.1 Usage of ISO 20022 in Finland",
+      "name": "1.1 Usage of ISO 20022 in Finland",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.1 Usage of ISO 20022 in Finland",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "12-address-structure-documentsection",
+      "canonical_name": "1.2 Address structure",
+      "name": "1.2 Address structure",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.2 Address structure",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "121-structured-address-documentsection",
+      "canonical_name": "1.2.1 Structured address",
+      "name": "1.2.1 Structured address",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.2.1 Structured address",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "122-unstructured-address-documentsection",
+      "canonical_name": "1.2.2 Unstructured address",
+      "name": "1.2.2 Unstructured address",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.2.2 Unstructured address",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "123-hybrid-address-documentsection",
+      "canonical_name": "1.2.3 Hybrid address",
+      "name": "1.2.3 Hybrid address",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1.2.3 Hybrid address",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "21-parties-of-the-transaction-documentsection",
+      "canonical_name": "2.1 Parties of the Transaction",
+      "name": "2.1 Parties of the Transaction",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.1 Parties of the Transaction",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "22-payment-message-structure-documentsection",
+      "canonical_name": "2.2 Payment Message structure",
+      "name": "2.2 Payment Message structure",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "221-group-header-block-a-documentsection",
+      "canonical_name": "2.2.1 Group Header - Block A",
+      "name": "2.2.1 Group Header - Block A",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.1 Group Header - Block A",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "222-payment-information-block-b-documentsection",
+      "canonical_name": "2.2.2 Payment Information - Block B",
+      "name": "2.2.2 Payment Information - Block B",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.2 Payment Information - Block B",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "223-credit-transfer-transaction-information-block-c-documentsection",
+      "canonical_name": "2.2.3 Credit Transfer Transaction Information - Block C",
+      "name": "2.2.3 Credit Transfer Transaction Information - Block C",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.3 Credit Transfer Transaction Information - Block C",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "224-remittance-information-documentsection",
+      "canonical_name": "2.2.4 Remittance Information",
+      "name": "2.2.4 Remittance Information",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.4 Remittance Information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "225-message-structure-documentsection",
+      "canonical_name": "2.2.5 Message structure",
+      "name": "2.2.5 Message structure",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.5 Message structure",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "226-debit-booking-alternatives-documentsection",
+      "canonical_name": "2.2.6 Debit booking alternatives",
+      "name": "2.2.6 Debit booking alternatives",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.6 Debit booking alternatives",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "23-message-content-documentsection",
+      "canonical_name": "2.3 Message content",
+      "name": "2.3 Message content",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3 Message content",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "231-message-root-documentsection",
+      "canonical_name": "2.3.1 Message root",
+      "name": "2.3.1 Message root",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.1 Message root",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "232-group-header-documentsection",
+      "canonical_name": "2.3.2 Group Header",
+      "name": "2.3.2 Group Header",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.2 Group Header",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "233-payment-information-documentsection",
+      "canonical_name": "2.3.3 Payment Information",
+      "name": "2.3.3 Payment Information",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.3 Payment Information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "234-credit-transfer-transaction-information-documentsection",
+      "canonical_name": "2.3.4 Credit Transfer Transaction Information",
+      "name": "2.3.4 Credit Transfer Transaction Information",
+      "type": "DocumentSection",
+      "description": "Subsection in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.4 Credit Transfer Transaction Information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "agreed-additional-functionalities-documentsection",
+      "canonical_name": "Agreed additional functionalities",
+      "name": "Agreed additional functionalities",
+      "type": "DocumentSection",
+      "description": "Section in the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Agreed additional functionalities",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-message-xmlmessage",
+      "canonical_name": "Payment Message",
+      "name": "Payment Message",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Block A of payment message",
+      "aliases": [
+        "Block A"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.1 Group Header - Block A",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block B of payment message",
+      "aliases": [
+        "Block B"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.2 Payment Information - Block B",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Block C of payment message",
+      "aliases": [
+        "Block C"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.3 Credit Transfer Transaction Information - Block C",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-businesscomponent",
+      "canonical_name": "Remittance Information",
+      "name": "Remittance Information",
+      "type": "BusinessComponent",
+      "description": "Part of payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.4 Remittance Information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-businesscomponent",
+      "canonical_name": "Message structure",
+      "name": "Message structure",
+      "type": "BusinessComponent",
+      "description": "Structure of payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.5 Message structure",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-businesscomponent",
+      "canonical_name": "Debit booking alternatives",
+      "name": "Debit booking alternatives",
+      "type": "BusinessComponent",
+      "description": "Part of payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.2.6 Debit booking alternatives",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-businesscomponent",
+      "canonical_name": "Message root",
+      "name": "Message root",
+      "type": "BusinessComponent",
+      "description": "Root of payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.3.1 Message root",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [
+        "Originator",
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debtor: party whose account is debited",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party whose account is credited",
+      "aliases": [
+        "Beneficiary"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creditor: party whose account is credited",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-initiation-businessprocess",
+      "canonical_name": "Payment initiation",
+      "name": "Payment initiation",
+      "type": "BusinessProcess",
+      "description": "Process of initiating a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment initiation",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymentscheme",
+      "canonical_name": "Credit transfer",
+      "name": "Credit transfer",
+      "type": "PaymentScheme",
+      "description": "Scheme for transferring credits",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit transfer",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-businessprocess",
+      "canonical_name": "Debit booking",
+      "name": "Debit booking",
+      "type": "BusinessProcess",
+      "description": "Process of booking a debit",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-businessprocess",
+      "canonical_name": "Remittance",
+      "name": "Remittance",
+      "type": "BusinessProcess",
+      "description": "Process of sending remittances",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-creation-businessprocess",
+      "canonical_name": "Message creation",
+      "name": "Message creation",
+      "type": "BusinessProcess",
+      "description": "Process of creating a message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message creation",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-processing-businessprocess",
+      "canonical_name": "Payment processing",
+      "name": "Payment processing",
+      "type": "BusinessProcess",
+      "description": "Process of processing payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment processing",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction information",
+      "name": "Transaction information",
+      "type": "BusinessComponent",
+      "description": "Information about a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Transaction information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment information",
+      "name": "Payment information",
+      "type": "BusinessComponent",
+      "description": "Information about a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit transfer transaction information",
+      "name": "Credit transfer transaction information",
+      "type": "BusinessComponent",
+      "description": "Information about a credit transfer transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit transfer transaction information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-businesscomponent",
+      "canonical_name": "Remittance information",
+      "name": "Remittance information",
+      "type": "BusinessComponent",
+      "description": "Information about a remittance",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-businesscomponent",
+      "canonical_name": "Message structure information",
+      "name": "Message structure information",
+      "type": "BusinessComponent",
+      "description": "Information about the structure of a message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-information-businesscomponent",
+      "canonical_name": "Debit booking information",
+      "name": "Debit booking information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-information-businesscomponent",
+      "canonical_name": "Message root information",
+      "name": "Message root information",
+      "type": "BusinessComponent",
+      "description": "Information about the root of a message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message root information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-information-businesscomponent",
+      "canonical_name": "Group Header information",
+      "name": "Group Header information",
+      "type": "BusinessComponent",
+      "description": "Information about the Group Header",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-information-businesscomponent",
+      "canonical_name": "Payment Information information",
+      "name": "Payment Information information",
+      "type": "BusinessComponent",
+      "description": "Information about Payment Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment Information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information information",
+      "name": "Credit Transfer Transaction Information information",
+      "type": "BusinessComponent",
+      "description": "Information about Credit Transfer Transaction Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-information-businesscomponent",
+      "canonical_name": "Remittance Information information",
+      "name": "Remittance Information information",
+      "type": "BusinessComponent",
+      "description": "Information about Remittance Information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance Information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-information-businesscomponent",
+      "canonical_name": "Message structure information information",
+      "name": "Message structure information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message structure information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-information-businesscomponent",
+      "canonical_name": "Debit booking alternatives information",
+      "name": "Debit booking alternatives information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking alternatives",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking alternatives information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-information-information-businesscomponent",
+      "canonical_name": "Message root information information",
+      "name": "Message root information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message root information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message root information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-information-information-businesscomponent",
+      "canonical_name": "Group Header information information",
+      "name": "Group Header information information",
+      "type": "BusinessComponent",
+      "description": "Information about Group Header information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-information-information-businesscomponent",
+      "canonical_name": "Payment Information information information",
+      "name": "Payment Information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Payment Information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment Information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-information-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information information information",
+      "name": "Credit Transfer Transaction Information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Credit Transfer Transaction Information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-information-information-businesscomponent",
+      "canonical_name": "Remittance Information information information",
+      "name": "Remittance Information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Remittance Information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance Information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-information-information-businesscomponent",
+      "canonical_name": "Message structure information information information",
+      "name": "Message structure information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message structure information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-information-information-businesscomponent",
+      "canonical_name": "Debit booking alternatives information information",
+      "name": "Debit booking alternatives information information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking alternatives information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking alternatives information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-information-information-information-businesscomponent",
+      "canonical_name": "Message root information information information",
+      "name": "Message root information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message root information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message root information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-information-information-information-businesscomponent",
+      "canonical_name": "Group Header information information information",
+      "name": "Group Header information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Group Header information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-information-information-information-businesscomponent",
+      "canonical_name": "Payment Information information information information",
+      "name": "Payment Information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Payment Information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment Information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-information-information-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information information information information",
+      "name": "Credit Transfer Transaction Information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Credit Transfer Transaction Information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-information-information-information-businesscomponent",
+      "canonical_name": "Remittance Information information information information",
+      "name": "Remittance Information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Remittance Information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance Information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-information-information-information-businesscomponent",
+      "canonical_name": "Message structure information information information information",
+      "name": "Message structure information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message structure information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-information-information-information-businesscomponent",
+      "canonical_name": "Debit booking alternatives information information information",
+      "name": "Debit booking alternatives information information information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking alternatives information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking alternatives information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-information-information-information-information-businesscomponent",
+      "canonical_name": "Message root information information information information",
+      "name": "Message root information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message root information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message root information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-information-information-information-information-businesscomponent",
+      "canonical_name": "Group Header information information information information",
+      "name": "Group Header information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Group Header information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Payment Information information information information information",
+      "name": "Payment Information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Payment Information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment Information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information information information information information",
+      "name": "Credit Transfer Transaction Information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Credit Transfer Transaction Information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Remittance Information information information information information",
+      "name": "Remittance Information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Remittance Information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance Information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Message structure information information information information information",
+      "name": "Message structure information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message structure information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-information-information-information-information-businesscomponent",
+      "canonical_name": "Debit booking alternatives information information information information",
+      "name": "Debit booking alternatives information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking alternatives information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking alternatives information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Message root information information information information information",
+      "name": "Message root information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message root information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message root information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Group Header information information information information information",
+      "name": "Group Header information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Group Header information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Group Header information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Payment Information information information information information information",
+      "name": "Payment Information information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Payment Information information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment Information information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information information information information information information",
+      "name": "Credit Transfer Transaction Information information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Credit Transfer Transaction Information information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Remittance Information information information information information information",
+      "name": "Remittance Information information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Remittance Information information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Remittance Information information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-structure-information-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Message structure information information information information information information",
+      "name": "Message structure information information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about Message structure information information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message structure information information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debit-booking-alternatives-information-information-information-information-information-businesscomponent",
+      "canonical_name": "Debit booking alternatives information information information information information",
+      "name": "Debit booking alternatives information information information information information",
+      "type": "BusinessComponent",
+      "description": "Information about debit booking alternatives information information information information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Debit booking alternatives information information information information information",
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "finance-finland-organization",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "Finance Finland publishes the guide",
+      "confidence": 0.99,
+      "evidence": "Published by Finance Finland",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "RELATED_TO",
+      "target": "iso-20022-standard",
+      "description": "The guide is related to ISO 20022",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "group-header-businesscomponent",
+      "description": "Payment Message contains Group Header",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Payment Message contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-transaction-information-businesscomponent",
+      "description": "Payment Message contains Credit Transfer Transaction Information",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-message-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "remittance-information-businesscomponent",
+      "description": "Payment Message contains Remittance Information",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Group Header is part of Payment Message",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Payment Information is part of Payment Message",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Credit Transfer Transaction Information is part of Payment Message",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-businesscomponent",
+      "relation": "PART_OF",
+      "target": "payment-message-xmlmessage",
+      "description": "Remittance Information is part of Payment Message",
+      "confidence": 0.99,
+      "evidence": "2.2 Payment Message structure",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Debtor is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Debtor: party whose account is debited",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Creditor is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Creditor: party whose account is credited",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-initiation-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Payment initiation is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Payment initiation",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-paymentscheme",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Credit transfer is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Credit transfer",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debit-booking-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Debit booking is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Debit booking",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Remittance is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Remittance",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-creation-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Message creation is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Message creation",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-processing-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Payment processing is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Payment processing",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Transaction information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Transaction information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Payment information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Payment information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Credit transfer transaction information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Credit transfer transaction information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Remittance information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Remittance information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-structure-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Message structure information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Message structure information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debit-booking-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Debit booking information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Debit booking information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-root-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Message root information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Message root information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "payment-message-xmlmessage",
+      "description": "Group Header information is related to Payment Message",
+      "confidence": 0.99,
+      "evidence": "Group Header information",
+      "implicit": false,
+      "source_pages": [
+        2
+      ],
+      "source_chunks": [
+        0
+      ],
+      "frequency": 1
+    }
+  ]
+}

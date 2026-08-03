@@ -1,0 +1,2228 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-paymentscheme",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "Type of payment scheme",
+      "aliases": [
+        "CreditTransfer"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Credit transfer with message",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-technology",
+      "canonical_name": "XML",
+      "name": "XML",
+      "type": "Technology",
+      "description": "Markup language used for data exchange",
+      "aliases": [
+        "Extensible Markup Language"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "XML message",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-header-xmlelement",
+      "canonical_name": "XML Header",
+      "name": "XML Header",
+      "type": "XMLElement",
+      "description": "Start of XML message",
+      "aliases": [
+        "XMLHeader"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "XML header",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "block-a-businesscomponent",
+      "canonical_name": "Block A",
+      "name": "Block A",
+      "type": "BusinessComponent",
+      "description": "Part of payment message",
+      "aliases": [
+        "GroupHeader"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Block A:",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Part of payment message",
+      "aliases": [
+        "Block A"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Group Header",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "document-xmlelement",
+      "canonical_name": "Document",
+      "name": "Document",
+      "type": "XMLElement",
+      "description": "Root element of XML message",
+      "aliases": [
+        "DocumentElement"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cstmrcdttrfinitn-xmlelement",
+      "canonical_name": "CstmrCdtTrfInitn",
+      "name": "CstmrCdtTrfInitn",
+      "type": "XMLElement",
+      "description": "Customer credit transfer initiation",
+      "aliases": [
+        "CustomerCreditTransferInitiation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<CstmrCdtTrfInitn>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grphdr-xmlelement",
+      "canonical_name": "GrpHdr",
+      "name": "GrpHdr",
+      "type": "XMLElement",
+      "description": "Group header element",
+      "aliases": [
+        "GroupHeader"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<GrpHdr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid-xmlelement",
+      "canonical_name": "MsgId",
+      "name": "MsgId",
+      "type": "XMLElement",
+      "description": "Message identification",
+      "aliases": [
+        "MessageId"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<MsgId>MSGID000001</MsgId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credttm-xmlelement",
+      "canonical_name": "CreDtTm",
+      "name": "CreDtTm",
+      "type": "XMLElement",
+      "description": "Creation date and time",
+      "aliases": [
+        "CreationDateTime"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<CreDtTm>2023-04-03T10:30:00</CreDtTm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "nboftxs-xmlelement",
+      "canonical_name": "NbOfTxs",
+      "name": "NbOfTxs",
+      "type": "XMLElement",
+      "description": "Number of transactions",
+      "aliases": [
+        "NumberOfTransactions"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<NbOfTxs>2</NbOfTxs>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ctrlsum-xmlelement",
+      "canonical_name": "CtrlSum",
+      "name": "CtrlSum",
+      "type": "XMLElement",
+      "description": "Control sum",
+      "aliases": [
+        "ControlSum"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<CtrlSum>3000.03</CtrlSum>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initgpty-xmlelement",
+      "canonical_name": "InitgPty",
+      "name": "InitgPty",
+      "type": "XMLElement",
+      "description": "Initiating party",
+      "aliases": [
+        "InitiatingParty"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<InitgPty>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "nm-xmlelement",
+      "canonical_name": "Nm",
+      "name": "Nm",
+      "type": "XMLElement",
+      "description": "Name",
+      "aliases": [
+        "Name"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Nm>Group Finance</Nm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pstladr-xmlelement",
+      "canonical_name": "PstlAdr",
+      "name": "PstlAdr",
+      "type": "XMLElement",
+      "description": "Postal address",
+      "aliases": [
+        "PostalAddress"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "strtnm-xmlelement",
+      "canonical_name": "StrtNm",
+      "name": "StrtNm",
+      "type": "XMLElement",
+      "description": "Street name",
+      "aliases": [
+        "StreetName"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<StrtNm>Aleksanterinkatu</StrtNm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bldgnb-xmlelement",
+      "canonical_name": "BldgNb",
+      "name": "BldgNb",
+      "type": "XMLElement",
+      "description": "Building number",
+      "aliases": [
+        "BuildingNumber"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<BldgNb>123</BldgNb>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pstcd-xmlelement",
+      "canonical_name": "PstCd",
+      "name": "PstCd",
+      "type": "XMLElement",
+      "description": "Postal code",
+      "aliases": [
+        "PostalCode"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PstCd>00100</PstCd>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "twnnm-xmlelement",
+      "canonical_name": "TwnNm",
+      "name": "TwnNm",
+      "type": "XMLElement",
+      "description": "Town name",
+      "aliases": [
+        "TownName"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<TwnNm>HELSINKI</TwnNm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ctry-xmlelement",
+      "canonical_name": "Ctry",
+      "name": "Ctry",
+      "type": "XMLElement",
+      "description": "Country",
+      "aliases": [
+        "Country"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Ctry>FI</Ctry>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "id-xmlelement",
+      "canonical_name": "Id",
+      "name": "Id",
+      "type": "XMLElement",
+      "description": "Identification",
+      "aliases": [
+        "Identification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Id>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgid-xmlelement",
+      "canonical_name": "OrgId",
+      "name": "OrgId",
+      "type": "XMLElement",
+      "description": "Organisation identification",
+      "aliases": [
+        "OrganisationIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<OrgId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "othr-xmlelement",
+      "canonical_name": "Othr",
+      "name": "Othr",
+      "type": "XMLElement",
+      "description": "Other",
+      "aliases": [
+        "Other"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Othr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "schmenm-xmlelement",
+      "canonical_name": "SchmeNm",
+      "name": "SchmeNm",
+      "type": "XMLElement",
+      "description": "Scheme name",
+      "aliases": [
+        "SchemeName"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<SchmeNm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cd-xmlelement",
+      "canonical_name": "Cd",
+      "name": "Cd",
+      "type": "XMLElement",
+      "description": "Code",
+      "aliases": [
+        "Code"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Cd>BANK</Cd>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmtinf-xmlelement",
+      "canonical_name": "PmtInf",
+      "name": "PmtInf",
+      "type": "XMLElement",
+      "description": "Payment information",
+      "aliases": [
+        "PaymentInformation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmtinfid-xmlelement",
+      "canonical_name": "PmtInfId",
+      "name": "PmtInfId",
+      "type": "XMLElement",
+      "description": "Payment information identification",
+      "aliases": [
+        "PaymentInformationIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtInfId>20230403-12345678912</PmtInfId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmtmtd-xmlelement",
+      "canonical_name": "PmtMtd",
+      "name": "PmtMtd",
+      "type": "XMLElement",
+      "description": "Payment method",
+      "aliases": [
+        "PaymentMethod"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtMtd>TRF</PmtMtd>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "btchbookg-xmlelement",
+      "canonical_name": "BtchBookg",
+      "name": "BtchBookg",
+      "type": "XMLElement",
+      "description": "Batch booking",
+      "aliases": [
+        "BatchBooking"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<BtchBookg>false</BtchBookg>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmttpinf-xmlelement",
+      "canonical_name": "PmtTpInf",
+      "name": "PmtTpInf",
+      "type": "XMLElement",
+      "description": "Payment type information",
+      "aliases": [
+        "PaymentTypeInformation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtTpInf>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "svclvl-xmlelement",
+      "canonical_name": "SvcLvl",
+      "name": "SvcLvl",
+      "type": "XMLElement",
+      "description": "Service level",
+      "aliases": [
+        "ServiceLevel"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<SvcLvl>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-standard",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "Standard",
+      "description": "Single Euro Payments Area",
+      "aliases": [
+        "SingleEuroPaymentsArea"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Cd>SEPA</Cd>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reqdexctndt-xmlelement",
+      "canonical_name": "ReqdExctnDt",
+      "name": "ReqdExctnDt",
+      "type": "XMLElement",
+      "description": "Requested execution date",
+      "aliases": [
+        "RequestedExecutionDate"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<ReqdExctnDt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dt-xmlelement",
+      "canonical_name": "Dt",
+      "name": "Dt",
+      "type": "XMLElement",
+      "description": "Date",
+      "aliases": [
+        "Date"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Dt>2023-04-03</Dt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dbtr-xmlelement",
+      "canonical_name": "Dbtr",
+      "name": "Dbtr",
+      "type": "XMLElement",
+      "description": "Debtor",
+      "aliases": [
+        "Debtor"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Dbtr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dbtracct-xmlelement",
+      "canonical_name": "DbtrAcct",
+      "name": "DbtrAcct",
+      "type": "XMLElement",
+      "description": "Debtor account",
+      "aliases": [
+        "DebtorAccount"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<DbtrAcct>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-identifier",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Identifier",
+      "description": "International Bank Account Number",
+      "aliases": [
+        "InternationalBankAccountNumber"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<IBAN>FI8529501800020574</IBAN>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dbtragt-xmlelement",
+      "canonical_name": "DbtrAgt",
+      "name": "DbtrAgt",
+      "type": "XMLElement",
+      "description": "Debtor agent",
+      "aliases": [
+        "DebtorAgent"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<DbtrAgt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fininstnid-xmlelement",
+      "canonical_name": "FinInstnId",
+      "name": "FinInstnId",
+      "type": "XMLElement",
+      "description": "Financial institution identification",
+      "aliases": [
+        "FinancialInstitutionIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<FinInstnId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bicfi-identifier",
+      "canonical_name": "BICFI",
+      "name": "BICFI",
+      "type": "Identifier",
+      "description": "Bank Identifier Code Finland",
+      "aliases": [
+        "BankIdentifierCodeFinland"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "chrgbr-xmlelement",
+      "canonical_name": "ChrgBr",
+      "name": "ChrgBr",
+      "type": "XMLElement",
+      "description": "Charging bearer",
+      "aliases": [
+        "ChargingBearer"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<ChrgBr>SLEV</ChrgBr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdttrftxinf-xmlelement",
+      "canonical_name": "CdtTrfTxInf",
+      "name": "CdtTrfTxInf",
+      "type": "XMLElement",
+      "description": "Credit transfer transaction information",
+      "aliases": [
+        "CreditTransferTransactionInformation"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<CdtTrfTxInf>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmtid-xmlelement",
+      "canonical_name": "PmtId",
+      "name": "PmtId",
+      "type": "XMLElement",
+      "description": "Payment identification",
+      "aliases": [
+        "PaymentIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instrid-xmlelement",
+      "canonical_name": "InstrId",
+      "name": "InstrId",
+      "type": "XMLElement",
+      "description": "Instruction identification",
+      "aliases": [
+        "InstructionIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<InstrId>InstrId000001</InstrId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "endtoendid-xmlelement",
+      "canonical_name": "EndToEndId",
+      "name": "EndToEndId",
+      "type": "XMLElement",
+      "description": "End-to-end identification",
+      "aliases": [
+        "EndToEndIdentification"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<EndToEndId>EndToEndId000001</EndToEndId>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amt-xmlelement",
+      "canonical_name": "Amt",
+      "name": "Amt",
+      "type": "XMLElement",
+      "description": "Amount",
+      "aliases": [
+        "Amount"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Amt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instdamt-xmlelement",
+      "canonical_name": "InstdAmt",
+      "name": "InstdAmt",
+      "type": "XMLElement",
+      "description": "Instructed amount",
+      "aliases": [
+        "InstructedAmount"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<InstdAmt Ccy=\"EUR\">1000.01</InstdAmt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdtragt-xmlelement",
+      "canonical_name": "CdtrAgt",
+      "name": "CdtrAgt",
+      "type": "XMLElement",
+      "description": "Creditor agent",
+      "aliases": [
+        "CreditorAgent"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<CdtrAgt>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bic-identifier",
+      "canonical_name": "BIC",
+      "name": "BIC",
+      "type": "Identifier",
+      "description": "Bank Identifier Code",
+      "aliases": [
+        "BankIdentifierCode"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<BIC>DEUTATWW</BIC>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "eur-currency",
+      "canonical_name": "EUR",
+      "name": "EUR",
+      "type": "Currency",
+      "description": "Euro",
+      "aliases": [
+        "Euro"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Ccy=\"EUR\"",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fi-location",
+      "canonical_name": "FI",
+      "name": "FI",
+      "type": "Location",
+      "description": "Finland",
+      "aliases": [
+        "Finland"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Ctry>FI</Ctry>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "helsinki-location",
+      "canonical_name": "HELSINKI",
+      "name": "HELSINKI",
+      "type": "Location",
+      "description": "Helsinki",
+      "aliases": [
+        "Helsinki"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<TwnNm>HELSINKI</TwnNm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aleksanterinkatu-location",
+      "canonical_name": "Aleksanterinkatu",
+      "name": "Aleksanterinkatu",
+      "type": "Location",
+      "description": "Aleksanterinkatu",
+      "aliases": [
+        "Aleksanterinkatu"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<StrtNm>Aleksanterinkatu</StrtNm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-finance-organization",
+      "canonical_name": "Group Finance",
+      "name": "Group Finance",
+      "type": "Organization",
+      "description": "Group Finance",
+      "aliases": [
+        "GroupFinance"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Nm>Group Finance</Nm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-company-plc-organization",
+      "canonical_name": "Debtor Company Plc",
+      "name": "Debtor Company Plc",
+      "type": "Organization",
+      "description": "Debtor Company Plc",
+      "aliases": [
+        "DebtorCompanyPlc"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<Nm>Debtor Company Plc</Nm>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lei-identifier",
+      "canonical_name": "LEI",
+      "name": "LEI",
+      "type": "Identifier",
+      "description": "Legal Entity Identifier",
+      "aliases": [
+        "LegalEntityIdentifier"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<!-- <LEI>888888IFQI8W88M8IY88</LEI> -->",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "trf-identifier",
+      "canonical_name": "TRF",
+      "name": "TRF",
+      "type": "Identifier",
+      "description": "Transfer",
+      "aliases": [
+        "Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<PmtMtd>TRF</PmtMtd>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slev-identifier",
+      "canonical_name": "SLEV",
+      "name": "SLEV",
+      "type": "Identifier",
+      "description": "Shared",
+      "aliases": [
+        "Shared"
+      ],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "<ChrgBr>SLEV</ChrgBr>",
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PART_OF",
+      "target": "credit-transfer-paymentscheme",
+      "description": "ISO 20022 includes credit transfer",
+      "confidence": 0.95,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "xml-technology",
+      "relation": "CONTAINS",
+      "target": "xml-header-xmlelement",
+      "description": "XML contains XML header",
+      "confidence": 0.95,
+      "evidence": "XML message",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "block-a-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "group-header-businesscomponent",
+      "description": "Block A contains Group Header",
+      "confidence": 0.95,
+      "evidence": "Block A:",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "document-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cstmrcdttrfinitn-xmlelement",
+      "description": "Document contains customer credit transfer initiation",
+      "confidence": 0.95,
+      "evidence": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "msgid-xmlelement",
+      "description": "Group header contains message identification",
+      "confidence": 0.95,
+      "evidence": "<GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "credttm-xmlelement",
+      "description": "Group header contains creation date and time",
+      "confidence": 0.95,
+      "evidence": "<GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "nboftxs-xmlelement",
+      "description": "Group header contains number of transactions",
+      "confidence": 0.95,
+      "evidence": "<GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "ctrlsum-xmlelement",
+      "description": "Group header contains control sum",
+      "confidence": 0.95,
+      "evidence": "<GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initgpty-xmlelement",
+      "relation": "CONTAINS",
+      "target": "nm-xmlelement",
+      "description": "Initiating party contains name",
+      "confidence": 0.95,
+      "evidence": "<InitgPty>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initgpty-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstladr-xmlelement",
+      "description": "Initiating party contains postal address",
+      "confidence": 0.95,
+      "evidence": "<InitgPty>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "strtnm-xmlelement",
+      "description": "Postal address contains street name",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bldgnb-xmlelement",
+      "description": "Postal address contains building number",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstcd-xmlelement",
+      "description": "Postal address contains postal code",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "twnnm-xmlelement",
+      "description": "Postal address contains town name",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "ctry-xmlelement",
+      "description": "Postal address contains country",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "id-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgid-xmlelement",
+      "description": "Identification contains organisation identification",
+      "confidence": 0.95,
+      "evidence": "<Id>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "othr-xmlelement",
+      "description": "Organisation identification contains other",
+      "confidence": 0.95,
+      "evidence": "<OrgId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "othr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "Other contains identification",
+      "confidence": 0.95,
+      "evidence": "<Othr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "othr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "schmenm-xmlelement",
+      "description": "Other contains scheme name",
+      "confidence": 0.95,
+      "evidence": "<Othr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "schmenm-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cd-xmlelement",
+      "description": "Scheme name contains code",
+      "confidence": 0.95,
+      "evidence": "<SchmeNm>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pmtinfid-xmlelement",
+      "description": "Payment information contains payment information identification",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pmtmtd-xmlelement",
+      "description": "Payment information contains payment method",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "btchbookg-xmlelement",
+      "description": "Payment information contains batch booking",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pmttpinf-xmlelement",
+      "description": "Payment information contains payment type information",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmttpinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "svclvl-xmlelement",
+      "description": "Payment type information contains service level",
+      "confidence": 0.95,
+      "evidence": "<PmtTpInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "svclvl-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cd-xmlelement",
+      "description": "Service level contains code",
+      "confidence": 0.95,
+      "evidence": "<SvcLvl>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "reqdexctndt-xmlelement",
+      "description": "Payment information contains requested execution date",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reqdexctndt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dt-xmlelement",
+      "description": "Requested execution date contains date",
+      "confidence": 0.95,
+      "evidence": "<ReqdExctnDt>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dbtr-xmlelement",
+      "description": "Payment information contains debtor",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "nm-xmlelement",
+      "description": "Debtor contains name",
+      "confidence": 0.95,
+      "evidence": "<Dbtr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstladr-xmlelement",
+      "description": "Debtor contains postal address",
+      "confidence": 0.95,
+      "evidence": "<Dbtr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "strtnm-xmlelement",
+      "description": "Postal address contains street name",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bldgnb-xmlelement",
+      "description": "Postal address contains building number",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstcd-xmlelement",
+      "description": "Postal address contains postal code",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "twnnm-xmlelement",
+      "description": "Postal address contains town name",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "ctry-xmlelement",
+      "description": "Postal address contains country",
+      "confidence": 0.95,
+      "evidence": "<PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "Debtor contains identification",
+      "confidence": 0.95,
+      "evidence": "<Dbtr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "id-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgid-xmlelement",
+      "description": "Identification contains organisation identification",
+      "confidence": 0.95,
+      "evidence": "<Id>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "othr-xmlelement",
+      "description": "Organisation identification contains other",
+      "confidence": 0.95,
+      "evidence": "<OrgId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "othr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "Other contains identification",
+      "confidence": 0.95,
+      "evidence": "<Othr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "othr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "schmenm-xmlelement",
+      "description": "Other contains scheme name",
+      "confidence": 0.95,
+      "evidence": "<Othr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dbtracct-xmlelement",
+      "description": "Payment information contains debtor account",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtracct-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "Debtor account contains identification",
+      "confidence": 0.95,
+      "evidence": "<DbtrAcct>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "id-xmlelement",
+      "relation": "CONTAINS",
+      "target": "iban-identifier",
+      "description": "Identification contains IBAN",
+      "confidence": 0.95,
+      "evidence": "<Id>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dbtragt-xmlelement",
+      "description": "Payment information contains debtor agent",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "fininstnid-xmlelement",
+      "description": "Debtor agent contains financial institution identification",
+      "confidence": 0.95,
+      "evidence": "<DbtrAgt>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fininstnid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bicfi-identifier",
+      "description": "Financial institution identification contains BIC",
+      "confidence": 0.95,
+      "evidence": "<FinInstnId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "chrgbr-xmlelement",
+      "description": "Payment information contains charging bearer",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cdttrftxinf-xmlelement",
+      "description": "Payment information contains credit transfer transaction information",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdttrftxinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pmtid-xmlelement",
+      "description": "Credit transfer transaction information contains payment identification",
+      "confidence": 0.95,
+      "evidence": "<CdtTrfTxInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "instrid-xmlelement",
+      "description": "Payment identification contains instruction identification",
+      "confidence": 0.95,
+      "evidence": "<PmtId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "endtoendid-xmlelement",
+      "description": "Payment identification contains end-to-end identification",
+      "confidence": 0.95,
+      "evidence": "<PmtId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdttrftxinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "amt-xmlelement",
+      "description": "Credit transfer transaction information contains amount",
+      "confidence": 0.95,
+      "evidence": "<CdtTrfTxInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "amt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "instdamt-xmlelement",
+      "description": "Amount contains instructed amount",
+      "confidence": 0.95,
+      "evidence": "<Amt>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cdtragt-xmlelement",
+      "description": "Payment information contains creditor agent",
+      "confidence": 0.95,
+      "evidence": "<PmtInf>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "fininstnid-xmlelement",
+      "description": "Creditor agent contains financial institution identification",
+      "confidence": 0.95,
+      "evidence": "<CdtrAgt>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fininstnid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bic-identifier",
+      "description": "Financial institution identification contains BIC",
+      "confidence": 0.95,
+      "evidence": "<FinInstnId>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "RELATED_TO",
+      "target": "sepa-standard",
+      "description": "ISO 20022 is related to SEPA",
+      "confidence": 0.95,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-standard",
+      "relation": "RELATED_TO",
+      "target": "eur-currency",
+      "description": "SEPA is related to EUR",
+      "confidence": 0.95,
+      "evidence": "<Cd>SEPA</Cd>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fi-location",
+      "relation": "CONTAINS",
+      "target": "helsinki-location",
+      "description": "FI contains HELSINKI",
+      "confidence": 0.95,
+      "evidence": "<Ctry>FI</Ctry>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "helsinki-location",
+      "relation": "CONTAINS",
+      "target": "aleksanterinkatu-location",
+      "description": "HELSINKI contains Aleksanterinkatu",
+      "confidence": 0.95,
+      "evidence": "<TwnNm>HELSINKI</TwnNm>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-finance-organization",
+      "relation": "RELATED_TO",
+      "target": "debtor-company-plc-organization",
+      "description": "Group Finance is related to Debtor Company Plc",
+      "confidence": 0.95,
+      "evidence": "<Nm>Group Finance</Nm>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "lei-identifier",
+      "relation": "RELATED_TO",
+      "target": "orgid-xmlelement",
+      "description": "LEI is related to OrgId",
+      "confidence": 0.95,
+      "evidence": "<!-- <LEI>888888IFQI8W88M8IY88</LEI> -->",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "trf-identifier",
+      "relation": "RELATED_TO",
+      "target": "pmtmtd-xmlelement",
+      "description": "TRF is related to PmtMtd",
+      "confidence": 0.95,
+      "evidence": "<PmtMtd>TRF</PmtMtd>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "slev-identifier",
+      "relation": "RELATED_TO",
+      "target": "chrgbr-xmlelement",
+      "description": "SLEV is related to ChrgBr",
+      "confidence": 0.95,
+      "evidence": "<ChrgBr>SLEV</ChrgBr>",
+      "implicit": false,
+      "source_pages": [
+        35
+      ],
+      "source_chunks": [
+        19
+      ],
+      "frequency": 1
+    }
+  ]
+}

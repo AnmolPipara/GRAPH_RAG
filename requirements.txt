@@ -1,0 +1,42 @@
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+langchain-google-genai
+langchain-openai
+langchain-huggingface
+langgraph
+
+# Document Processing & PDF
+PyMuPDF
+pymupdf4llm
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# Graph Database
+neo4j
+networkx
+
+# Embeddings & Models
+sentence-transformers
+transformers
+
+# Evaluation
+ragas
+trulens-eval
+
+# Web App & Visualization
+streamlit
+matplotlib
+seaborn
+
+# Data Processing & Utils
+pandas
+numpy
+pydantic>=2.0.0
+pydantic-settings
+python-dotenv
+tiktoken
+tenacity

@@ -1,0 +1,1470 @@
+{
+  "entities": [
+    {
+      "id": "cdtragt-xmlelement",
+      "canonical_name": "CdtrAgt",
+      "name": "CdtrAgt",
+      "type": "XMLElement",
+      "description": "Creditor Agent",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CdtrAgt>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fininstnid-xmlelement",
+      "canonical_name": "FinInstnId",
+      "name": "FinInstnId",
+      "type": "XMLElement",
+      "description": "Financial Institution Identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<FinInstnId>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clrsysmmbid-xmlelement",
+      "canonical_name": "ClrSysMmbId",
+      "name": "ClrSysMmbId",
+      "type": "XMLElement",
+      "description": "Clearing System Member Identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<ClrSysMmbId>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clrsysid-xmlelement",
+      "canonical_name": "ClrSysId",
+      "name": "ClrSysId",
+      "type": "XMLElement",
+      "description": "Clearing System Identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<ClrSysId>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cd-xmlelement",
+      "canonical_name": "Cd",
+      "name": "Cd",
+      "type": "XMLElement",
+      "description": "Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Cd>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mmbid-xmlelement",
+      "canonical_name": "MmbId",
+      "name": "MmbId",
+      "type": "XMLElement",
+      "description": "Member Identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<MmbId>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "nm-xmlelement",
+      "canonical_name": "Nm",
+      "name": "Nm",
+      "type": "XMLElement",
+      "description": "Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Nm>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pstladr-xmlelement",
+      "canonical_name": "PstlAdr",
+      "name": "PstlAdr",
+      "type": "XMLElement",
+      "description": "Postal Address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<PstlAdr>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "strtnm-xmlelement",
+      "canonical_name": "StrtNm",
+      "name": "StrtNm",
+      "type": "XMLElement",
+      "description": "Street Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<StrtNm>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bldgnb-xmlelement",
+      "canonical_name": "BldgNb",
+      "name": "BldgNb",
+      "type": "XMLElement",
+      "description": "Building Number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<BldgNb>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "twnnm-xmlelement",
+      "canonical_name": "TwnNm",
+      "name": "TwnNm",
+      "type": "XMLElement",
+      "description": "Town Name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<TwnNm>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ctry-xmlelement",
+      "canonical_name": "Ctry",
+      "name": "Ctry",
+      "type": "XMLElement",
+      "description": "Country",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Ctry>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party receiving the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creditor's name and address",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdtr-xmlelement",
+      "canonical_name": "Cdtr",
+      "name": "Cdtr",
+      "type": "XMLElement",
+      "description": "Creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Cdtr>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdtracct-xmlelement",
+      "canonical_name": "CdtrAcct",
+      "name": "CdtrAcct",
+      "type": "XMLElement",
+      "description": "Creditor Account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CdtrAcct>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "id-xmlelement",
+      "canonical_name": "Id",
+      "name": "Id",
+      "type": "XMLElement",
+      "description": "Identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Id>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "othr-xmlelement",
+      "canonical_name": "Othr",
+      "name": "Othr",
+      "type": "XMLElement",
+      "description": "Other",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Othr>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instrfordbtragt-xmlelement",
+      "canonical_name": "InstrForDbtrAgt",
+      "name": "InstrForDbtrAgt",
+      "type": "XMLElement",
+      "description": "Instructions for Debtor Agent",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<InstrForDbtrAgt>",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "charge-bearer-businessconcept",
+      "canonical_name": "Charge Bearer",
+      "name": "Charge Bearer",
+      "type": "BusinessConcept",
+      "description": "Party responsible for charges",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Charge Bearer",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debt-identifier",
+      "canonical_name": "DEBT",
+      "name": "DEBT",
+      "type": "Identifier",
+      "description": "Debtor pays all charges",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "DEBT",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cred-identifier",
+      "canonical_name": "CRED",
+      "name": "CRED",
+      "type": "Identifier",
+      "description": "Creditor pays all charges",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "CRED",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "shar-identifier",
+      "canonical_name": "SHAR",
+      "name": "SHAR",
+      "type": "Identifier",
+      "description": "Debtor and Creditor pay their own charges",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SHAR",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "slev-identifier",
+      "canonical_name": "SLEV",
+      "name": "SLEV",
+      "type": "Identifier",
+      "description": "Debtor and Creditor pay their own charges - used in credit transfers",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SLEV",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "usaba-identifier",
+      "canonical_name": "USABA",
+      "name": "USABA",
+      "type": "Identifier",
+      "description": "Clearing system identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "USABA",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-of-america-financialinstitution",
+      "canonical_name": "BANK OF AMERICA",
+      "name": "BANK OF AMERICA",
+      "type": "FinancialInstitution",
+      "description": "Bank name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "BANK OF AMERICA",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bankstreet-streetname",
+      "canonical_name": "Bankstreet",
+      "name": "Bankstreet",
+      "type": "StreetName",
+      "description": "Street name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Bankstreet",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "15-buildingnumber",
+      "canonical_name": "15",
+      "name": "15",
+      "type": "BuildingNumber",
+      "description": "Building number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "15",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "new-york-townname",
+      "canonical_name": "NEW YORK",
+      "name": "NEW YORK",
+      "type": "TownName",
+      "description": "Town name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "NEW YORK",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "us-countrycode",
+      "canonical_name": "US",
+      "name": "US",
+      "type": "CountryCode",
+      "description": "Country code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "US",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-company-organization",
+      "canonical_name": "Creditor Company",
+      "name": "Creditor Company",
+      "type": "Organization",
+      "description": "Creditor company name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creditor Company",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "hohenstaufengasse-streetname",
+      "canonical_name": "Hohenstaufengasse",
+      "name": "Hohenstaufengasse",
+      "type": "StreetName",
+      "description": "Street name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Hohenstaufengasse",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "123-buildingnumber",
+      "canonical_name": "123",
+      "name": "123",
+      "type": "BuildingNumber",
+      "description": "Building number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "123",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "1010-postalcode",
+      "canonical_name": "1010",
+      "name": "1010",
+      "type": "PostalCode",
+      "description": "Postal code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1010",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "wien-townname",
+      "canonical_name": "Wien",
+      "name": "Wien",
+      "type": "TownName",
+      "description": "Town name",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Wien",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "at-countrycode",
+      "canonical_name": "AT",
+      "name": "AT",
+      "type": "CountryCode",
+      "description": "Country code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AT",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2114-section",
+      "canonical_name": "2.114",
+      "name": "2.114",
+      "type": "Section",
+      "description": "Section 2.114",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.114",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2117-section",
+      "canonical_name": "2.117",
+      "name": "2.117",
+      "type": "Section",
+      "description": "Section 2.117",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.117",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2118-section",
+      "canonical_name": "2.118",
+      "name": "2.118",
+      "type": "Section",
+      "description": "Section 2.118",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.118",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2160-section",
+      "canonical_name": "2.160",
+      "name": "2.160",
+      "type": "Section",
+      "description": "Section 2.160",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.160",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2140-section",
+      "canonical_name": "2.140",
+      "name": "2.140",
+      "type": "Section",
+      "description": "Section 2.140",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.140",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "57-identifier",
+      "canonical_name": "57",
+      "name": "57",
+      "type": "Identifier",
+      "description": "Code 57",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "57",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "61-identifier",
+      "canonical_name": "61",
+      "name": "61",
+      "type": "Identifier",
+      "description": "Code 61",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "61",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iban-standard",
+      "canonical_name": "IBAN",
+      "name": "IBAN",
+      "type": "Standard",
+      "description": "International Bank Account Number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "IBAN",
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "cdtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "fininstnid-xmlelement",
+      "description": "CdtrAgt contains FinInstnId",
+      "confidence": 0.99,
+      "evidence": "<CdtrAgt><FinInstnId>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fininstnid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "clrsysmmbid-xmlelement",
+      "description": "FinInstnId contains ClrSysMmbId",
+      "confidence": 0.99,
+      "evidence": "<FinInstnId><ClrSysMmbId>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "clrsysmmbid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "clrsysid-xmlelement",
+      "description": "ClrSysMmbId contains ClrSysId",
+      "confidence": 0.99,
+      "evidence": "<ClrSysMmbId><ClrSysId>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "clrsysid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cd-xmlelement",
+      "description": "ClrSysId contains Cd",
+      "confidence": 0.99,
+      "evidence": "<ClrSysId><Cd>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "nm-xmlelement",
+      "description": "CdtrAgt contains Nm",
+      "confidence": 0.99,
+      "evidence": "<CdtrAgt><Nm>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstladr-xmlelement",
+      "description": "CdtrAgt contains PstlAdr",
+      "confidence": 0.99,
+      "evidence": "<CdtrAgt><PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "strtnm-xmlelement",
+      "description": "PstlAdr contains StrtNm",
+      "confidence": 0.99,
+      "evidence": "<PstlAdr><StrtNm>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bldgnb-xmlelement",
+      "description": "PstlAdr contains BldgNb",
+      "confidence": 0.99,
+      "evidence": "<PstlAdr><BldgNb>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "twnnm-xmlelement",
+      "description": "PstlAdr contains TwnNm",
+      "confidence": 0.99,
+      "evidence": "<PstlAdr><TwnNm>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pstladr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "ctry-xmlelement",
+      "description": "PstlAdr contains Ctry",
+      "confidence": 0.99,
+      "evidence": "<PstlAdr><Ctry>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "REFERENCES",
+      "target": "cdtragt-xmlelement",
+      "description": "ISO 20022 Payments Guide references CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "Creditor is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "Creditor's name and address",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "nm-xmlelement",
+      "description": "Cdtr contains Nm",
+      "confidence": 0.99,
+      "evidence": "<Cdtr><Nm>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pstladr-xmlelement",
+      "description": "Cdtr contains PstlAdr",
+      "confidence": 0.99,
+      "evidence": "<Cdtr><PstlAdr>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtracct-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "CdtrAcct contains Id",
+      "confidence": 0.99,
+      "evidence": "<CdtrAcct><Id>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "id-xmlelement",
+      "relation": "CONTAINS",
+      "target": "othr-xmlelement",
+      "description": "Id contains Othr",
+      "confidence": 0.99,
+      "evidence": "<Id><Othr>",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instrfordbtragt-xmlelement",
+      "relation": "RELATED_TO",
+      "target": "charge-bearer-businessconcept",
+      "description": "InstrForDbtrAgt is related to Charge Bearer",
+      "confidence": 0.99,
+      "evidence": "InstrForDbtrAgt",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "charge-bearer-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "debt-identifier",
+      "description": "Charge Bearer is related to DEBT",
+      "confidence": 0.99,
+      "evidence": "DEBT",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "charge-bearer-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "cred-identifier",
+      "description": "Charge Bearer is related to CRED",
+      "confidence": 0.99,
+      "evidence": "CRED",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "charge-bearer-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "shar-identifier",
+      "description": "Charge Bearer is related to SHAR",
+      "confidence": 0.99,
+      "evidence": "SHAR",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "charge-bearer-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "slev-identifier",
+      "description": "Charge Bearer is related to SLEV",
+      "confidence": 0.99,
+      "evidence": "SLEV",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "usaba-identifier",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "USABA is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "USABA",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "026009593-cross-chunk",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "026009593 is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "026009593",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-of-america-financialinstitution",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "BANK OF AMERICA is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "BANK OF AMERICA",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bankstreet-streetname",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "Bankstreet is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "Bankstreet",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "15-buildingnumber",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "15 is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "15",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "new-york-townname",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "NEW YORK is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "NEW YORK",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "us-countrycode",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "US is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "US",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-company-organization",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "Creditor Company is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "Creditor Company",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "hohenstaufengasse-streetname",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "Hohenstaufengasse is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "Hohenstaufengasse",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "123-buildingnumber",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "123 is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "123",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "1010-postalcode",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "1010 is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "1010",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "wien-townname",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "Wien is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "Wien",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "at-countrycode",
+      "relation": "RELATED_TO",
+      "target": "cdtr-xmlelement",
+      "description": "AT is related to Cdtr",
+      "confidence": 0.99,
+      "evidence": "AT",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2114-section",
+      "relation": "REFERENCES",
+      "target": "cdtragt-xmlelement",
+      "description": "2.114 references CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "2.114",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2117-section",
+      "relation": "REFERENCES",
+      "target": "cdtr-xmlelement",
+      "description": "2.117 references Cdtr",
+      "confidence": 0.99,
+      "evidence": "2.117",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2118-section",
+      "relation": "REFERENCES",
+      "target": "cdtr-xmlelement",
+      "description": "2.118 references Cdtr",
+      "confidence": 0.99,
+      "evidence": "2.118",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2160-section",
+      "relation": "REFERENCES",
+      "target": "instrfordbtragt-xmlelement",
+      "description": "2.160 references InstrForDbtrAgt",
+      "confidence": 0.99,
+      "evidence": "2.160",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2140-section",
+      "relation": "REFERENCES",
+      "target": "cdtracct-xmlelement",
+      "description": "2.140 references CdtrAcct",
+      "confidence": 0.99,
+      "evidence": "2.140",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "57-identifier",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "57 is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "57",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "61-identifier",
+      "relation": "RELATED_TO",
+      "target": "cdtragt-xmlelement",
+      "description": "61 is related to CdtrAgt",
+      "confidence": 0.99,
+      "evidence": "61",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iban-standard",
+      "relation": "RELATED_TO",
+      "target": "cdtracct-xmlelement",
+      "description": "IBAN is related to CdtrAcct",
+      "confidence": 0.99,
+      "evidence": "IBAN",
+      "implicit": false,
+      "source_pages": [
+        57
+      ],
+      "source_chunks": [
+        31
+      ],
+      "frequency": 1
+    }
+  ]
+}

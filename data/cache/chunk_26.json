@@ -1,0 +1,1680 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-content-approved-status",
+      "canonical_name": "Message content approved",
+      "name": "Message content approved",
+      "type": "Status",
+      "description": "Status of message content approval",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message content approved",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "623-section",
+      "canonical_name": "6.2.3",
+      "name": "6.2.3",
+      "type": "Section",
+      "description": "Section 6.2.3 of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.3",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cstmrpmtstsrpt-xmlelement",
+      "canonical_name": "CstmrPmtStsRpt",
+      "name": "CstmrPmtStsRpt",
+      "type": "XMLElement",
+      "description": "Customer payment status report XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grphdr-xmlelement",
+      "canonical_name": "GrpHdr",
+      "name": "GrpHdr",
+      "type": "XMLElement",
+      "description": "Group header XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpHdr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid-xmlelement",
+      "canonical_name": "MsgId",
+      "name": "MsgId",
+      "type": "XMLElement",
+      "description": "Message identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<MsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid1-identifier",
+      "canonical_name": "MSGID1",
+      "name": "MSGID1",
+      "type": "Identifier",
+      "description": "Message identifier value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credttm-xmlelement",
+      "canonical_name": "CreDtTm",
+      "name": "CreDtTm",
+      "type": "XMLElement",
+      "description": "Creation date and time XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2023-04-12t120000-datetime",
+      "canonical_name": "2023-04-12T12:00:00",
+      "name": "2023-04-12T12:00:00",
+      "type": "DateTime",
+      "description": "Creation date and time value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "dbtragt-xmlelement",
+      "canonical_name": "DbtrAgt",
+      "name": "DbtrAgt",
+      "type": "XMLElement",
+      "description": "Debtor agent XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<DbtrAgt>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "fininstnid-xmlelement",
+      "canonical_name": "FinInstnId",
+      "name": "FinInstnId",
+      "type": "XMLElement",
+      "description": "Financial institution identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<FinInstnId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bicfi-xmlelement",
+      "canonical_name": "BICFI",
+      "name": "BICFI",
+      "type": "XMLElement",
+      "description": "BIC FI XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<BICFI>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bankfihh-identifier",
+      "canonical_name": "BANKFIHH",
+      "name": "BANKFIHH",
+      "type": "Identifier",
+      "description": "BIC FI value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlgrpinfandsts-xmlelement",
+      "canonical_name": "OrgnlGrpInfAndSts",
+      "name": "OrgnlGrpInfAndSts",
+      "type": "XMLElement",
+      "description": "Original group information and status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlmsgid-xmlelement",
+      "canonical_name": "OrgnlMsgId",
+      "name": "OrgnlMsgId",
+      "type": "XMLElement",
+      "description": "Original message identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "msgid000001-identifier",
+      "canonical_name": "MSGID000001",
+      "name": "MSGID000001",
+      "type": "Identifier",
+      "description": "Original message identifier value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlmsgnmid-xmlelement",
+      "canonical_name": "OrgnlMsgNmId",
+      "name": "OrgnlMsgNmId",
+      "type": "XMLElement",
+      "description": "Original message name identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00100109-identifier",
+      "canonical_name": "pain.001.001.09",
+      "name": "pain.001.001.09",
+      "type": "Identifier",
+      "description": "Original message name identifier value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlcredttm-xmlelement",
+      "canonical_name": "OrgnlCreDtTm",
+      "name": "OrgnlCreDtTm",
+      "type": "XMLElement",
+      "description": "Original creation date and time XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "2023-04-03t103000-datetime",
+      "canonical_name": "2023-04-03T10:30:00",
+      "name": "2023-04-03T10:30:00",
+      "type": "DateTime",
+      "description": "Original creation date and time value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCreDtTm>2023-04-03T10:30:00</OrgnlCreDtTm>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlnboftxs-xmlelement",
+      "canonical_name": "OrgnlNbOfTxs",
+      "name": "OrgnlNbOfTxs",
+      "type": "XMLElement",
+      "description": "Original number of transactions XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlNbOfTxs>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlctrlsum-xmlelement",
+      "canonical_name": "OrgnlCtrlSum",
+      "name": "OrgnlCtrlSum",
+      "type": "XMLElement",
+      "description": "Original control sum XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCtrlSum>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "300003-amount",
+      "canonical_name": "3000.03",
+      "name": "3000.03",
+      "type": "Amount",
+      "description": "Original control sum value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlCtrlSum>3000.03</OrgnlCtrlSum>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "grpsts-xmlelement",
+      "canonical_name": "GrpSts",
+      "name": "GrpSts",
+      "type": "XMLElement",
+      "description": "Group status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "accp-identifier",
+      "canonical_name": "ACCP",
+      "name": "ACCP",
+      "type": "Identifier",
+      "description": "Group status value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACCP</GrpSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "624-section",
+      "canonical_name": "6.2.4",
+      "name": "6.2.4",
+      "type": "Section",
+      "description": "Section 6.2.4 of the document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.4",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payments-partially-accepted-in-message-for-further-processing-status",
+      "canonical_name": "Payments partially accepted in message for further processing",
+      "name": "Payments partially accepted in message for further processing",
+      "type": "Status",
+      "description": "Status of payments partially accepted",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payments partially accepted in message for further processing",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlpmtinfandsts-xmlelement",
+      "canonical_name": "OrgnlPmtInfAndSts",
+      "name": "OrgnlPmtInfAndSts",
+      "type": "XMLElement",
+      "description": "Original payment information and status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfAndSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlpmtinfid-xmlelement",
+      "canonical_name": "OrgnlPmtInfId",
+      "name": "OrgnlPmtInfId",
+      "type": "XMLElement",
+      "description": "Original payment information identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pmtinfsts-xmlelement",
+      "canonical_name": "PmtInfSts",
+      "name": "PmtInfSts",
+      "type": "XMLElement",
+      "description": "Payment information status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<PmtInfSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "part-identifier",
+      "canonical_name": "PART",
+      "name": "PART",
+      "type": "Identifier",
+      "description": "Payment information status value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<PmtInfSts>PART</PmtInfSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "txinfandsts-xmlelement",
+      "canonical_name": "TxInfAndSts",
+      "name": "TxInfAndSts",
+      "type": "XMLElement",
+      "description": "Transaction information and status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<TxInfAndSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlinstrid-xmlelement",
+      "canonical_name": "OrgnlInstrId",
+      "name": "OrgnlInstrId",
+      "type": "XMLElement",
+      "description": "Original instruction identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlInstrId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgnlendtoendid-xmlelement",
+      "canonical_name": "OrgnlEndToEndId",
+      "name": "OrgnlEndToEndId",
+      "type": "XMLElement",
+      "description": "Original end-to-end identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlEndToEndId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "endtoendid000001-identifier",
+      "canonical_name": "EndToEndId000001",
+      "name": "EndToEndId000001",
+      "type": "Identifier",
+      "description": "Original end-to-end identifier value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgnlEndToEndId>EndToEndId000001</OrgnlEndToEndId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "txsts-xmlelement",
+      "canonical_name": "TxSts",
+      "name": "TxSts",
+      "type": "XMLElement",
+      "description": "Transaction status XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<TxSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rjct-identifier",
+      "canonical_name": "RJCT",
+      "name": "RJCT",
+      "type": "Identifier",
+      "description": "Transaction status value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<TxSts>RJCT</TxSts>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "stsrsninf-xmlelement",
+      "canonical_name": "StsRsnInf",
+      "name": "StsRsnInf",
+      "type": "XMLElement",
+      "description": "Status reason information XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<StsRsnInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgtr-xmlelement",
+      "canonical_name": "Orgtr",
+      "name": "Orgtr",
+      "type": "XMLElement",
+      "description": "Organizer XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Orgtr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "id-xmlelement",
+      "canonical_name": "Id",
+      "name": "Id",
+      "type": "XMLElement",
+      "description": "Identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Id>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "orgid-xmlelement",
+      "canonical_name": "OrgId",
+      "name": "OrgId",
+      "type": "XMLElement",
+      "description": "Organization identifier XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<OrgId>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-xmlelement",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "XMLElement",
+      "description": "Any BIC XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AnyBIC>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bankfihh-identifier",
+      "canonical_name": "BANKFIHH",
+      "name": "BANKFIHH",
+      "type": "Identifier",
+      "description": "Any BIC value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AnyBIC>BANKFIHH</AnyBIC>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rsn-xmlelement",
+      "canonical_name": "Rsn",
+      "name": "Rsn",
+      "type": "XMLElement",
+      "description": "Reason XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Rsn>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cd-xmlelement",
+      "canonical_name": "Cd",
+      "name": "Cd",
+      "type": "XMLElement",
+      "description": "Code XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Cd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac01-identifier",
+      "canonical_name": "AC01",
+      "name": "AC01",
+      "type": "Identifier",
+      "description": "Reason code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Cd>AC01</Cd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "addtlinf-xmlelement",
+      "canonical_name": "AddtlInf",
+      "name": "AddtlInf",
+      "type": "XMLElement",
+      "description": "Additional information XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AddtlInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "format-of-the-account-number-specified-is-not-correct-text",
+      "canonical_name": "Format of the account number specified is not correct.",
+      "name": "Format of the account number specified is not correct.",
+      "type": "Text",
+      "description": "Additional information value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AddtlInf>Format of the account number specified is not correct.</AddtlInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "am10-identifier",
+      "canonical_name": "AM10",
+      "name": "AM10",
+      "type": "Identifier",
+      "description": "Reason code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<Cd>AM10</Cd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sum-of-instructed-amounts-does-not-equal-the-control-sum-text",
+      "canonical_name": "Sum of instructed amounts does not equal the control sum",
+      "name": "Sum of instructed amounts does not equal the control sum",
+      "type": "Text",
+      "description": "Additional information value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "<AddtlInf>Sum of instructed amounts does not equal the control sum</AddtlInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PART_OF",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Payments Guide is part of ISO 20022",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-content-approved-status",
+      "relation": "PART_OF",
+      "target": "623-section",
+      "description": "Message content approved is part of section 6.2.3",
+      "confidence": 0.99,
+      "evidence": "6.2.3",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "grphdr-xmlelement",
+      "description": "CstmrPmtStsRpt contains GrpHdr",
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt><GrpHdr>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "msgid-xmlelement",
+      "description": "GrpHdr contains MsgId",
+      "confidence": 0.99,
+      "evidence": "<GrpHdr><MsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "msgid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "msgid1-identifier",
+      "description": "MsgId is identified by MSGID1",
+      "confidence": 0.99,
+      "evidence": "<MsgId>MSGID1</MsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "credttm-xmlelement",
+      "description": "GrpHdr contains CreDtTm",
+      "confidence": 0.99,
+      "evidence": "<GrpHdr><CreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credttm-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "2023-04-12t120000-datetime",
+      "description": "CreDtTm is identified by 2023-04-12T12:00:00",
+      "confidence": 0.99,
+      "evidence": "<CreDtTm>2023-04-12T12:00:00</CreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grphdr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "dbtragt-xmlelement",
+      "description": "GrpHdr contains DbtrAgt",
+      "confidence": 0.99,
+      "evidence": "<GrpHdr><DbtrAgt>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "dbtragt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "fininstnid-xmlelement",
+      "description": "DbtrAgt contains FinInstnId",
+      "confidence": 0.99,
+      "evidence": "<DbtrAgt><FinInstnId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "fininstnid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "bicfi-xmlelement",
+      "description": "FinInstnId contains BICFI",
+      "confidence": 0.99,
+      "evidence": "<FinInstnId><BICFI>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bicfi-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "bankfihh-identifier",
+      "description": "BICFI is identified by BANKFIHH",
+      "confidence": 0.99,
+      "evidence": "<BICFI>BANKFIHH</BICFI>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlgrpinfandsts-xmlelement",
+      "description": "CstmrPmtStsRpt contains OrgnlGrpInfAndSts",
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt><OrgnlGrpInfAndSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlmsgid-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains OrgnlMsgId",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><OrgnlMsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlmsgid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "msgid000001-identifier",
+      "description": "OrgnlMsgId is identified by MSGID000001",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgId>MSGID000001</OrgnlMsgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlmsgnmid-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains OrgnlMsgNmId",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><OrgnlMsgNmId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlmsgnmid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "pain00100109-identifier",
+      "description": "OrgnlMsgNmId is identified by pain.001.001.09",
+      "confidence": 0.99,
+      "evidence": "<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlcredttm-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains OrgnlCreDtTm",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><OrgnlCreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlcredttm-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "2023-04-03t103000-datetime",
+      "description": "OrgnlCreDtTm is identified by 2023-04-03T10:30:00",
+      "confidence": 0.99,
+      "evidence": "<OrgnlCreDtTm>2023-04-03T10:30:00</OrgnlCreDtTm>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlnboftxs-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains OrgnlNbOfTxs",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><OrgnlNbOfTxs>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlnboftxs-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "2-cross-chunk",
+      "description": "OrgnlNbOfTxs is identified by 2",
+      "confidence": 0.99,
+      "evidence": "<OrgnlNbOfTxs>2</OrgnlNbOfTxs>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlctrlsum-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains OrgnlCtrlSum",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><OrgnlCtrlSum>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlctrlsum-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "300003-amount",
+      "description": "OrgnlCtrlSum is identified by 3000.03",
+      "confidence": 0.99,
+      "evidence": "<OrgnlCtrlSum>3000.03</OrgnlCtrlSum>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlgrpinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "grpsts-xmlelement",
+      "description": "OrgnlGrpInfAndSts contains GrpSts",
+      "confidence": 0.99,
+      "evidence": "<OrgnlGrpInfAndSts><GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "grpsts-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "accp-identifier",
+      "description": "GrpSts is identified by ACCP",
+      "confidence": 0.99,
+      "evidence": "<GrpSts>ACCP</GrpSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlpmtinfandsts-xmlelement",
+      "description": "CstmrPmtStsRpt contains OrgnlPmtInfAndSts",
+      "confidence": 0.99,
+      "evidence": "<CstmrPmtStsRpt><OrgnlPmtInfAndSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlpmtinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlpmtinfid-xmlelement",
+      "description": "OrgnlPmtInfAndSts contains OrgnlPmtInfId",
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfAndSts><OrgnlPmtInfId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlpmtinfid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "20230403-12345678912-cross-chunk",
+      "description": "OrgnlPmtInfId is identified by 20230403-12345678912",
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfId>20230403-12345678912</OrgnlPmtInfId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlpmtinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "pmtinfsts-xmlelement",
+      "description": "OrgnlPmtInfAndSts contains PmtInfSts",
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfAndSts><PmtInfSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pmtinfsts-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "part-identifier",
+      "description": "PmtInfSts is identified by PART",
+      "confidence": 0.99,
+      "evidence": "<PmtInfSts>PART</PmtInfSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlpmtinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "txinfandsts-xmlelement",
+      "description": "OrgnlPmtInfAndSts contains TxInfAndSts",
+      "confidence": 0.99,
+      "evidence": "<OrgnlPmtInfAndSts><TxInfAndSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "txinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlinstrid-xmlelement",
+      "description": "TxInfAndSts contains OrgnlInstrId",
+      "confidence": 0.99,
+      "evidence": "<TxInfAndSts><OrgnlInstrId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlinstrid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "20230403-12345678912-cross-chunk",
+      "description": "OrgnlInstrId is identified by 20230403-12345678912",
+      "confidence": 0.99,
+      "evidence": "<OrgnlInstrId>20230403-12345678912</OrgnlInstrId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "txinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgnlendtoendid-xmlelement",
+      "description": "TxInfAndSts contains OrgnlEndToEndId",
+      "confidence": 0.99,
+      "evidence": "<TxInfAndSts><OrgnlEndToEndId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgnlendtoendid-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "endtoendid000001-identifier",
+      "description": "OrgnlEndToEndId is identified by EndToEndId000001",
+      "confidence": 0.99,
+      "evidence": "<OrgnlEndToEndId>EndToEndId000001</OrgnlEndToEndId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "txinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "txsts-xmlelement",
+      "description": "TxInfAndSts contains TxSts",
+      "confidence": 0.99,
+      "evidence": "<TxInfAndSts><TxSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "txsts-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "rjct-identifier",
+      "description": "TxSts is identified by RJCT",
+      "confidence": 0.99,
+      "evidence": "<TxSts>RJCT</TxSts>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "txinfandsts-xmlelement",
+      "relation": "CONTAINS",
+      "target": "stsrsninf-xmlelement",
+      "description": "TxInfAndSts contains StsRsnInf",
+      "confidence": 0.99,
+      "evidence": "<TxInfAndSts><StsRsnInf>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "stsrsninf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgtr-xmlelement",
+      "description": "StsRsnInf contains Orgtr",
+      "confidence": 0.99,
+      "evidence": "<StsRsnInf><Orgtr>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgtr-xmlelement",
+      "relation": "CONTAINS",
+      "target": "id-xmlelement",
+      "description": "Orgtr contains Id",
+      "confidence": 0.99,
+      "evidence": "<Orgtr><Id>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "id-xmlelement",
+      "relation": "CONTAINS",
+      "target": "orgid-xmlelement",
+      "description": "Id contains OrgId",
+      "confidence": 0.99,
+      "evidence": "<Id><OrgId>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "orgid-xmlelement",
+      "relation": "CONTAINS",
+      "target": "anybic-xmlelement",
+      "description": "OrgId contains AnyBIC",
+      "confidence": 0.99,
+      "evidence": "<OrgId><AnyBIC>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "anybic-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "bankfihh-identifier",
+      "description": "AnyBIC is identified by BANKFIHH",
+      "confidence": 0.99,
+      "evidence": "<AnyBIC>BANKFIHH</AnyBIC>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "stsrsninf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "rsn-xmlelement",
+      "description": "StsRsnInf contains Rsn",
+      "confidence": 0.99,
+      "evidence": "<StsRsnInf><Rsn>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rsn-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cd-xmlelement",
+      "description": "Rsn contains Cd",
+      "confidence": 0.99,
+      "evidence": "<Rsn><Cd>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cd-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "ac01-identifier",
+      "description": "Cd is identified by AC01",
+      "confidence": 0.99,
+      "evidence": "<Cd>AC01</Cd>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "stsrsninf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "addtlinf-xmlelement",
+      "description": "StsRsnInf contains AddtlInf",
+      "confidence": 0.99,
+      "evidence": "<StsRsnInf><AddtlInf>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "addtlinf-xmlelement",
+      "relation": "IDENTIFIED_BY",
+      "target": "format-of-the-account-number-specified-is-not-correct-text",
+      "description": "AddtlInf is identified by Format of the account number specified is not correct.",
+      "confidence": 0.99,
+      "evidence": "<AddtlInf>Format of the account number specified is not correct.</AddtlInf>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        26
+      ],
+      "frequency": 1
+    }
+  ]
+}

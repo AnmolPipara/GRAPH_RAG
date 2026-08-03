@@ -1,0 +1,962 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment initiation message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.122 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Block of payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businesscomponent",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessComponent",
+      "description": "Credit transfer transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Transaction information for credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party receiving the credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++Creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "postal-address-businesscomponent",
+      "canonical_name": "Postal Address",
+      "name": "Postal Address",
+      "type": "BusinessComponent",
+      "description": "Creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Postal Address",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "street-name-dataelement",
+      "canonical_name": "Street Name",
+      "name": "Street Name",
+      "type": "DataElement",
+      "description": "Street name of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Street Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "building-number-dataelement",
+      "canonical_name": "Building Number",
+      "name": "Building Number",
+      "type": "DataElement",
+      "description": "Building number of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Building Number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "building-name-dataelement",
+      "canonical_name": "Building Name",
+      "name": "Building Name",
+      "type": "DataElement",
+      "description": "Building name of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Building Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "floor-dataelement",
+      "canonical_name": "Floor",
+      "name": "Floor",
+      "type": "DataElement",
+      "description": "Floor of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Floor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "post-box-dataelement",
+      "canonical_name": "Post Box",
+      "name": "Post Box",
+      "type": "DataElement",
+      "description": "Post box of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Post Box",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "room-dataelement",
+      "canonical_name": "Room",
+      "name": "Room",
+      "type": "DataElement",
+      "description": "Room of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Room",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "post-code-dataelement",
+      "canonical_name": "Post Code",
+      "name": "Post Code",
+      "type": "DataElement",
+      "description": "Post code of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Post Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "town-name-dataelement",
+      "canonical_name": "Town Name",
+      "name": "Town Name",
+      "type": "DataElement",
+      "description": "Town name of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Town Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "town-location-name-dataelement",
+      "canonical_name": "Town Location Name",
+      "name": "Town Location Name",
+      "type": "DataElement",
+      "description": "Town location name of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Town Location Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "district-name-dataelement",
+      "canonical_name": "District Name",
+      "name": "District Name",
+      "type": "DataElement",
+      "description": "District name of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++District Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "country-sub-division-dataelement",
+      "canonical_name": "Country Sub Division",
+      "name": "Country Sub Division",
+      "type": "DataElement",
+      "description": "Country sub division of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Country Sub Division",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "country-dataelement",
+      "canonical_name": "Country",
+      "name": "Country",
+      "type": "DataElement",
+      "description": "Country of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Country",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "address-line-dataelement",
+      "canonical_name": "Address Line",
+      "name": "Address Line",
+      "type": "DataElement",
+      "description": "Address line of creditor's postal address",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Address Line",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-businesscomponent",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "BusinessComponent",
+      "description": "Creditor's identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-dataelement",
+      "canonical_name": "Organisation",
+      "name": "Organisation",
+      "type": "DataElement",
+      "description": "Creditor's organisation identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Organisation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-dataelement",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "DataElement",
+      "description": "Creditor's private identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "+++++Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "anybic-identifier",
+      "canonical_name": "AnyBIC",
+      "name": "AnyBIC",
+      "type": "Identifier",
+      "description": "AnyBIC identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AnyBIC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "lei-identifier",
+      "canonical_name": "LEI",
+      "name": "LEI",
+      "type": "Identifier",
+      "description": "LEI identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "LEI",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "other-identifier",
+      "canonical_name": "Other",
+      "name": "Other",
+      "type": "Identifier",
+      "description": "Other organisation identifier",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Other",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finnish-personal-identification-number-identifier",
+      "canonical_name": "Finnish Personal Identification Number",
+      "name": "Finnish Personal Identification Number",
+      "type": "Identifier",
+      "description": "Finnish personal identification number",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Finnish personal identification number",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "date-and-place-of-birth-dataelement",
+      "canonical_name": "Date and Place of Birth",
+      "name": "Date and Place of Birth",
+      "type": "DataElement",
+      "description": "Date and place of birth",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "date and place of birth",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer Credit Transfer Initiation V09 contains Payment Information",
+      "confidence": 0.99,
+      "evidence": "2.122 Customer Credit Transfer Initiation V09 +Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-businesscomponent",
+      "description": "Payment Information contains Credit Transfer",
+      "confidence": 0.99,
+      "evidence": "+Payment Information ++Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit Transfer contains Transaction Information",
+      "confidence": 0.99,
+      "evidence": "++Credit Transfer +++Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creditor-paymentrole",
+      "description": "Transaction Information contains Creditor",
+      "confidence": 0.99,
+      "evidence": "+++Creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "postal-address-businesscomponent",
+      "description": "Creditor contains Postal Address",
+      "confidence": 0.99,
+      "evidence": "++++Postal Address",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "street-name-dataelement",
+      "description": "Postal Address contains Street Name",
+      "confidence": 0.99,
+      "evidence": "+++++Street Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "building-number-dataelement",
+      "description": "Postal Address contains Building Number",
+      "confidence": 0.99,
+      "evidence": "+++++Building Number",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "building-name-dataelement",
+      "description": "Postal Address contains Building Name",
+      "confidence": 0.99,
+      "evidence": "+++++Building Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "floor-dataelement",
+      "description": "Postal Address contains Floor",
+      "confidence": 0.99,
+      "evidence": "+++++Floor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "post-box-dataelement",
+      "description": "Postal Address contains Post Box",
+      "confidence": 0.99,
+      "evidence": "+++++Post Box",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "room-dataelement",
+      "description": "Postal Address contains Room",
+      "confidence": 0.99,
+      "evidence": "+++++Room",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "post-code-dataelement",
+      "description": "Postal Address contains Post Code",
+      "confidence": 0.99,
+      "evidence": "+++++Post Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "town-name-dataelement",
+      "description": "Postal Address contains Town Name",
+      "confidence": 0.99,
+      "evidence": "+++++Town Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "town-location-name-dataelement",
+      "description": "Postal Address contains Town Location Name",
+      "confidence": 0.99,
+      "evidence": "+++++Town Location Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "district-name-dataelement",
+      "description": "Postal Address contains District Name",
+      "confidence": 0.99,
+      "evidence": "+++++District Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "country-sub-division-dataelement",
+      "description": "Postal Address contains Country Sub Division",
+      "confidence": 0.99,
+      "evidence": "+++++Country Sub Division",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "country-dataelement",
+      "description": "Postal Address contains Country",
+      "confidence": 0.99,
+      "evidence": "+++++Country",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "postal-address-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "address-line-dataelement",
+      "description": "Postal Address contains Address Line",
+      "confidence": 0.99,
+      "evidence": "+++++Address Line",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creditor-paymentrole",
+      "relation": "CONTAINS",
+      "target": "identification-businesscomponent",
+      "description": "Creditor contains Identification",
+      "confidence": 0.99,
+      "evidence": "++++Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "organisation-dataelement",
+      "description": "Identification contains Organisation",
+      "confidence": 0.99,
+      "evidence": "+++++Organisation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "private-identification-dataelement",
+      "description": "Identification contains Private Identification",
+      "confidence": 0.99,
+      "evidence": "+++++Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-dataelement",
+      "relation": "RELATED_TO",
+      "target": "anybic-identifier",
+      "description": "Organisation is related to AnyBIC",
+      "confidence": 0.99,
+      "evidence": "AnyBIC",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-dataelement",
+      "relation": "RELATED_TO",
+      "target": "lei-identifier",
+      "description": "Organisation is related to LEI",
+      "confidence": 0.99,
+      "evidence": "LEI",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-dataelement",
+      "relation": "RELATED_TO",
+      "target": "other-identifier",
+      "description": "Organisation is related to Other",
+      "confidence": 0.99,
+      "evidence": "Other",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "finnish-personal-identification-number-identifier",
+      "description": "Private Identification is related to Finnish Personal Identification Number",
+      "confidence": 0.99,
+      "evidence": "Finnish personal identification number",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "date-and-place-of-birth-dataelement",
+      "description": "Private Identification is related to Date and Place of Birth",
+      "confidence": 0.99,
+      "evidence": "date and place of birth",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-standard",
+      "description": "ISO 20022 Payments Guide publishes ISO 20022",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        14
+      ],
+      "frequency": 1
+    }
+  ]
+}

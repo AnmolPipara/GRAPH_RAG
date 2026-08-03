@@ -1,0 +1,1289 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain00200110-standard",
+      "canonical_name": "Pain.002.001.10",
+      "name": "Pain.002.001.10",
+      "type": "Standard",
+      "description": "Payment Status Report standard",
+      "aliases": [
+        "Pain.002.001.10 Payment Status Report"
+      ],
+      "attributes": {
+        "version": "001.10"
+      },
+      "confidence": 0.98,
+      "evidence": "Pain.002.001.10 Payment Status Report standard is used to structure the return messages",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-report-xmlmessage",
+      "canonical_name": "Payment Status Report",
+      "name": "Payment Status Report",
+      "type": "XMLMessage",
+      "description": "Message used for payment status reporting",
+      "aliases": [
+        "Payment Status Report message"
+      ],
+      "attributes": {
+        "purpose": "Payment status reporting"
+      },
+      "confidence": 0.98,
+      "evidence": "Content of the Payment Status Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-instruction-businessconcept",
+      "canonical_name": "Original Payment Instruction",
+      "name": "Original Payment Instruction",
+      "type": "BusinessConcept",
+      "description": "Original payment instruction details and status",
+      "aliases": [
+        "Original Payment Instruction details"
+      ],
+      "attributes": {
+        "purpose": "Original payment instruction"
+      },
+      "confidence": 0.95,
+      "evidence": "C. Original Payment Instruction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "groupstatus-dataelement",
+      "canonical_name": "GroupStatus",
+      "name": "GroupStatus",
+      "type": "DataElement",
+      "description": "Status of the group",
+      "aliases": [
+        "Group Status"
+      ],
+      "attributes": {
+        "values": [
+          "ACTC",
+          "ACCP",
+          "PART",
+          "RJCT"
+        ]
+      },
+      "confidence": 0.95,
+      "evidence": "GroupStatus: ACTC",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "actc-identifier",
+      "canonical_name": "ACTC",
+      "name": "ACTC",
+      "type": "Identifier",
+      "description": "Accepted technical validation",
+      "aliases": [
+        "Accepted Technical Validation"
+      ],
+      "attributes": {
+        "meaning": "Accepted technical validation"
+      },
+      "confidence": 0.95,
+      "evidence": "GroupStatus = ACTC (accepted)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "accp-identifier",
+      "canonical_name": "ACCP",
+      "name": "ACCP",
+      "type": "Identifier",
+      "description": "Accepted",
+      "aliases": [
+        "Accepted"
+      ],
+      "attributes": {
+        "meaning": "Accepted"
+      },
+      "confidence": 0.95,
+      "evidence": "GroupStatus = ACCP (accepted)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "part-identifier",
+      "canonical_name": "PART",
+      "name": "PART",
+      "type": "Identifier",
+      "description": "Partly accepted",
+      "aliases": [
+        "Partly Accepted"
+      ],
+      "attributes": {
+        "meaning": "Partly accepted"
+      },
+      "confidence": 0.95,
+      "evidence": "GroupStatus = PART (partly accepted)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rjct-identifier",
+      "canonical_name": "RJCT",
+      "name": "RJCT",
+      "type": "Identifier",
+      "description": "Rejected",
+      "aliases": [
+        "Rejected"
+      ],
+      "attributes": {
+        "meaning": "Rejected"
+      },
+      "confidence": 0.95,
+      "evidence": "GroupStatus = RJCT (all rejected)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transactionstatus-dataelement",
+      "canonical_name": "TransactionStatus",
+      "name": "TransactionStatus",
+      "type": "DataElement",
+      "description": "Status of the transaction",
+      "aliases": [
+        "Transaction Status"
+      ],
+      "attributes": {
+        "values": [
+          "RJCT"
+        ]
+      },
+      "confidence": 0.95,
+      "evidence": "TransactionStatus-field RJCT",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originalmessageid-identifier",
+      "canonical_name": "OriginalMessageID",
+      "name": "OriginalMessageID",
+      "type": "Identifier",
+      "description": "Original message identification",
+      "aliases": [
+        "Original Message ID"
+      ],
+      "attributes": {
+        "purpose": "Original message identification"
+      },
+      "confidence": 0.95,
+      "evidence": "Identification by OriginalMessageID (OrgnlMsgId)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originalendtoendid-identifier",
+      "canonical_name": "OriginalEndToEndID",
+      "name": "OriginalEndToEndID",
+      "type": "Identifier",
+      "description": "Original end-to-end identification",
+      "aliases": [
+        "Original End-to-End ID"
+      ],
+      "attributes": {
+        "purpose": "Original end-to-end identification"
+      },
+      "confidence": 0.95,
+      "evidence": "Payments identified by OriginalEndToEndID (OrgnlEndToEndId)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originalinstructionid-identifier",
+      "canonical_name": "OriginalInstructionID",
+      "name": "OriginalInstructionID",
+      "type": "Identifier",
+      "description": "Original instruction identification",
+      "aliases": [
+        "Original Instruction ID"
+      ],
+      "attributes": {
+        "purpose": "Original instruction identification"
+      },
+      "confidence": 0.95,
+      "evidence": "Payments identified by OriginalInstructionID",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "validation-of-message-structure-businessprocess",
+      "canonical_name": "Validation of message structure",
+      "name": "Validation of message structure",
+      "type": "BusinessProcess",
+      "description": "Validation of the message structure",
+      "aliases": [
+        "Message Structure Validation"
+      ],
+      "attributes": {
+        "purpose": "Message structure validation"
+      },
+      "confidence": 0.95,
+      "evidence": "6.1.1 Validation of message structure",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "content-validation-businessprocess",
+      "canonical_name": "Content validation",
+      "name": "Content validation",
+      "type": "BusinessProcess",
+      "description": "Validation of the message content",
+      "aliases": [
+        "Message Content Validation"
+      ],
+      "attributes": {
+        "purpose": "Message content validation"
+      },
+      "confidence": 0.95,
+      "evidence": "6.1.2 Content validation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-xmlelement",
+      "canonical_name": "Message root",
+      "name": "Message root",
+      "type": "XMLElement",
+      "description": "Root element of the message",
+      "aliases": [
+        "Message Root"
+      ],
+      "attributes": {
+        "element": "CstmrPmtStsRpt"
+      },
+      "confidence": 0.95,
+      "evidence": "Message root",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cstmrpmtstsrpt-xmlelement",
+      "canonical_name": "CstmrPmtStsRpt",
+      "name": "CstmrPmtStsRpt",
+      "type": "XMLElement",
+      "description": "Customer payment status report",
+      "aliases": [
+        "Customer Payment Status Report"
+      ],
+      "attributes": {
+        "element": "CstmrPmtStsRpt"
+      },
+      "confidence": 0.95,
+      "evidence": "+Message root <CstmrPmtStsRpt>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ac01-identifier",
+      "canonical_name": "AC01",
+      "name": "AC01",
+      "type": "Identifier",
+      "description": "Status reason code",
+      "aliases": [
+        "Status Reason Code AC01"
+      ],
+      "attributes": {
+        "meaning": "Status reason code"
+      },
+      "confidence": 0.95,
+      "evidence": "Status Reason-code 3.10 field e.g. AC01",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rejection-reason-codes-dataset",
+      "canonical_name": "Rejection reason codes",
+      "name": "Rejection reason codes",
+      "type": "Dataset",
+      "description": "Codes for rejection reasons",
+      "aliases": [
+        "Rejection Reason Codes"
+      ],
+      "attributes": {
+        "purpose": "Rejection reason codes"
+      },
+      "confidence": 0.95,
+      "evidence": "See Rejection reason codes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-businessconcept",
+      "canonical_name": "Credit Transfer Transaction",
+      "name": "Credit Transfer Transaction",
+      "type": "BusinessConcept",
+      "description": "Credit transfer transaction",
+      "aliases": [
+        "Credit Transfer"
+      ],
+      "attributes": {
+        "purpose": "Credit transfer"
+      },
+      "confidence": 0.95,
+      "evidence": "Credit Transfer Transaction level",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "paymentinformationid-identifier",
+      "canonical_name": "PaymentInformationId",
+      "name": "PaymentInformationId",
+      "type": "Identifier",
+      "description": "Payment information identification",
+      "aliases": [
+        "Payment Information ID"
+      ],
+      "attributes": {
+        "purpose": "Payment information identification"
+      },
+      "confidence": 0.95,
+      "evidence": "original PaymentInformationId (if applicable)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "endtoendidentification-identifier",
+      "canonical_name": "EndToEndIdentification",
+      "name": "EndToEndIdentification",
+      "type": "Identifier",
+      "description": "End-to-end identification",
+      "aliases": [
+        "End-to-End Identification"
+      ],
+      "attributes": {
+        "purpose": "End-to-end identification"
+      },
+      "confidence": 0.95,
+      "evidence": "original payment EndToEndIdentification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructionidentification-identifier",
+      "canonical_name": "InstructionIdentification",
+      "name": "InstructionIdentification",
+      "type": "Identifier",
+      "description": "Instruction identification",
+      "aliases": [
+        "Instruction Identification"
+      ],
+      "attributes": {
+        "purpose": "Instruction identification"
+      },
+      "confidence": 0.95,
+      "evidence": "original InstructionIdentification (if applicable)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "messageidentification-identifier",
+      "canonical_name": "MessageIdentification",
+      "name": "MessageIdentification",
+      "type": "Identifier",
+      "description": "Message identification",
+      "aliases": [
+        "Message Identification"
+      ],
+      "attributes": {
+        "purpose": "Message identification"
+      },
+      "confidence": 0.95,
+      "evidence": "original MessageIdentification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Financial institution",
+      "aliases": [
+        "Banks"
+      ],
+      "attributes": {
+        "purpose": "Financial institution"
+      },
+      "confidence": 0.95,
+      "evidence": "between banks",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-specific-service-descriptions-document",
+      "canonical_name": "Bank-specific service descriptions",
+      "name": "Bank-specific service descriptions",
+      "type": "Document",
+      "description": "Bank-specific service descriptions",
+      "aliases": [
+        "Bank-specific Service Descriptions"
+      ],
+      "attributes": {
+        "purpose": "Bank-specific service descriptions"
+      },
+      "confidence": 0.95,
+      "evidence": "see bank-specific service descriptions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structure-validation-businessprocess",
+      "canonical_name": "Structure validation",
+      "name": "Structure validation",
+      "type": "BusinessProcess",
+      "description": "Validation of the message structure",
+      "aliases": [
+        "Message Structure Validation"
+      ],
+      "attributes": {
+        "purpose": "Message structure validation"
+      },
+      "confidence": 0.95,
+      "evidence": "structure validation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "content-validation-businessprocess",
+      "canonical_name": "Content validation",
+      "name": "Content validation",
+      "type": "BusinessProcess",
+      "description": "Validation of the message content",
+      "aliases": [
+        "Message Content Validation"
+      ],
+      "attributes": {
+        "purpose": "Message content validation"
+      },
+      "confidence": 0.95,
+      "evidence": "content validation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "return-message-xmlmessage",
+      "canonical_name": "Return message",
+      "name": "Return message",
+      "type": "XMLMessage",
+      "description": "Message returned in response",
+      "aliases": [
+        "Return Message"
+      ],
+      "attributes": {
+        "purpose": "Return message"
+      },
+      "confidence": 0.95,
+      "evidence": "Return message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-businessconcept",
+      "canonical_name": "Group",
+      "name": "Group",
+      "type": "BusinessConcept",
+      "description": "Group of transactions",
+      "aliases": [
+        "Group of Transactions"
+      ],
+      "attributes": {
+        "purpose": "Group of transactions"
+      },
+      "confidence": 0.95,
+      "evidence": "Group level",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businessconcept",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessConcept",
+      "description": "Credit transfer",
+      "aliases": [
+        "Credit Transfer Transaction"
+      ],
+      "attributes": {
+        "purpose": "Credit transfer"
+      },
+      "confidence": 0.95,
+      "evidence": "Credit Transfer Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-batch-businessconcept",
+      "canonical_name": "Payment batch",
+      "name": "Payment batch",
+      "type": "BusinessConcept",
+      "description": "Batch of payments",
+      "aliases": [
+        "Batch of Payments"
+      ],
+      "attributes": {
+        "purpose": "Batch of payments"
+      },
+      "confidence": 0.95,
+      "evidence": "payment batch",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-order-businessconcept",
+      "canonical_name": "Payment order",
+      "name": "Payment order",
+      "type": "BusinessConcept",
+      "description": "Order for payment",
+      "aliases": [
+        "Payment Order"
+      ],
+      "attributes": {
+        "purpose": "Order for payment"
+      },
+      "confidence": 0.95,
+      "evidence": "payment orders",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rejection-reason-businessconcept",
+      "canonical_name": "Rejection reason",
+      "name": "Rejection reason",
+      "type": "BusinessConcept",
+      "description": "Reason for rejection",
+      "aliases": [
+        "Reason for Rejection"
+      ],
+      "attributes": {
+        "purpose": "Reason for rejection"
+      },
+      "confidence": 0.95,
+      "evidence": "rejection reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "CONTAINS",
+      "target": "pain00200110-standard",
+      "description": "ISO 20022 contains Pain.002.001.10",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "pain00200110-standard",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Pain.002.001.10 is part of Payment Status Report",
+      "confidence": 0.98,
+      "evidence": "Pain.002.001.10 Payment Status Report standard is used to structure the return messages",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-status-report-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "original-payment-instruction-businessconcept",
+      "description": "Payment Status Report contains Original Payment Instruction",
+      "confidence": 0.95,
+      "evidence": "C. Original Payment Instruction",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-instruction-businessconcept",
+      "relation": "CONTAINS",
+      "target": "groupstatus-dataelement",
+      "description": "Original Payment Instruction contains GroupStatus",
+      "confidence": 0.95,
+      "evidence": "GroupStatus: ACTC",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "groupstatus-dataelement",
+      "relation": "CONTAINS",
+      "target": "actc-identifier",
+      "description": "GroupStatus contains ACTC",
+      "confidence": 0.95,
+      "evidence": "GroupStatus = ACTC (accepted)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "groupstatus-dataelement",
+      "relation": "CONTAINS",
+      "target": "accp-identifier",
+      "description": "GroupStatus contains ACCP",
+      "confidence": 0.95,
+      "evidence": "GroupStatus = ACCP (accepted)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "groupstatus-dataelement",
+      "relation": "CONTAINS",
+      "target": "part-identifier",
+      "description": "GroupStatus contains PART",
+      "confidence": 0.95,
+      "evidence": "GroupStatus = PART (partly accepted)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "groupstatus-dataelement",
+      "relation": "CONTAINS",
+      "target": "rjct-identifier",
+      "description": "GroupStatus contains RJCT",
+      "confidence": 0.95,
+      "evidence": "GroupStatus = RJCT (all rejected)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transactionstatus-dataelement",
+      "relation": "CONTAINS",
+      "target": "rjct-identifier",
+      "description": "TransactionStatus contains RJCT",
+      "confidence": 0.95,
+      "evidence": "TransactionStatus-field RJCT",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originalmessageid-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by OriginalMessageID",
+      "confidence": 0.95,
+      "evidence": "Identification by OriginalMessageID (OrgnlMsgId)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originalendtoendid-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by OriginalEndToEndID",
+      "confidence": 0.95,
+      "evidence": "Payments identified by OriginalEndToEndID (OrgnlEndToEndId)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originalinstructionid-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by OriginalInstructionID",
+      "confidence": 0.95,
+      "evidence": "Payments identified by OriginalInstructionID",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "validation-of-message-structure-businessprocess",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Validation of message structure is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "6.1.1 Validation of message structure",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "content-validation-businessprocess",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Content validation is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "6.1.2 Content validation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-root-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cstmrpmtstsrpt-xmlelement",
+      "description": "Message root contains CstmrPmtStsRpt",
+      "confidence": 0.95,
+      "evidence": "+Message root <CstmrPmtStsRpt>",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrpmtstsrpt-xmlelement",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "CstmrPmtStsRpt is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "Message root",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ac01-identifier",
+      "relation": "PART_OF",
+      "target": "status-reason-code-cross-chunk",
+      "description": "AC01 is part of Status Reason-code",
+      "confidence": 0.95,
+      "evidence": "Status Reason-code 3.10 field e.g. AC01",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rejection-reason-codes-dataset",
+      "relation": "CONTAINS",
+      "target": "rejection-reason-businessconcept",
+      "description": "Rejection reason codes contain Rejection reason",
+      "confidence": 0.95,
+      "evidence": "See Rejection reason codes",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Credit Transfer Transaction is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "Credit Transfer Transaction level",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "paymentinformationid-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by PaymentInformationId",
+      "confidence": 0.95,
+      "evidence": "original PaymentInformationId (if applicable)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "endtoendidentification-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by EndToEndIdentification",
+      "confidence": 0.95,
+      "evidence": "original payment EndToEndIdentification",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instructionidentification-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by InstructionIdentification",
+      "confidence": 0.95,
+      "evidence": "original InstructionIdentification (if applicable)",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "messageidentification-identifier",
+      "relation": "IDENTIFIED_BY",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment Status Report is identified by MessageIdentification",
+      "confidence": 0.95,
+      "evidence": "original MessageIdentification",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "CREATES",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Bank creates Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "between banks",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-specific-service-descriptions-document",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Bank-specific service descriptions are part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "see bank-specific service descriptions",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "structure-validation-businessprocess",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Structure validation is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "structure validation",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "content-validation-businessprocess",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Content validation is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "content validation",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "return-message-xmlmessage",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Return message is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "Return message",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Group is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "Group level",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Credit Transfer is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "Credit Transfer Transaction",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-batch-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment batch is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "payment batch",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-order-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Payment order is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "payment orders",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rejection-reason-businessconcept",
+      "relation": "PART_OF",
+      "target": "payment-status-report-xmlmessage",
+      "description": "Rejection reason is part of Payment Status Report",
+      "confidence": 0.95,
+      "evidence": "rejection reason",
+      "implicit": true,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        21
+      ],
+      "frequency": 1
+    }
+  ]
+}

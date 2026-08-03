@@ -1,0 +1,1932 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "Guide"
+      ],
+      "attributes": {
+        "version": "V09"
+      },
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-root-xmlelement",
+      "canonical_name": "Message root",
+      "name": "Message root",
+      "type": "XMLElement",
+      "description": "Root element of the message",
+      "aliases": [
+        "CstmrCdtTrfInitn"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Message root",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Block A of payment message",
+      "aliases": [
+        "Block A",
+        "GroupHeader"
+      ],
+      "attributes": {
+        "block": "A",
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Group Header",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-credit-transfer-initiation-messagetype",
+      "canonical_name": "Customer Credit Transfer Initiation",
+      "name": "Customer Credit Transfer Initiation",
+      "type": "MessageType",
+      "description": "Type of payment initiation message",
+      "aliases": [
+        "Customer Credit Transfer Initiation V09"
+      ],
+      "attributes": {
+        "version": "V09"
+      },
+      "confidence": 0.99,
+      "evidence": "Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-identification-dataelement",
+      "canonical_name": "Message Identification",
+      "name": "Message Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the message",
+      "aliases": [
+        "Message ID"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Message Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creation-date-time-dataelement",
+      "canonical_name": "Creation Date Time",
+      "name": "Creation Date Time",
+      "type": "DataElement",
+      "description": "Date and time of payment instruction creation",
+      "aliases": [
+        "Creation Date"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Creation Date Time",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-of-transactions-dataelement",
+      "canonical_name": "Number Of Transactions",
+      "name": "Number Of Transactions",
+      "type": "DataElement",
+      "description": "Number of payments in Credit Transfer Transaction Information",
+      "aliases": [
+        "Number Of Transactions"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Number Of Transactions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "control-sum-dataelement",
+      "canonical_name": "Control Sum",
+      "name": "Control Sum",
+      "type": "DataElement",
+      "description": "Control sum for the payment(s)",
+      "aliases": [
+        "Control Sum"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Control Sum",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-paymentrole",
+      "canonical_name": "Initiating Party",
+      "name": "Initiating Party",
+      "type": "PaymentRole",
+      "description": "Party on the initiative of which the payment data is created",
+      "aliases": [
+        "Initiating Party"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Initiating Party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "name-dataelement",
+      "canonical_name": "Name",
+      "name": "Name",
+      "type": "DataElement",
+      "description": "Name of the initiating party",
+      "aliases": [
+        "Name"
+      ],
+      "attributes": {
+        "multiplicity": "0..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Name",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-dataelement",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "DataElement",
+      "description": "Identification of the initiating party",
+      "aliases": [
+        "Identification"
+      ],
+      "attributes": {
+        "multiplicity": "0..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-identification-dataelement",
+      "canonical_name": "Organisation Identification",
+      "name": "Organisation Identification",
+      "type": "DataElement",
+      "description": "Identification of an organisation",
+      "aliases": [
+        "Organisation ID"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Organisation Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-dataelement",
+      "canonical_name": "Private Identification",
+      "name": "Private Identification",
+      "type": "DataElement",
+      "description": "Identification of a private person",
+      "aliases": [
+        "Private ID"
+      ],
+      "attributes": {
+        "multiplicity": "1..1"
+      },
+      "confidence": 0.99,
+      "evidence": "Private Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-organization",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "Organization",
+      "description": "Single Euro Payments Area",
+      "aliases": [
+        "Single Euro Payments Area"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-rulebook-document",
+      "canonical_name": "SEPA Credit Transfer Rulebook",
+      "name": "SEPA Credit Transfer Rulebook",
+      "type": "Document",
+      "description": "Rulebook for SEPA credit transfers",
+      "aliases": [
+        "SEPA Rulebook"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Credit Transfer Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-implementation-guidelines-document",
+      "canonical_name": "SEPA Implementation Guidelines",
+      "name": "SEPA Implementation Guidelines",
+      "type": "Document",
+      "description": "Guidelines for implementing SEPA",
+      "aliases": [
+        "SEPA Guidelines"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Implementation Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos-acronym",
+      "canonical_name": "AOS",
+      "name": "AOS",
+      "type": "Acronym",
+      "description": "Additional Optional Services",
+      "aliases": [
+        "Additional Optional Services"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AOS",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-ct-acronym",
+      "canonical_name": "SEPA CT",
+      "name": "SEPA CT",
+      "type": "Acronym",
+      "description": "SEPA Credit Transfer",
+      "aliases": [
+        "SEPA Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA CT",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "at-xx-identifier",
+      "canonical_name": "AT-xx",
+      "name": "AT-xx",
+      "type": "Identifier",
+      "description": "SEPA Credit Transfer code",
+      "aliases": [
+        "AT-xx"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "AT-xx",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-identifier",
+      "canonical_name": "BANK",
+      "name": "BANK",
+      "type": "Identifier",
+      "description": "Bank code",
+      "aliases": [
+        "BANK"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "BANK",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "schemename-dataelement",
+      "canonical_name": "SchemeName",
+      "name": "SchemeName",
+      "type": "DataElement",
+      "description": "Name of the scheme",
+      "aliases": [
+        "Scheme Name"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SchemeName",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-dataelement",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "DataElement",
+      "description": "Code value",
+      "aliases": [
+        "Code"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payer-paymentrole",
+      "canonical_name": "Payer",
+      "name": "Payer",
+      "type": "PaymentRole",
+      "description": "Party making the payment",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payer-service-code-identifier",
+      "canonical_name": "Payer Service Code",
+      "name": "Payer Service Code",
+      "type": "Identifier",
+      "description": "Code for payer services",
+      "aliases": [
+        "Payer Service Code"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payer Service Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-definition-report-document",
+      "canonical_name": "Message Definition Report",
+      "name": "Message Definition Report",
+      "type": "Document",
+      "description": "Report defining the message structure",
+      "aliases": [
+        "Message Definition Report"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Definition Report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-dataelement",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "DataElement",
+      "description": "Index of the message element",
+      "aliases": [
+        "Index"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Index",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-dataelement",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "DataElement",
+      "description": "Mandatoriness and occurrences of element",
+      "aliases": [
+        "Mult"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Mult",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-dataelement",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "DataElement",
+      "description": "Name of the message element",
+      "aliases": [
+        "Message Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation guide",
+      "name": "Implementation guide",
+      "type": "Document",
+      "description": "Guide for implementing the message",
+      "aliases": [
+        "Implementation Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "yellow-colour-visualindicator",
+      "canonical_name": "Yellow colour",
+      "name": "Yellow colour",
+      "type": "VisualIndicator",
+      "description": "Visual indicator for available elements",
+      "aliases": [
+        "Yellow"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Yellow colour",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-rulebook-document",
+      "canonical_name": "SEPA Rulebook",
+      "name": "SEPA Rulebook",
+      "type": "Document",
+      "description": "Rulebook for SEPA",
+      "aliases": [
+        "SEPA Rulebook"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Rulebook",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-guidelines-document",
+      "canonical_name": "SEPA Guidelines",
+      "name": "SEPA Guidelines",
+      "type": "Document",
+      "description": "Guidelines for SEPA",
+      "aliases": [
+        "SEPA Guidelines"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "SEPA Guidelines",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-identification-dataelement",
+      "canonical_name": "Initiating Party Identification",
+      "name": "Initiating Party Identification",
+      "type": "DataElement",
+      "description": "Identification of the initiating party",
+      "aliases": [
+        "Initiating Party ID"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Initiating Party Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-organization",
+      "canonical_name": "Organisation",
+      "name": "Organisation",
+      "type": "Organization",
+      "description": "Organisation entity",
+      "aliases": [
+        "Organisation"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Organisation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-person-person",
+      "canonical_name": "Private Person",
+      "name": "Private Person",
+      "type": "Person",
+      "description": "Private person entity",
+      "aliases": [
+        "Private Person"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Private Person",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Information about credit transfer transactions",
+      "aliases": [
+        "Credit Transfer Transaction Information"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "block-c-businesscomponent",
+      "canonical_name": "Block C",
+      "name": "Block C",
+      "type": "BusinessComponent",
+      "description": "Block C of the payment message",
+      "aliases": [
+        "Block C"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Block C",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "11-identifier",
+      "canonical_name": "1..1",
+      "name": "1..1",
+      "type": "Identifier",
+      "description": "Mandatory and single occurrence",
+      "aliases": [
+        "1..1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1..1",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "01-identifier",
+      "canonical_name": "0..1",
+      "name": "0..1",
+      "type": "Identifier",
+      "description": "Optional and single occurrence",
+      "aliases": [
+        "0..1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "0..1",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "0n-identifier",
+      "canonical_name": "0..n",
+      "name": "0..n",
+      "type": "Identifier",
+      "description": "Optional and multiple occurrences",
+      "aliases": [
+        "0..n"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "0..n",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "1n-identifier",
+      "canonical_name": "1..n",
+      "name": "1..n",
+      "type": "Identifier",
+      "description": "Mandatory and multiple occurrences",
+      "aliases": [
+        "1..n"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "1..n",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "or-or-identifier",
+      "canonical_name": "{Or ... Or}",
+      "name": "{Or ... Or}",
+      "type": "Identifier",
+      "description": "Choice of elements",
+      "aliases": [
+        "{Or ... Or}"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "{Or ... Or}",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cstmrcdttrfinitn-xmlelement",
+      "canonical_name": "CstmrCdtTrfInitn",
+      "name": "CstmrCdtTrfInitn",
+      "type": "XMLElement",
+      "description": "Customer credit transfer initiation XML element",
+      "aliases": [
+        "CstmrCdtTrfInitn"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "CstmrCdtTrfInitn",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "groupheader-xmlelement",
+      "canonical_name": "GroupHeader",
+      "name": "GroupHeader",
+      "type": "XMLElement",
+      "description": "Group header XML element",
+      "aliases": [
+        "GroupHeader"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "GroupHeader",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-identification-element-xmlelement",
+      "canonical_name": "Message Identification Element",
+      "name": "Message Identification Element",
+      "type": "XMLElement",
+      "description": "Message identification XML element",
+      "aliases": [
+        "Message Identification Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creation-date-time-element-xmlelement",
+      "canonical_name": "Creation Date Time Element",
+      "name": "Creation Date Time Element",
+      "type": "XMLElement",
+      "description": "Creation date time XML element",
+      "aliases": [
+        "Creation Date Time Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Creation Date Time Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-of-transactions-element-xmlelement",
+      "canonical_name": "Number Of Transactions Element",
+      "name": "Number Of Transactions Element",
+      "type": "XMLElement",
+      "description": "Number of transactions XML element",
+      "aliases": [
+        "Number Of Transactions Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Number Of Transactions Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "control-sum-element-xmlelement",
+      "canonical_name": "Control Sum Element",
+      "name": "Control Sum Element",
+      "type": "XMLElement",
+      "description": "Control sum XML element",
+      "aliases": [
+        "Control Sum Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Control Sum Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "initiating-party-element-xmlelement",
+      "canonical_name": "Initiating Party Element",
+      "name": "Initiating Party Element",
+      "type": "XMLElement",
+      "description": "Initiating party XML element",
+      "aliases": [
+        "Initiating Party Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Initiating Party Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "name-element-xmlelement",
+      "canonical_name": "Name Element",
+      "name": "Name Element",
+      "type": "XMLElement",
+      "description": "Name XML element",
+      "aliases": [
+        "Name Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Name Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-element-xmlelement",
+      "canonical_name": "Identification Element",
+      "name": "Identification Element",
+      "type": "XMLElement",
+      "description": "Identification XML element",
+      "aliases": [
+        "Identification Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "organisation-identification-element-xmlelement",
+      "canonical_name": "Organisation Identification Element",
+      "name": "Organisation Identification Element",
+      "type": "XMLElement",
+      "description": "Organisation identification XML element",
+      "aliases": [
+        "Organisation Identification Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Organisation Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "private-identification-element-xmlelement",
+      "canonical_name": "Private Identification Element",
+      "name": "Private Identification Element",
+      "type": "XMLElement",
+      "description": "Private identification XML element",
+      "aliases": [
+        "Private Identification Element"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Private Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes the guide",
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "message-root-xmlelement",
+      "description": "Guide contains message root",
+      "confidence": 0.99,
+      "evidence": "Message root",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-root-xmlelement",
+      "relation": "CONTAINS",
+      "target": "group-header-businesscomponent",
+      "description": "Message root contains group header",
+      "confidence": 0.99,
+      "evidence": "Group Header",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "message-identification-dataelement",
+      "description": "Group header contains message identification",
+      "confidence": 0.99,
+      "evidence": "Message Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "creation-date-time-dataelement",
+      "description": "Group header contains creation date time",
+      "confidence": 0.99,
+      "evidence": "Creation Date Time",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "number-of-transactions-dataelement",
+      "description": "Group header contains number of transactions",
+      "confidence": 0.99,
+      "evidence": "Number Of Transactions",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "control-sum-dataelement",
+      "description": "Group header contains control sum",
+      "confidence": 0.99,
+      "evidence": "Control Sum",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "group-header-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "initiating-party-paymentrole",
+      "description": "Group header contains initiating party",
+      "confidence": 0.99,
+      "evidence": "Initiating Party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiating-party-paymentrole",
+      "relation": "CONTAINS",
+      "target": "name-dataelement",
+      "description": "Initiating party contains name",
+      "confidence": 0.99,
+      "evidence": "Name",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiating-party-paymentrole",
+      "relation": "CONTAINS",
+      "target": "identification-dataelement",
+      "description": "Initiating party contains identification",
+      "confidence": 0.99,
+      "evidence": "Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-dataelement",
+      "relation": "CONTAINS",
+      "target": "organisation-identification-dataelement",
+      "description": "Identification contains organisation identification",
+      "confidence": 0.99,
+      "evidence": "Organisation Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-dataelement",
+      "relation": "CONTAINS",
+      "target": "private-identification-dataelement",
+      "description": "Identification contains private identification",
+      "confidence": 0.99,
+      "evidence": "Private Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-organization",
+      "relation": "PUBLISHES",
+      "target": "sepa-credit-transfer-rulebook-document",
+      "description": "SEPA publishes the rulebook",
+      "confidence": 0.99,
+      "evidence": "SEPA Credit Transfer Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-organization",
+      "relation": "PUBLISHES",
+      "target": "sepa-implementation-guidelines-document",
+      "description": "SEPA publishes the guidelines",
+      "confidence": 0.99,
+      "evidence": "SEPA Implementation Guidelines",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "aos-acronym",
+      "relation": "DEFINES",
+      "target": "additional-optional-services-cross-chunk",
+      "description": "AOS defines additional optional services",
+      "confidence": 0.99,
+      "evidence": "AOS",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-ct-acronym",
+      "relation": "DEFINES",
+      "target": "sepa-credit-transfer-cross-chunk",
+      "description": "SEPA CT defines SEPA credit transfer",
+      "confidence": 0.99,
+      "evidence": "SEPA CT",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "at-xx-identifier",
+      "relation": "DEFINES",
+      "target": "sepa-credit-transfer-code-cross-chunk",
+      "description": "AT-xx defines SEPA credit transfer code",
+      "confidence": 0.99,
+      "evidence": "AT-xx",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-identifier",
+      "relation": "DEFINES",
+      "target": "bank-code-cross-chunk",
+      "description": "BANK defines bank code",
+      "confidence": 0.99,
+      "evidence": "BANK",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "schemename-dataelement",
+      "relation": "DEFINES",
+      "target": "scheme-name-cross-chunk",
+      "description": "SchemeName defines scheme name",
+      "confidence": 0.99,
+      "evidence": "SchemeName",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "code-dataelement",
+      "relation": "DEFINES",
+      "target": "code-value-cross-chunk",
+      "description": "Code defines code value",
+      "confidence": 0.99,
+      "evidence": "Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payer-paymentrole",
+      "relation": "DEFINES",
+      "target": "payer-role-cross-chunk",
+      "description": "Payer defines payer role",
+      "confidence": 0.99,
+      "evidence": "Payer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payer-service-code-identifier",
+      "relation": "DEFINES",
+      "target": "payer-service-cross-chunk",
+      "description": "Payer Service Code defines payer service",
+      "confidence": 0.99,
+      "evidence": "Payer Service Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-definition-report-document",
+      "relation": "DEFINES",
+      "target": "message-structure-cross-chunk",
+      "description": "Message Definition Report defines message structure",
+      "confidence": 0.99,
+      "evidence": "Message Definition Report",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "wwwiso20022org-cross-chunk",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-website-cross-chunk",
+      "description": "www.iso20022.org publishes ISO 20022 website",
+      "confidence": 0.99,
+      "evidence": "www.iso20022.org",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "index-dataelement",
+      "relation": "DEFINES",
+      "target": "message-element-index-cross-chunk",
+      "description": "Index defines message element index",
+      "confidence": 0.99,
+      "evidence": "Index",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "mult-dataelement",
+      "relation": "DEFINES",
+      "target": "mandatoriness-cross-chunk",
+      "description": "Mult defines mandatoriness",
+      "confidence": 0.99,
+      "evidence": "Mult",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-element-dataelement",
+      "relation": "DEFINES",
+      "target": "message-element-name-cross-chunk",
+      "description": "Message Element defines message element name",
+      "confidence": 0.99,
+      "evidence": "Message Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "yellow-colour-visualindicator",
+      "relation": "DEFINES",
+      "target": "visual-indicator-cross-chunk",
+      "description": "Yellow colour defines visual indicator",
+      "confidence": 0.99,
+      "evidence": "Yellow colour",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-rulebook-document",
+      "relation": "DEFINES",
+      "target": "sepa-rule-cross-chunk",
+      "description": "SEPA Rulebook defines SEPA rule",
+      "confidence": 0.99,
+      "evidence": "SEPA Rulebook",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "sepa-guidelines-document",
+      "relation": "DEFINES",
+      "target": "sepa-guideline-cross-chunk",
+      "description": "SEPA Guidelines defines SEPA guideline",
+      "confidence": 0.99,
+      "evidence": "SEPA Guidelines",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiating-party-identification-dataelement",
+      "relation": "DEFINES",
+      "target": "initiating-party-id-cross-chunk",
+      "description": "Initiating Party Identification defines initiating party ID",
+      "confidence": 0.99,
+      "evidence": "Initiating Party Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-organization",
+      "relation": "DEFINES",
+      "target": "organisation-entity-cross-chunk",
+      "description": "Organisation defines organisation entity",
+      "confidence": 0.99,
+      "evidence": "Organisation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-person-person",
+      "relation": "DEFINES",
+      "target": "private-person-entity-cross-chunk",
+      "description": "Private Person defines private person entity",
+      "confidence": 0.99,
+      "evidence": "Private Person",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-information-businesscomponent",
+      "relation": "DEFINES",
+      "target": "credit-transfer-information-cross-chunk",
+      "description": "Credit Transfer Transaction Information defines credit transfer information",
+      "confidence": 0.99,
+      "evidence": "Credit Transfer Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "block-c-businesscomponent",
+      "relation": "DEFINES",
+      "target": "block-c-element-cross-chunk",
+      "description": "Block C defines block C element",
+      "confidence": 0.99,
+      "evidence": "Block C",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "11-identifier",
+      "relation": "DEFINES",
+      "target": "mandatory-single-occurrence-cross-chunk",
+      "description": "1..1 defines mandatory single occurrence",
+      "confidence": 0.99,
+      "evidence": "1..1",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "01-identifier",
+      "relation": "DEFINES",
+      "target": "optional-single-occurrence-cross-chunk",
+      "description": "0..1 defines optional single occurrence",
+      "confidence": 0.99,
+      "evidence": "0..1",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "0n-identifier",
+      "relation": "DEFINES",
+      "target": "optional-multiple-occurrences-cross-chunk",
+      "description": "0..n defines optional multiple occurrences",
+      "confidence": 0.99,
+      "evidence": "0..n",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "1n-identifier",
+      "relation": "DEFINES",
+      "target": "mandatory-multiple-occurrences-cross-chunk",
+      "description": "1..n defines mandatory multiple occurrences",
+      "confidence": 0.99,
+      "evidence": "1..n",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "or-or-identifier",
+      "relation": "DEFINES",
+      "target": "choice-element-cross-chunk",
+      "description": "{Or ... Or} defines choice element",
+      "confidence": 0.99,
+      "evidence": "{Or ... Or}",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cstmrcdttrfinitn-xmlelement",
+      "relation": "DEFINES",
+      "target": "customer-credit-transfer-initiation-messagetype",
+      "description": "CstmrCdtTrfInitn defines customer credit transfer initiation",
+      "confidence": 0.99,
+      "evidence": "CstmrCdtTrfInitn",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "groupheader-xmlelement",
+      "relation": "DEFINES",
+      "target": "group-header-element-cross-chunk",
+      "description": "GroupHeader defines group header element",
+      "confidence": 0.99,
+      "evidence": "GroupHeader",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "message-identification-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "message-identification-dataelement",
+      "description": "Message Identification Element defines message identification",
+      "confidence": 0.99,
+      "evidence": "Message Identification Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "creation-date-time-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "creation-date-time-dataelement",
+      "description": "Creation Date Time Element defines creation date time",
+      "confidence": 0.99,
+      "evidence": "Creation Date Time Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "number-of-transactions-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "number-of-transactions-dataelement",
+      "description": "Number Of Transactions Element defines number of transactions",
+      "confidence": 0.99,
+      "evidence": "Number Of Transactions Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "control-sum-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "control-sum-dataelement",
+      "description": "Control Sum Element defines control sum",
+      "confidence": 0.99,
+      "evidence": "Control Sum Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "initiating-party-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "initiating-party-paymentrole",
+      "description": "Initiating Party Element defines initiating party",
+      "confidence": 0.99,
+      "evidence": "Initiating Party Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "name-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "name-dataelement",
+      "description": "Name Element defines name",
+      "confidence": 0.99,
+      "evidence": "Name Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "identification-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "identification-dataelement",
+      "description": "Identification Element defines identification",
+      "confidence": 0.99,
+      "evidence": "Identification Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "organisation-identification-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "organisation-identification-dataelement",
+      "description": "Organisation Identification Element defines organisation identification",
+      "confidence": 0.99,
+      "evidence": "Organisation Identification Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "private-identification-element-xmlelement",
+      "relation": "DEFINES",
+      "target": "private-identification-dataelement",
+      "description": "Private Identification Element defines private identification",
+      "confidence": 0.99,
+      "evidence": "Private Identification Element",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        7
+      ],
+      "frequency": 1
+    }
+  ]
+}

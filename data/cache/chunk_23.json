@@ -1,0 +1,1550 @@
+{
+  "entities": [
+    {
+      "id": "customer-payment-status-report-v10-xmlmessage",
+      "canonical_name": "Customer Payment Status Report V10",
+      "name": "Customer Payment Status Report V10",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.11 Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-group-information-and-status-businesscomponent",
+      "canonical_name": "Original Group Information And Status",
+      "name": "Original Group Information And Status",
+      "type": "BusinessComponent",
+      "description": "Block of payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.11 +Original Group Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-information-businesscomponent",
+      "canonical_name": "Status Reason Information",
+      "name": "Status Reason Information",
+      "type": "BusinessComponent",
+      "description": "Set of elements providing detailed status reason information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.11 ++Status Reason Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-dataelement",
+      "canonical_name": "Reason",
+      "name": "Reason",
+      "type": "DataElement",
+      "description": "Specifies the reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.11 +++Reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-identifier",
+      "canonical_name": "Proprietary",
+      "name": "Proprietary",
+      "type": "Identifier",
+      "description": "Proprietary reason code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "2.11 ++++Proprietary",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "additional-information-businesscomponent",
+      "canonical_name": "Additional Information",
+      "name": "Additional Information",
+      "type": "BusinessComponent",
+      "description": "Set of elements providing additional information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.12 +++Additional Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "number-of-transactions-per-status-dataelement",
+      "canonical_name": "Number Of Transactions Per Status",
+      "name": "Number Of Transactions Per Status",
+      "type": "DataElement",
+      "description": "Number of individual transactions per status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "2.13 ++Number Of Transactions Per Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "43 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for implementing ISO 20022 payments",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "43 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-and-status-businesscomponent",
+      "canonical_name": "Original Payment Information And Status",
+      "name": "Original Payment Information And Status",
+      "type": "BusinessComponent",
+      "description": "Block of payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.0 Customer Payment Status Report V10 +Original Payment Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-dataelement",
+      "canonical_name": "Original Payment Information",
+      "name": "Original Payment Information",
+      "type": "DataElement",
+      "description": "Unique identification of the original payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.1 ++Original Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-dataelement",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the original payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.1 ++Original Payment Information Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-number-of-transactions-dataelement",
+      "canonical_name": "Original Number Of Transactions",
+      "name": "Original Number Of Transactions",
+      "type": "DataElement",
+      "description": "Number of individual transactions in the original payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.2 ++Original Number Of Transactions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-control-sum-dataelement",
+      "canonical_name": "Original Control Sum",
+      "name": "Original Control Sum",
+      "type": "DataElement",
+      "description": "Total of all individual amounts in the original payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.3 ++Original Control Sum",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-status-dataelement",
+      "canonical_name": "Payment Information Status",
+      "name": "Payment Information Status",
+      "type": "DataElement",
+      "description": "Status of the payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.4 ++Payment Information Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-information-businesscomponent",
+      "canonical_name": "Status Reason Information",
+      "name": "Status Reason Information",
+      "type": "BusinessComponent",
+      "description": "Set of elements providing detailed status reason information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.5 ++Status Reason Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Party that issues the status report",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.6 ++Status Reason Information +++Originator",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-dataelement",
+      "canonical_name": "Reason",
+      "name": "Reason",
+      "type": "DataElement",
+      "description": "Specifies the reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.7 ++Status Reason Information +++Reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-identifier",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "Identifier",
+      "description": "Reason for the status, as published in an external reason code list",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "3.8 ++Status Reason Information +++Reason ++++Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-and-status-businesscomponent",
+      "canonical_name": "Transaction Information And Status",
+      "name": "Transaction Information And Status",
+      "type": "BusinessComponent",
+      "description": "Block of payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.12 ++Transaction Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-identification-dataelement",
+      "canonical_name": "Status Identification",
+      "name": "Status Identification",
+      "type": "DataElement",
+      "description": "Further details on the status reason",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "3.13 ++Transaction Information And Status +++Status Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-element-xmlelement",
+      "canonical_name": "Message Element",
+      "name": "Message Element",
+      "type": "XMLElement",
+      "description": "Element of the payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "6.1.6 Original Payment Information And Status Index Mult Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "implementation-guide-document",
+      "canonical_name": "Implementation Guide",
+      "name": "Implementation Guide",
+      "type": "Document",
+      "description": "Guide for implementing the payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "6.1.6 Original Payment Information And Status Index Mult Message Element Implementation guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "index-dataelement",
+      "canonical_name": "Index",
+      "name": "Index",
+      "type": "DataElement",
+      "description": "Index of the payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.6 Original Payment Information And Status Index Mult Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mult-dataelement",
+      "canonical_name": "Mult",
+      "name": "Mult",
+      "type": "DataElement",
+      "description": "Multiplicity of the payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "6.1.6 Original Payment Information And Status Index Mult Message Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-payment-status-report-xmlmessage",
+      "canonical_name": "Customer Payment Status Report",
+      "name": "Customer Payment Status Report",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-businesscomponent",
+      "canonical_name": "Original Payment",
+      "name": "Original Payment",
+      "type": "BusinessComponent",
+      "description": "Block of payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+Original Payment Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "group-header-businesscomponent",
+      "canonical_name": "Group Header",
+      "name": "Group Header",
+      "type": "BusinessComponent",
+      "description": "Block of payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "+Original Group Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-dataelement",
+      "canonical_name": "Status",
+      "name": "Status",
+      "type": "DataElement",
+      "description": "Status of the payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "++Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "information-dataelement",
+      "canonical_name": "Information",
+      "name": "Information",
+      "type": "DataElement",
+      "description": "Information concerning the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Information concerning the original payment information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-sending-party-paymentrole",
+      "canonical_name": "Original Sending Party",
+      "name": "Original Sending Party",
+      "type": "PaymentRole",
+      "description": "Party that sends the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Unique identification, as assigned by the original sending party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-group-businesscomponent",
+      "canonical_name": "Original Payment Information Group",
+      "name": "Original Payment Information Group",
+      "type": "BusinessComponent",
+      "description": "Group of payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Original payment information group",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-group-businesscomponent",
+      "canonical_name": "Payment Information Group",
+      "name": "Payment Information Group",
+      "type": "BusinessComponent",
+      "description": "Group of payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment information group",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businesscomponent",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessComponent",
+      "description": "Individual transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Individual transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "external-reason-code-list-identifier",
+      "canonical_name": "External Reason Code List",
+      "name": "External Reason Code List",
+      "type": "Identifier",
+      "description": "List of reason codes published externally",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "External reason code list",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-form-identifier",
+      "canonical_name": "Proprietary Form",
+      "name": "Proprietary Form",
+      "type": "Identifier",
+      "description": "Proprietary form of the reason code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Proprietary form",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-dataelement",
+      "canonical_name": "Status Reason",
+      "name": "Status Reason",
+      "type": "DataElement",
+      "description": "Reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Status reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "detailed-status-reason-information-businesscomponent",
+      "canonical_name": "Detailed Status Reason Information",
+      "name": "Detailed Status Reason Information",
+      "type": "BusinessComponent",
+      "description": "Set of elements providing detailed status reason information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Detailed status reason information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-report-message-xmlmessage",
+      "canonical_name": "Payment Status Report Message",
+      "name": "Payment Status Report Message",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment status report message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment status report message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-identification-dataelement",
+      "canonical_name": "Original Payment Information Identification",
+      "name": "Original Payment Information Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Original payment information identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-group-identification-dataelement",
+      "canonical_name": "Original Payment Information Group Identification",
+      "name": "Original Payment Information Group Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the original payment information group",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Original payment information group identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Information concerning the transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Transaction information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-dataelement",
+      "canonical_name": "Transaction Status",
+      "name": "Transaction Status",
+      "type": "DataElement",
+      "description": "Status of the transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Transaction status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-code-identifier",
+      "canonical_name": "Status Reason Code",
+      "name": "Status Reason Code",
+      "type": "Identifier",
+      "description": "Code representing the reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Status reason code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-code-identifier",
+      "canonical_name": "Reason Code",
+      "name": "Reason Code",
+      "type": "Identifier",
+      "description": "Code representing the reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Reason code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "external-code-list-identifier",
+      "canonical_name": "External Code List",
+      "name": "External Code List",
+      "type": "Identifier",
+      "description": "List of codes published externally",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "External code list",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-code-identifier",
+      "canonical_name": "Proprietary Code",
+      "name": "Proprietary Code",
+      "type": "Identifier",
+      "description": "Proprietary code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Proprietary code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-identification-code-identifier",
+      "canonical_name": "Status Identification Code",
+      "name": "Status Identification Code",
+      "type": "Identifier",
+      "description": "Code representing the status identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Status identification code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-identification-dataelement",
+      "canonical_name": "Transaction Identification",
+      "name": "Transaction Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Transaction identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-code-identifier",
+      "canonical_name": "Transaction Status Code",
+      "name": "Transaction Status Code",
+      "type": "Identifier",
+      "description": "Code representing the status of the transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Transaction status code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-status-dataelement",
+      "canonical_name": "Original Payment Information Status",
+      "name": "Original Payment Information Status",
+      "type": "DataElement",
+      "description": "Status of the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Original payment information status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-status-code-identifier",
+      "canonical_name": "Original Payment Information Status Code",
+      "name": "Original Payment Information Status Code",
+      "type": "Identifier",
+      "description": "Code representing the status of the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Original payment information status code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-report-xmlmessage",
+      "canonical_name": "Payment Status Report",
+      "name": "Payment Status Report",
+      "type": "XMLMessage",
+      "description": "ISO 20022 XML payment status report",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment status report",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-dataelement",
+      "canonical_name": "Payment Status",
+      "name": "Payment Status",
+      "type": "DataElement",
+      "description": "Status of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Payment status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-status-code-identifier",
+      "canonical_name": "Payment Status Code",
+      "name": "Payment Status Code",
+      "type": "Identifier",
+      "description": "Code representing the status of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Payment status code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-status-dataelement",
+      "canonical_name": "Original Payment Status",
+      "name": "Original Payment Status",
+      "type": "DataElement",
+      "description": "Status of the original payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Original payment status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-status-code-identifier",
+      "canonical_name": "Original Payment Status Code",
+      "name": "Original Payment Status Code",
+      "type": "Identifier",
+      "description": "Code representing the status of the original payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Original payment status code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-identification-dataelement",
+      "canonical_name": "Transaction Status Identification",
+      "name": "Transaction Status Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the transaction status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Transaction status identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-identification-code-identifier",
+      "canonical_name": "Transaction Status Identification Code",
+      "name": "Transaction Status Identification Code",
+      "type": "Identifier",
+      "description": "Code representing the transaction status identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.95,
+      "evidence": "Transaction status identification code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-payment-status-report-v10-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "original-group-information-and-status-businesscomponent",
+      "description": "Customer Payment Status Report V10 contains Original Group Information And Status",
+      "confidence": 0.99,
+      "evidence": "2.11 Customer Payment Status Report V10 +Original Group Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-group-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "status-reason-information-businesscomponent",
+      "description": "Original Group Information And Status contains Status Reason Information",
+      "confidence": 0.99,
+      "evidence": "2.11 +Original Group Information And Status ++Status Reason Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "reason-dataelement",
+      "description": "Status Reason Information contains Reason",
+      "confidence": 0.99,
+      "evidence": "2.11 ++Status Reason Information +++Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-dataelement",
+      "relation": "CONTAINS",
+      "target": "proprietary-identifier",
+      "description": "Reason contains Proprietary",
+      "confidence": 0.95,
+      "evidence": "2.11 +++Reason ++++Proprietary",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-payment-status-report-v10-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-and-status-businesscomponent",
+      "description": "Customer Payment Status Report V10 contains Original Payment Information And Status",
+      "confidence": 0.99,
+      "evidence": "3.0 Customer Payment Status Report V10 +Original Payment Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-dataelement",
+      "description": "Original Payment Information And Status contains Original Payment Information",
+      "confidence": 0.99,
+      "evidence": "3.1 ++Original Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-dataelement",
+      "relation": "CONTAINS",
+      "target": "identification-dataelement",
+      "description": "Original Payment Information contains Identification",
+      "confidence": 0.99,
+      "evidence": "3.1 ++Original Payment Information Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-number-of-transactions-dataelement",
+      "description": "Original Payment Information And Status contains Original Number Of Transactions",
+      "confidence": 0.99,
+      "evidence": "3.2 ++Original Number Of Transactions",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-control-sum-dataelement",
+      "description": "Original Payment Information And Status contains Original Control Sum",
+      "confidence": 0.99,
+      "evidence": "3.3 ++Original Control Sum",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-information-status-dataelement",
+      "description": "Original Payment Information And Status contains Payment Information Status",
+      "confidence": 0.99,
+      "evidence": "3.4 ++Payment Information Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "status-reason-information-businesscomponent",
+      "description": "Original Payment Information And Status contains Status Reason Information",
+      "confidence": 0.99,
+      "evidence": "3.5 ++Status Reason Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "originator-paymentrole",
+      "description": "Status Reason Information contains Originator",
+      "confidence": 0.99,
+      "evidence": "3.6 ++Status Reason Information +++Originator",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "reason-dataelement",
+      "description": "Status Reason Information contains Reason",
+      "confidence": 0.99,
+      "evidence": "3.7 ++Status Reason Information +++Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-dataelement",
+      "relation": "CONTAINS",
+      "target": "code-identifier",
+      "description": "Reason contains Code",
+      "confidence": 0.95,
+      "evidence": "3.8 ++Status Reason Information +++Reason ++++Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-and-status-businesscomponent",
+      "description": "Original Payment Information And Status contains Transaction Information And Status",
+      "confidence": 0.99,
+      "evidence": "3.12 ++Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "status-identification-dataelement",
+      "description": "Transaction Information And Status contains Status Identification",
+      "confidence": 0.99,
+      "evidence": "3.13 ++Transaction Information And Status +++Status Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-document",
+      "description": "ISO 20022 publishes ISO 20022 Payments Guide",
+      "confidence": 0.99,
+      "evidence": "43 (61) ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-document",
+      "relation": "CONTAINS",
+      "target": "customer-payment-status-report-v10-xmlmessage",
+      "description": "ISO 20022 Payments Guide contains Customer Payment Status Report V10",
+      "confidence": 0.99,
+      "evidence": "43 (61) ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-payment-status-report-v10-xmlmessage",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-and-status-businesscomponent",
+      "description": "Customer Payment Status Report V10 contains Original Payment Information And Status",
+      "confidence": 0.99,
+      "evidence": "3.0 Customer Payment Status Report V10 +Original Payment Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-dataelement",
+      "description": "Original Payment Information And Status contains Original Payment Information",
+      "confidence": 0.99,
+      "evidence": "3.1 ++Original Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-dataelement",
+      "relation": "CONTAINS",
+      "target": "identification-dataelement",
+      "description": "Original Payment Information contains Identification",
+      "confidence": 0.99,
+      "evidence": "3.1 ++Original Payment Information Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-number-of-transactions-dataelement",
+      "description": "Original Payment Information And Status contains Original Number Of Transactions",
+      "confidence": 0.99,
+      "evidence": "3.2 ++Original Number Of Transactions",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-control-sum-dataelement",
+      "description": "Original Payment Information And Status contains Original Control Sum",
+      "confidence": 0.99,
+      "evidence": "3.3 ++Original Control Sum",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-information-status-dataelement",
+      "description": "Original Payment Information And Status contains Payment Information Status",
+      "confidence": 0.99,
+      "evidence": "3.4 ++Payment Information Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "status-reason-information-businesscomponent",
+      "description": "Original Payment Information And Status contains Status Reason Information",
+      "confidence": 0.99,
+      "evidence": "3.5 ++Status Reason Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "originator-paymentrole",
+      "description": "Status Reason Information contains Originator",
+      "confidence": 0.99,
+      "evidence": "3.6 ++Status Reason Information +++Originator",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "reason-dataelement",
+      "description": "Status Reason Information contains Reason",
+      "confidence": 0.99,
+      "evidence": "3.7 ++Status Reason Information +++Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-dataelement",
+      "relation": "CONTAINS",
+      "target": "code-identifier",
+      "description": "Reason contains Code",
+      "confidence": 0.95,
+      "evidence": "3.8 ++Status Reason Information +++Reason ++++Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-and-status-businesscomponent",
+      "description": "Original Payment Information And Status contains Transaction Information And Status",
+      "confidence": 0.99,
+      "evidence": "3.12 ++Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "status-identification-dataelement",
+      "description": "Transaction Information And Status contains Status Identification",
+      "confidence": 0.99,
+      "evidence": "3.13 ++Transaction Information And Status +++Status Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        23
+      ],
+      "frequency": 1
+    }
+  ]
+}

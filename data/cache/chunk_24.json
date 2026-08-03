@@ -1,0 +1,1292 @@
+{
+  "entities": [
+    {
+      "id": "customer-payment-status-report-v10-document",
+      "canonical_name": "Customer Payment Status Report V10",
+      "name": "Customer Payment Status Report V10",
+      "type": "Document",
+      "description": "A report for customer payment status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-payment-information-and-status-businesscomponent",
+      "canonical_name": "Original Payment Information And Status",
+      "name": "Original Payment Information And Status",
+      "type": "BusinessComponent",
+      "description": "Component of the customer payment status report",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 +Original Payment Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-and-status-businesscomponent",
+      "canonical_name": "Transaction Information And Status",
+      "name": "Transaction Information And Status",
+      "type": "BusinessComponent",
+      "description": "Component of the original payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 ++Transaction Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-instruction-identification-dataelement",
+      "canonical_name": "Original Instruction Identification",
+      "name": "Original Instruction Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the original instruction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 +++Original Instruction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-instructing-party-paymentrole",
+      "canonical_name": "Original Instructing Party",
+      "name": "Original Instructing Party",
+      "type": "PaymentRole",
+      "description": "Party that assigns the original instruction identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 assigned by the original instructing party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-instructed-party-paymentrole",
+      "canonical_name": "Original Instructed Party",
+      "name": "Original Instructed Party",
+      "type": "PaymentRole",
+      "description": "Party that receives the original instruction identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 for the original instructed party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "45 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-end-to-end-identification-dataelement",
+      "canonical_name": "Original End To End Identification",
+      "name": "Original End To End Identification",
+      "type": "DataElement",
+      "description": "Unique identification of the original transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.15 +++Original End To End Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-initiating-party-paymentrole",
+      "canonical_name": "Original Initiating Party",
+      "name": "Original Initiating Party",
+      "type": "PaymentRole",
+      "description": "Party that assigns the original end to end identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.15 assigned by the original initiating party",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-uetr-dataelement",
+      "canonical_name": "Original UETR",
+      "name": "Original UETR",
+      "type": "DataElement",
+      "description": "Unique end to end transaction reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.16 +++Original UETR",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-dataelement",
+      "canonical_name": "Transaction Status",
+      "name": "Transaction Status",
+      "type": "DataElement",
+      "description": "Status of a transaction in a coded form",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.17 +++Transaction Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-information-businesscomponent",
+      "canonical_name": "Status Reason Information",
+      "name": "Status Reason Information",
+      "type": "BusinessComponent",
+      "description": "Provides detailed information on the status reason",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.18 +++Status Reason Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-paymentrole",
+      "canonical_name": "Originator",
+      "name": "Originator",
+      "type": "PaymentRole",
+      "description": "Party that issues the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.19 ++++Originator",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-dataelement",
+      "canonical_name": "Reason",
+      "name": "Reason",
+      "type": "DataElement",
+      "description": "Specifies the reason for the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.20 ++++Reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-code-identifier",
+      "canonical_name": "Reason Code",
+      "name": "Reason Code",
+      "type": "Identifier",
+      "description": "Reason for the status, as published in an external reason code list",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.21 +++++Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-transaction-businesscomponent",
+      "canonical_name": "Original Transaction",
+      "name": "Original Transaction",
+      "type": "BusinessComponent",
+      "description": "Component of the transaction information and status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.29 +++Original Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-dataelement",
+      "canonical_name": "Amount",
+      "name": "Amount",
+      "type": "DataElement",
+      "description": "Amount of the original transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.31 ++++Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requested-execution-date-dataelement",
+      "canonical_name": "Requested Execution Date",
+      "name": "Requested Execution Date",
+      "type": "DataElement",
+      "description": "Date of the requested execution of the original transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.34 ++++Requested Execution Date",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-businesscomponent",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "BusinessComponent",
+      "description": "Provides information on the payment type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.37 ++++Payment Type Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-method-dataelement",
+      "canonical_name": "Payment Method",
+      "name": "Payment Method",
+      "type": "DataElement",
+      "description": "Method of the payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.38 ++++Payment Method",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-businesscomponent",
+      "canonical_name": "Remittance Information",
+      "name": "Remittance Information",
+      "type": "BusinessComponent",
+      "description": "Provides information on the remittance",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.40 ++++Remittance Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finance-finland-organization",
+      "canonical_name": "Finance Finland",
+      "name": "Finance Finland",
+      "type": "Organization",
+      "description": "Financial industry organization in Finland",
+      "aliases": [
+        "Finanssiala ry"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Published by Finance Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-payment-status-report-document",
+      "canonical_name": "Customer Payment Status Report",
+      "name": "Customer Payment Status Report",
+      "type": "Document",
+      "description": "Report for customer payment status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 Customer Payment Status Report V10",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessconcept",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessConcept",
+      "description": "Financial transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 Transaction Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-dataelement",
+      "canonical_name": "Status",
+      "name": "Status",
+      "type": "DataElement",
+      "description": "Status of a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 Transaction Information And Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "original-instruction-businessconcept",
+      "canonical_name": "Original Instruction",
+      "name": "Original Instruction",
+      "type": "BusinessConcept",
+      "description": "Original instruction for a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.14 Original Instruction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-to-end-identification-dataelement",
+      "canonical_name": "End To End Identification",
+      "name": "End To End Identification",
+      "type": "DataElement",
+      "description": "Unique end to end identification of a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.15 Original End To End Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "uetr-dataelement",
+      "canonical_name": "UETR",
+      "name": "UETR",
+      "type": "DataElement",
+      "description": "Unique end to end transaction reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.16 Original UETR",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "uetr-code-identifier",
+      "canonical_name": "UETR Code",
+      "name": "UETR Code",
+      "type": "Identifier",
+      "description": "Code for the unique end to end transaction reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.16 Original UETR",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-status-code-identifier",
+      "canonical_name": "Transaction Status Code",
+      "name": "Transaction Status Code",
+      "type": "Identifier",
+      "description": "Code for the status of a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.17 Transaction Status",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-reason-code-identifier",
+      "canonical_name": "Status Reason Code",
+      "name": "Status Reason Code",
+      "type": "Identifier",
+      "description": "Code for the reason of a status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.20 Reason",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "originator-party-paymentrole",
+      "canonical_name": "Originator Party",
+      "name": "Originator Party",
+      "type": "PaymentRole",
+      "description": "Party that issues the status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.19 Originator",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "reason-code-list-dataset",
+      "canonical_name": "Reason Code List",
+      "name": "Reason Code List",
+      "type": "Dataset",
+      "description": "List of codes for reasons of a status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.21 Reason Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "external-reason-code-list-dataset",
+      "canonical_name": "External Reason Code List",
+      "name": "External Reason Code List",
+      "type": "Dataset",
+      "description": "External list of codes for reasons of a status",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.21 Reason Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-dataelement",
+      "canonical_name": "Payment Type",
+      "name": "Payment Type",
+      "type": "DataElement",
+      "description": "Type of a payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.37 Payment Type Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-method-type-dataelement",
+      "canonical_name": "Payment Method Type",
+      "name": "Payment Method Type",
+      "type": "DataElement",
+      "description": "Type of a payment method",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.38 Payment Method",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-businessconcept",
+      "canonical_name": "Remittance",
+      "name": "Remittance",
+      "type": "BusinessConcept",
+      "description": "Remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.40 Remittance Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-type-dataelement",
+      "canonical_name": "Remittance Information Type",
+      "name": "Remittance Information Type",
+      "type": "DataElement",
+      "description": "Type of remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.40 Remittance Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "execution-date-dataelement",
+      "canonical_name": "Execution Date",
+      "name": "Execution Date",
+      "type": "DataElement",
+      "description": "Date of the execution of a transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.34 Requested Execution Date",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "requested-execution-date-type-dataelement",
+      "canonical_name": "Requested Execution Date Type",
+      "name": "Requested Execution Date Type",
+      "type": "DataElement",
+      "description": "Type of the requested execution date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.34 Requested Execution Date",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-type-dataelement",
+      "canonical_name": "Amount Type",
+      "name": "Amount Type",
+      "type": "DataElement",
+      "description": "Type of an amount",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "3.31 Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-payment-status-report-v10-document",
+      "relation": "CONTAINS",
+      "target": "original-payment-information-and-status-businesscomponent",
+      "description": "Customer payment status report contains original payment information and status",
+      "confidence": 0.99,
+      "evidence": "3.14 +Original Payment Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-payment-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-and-status-businesscomponent",
+      "description": "Original payment information and status contains transaction information and status",
+      "confidence": 0.99,
+      "evidence": "3.14 ++Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-and-status-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "original-instruction-identification-dataelement",
+      "description": "Transaction information and status contains original instruction identification",
+      "confidence": 0.99,
+      "evidence": "3.14 +++Original Instruction Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-instruction-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "original-instructing-party-paymentrole",
+      "description": "Original instruction identification is related to the original instructing party",
+      "confidence": 0.99,
+      "evidence": "3.14 assigned by the original instructing party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-instruction-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "original-instructed-party-paymentrole",
+      "description": "Original instruction identification is related to the original instructed party",
+      "confidence": 0.99,
+      "evidence": "3.14 for the original instructed party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHES",
+      "target": "customer-payment-status-report-v10-document",
+      "description": "ISO 20022 publishes the customer payment status report",
+      "confidence": 0.99,
+      "evidence": "45 (61) ISO 20022 Payments Guide",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-end-to-end-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "original-initiating-party-paymentrole",
+      "description": "Original end to end identification is related to the original initiating party",
+      "confidence": 0.99,
+      "evidence": "3.15 assigned by the original initiating party",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-status-dataelement",
+      "relation": "CONTAINS",
+      "target": "status-reason-information-businesscomponent",
+      "description": "Transaction status contains status reason information",
+      "confidence": 0.99,
+      "evidence": "3.17 +++Transaction Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-information-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "originator-paymentrole",
+      "description": "Status reason information is related to the originator",
+      "confidence": 0.99,
+      "evidence": "3.19 ++++Originator",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "reason-dataelement",
+      "description": "Originator is related to the reason",
+      "confidence": 0.99,
+      "evidence": "3.20 ++++Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-dataelement",
+      "relation": "RELATED_TO",
+      "target": "reason-code-identifier",
+      "description": "Reason is related to the reason code",
+      "confidence": 0.99,
+      "evidence": "3.21 +++++Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "amount-dataelement",
+      "description": "Original transaction contains amount",
+      "confidence": 0.99,
+      "evidence": "3.31 ++++Amount",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "requested-execution-date-dataelement",
+      "description": "Original transaction contains requested execution date",
+      "confidence": 0.99,
+      "evidence": "3.34 ++++Requested Execution Date",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-type-information-businesscomponent",
+      "description": "Original transaction contains payment type information",
+      "confidence": 0.99,
+      "evidence": "3.37 ++++Payment Type Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-method-dataelement",
+      "description": "Original transaction contains payment method",
+      "confidence": 0.99,
+      "evidence": "3.38 ++++Payment Method",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-transaction-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "remittance-information-businesscomponent",
+      "description": "Original transaction contains remittance information",
+      "confidence": 0.99,
+      "evidence": "3.40 ++++Remittance Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finance-finland-organization",
+      "relation": "PUBLISHES",
+      "target": "iso-20022-payments-guide-cross-chunk",
+      "description": "Finance Finland publishes the ISO 20022 payments guide",
+      "confidence": 0.98,
+      "evidence": "Published by Finance Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-payment-status-report-document",
+      "relation": "RELATED_TO",
+      "target": "transaction-businessconcept",
+      "description": "Customer payment status report is related to the transaction",
+      "confidence": 0.99,
+      "evidence": "3.14 Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "status-dataelement",
+      "description": "Transaction is related to the status",
+      "confidence": 0.99,
+      "evidence": "3.14 Transaction Information And Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "original-instruction-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "original-instruction-identification-dataelement",
+      "description": "Original instruction is related to the original instruction identification",
+      "confidence": 0.99,
+      "evidence": "3.14 Original Instruction Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "end-to-end-identification-dataelement",
+      "relation": "RELATED_TO",
+      "target": "original-end-to-end-identification-dataelement",
+      "description": "End to end identification is related to the original end to end identification",
+      "confidence": 0.99,
+      "evidence": "3.15 Original End To End Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "uetr-dataelement",
+      "relation": "RELATED_TO",
+      "target": "original-uetr-dataelement",
+      "description": "UETR is related to the original UETR",
+      "confidence": 0.99,
+      "evidence": "3.16 Original UETR",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-status-code-identifier",
+      "relation": "RELATED_TO",
+      "target": "transaction-status-dataelement",
+      "description": "Transaction status code is related to the transaction status",
+      "confidence": 0.99,
+      "evidence": "3.17 Transaction Status",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "status-reason-code-identifier",
+      "relation": "RELATED_TO",
+      "target": "status-reason-information-businesscomponent",
+      "description": "Status reason code is related to the status reason information",
+      "confidence": 0.99,
+      "evidence": "3.20 Reason",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "originator-party-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "originator-paymentrole",
+      "description": "Originator party is related to the originator",
+      "confidence": 0.99,
+      "evidence": "3.19 Originator",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "reason-code-list-dataset",
+      "relation": "RELATED_TO",
+      "target": "reason-code-identifier",
+      "description": "Reason code list is related to the reason code",
+      "confidence": 0.99,
+      "evidence": "3.21 Reason Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "external-reason-code-list-dataset",
+      "relation": "RELATED_TO",
+      "target": "reason-code-list-dataset",
+      "description": "External reason code list is related to the reason code list",
+      "confidence": 0.99,
+      "evidence": "3.21 Reason Code",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-type-dataelement",
+      "relation": "RELATED_TO",
+      "target": "payment-type-information-businesscomponent",
+      "description": "Payment type is related to the payment type information",
+      "confidence": 0.99,
+      "evidence": "3.37 Payment Type Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-method-type-dataelement",
+      "relation": "RELATED_TO",
+      "target": "payment-method-dataelement",
+      "description": "Payment method type is related to the payment method",
+      "confidence": 0.99,
+      "evidence": "3.38 Payment Method",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-businessconcept",
+      "relation": "RELATED_TO",
+      "target": "remittance-information-businesscomponent",
+      "description": "Remittance is related to the remittance information",
+      "confidence": 0.99,
+      "evidence": "3.40 Remittance Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittance-information-type-dataelement",
+      "relation": "RELATED_TO",
+      "target": "remittance-information-businesscomponent",
+      "description": "Remittance information type is related to the remittance information",
+      "confidence": 0.99,
+      "evidence": "3.40 Remittance Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "execution-date-dataelement",
+      "relation": "RELATED_TO",
+      "target": "requested-execution-date-dataelement",
+      "description": "Execution date is related to the requested execution date",
+      "confidence": 0.99,
+      "evidence": "3.34 Requested Execution Date",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "requested-execution-date-type-dataelement",
+      "relation": "RELATED_TO",
+      "target": "requested-execution-date-dataelement",
+      "description": "Requested execution date type is related to the requested execution date",
+      "confidence": 0.99,
+      "evidence": "3.34 Requested Execution Date",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "amount-type-dataelement",
+      "relation": "RELATED_TO",
+      "target": "amount-dataelement",
+      "description": "Amount type is related to the amount",
+      "confidence": 0.99,
+      "evidence": "3.31 Amount",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        24
+      ],
+      "frequency": 1
+    }
+  ]
+}

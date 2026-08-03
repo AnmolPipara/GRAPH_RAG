@@ -1,0 +1,1027 @@
+{
+  "entities": [
+    {
+      "id": "payment-date-businessconcept",
+      "canonical_name": "Payment Date",
+      "name": "Payment Date",
+      "type": "BusinessConcept",
+      "description": "Date used for calculating penalty interest",
+      "aliases": [
+        "AOS1"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "4.1 Payment Date (AOS1)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-bank-financialinstitution",
+      "canonical_name": "Debtor Bank",
+      "name": "Debtor Bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the debtor",
+      "aliases": [],
+      "attributes": {
+        "role": "debtor"
+      },
+      "confidence": 0.98,
+      "evidence": "The Payment Date is transmitted from the Debtor Bank to the Creditor Bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-bank-financialinstitution",
+      "canonical_name": "Creditor Bank",
+      "name": "Creditor Bank",
+      "type": "FinancialInstitution",
+      "description": "Bank of the creditor",
+      "aliases": [],
+      "attributes": {
+        "role": "creditor"
+      },
+      "confidence": 0.98,
+      "evidence": "The Payment Date is transmitted from the Debtor Bank to the Creditor Bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finanssiala-organization",
+      "canonical_name": "Finanssiala",
+      "name": "Finanssiala",
+      "type": "Organization",
+      "description": "Financial industry organization in Finland",
+      "aliases": [
+        "FFI"
+      ],
+      "attributes": {
+        "country": "Finland"
+      },
+      "confidence": 0.98,
+      "evidence": "A list of banks that provide the AOS1 and a more detailed description of the AOS1 is available on the FFI website",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos1-identifier",
+      "canonical_name": "AOS1",
+      "name": "AOS1",
+      "type": "Identifier",
+      "description": "Code for Payment Date",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "4.1 Payment Date (AOS1)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "combining-invoices-and-credit-notes-businessprocess",
+      "canonical_name": "Combining Invoices and Credit Notes",
+      "name": "Combining Invoices and Credit Notes",
+      "type": "BusinessProcess",
+      "description": "Process of combining invoices and credit notes",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "4.2 Combining invoices and credit notes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "extended-remittance-information-businessconcept",
+      "canonical_name": "Extended Remittance Information",
+      "name": "Extended Remittance Information",
+      "type": "BusinessConcept",
+      "description": "Optional part of the European Payments Council SEPA Credit Transfer Rulebook",
+      "aliases": [
+        "ERI"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "4.2 Combining invoices and credit notes / Extended Remittance Information (ERI)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-payments-council-organization",
+      "canonical_name": "European Payments Council",
+      "name": "European Payments Council",
+      "type": "Organization",
+      "description": "Organization responsible for the SEPA Credit Transfer Rulebook",
+      "aliases": [
+        "EPC"
+      ],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The ERI service gives Debtors the possibility to transmit several invoices or credit notes in a single credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-credit-transfer-rulebook-standard",
+      "canonical_name": "SEPA Credit Transfer Rulebook",
+      "name": "SEPA Credit Transfer Rulebook",
+      "type": "Standard",
+      "description": "Standard for credit transfers in the Single Euro Payments Area",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The ERI service gives Debtors the possibility to transmit several invoices or credit notes in a single credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "For more detailed information, see the EPC's 'Guidance on the usage of ERI'",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittance-information-businesscomponent",
+      "canonical_name": "Remittance Information",
+      "name": "Remittance Information",
+      "type": "BusinessComponent",
+      "description": "Component of a payment message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The transfer can contain the following combination of remittance information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unstructured-remittance-information-dataelement",
+      "canonical_name": "Unstructured Remittance Information",
+      "name": "Unstructured Remittance Information",
+      "type": "DataElement",
+      "description": "Type of remittance information",
+      "aliases": [],
+      "attributes": {
+        "length": "140 characters"
+      },
+      "confidence": 0.98,
+      "evidence": "One occurrence of 140 characters of unstructured remittance information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "structured-remittance-information-dataelement",
+      "canonical_name": "Structured Remittance Information",
+      "name": "Structured Remittance Information",
+      "type": "DataElement",
+      "description": "Type of remittance information",
+      "aliases": [],
+      "attributes": {
+        "length": "280 characters",
+        "occurrences": "up to 999"
+      },
+      "confidence": 0.98,
+      "evidence": "Up to 999 occurrences of 280 characters of structured remittance information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-reference-dataelement",
+      "canonical_name": "Creditor Reference",
+      "name": "Creditor Reference",
+      "type": "DataElement",
+      "description": "Reference used by the creditor",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The creditor reference must be provided in the RemittanceInformation component",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "remittanceinformation-xmlelement",
+      "canonical_name": "RemittanceInformation",
+      "name": "RemittanceInformation",
+      "type": "XMLElement",
+      "description": "XML element for remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The creditor reference must be provided in the RemittanceInformation component",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credittransfertransactioninformation-xmlelement",
+      "canonical_name": "CreditTransferTransactionInformation",
+      "name": "CreditTransferTransactionInformation",
+      "type": "XMLElement",
+      "description": "XML element for credit transfer transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The creditor reference must be provided in the RemittanceInformation component (C10) in CreditTransferTransactionInformation (Block C)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rmtinf-xmlelement",
+      "canonical_name": "RmtInf",
+      "name": "RmtInf",
+      "type": "XMLElement",
+      "description": "XML element for remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<RmtInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "strd-xmlelement",
+      "canonical_name": "Strd",
+      "name": "Strd",
+      "type": "XMLElement",
+      "description": "XML element for structured remittance information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Strd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdtrrefinf-xmlelement",
+      "canonical_name": "CdtrRefInf",
+      "name": "CdtrRefInf",
+      "type": "XMLElement",
+      "description": "XML element for creditor reference information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<CdtrRefInf>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "tp-xmlelement",
+      "canonical_name": "Tp",
+      "name": "Tp",
+      "type": "XMLElement",
+      "description": "XML element for type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Tp>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cdorprtry-xmlelement",
+      "canonical_name": "CdOrPrtry",
+      "name": "CdOrPrtry",
+      "type": "XMLElement",
+      "description": "XML element for code or proprietary",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<CdOrPrtry>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "cd-xmlelement",
+      "canonical_name": "Cd",
+      "name": "Cd",
+      "type": "XMLElement",
+      "description": "XML element for code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Cd>SCOR</Cd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "issr-xmlelement",
+      "canonical_name": "Issr",
+      "name": "Issr",
+      "type": "XMLElement",
+      "description": "XML element for issuer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Issr>ISO</Issr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ref-xmlelement",
+      "canonical_name": "Ref",
+      "name": "Ref",
+      "type": "XMLElement",
+      "description": "XML element for reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Ref>RF47892182916</Ref>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rf47-8921-8291-6-identifier",
+      "canonical_name": "RF47 8921 8291 6",
+      "name": "RF47 8921 8291 6",
+      "type": "Identifier",
+      "description": "Creditor reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Creditor reference 'RF47 8921 8291 6'",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scor-identifier",
+      "canonical_name": "SCOR",
+      "name": "SCOR",
+      "type": "Identifier",
+      "description": "Code for creditor reference type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Cd>SCOR</Cd>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-organization",
+      "canonical_name": "ISO",
+      "name": "ISO",
+      "type": "Organization",
+      "description": "International Organization for Standardization",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Issr>ISO</Issr>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rf47892182916-identifier",
+      "canonical_name": "RF47892182916",
+      "name": "RF47892182916",
+      "type": "Identifier",
+      "description": "Creditor reference",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "<Ref>RF47892182916</Ref>",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "finland-location",
+      "canonical_name": "Finland",
+      "name": "Finland",
+      "type": "Location",
+      "description": "Country where banks operate",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "Banks operating in Finland",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "ffi-website-document",
+      "canonical_name": "FFI Website",
+      "name": "FFI Website",
+      "type": "Document",
+      "description": "Website of the FFI",
+      "aliases": [],
+      "attributes": {
+        "url": "www.finanssiala.fi"
+      },
+      "confidence": 0.98,
+      "evidence": "A list of banks that provide the AOS1 and a more detailed description of the AOS1 is available on the FFI website",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "epc-website-document",
+      "canonical_name": "EPC Website",
+      "name": "EPC Website",
+      "type": "Document",
+      "description": "Website of the EPC",
+      "aliases": [],
+      "attributes": {
+        "url": "www.europeanpaymentscouncil.eu"
+      },
+      "confidence": 0.98,
+      "evidence": "For more detailed information, see the EPC's 'Guidance on the usage of ERI' at www.europeanpaymentscouncil.eu",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "guidance-on-the-usage-of-eri-document",
+      "canonical_name": "Guidance on the usage of ERI",
+      "name": "Guidance on the usage of ERI",
+      "type": "Document",
+      "description": "Document providing guidance on the usage of ERI",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "For more detailed information, see the EPC's 'Guidance on the usage of ERI'",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "aos2-identifier",
+      "canonical_name": "AOS2",
+      "name": "AOS2",
+      "type": "Identifier",
+      "description": "Code for combining invoices",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The additional optional service of combining invoices (AOS2)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "november-2019-date",
+      "canonical_name": "November 2019",
+      "name": "November 2019",
+      "type": "Date",
+      "description": "Date when AOS2 was replaced",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.98,
+      "evidence": "The additional optional service of combining invoices (AOS2) was replaced in November 2019",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "payment-date-businessconcept",
+      "relation": "TRANSMITTED_BY",
+      "target": "debtor-bank-financialinstitution",
+      "description": "The Payment Date is transmitted by the Debtor Bank",
+      "confidence": 0.98,
+      "evidence": "The Payment Date is transmitted from the Debtor Bank to the Creditor Bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-date-businessconcept",
+      "relation": "TRANSMITTED_TO",
+      "target": "creditor-bank-financialinstitution",
+      "description": "The Payment Date is transmitted to the Creditor Bank",
+      "confidence": 0.98,
+      "evidence": "The Payment Date is transmitted from the Debtor Bank to the Creditor Bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finanssiala-organization",
+      "relation": "PROVIDES",
+      "target": "aos1-identifier",
+      "description": "Finanssiala provides information on AOS1",
+      "confidence": 0.98,
+      "evidence": "A list of banks that provide the AOS1 and a more detailed description of the AOS1 is available on the FFI website",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "extended-remittance-information-businessconcept",
+      "relation": "PART_OF",
+      "target": "sepa-credit-transfer-rulebook-standard",
+      "description": "Extended Remittance Information is part of the SEPA Credit Transfer Rulebook",
+      "confidence": 0.98,
+      "evidence": "The ERI service gives Debtors the possibility to transmit several invoices or credit notes in a single credit transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-payments-council-organization",
+      "relation": "MAINTAINS",
+      "target": "sepa-credit-transfer-rulebook-standard",
+      "description": "European Payments Council maintains the SEPA Credit Transfer Rulebook",
+      "confidence": 0.98,
+      "evidence": "The ERI service gives Debtors the possibility to transmit several invoices or credit notes in a single credit transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard",
+      "relation": "DEFINES",
+      "target": "structured-remittance-information-dataelement",
+      "description": "ISO 20022 defines the structure for structured remittance information",
+      "confidence": 0.98,
+      "evidence": "Up to 999 occurrences of 280 characters of structured remittance information based on the ISO 20022 standard",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "remittanceinformation-xmlelement",
+      "relation": "CONTAINS",
+      "target": "credittransfertransactioninformation-xmlelement",
+      "description": "RemittanceInformation is contained in CreditTransferTransactionInformation",
+      "confidence": 0.98,
+      "evidence": "The creditor reference must be provided in the RemittanceInformation component (C10) in CreditTransferTransactionInformation (Block C)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rmtinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "strd-xmlelement",
+      "description": "RmtInf contains Strd",
+      "confidence": 0.98,
+      "evidence": "<RmtInf><Strd>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "strd-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cdtrrefinf-xmlelement",
+      "description": "Strd contains CdtrRefInf",
+      "confidence": 0.98,
+      "evidence": "<Strd><CdtrRefInf>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtrrefinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "tp-xmlelement",
+      "description": "CdtrRefInf contains Tp",
+      "confidence": 0.98,
+      "evidence": "<CdtrRefInf><Tp>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "tp-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cdorprtry-xmlelement",
+      "description": "Tp contains CdOrPrtry",
+      "confidence": 0.98,
+      "evidence": "<Tp><CdOrPrtry>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdorprtry-xmlelement",
+      "relation": "CONTAINS",
+      "target": "cd-xmlelement",
+      "description": "CdOrPrtry contains Cd",
+      "confidence": 0.98,
+      "evidence": "<CdOrPrtry><Cd>SCOR</Cd>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "cdtrrefinf-xmlelement",
+      "relation": "CONTAINS",
+      "target": "ref-xmlelement",
+      "description": "CdtrRefInf contains Ref",
+      "confidence": 0.98,
+      "evidence": "<CdtrRefInf><Ref>RF47892182916</Ref>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rf47-8921-8291-6-identifier",
+      "relation": "IS_A",
+      "target": "creditor-reference-dataelement",
+      "description": "RF47 8921 8291 6 is a creditor reference",
+      "confidence": 0.98,
+      "evidence": "Creditor reference 'RF47 8921 8291 6'",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "scor-identifier",
+      "relation": "IS_A",
+      "target": "creditor-reference-type-cross-chunk",
+      "description": "SCOR is a creditor reference type",
+      "confidence": 0.98,
+      "evidence": "<Cd>SCOR</Cd>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-organization",
+      "relation": "IS_A",
+      "target": "issr-xmlelement",
+      "description": "ISO is an issuer",
+      "confidence": 0.98,
+      "evidence": "<Issr>ISO</Issr>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "rf47892182916-identifier",
+      "relation": "IS_A",
+      "target": "creditor-reference-dataelement",
+      "description": "RF47892182916 is a creditor reference",
+      "confidence": 0.98,
+      "evidence": "<Ref>RF47892182916</Ref>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "23-48236-cross-chunk",
+      "relation": "IS_A",
+      "target": "creditor-reference-dataelement",
+      "description": "23 48236 is a creditor reference",
+      "confidence": 0.98,
+      "evidence": "Creditor reference '23 48236'",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "2348236-cross-chunk",
+      "relation": "IS_A",
+      "target": "creditor-reference-dataelement",
+      "description": "2348236 is a creditor reference",
+      "confidence": 0.98,
+      "evidence": "<Ref>2348236</Ref>",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "finland-location",
+      "relation": "HAS",
+      "target": "banks-cross-chunk",
+      "description": "Finland has banks",
+      "confidence": 0.98,
+      "evidence": "Banks operating in Finland",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "ffi-website-document",
+      "relation": "PROVIDES_INFORMATION_ON",
+      "target": "aos1-identifier",
+      "description": "FFI Website provides information on AOS1",
+      "confidence": 0.98,
+      "evidence": "A list of banks that provide the AOS1 and a more detailed description of the AOS1 is available on the FFI website",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "epc-website-document",
+      "relation": "PROVIDES",
+      "target": "guidance-on-the-usage-of-eri-document",
+      "description": "EPC Website provides guidance on the usage of ERI",
+      "confidence": 0.98,
+      "evidence": "For more detailed information, see the EPC's 'Guidance on the usage of ERI' at www.europeanpaymentscouncil.eu",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "aos2-identifier",
+      "relation": "IS_A",
+      "target": "combining-invoices-cross-chunk",
+      "description": "AOS2 is a service for combining invoices",
+      "confidence": 0.98,
+      "evidence": "The additional optional service of combining invoices (AOS2)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "november-2019-date",
+      "relation": "REPLACED_IN",
+      "target": "aos2-identifier",
+      "description": "AOS2 was replaced in November 2019",
+      "confidence": 0.98,
+      "evidence": "The additional optional service of combining invoices (AOS2) was replaced in November 2019",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        18
+      ],
+      "frequency": 1
+    }
+  ]
+}

@@ -1,0 +1,2266 @@
+{
+  "entities": [
+    {
+      "id": "customer-credit-transfer-initiation-v09-standard",
+      "canonical_name": "Customer Credit Transfer Initiation V09",
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "Standard",
+      "description": "Customer credit transfer initiation standard",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Customer Credit Transfer Initiation V09",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Payment information component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 +Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businesscomponent",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessComponent",
+      "description": "Credit transfer component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 ++Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Transaction information component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 +++Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-identification-businesscomponent",
+      "canonical_name": "Payment Identification",
+      "name": "Payment Identification",
+      "type": "BusinessComponent",
+      "description": "Payment identification component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 ++++Payment Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-identification-dataelement",
+      "canonical_name": "Instruction Identification",
+      "name": "Instruction Identification",
+      "type": "DataElement",
+      "description": "Instruction identification data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 +++++Instruction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "debtor-paymentrole",
+      "canonical_name": "Debtor",
+      "name": "Debtor",
+      "type": "PaymentRole",
+      "description": "Party whose account is debited",
+      "aliases": [
+        "Payer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 assigned by the debtor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "t11-06-identifier",
+      "canonical_name": "T11 06",
+      "name": "T11 06",
+      "type": "Identifier",
+      "description": "T11 06 code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 T11 06 field",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "camt053-xmlmessage",
+      "canonical_name": "camt.053",
+      "name": "camt.053",
+      "type": "XMLMessage",
+      "description": "camt.053 XML message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 camt.053 XML account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "pain001-xmlmessage",
+      "canonical_name": "pain.001",
+      "name": "pain.001",
+      "type": "XMLMessage",
+      "description": "pain.001 XML message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 pain.001 payment data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-to-end-identification-dataelement",
+      "canonical_name": "End To End Identification",
+      "name": "End To End Identification",
+      "type": "DataElement",
+      "description": "End to end identification data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.81 End To End Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "creditor-paymentrole",
+      "canonical_name": "Creditor",
+      "name": "Creditor",
+      "type": "PaymentRole",
+      "description": "Party whose account is credited",
+      "aliases": [
+        "Payee"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.81 reported to both the debtor and the creditor",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-businesscomponent",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "BusinessComponent",
+      "description": "Payment type information component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.83 Payment Type Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-level-dataelement",
+      "canonical_name": "Service Level",
+      "name": "Service Level",
+      "type": "DataElement",
+      "description": "Service level data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.85 Service Level",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "ISO 20022 standard",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "21 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "ISO 20022 payments guide document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "21 (61) ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-dataelement",
+      "canonical_name": "Local Instrument",
+      "name": "Local Instrument",
+      "type": "DataElement",
+      "description": "Local instrument data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.88 Local Instrument",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "inst-identifier",
+      "canonical_name": "INST",
+      "name": "INST",
+      "type": "Identifier",
+      "description": "INST code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Code value 'INST'",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-instant-credit-transfer-paymentscheme",
+      "canonical_name": "SEPA Instant Credit Transfer",
+      "name": "SEPA Instant Credit Transfer",
+      "type": "PaymentScheme",
+      "description": "SEPA instant credit transfer payment scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 SEPA instant credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-dataelement",
+      "canonical_name": "Proprietary",
+      "name": "Proprietary",
+      "type": "DataElement",
+      "description": "Proprietary data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.90 Proprietary",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-dataelement",
+      "canonical_name": "Category Purpose",
+      "name": "Category Purpose",
+      "type": "DataElement",
+      "description": "Category purpose data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.91 Category Purpose",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-dataelement",
+      "canonical_name": "Amount",
+      "name": "Amount",
+      "type": "DataElement",
+      "description": "Amount data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.94 Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructed-amount-dataelement",
+      "canonical_name": "Instructed Amount",
+      "name": "Instructed Amount",
+      "type": "DataElement",
+      "description": "Instructed amount data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Instructed Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-dataelement",
+      "canonical_name": "Currency",
+      "name": "Currency",
+      "type": "DataElement",
+      "description": "Currency data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Currency and amount of the payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "bank-financialinstitution",
+      "canonical_name": "Bank",
+      "name": "Bank",
+      "type": "FinancialInstitution",
+      "description": "Bank financial institution",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Support of this feature depends on the bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "electronic-account-statement-document",
+      "canonical_name": "Electronic Account Statement",
+      "name": "Electronic Account Statement",
+      "type": "Document",
+      "description": "Electronic account statement document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 On an electronic account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-element-xmlelement",
+      "canonical_name": "XML Element",
+      "name": "XML Element",
+      "type": "XMLElement",
+      "description": "XML element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 the same or corresponding XML element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "field-dataelement",
+      "canonical_name": "Field",
+      "name": "Field",
+      "type": "DataElement",
+      "description": "Field data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 T11 06 field",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-account",
+      "canonical_name": "Account",
+      "name": "Account",
+      "type": "Account",
+      "description": "Account",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-statement-document",
+      "canonical_name": "Account Statement",
+      "name": "Account Statement",
+      "type": "Document",
+      "description": "Account statement document",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 account statement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "unique-transaction-identification-dataelement",
+      "canonical_name": "Unique Transaction Identification",
+      "name": "Unique Transaction Identification",
+      "type": "DataElement",
+      "description": "Unique transaction identification data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Unique transaction identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "identification-dataelement",
+      "canonical_name": "Identification",
+      "name": "Identification",
+      "type": "DataElement",
+      "description": "Identification data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-dataelement",
+      "canonical_name": "Instruction",
+      "name": "Instruction",
+      "type": "DataElement",
+      "description": "Instruction data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Instruction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-value-identifier",
+      "canonical_name": "Code Value",
+      "name": "Code Value",
+      "type": "Identifier",
+      "description": "Code value",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Code value 'INST'",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-data-dataelement",
+      "canonical_name": "Payment Data",
+      "name": "Payment Data",
+      "type": "DataElement",
+      "description": "Payment data",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 payment data",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "sepa-paymentscheme",
+      "canonical_name": "SEPA",
+      "name": "SEPA",
+      "type": "PaymentScheme",
+      "description": "SEPA payment scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 SEPA instant credit transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-businessprocess",
+      "canonical_name": "Credit Transfer Transaction",
+      "name": "Credit Transfer Transaction",
+      "type": "BusinessProcess",
+      "description": "Credit transfer transaction business process",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessprocess",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessProcess",
+      "description": "Transaction business process",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-initiation-businessprocess",
+      "canonical_name": "Payment Initiation",
+      "name": "Payment Initiation",
+      "type": "BusinessProcess",
+      "description": "Payment initiation business process",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-person",
+      "canonical_name": "Customer",
+      "name": "Customer",
+      "type": "Person",
+      "description": "Customer person",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-role-paymentrole",
+      "canonical_name": "Payment Role",
+      "name": "Payment Role",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Role",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "business-component-businesscomponent",
+      "canonical_name": "Business Component",
+      "name": "Business Component",
+      "type": "BusinessComponent",
+      "description": "Business component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Business Component",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "data-element-dataelement",
+      "canonical_name": "Data Element",
+      "name": "Data Element",
+      "type": "DataElement",
+      "description": "Data element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Data Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "xml-technology",
+      "canonical_name": "XML",
+      "name": "XML",
+      "type": "Technology",
+      "description": "XML technology",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 XML",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-xmlmessage",
+      "canonical_name": "Message",
+      "name": "Message",
+      "type": "XMLMessage",
+      "description": "Message",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-scheme-paymentscheme",
+      "canonical_name": "Payment Scheme",
+      "name": "Payment Scheme",
+      "type": "PaymentScheme",
+      "description": "Payment scheme",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Scheme",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "financial-institution-financialinstitution",
+      "canonical_name": "Financial Institution",
+      "name": "Financial Institution",
+      "type": "FinancialInstitution",
+      "description": "Financial institution",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Financial Institution",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "account-type-account",
+      "canonical_name": "Account Type",
+      "name": "Account Type",
+      "type": "Account",
+      "description": "Account type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Account Type",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-type-businessprocess",
+      "canonical_name": "Transaction Type",
+      "name": "Transaction Type",
+      "type": "BusinessProcess",
+      "description": "Transaction type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Type",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-businessprocess",
+      "canonical_name": "Payment Type",
+      "name": "Payment Type",
+      "type": "BusinessProcess",
+      "description": "Payment type",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Type",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-information-businesscomponent",
+      "canonical_name": "Credit Transfer Transaction Information",
+      "name": "Credit Transfer Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Credit transfer transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-component-businesscomponent",
+      "canonical_name": "Payment Information Component",
+      "name": "Payment Information Component",
+      "type": "BusinessComponent",
+      "description": "Payment information component",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Information Component",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-identification-dataelement",
+      "canonical_name": "Transaction Identification",
+      "name": "Transaction Identification",
+      "type": "DataElement",
+      "description": "Transaction identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-identification-element-dataelement",
+      "canonical_name": "Instruction Identification Element",
+      "name": "Instruction Identification Element",
+      "type": "DataElement",
+      "description": "Instruction identification element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Instruction Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-to-end-identification-element-dataelement",
+      "canonical_name": "End To End Identification Element",
+      "name": "End To End Identification Element",
+      "type": "DataElement",
+      "description": "End to end identification element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.81 End To End Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-element-dataelement",
+      "canonical_name": "Payment Type Information Element",
+      "name": "Payment Type Information Element",
+      "type": "DataElement",
+      "description": "Payment type information element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.83 Payment Type Information Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-level-element-dataelement",
+      "canonical_name": "Service Level Element",
+      "name": "Service Level Element",
+      "type": "DataElement",
+      "description": "Service level element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.85 Service Level Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-element-dataelement",
+      "canonical_name": "Local Instrument Element",
+      "name": "Local Instrument Element",
+      "type": "DataElement",
+      "description": "Local instrument element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.88 Local Instrument Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-element-identifier",
+      "canonical_name": "Code Element",
+      "name": "Code Element",
+      "type": "Identifier",
+      "description": "Code element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Code Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-element-dataelement",
+      "canonical_name": "Proprietary Element",
+      "name": "Proprietary Element",
+      "type": "DataElement",
+      "description": "Proprietary element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.90 Proprietary Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-element-dataelement",
+      "canonical_name": "Category Purpose Element",
+      "name": "Category Purpose Element",
+      "type": "DataElement",
+      "description": "Category purpose element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.91 Category Purpose Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-element-dataelement",
+      "canonical_name": "Amount Element",
+      "name": "Amount Element",
+      "type": "DataElement",
+      "description": "Amount element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.94 Amount Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructed-amount-element-dataelement",
+      "canonical_name": "Instructed Amount Element",
+      "name": "Instructed Amount Element",
+      "type": "DataElement",
+      "description": "Instructed amount element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Instructed Amount Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-element-dataelement",
+      "canonical_name": "Currency Element",
+      "name": "Currency Element",
+      "type": "DataElement",
+      "description": "Currency element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Currency Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-element-dataelement",
+      "canonical_name": "Payment Information Element",
+      "name": "Payment Information Element",
+      "type": "DataElement",
+      "description": "Payment information element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Information Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-element-dataelement",
+      "canonical_name": "Credit Transfer Element",
+      "name": "Credit Transfer Element",
+      "type": "DataElement",
+      "description": "Credit transfer element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-element-dataelement",
+      "canonical_name": "Transaction Information Element",
+      "name": "Transaction Information Element",
+      "type": "DataElement",
+      "description": "Transaction information element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Information Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-identification-element-dataelement",
+      "canonical_name": "Payment Identification Element",
+      "name": "Payment Identification Element",
+      "type": "DataElement",
+      "description": "Payment identification element",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Identification Element",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-identification-dataelement",
+      "canonical_name": "Instruction Identification",
+      "name": "Instruction Identification",
+      "type": "DataElement",
+      "description": "Instruction identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Instruction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-to-end-identification-dataelement",
+      "canonical_name": "End To End Identification",
+      "name": "End To End Identification",
+      "type": "DataElement",
+      "description": "End to end identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.81 End To End Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-dataelement",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "DataElement",
+      "description": "Payment type information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.83 Payment Type Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-level-dataelement",
+      "canonical_name": "Service Level",
+      "name": "Service Level",
+      "type": "DataElement",
+      "description": "Service level",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.85 Service Level",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-dataelement",
+      "canonical_name": "Local Instrument",
+      "name": "Local Instrument",
+      "type": "DataElement",
+      "description": "Local instrument",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.88 Local Instrument",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-identifier",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "Identifier",
+      "description": "Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-dataelement",
+      "canonical_name": "Proprietary",
+      "name": "Proprietary",
+      "type": "DataElement",
+      "description": "Proprietary",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.90 Proprietary",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-dataelement",
+      "canonical_name": "Category Purpose",
+      "name": "Category Purpose",
+      "type": "DataElement",
+      "description": "Category purpose",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.91 Category Purpose",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-dataelement",
+      "canonical_name": "Amount",
+      "name": "Amount",
+      "type": "DataElement",
+      "description": "Amount",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.94 Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructed-amount-dataelement",
+      "canonical_name": "Instructed Amount",
+      "name": "Instructed Amount",
+      "type": "DataElement",
+      "description": "Instructed amount",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Instructed Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-dataelement",
+      "canonical_name": "Currency",
+      "name": "Currency",
+      "type": "DataElement",
+      "description": "Currency",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Currency",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-information-businesscomponent",
+      "canonical_name": "Payment Information",
+      "name": "Payment Information",
+      "type": "BusinessComponent",
+      "description": "Payment information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-businesscomponent",
+      "canonical_name": "Credit Transfer",
+      "name": "Credit Transfer",
+      "type": "BusinessComponent",
+      "description": "Credit transfer",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-information-businesscomponent",
+      "canonical_name": "Transaction Information",
+      "name": "Transaction Information",
+      "type": "BusinessComponent",
+      "description": "Transaction information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-identification-businesscomponent",
+      "canonical_name": "Payment Identification",
+      "name": "Payment Identification",
+      "type": "BusinessComponent",
+      "description": "Payment identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instruction-identification-businesscomponent",
+      "canonical_name": "Instruction Identification",
+      "name": "Instruction Identification",
+      "type": "BusinessComponent",
+      "description": "Instruction identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Instruction Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "end-to-end-identification-businesscomponent",
+      "canonical_name": "End To End Identification",
+      "name": "End To End Identification",
+      "type": "BusinessComponent",
+      "description": "End to end identification",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.81 End To End Identification",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-type-information-businesscomponent",
+      "canonical_name": "Payment Type Information",
+      "name": "Payment Type Information",
+      "type": "BusinessComponent",
+      "description": "Payment type information",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.83 Payment Type Information",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "service-level-businesscomponent",
+      "canonical_name": "Service Level",
+      "name": "Service Level",
+      "type": "BusinessComponent",
+      "description": "Service level",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.85 Service Level",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "local-instrument-businesscomponent",
+      "canonical_name": "Local Instrument",
+      "name": "Local Instrument",
+      "type": "BusinessComponent",
+      "description": "Local instrument",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.88 Local Instrument",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "code-businesscomponent",
+      "canonical_name": "Code",
+      "name": "Code",
+      "type": "BusinessComponent",
+      "description": "Code",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.89 Code",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "proprietary-businesscomponent",
+      "canonical_name": "Proprietary",
+      "name": "Proprietary",
+      "type": "BusinessComponent",
+      "description": "Proprietary",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.90 Proprietary",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "category-purpose-businesscomponent",
+      "canonical_name": "Category Purpose",
+      "name": "Category Purpose",
+      "type": "BusinessComponent",
+      "description": "Category purpose",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.91 Category Purpose",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "amount-businesscomponent",
+      "canonical_name": "Amount",
+      "name": "Amount",
+      "type": "BusinessComponent",
+      "description": "Amount",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.94 Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "instructed-amount-businesscomponent",
+      "canonical_name": "Instructed Amount",
+      "name": "Instructed Amount",
+      "type": "BusinessComponent",
+      "description": "Instructed amount",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Instructed Amount",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-businesscomponent",
+      "canonical_name": "Currency",
+      "name": "Currency",
+      "type": "BusinessComponent",
+      "description": "Currency",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.95 Currency",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-businessprocess",
+      "canonical_name": "Payment",
+      "name": "Payment",
+      "type": "BusinessProcess",
+      "description": "Payment",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-transaction-businessprocess",
+      "canonical_name": "Credit Transfer Transaction",
+      "name": "Credit Transfer Transaction",
+      "type": "BusinessProcess",
+      "description": "Credit transfer transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-businessprocess",
+      "canonical_name": "Transaction",
+      "name": "Transaction",
+      "type": "BusinessProcess",
+      "description": "Transaction",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-initiation-businessprocess",
+      "canonical_name": "Payment Initiation",
+      "name": "Payment Initiation",
+      "type": "BusinessProcess",
+      "description": "Payment initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-credit-transfer-initiation-businessprocess",
+      "canonical_name": "Customer Credit Transfer Initiation",
+      "name": "Customer Credit Transfer Initiation",
+      "type": "BusinessProcess",
+      "description": "Customer credit transfer initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Customer Credit Transfer Initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfer-initiation-businessprocess",
+      "canonical_name": "Credit Transfer Initiation",
+      "name": "Credit Transfer Initiation",
+      "type": "BusinessProcess",
+      "description": "Credit transfer initiation",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Initiation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-processing-businessprocess",
+      "canonical_name": "Payment Processing",
+      "name": "Payment Processing",
+      "type": "BusinessProcess",
+      "description": "Payment processing",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Processing",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transaction-processing-businessprocess",
+      "canonical_name": "Transaction Processing",
+      "name": "Transaction Processing",
+      "type": "BusinessProcess",
+      "description": "Transaction processing",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Processing",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-clearance-businessprocess",
+      "canonical_name": "Payment Clearance",
+      "name": "Payment Clearance",
+      "type": "BusinessProcess",
+      "description": "Payment clearance",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Clearance",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-settlement-businessprocess",
+      "canonical_name": "Payment Settlement",
+      "name": "Payment Settlement",
+      "type": "BusinessProcess",
+      "description": "Payment settlement",
+      "aliases": [],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Settlement",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "customer-credit-transfer-initiation-v09-standard",
+      "relation": "CONTAINS",
+      "target": "payment-information-businesscomponent",
+      "description": "Customer credit transfer initiation contains payment information",
+      "confidence": 0.99,
+      "evidence": "2.80 +Payment Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "credit-transfer-businesscomponent",
+      "description": "Payment information contains credit transfer",
+      "confidence": 0.99,
+      "evidence": "2.80 ++Credit Transfer",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "transaction-information-businesscomponent",
+      "description": "Credit transfer contains transaction information",
+      "confidence": 0.99,
+      "evidence": "2.80 +++Transaction Information",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-information-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "payment-identification-businesscomponent",
+      "description": "Transaction information contains payment identification",
+      "confidence": 0.99,
+      "evidence": "2.80 ++++Payment Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-identification-businesscomponent",
+      "relation": "CONTAINS",
+      "target": "instruction-identification-businesscomponent",
+      "description": "Payment identification contains instruction identification",
+      "confidence": 0.99,
+      "evidence": "2.80 +++++Instruction Identification",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "instruction-identification-businesscomponent",
+      "relation": "RELATED_TO",
+      "target": "debtor-paymentrole",
+      "description": "Instruction identification is related to debtor",
+      "confidence": 0.99,
+      "evidence": "2.80 assigned by the debtor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "bank-financialinstitution",
+      "description": "Debtor is related to bank",
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "RELATED_TO",
+      "target": "account-account",
+      "description": "Bank is related to account",
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-account",
+      "relation": "RELATED_TO",
+      "target": "account-type-account",
+      "description": "Account is related to account type",
+      "confidence": 0.99,
+      "evidence": "2.80 Account Type",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-type-account",
+      "relation": "RELATED_TO",
+      "target": "transaction-type-businessprocess",
+      "description": "Account type is related to transaction type",
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Type",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-type-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-type-businessprocess",
+      "description": "Transaction type is related to payment type",
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Type",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-type-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "credit-transfer-transaction-businessprocess",
+      "description": "Payment type is related to credit transfer transaction",
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Transaction",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-transaction-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "transaction-businessprocess",
+      "description": "Credit transfer transaction is related to transaction",
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-initiation-businessprocess",
+      "description": "Transaction is related to payment initiation",
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-initiation-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "customer-credit-transfer-initiation-businessprocess",
+      "description": "Payment initiation is related to customer credit transfer initiation",
+      "confidence": 0.99,
+      "evidence": "2.80 Customer Credit Transfer Initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-credit-transfer-initiation-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "credit-transfer-initiation-businessprocess",
+      "description": "Customer credit transfer initiation is related to credit transfer initiation",
+      "confidence": 0.99,
+      "evidence": "2.80 Credit Transfer Initiation",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfer-initiation-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-processing-businessprocess",
+      "description": "Credit transfer initiation is related to payment processing",
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Processing",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-processing-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "transaction-processing-businessprocess",
+      "description": "Payment processing is related to transaction processing",
+      "confidence": 0.99,
+      "evidence": "2.80 Transaction Processing",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transaction-processing-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-clearance-businessprocess",
+      "description": "Transaction processing is related to payment clearance",
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Clearance",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-clearance-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "payment-settlement-businessprocess",
+      "description": "Payment clearance is related to payment settlement",
+      "confidence": 0.99,
+      "evidence": "2.80 Payment Settlement",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "payment-settlement-businessprocess",
+      "relation": "RELATED_TO",
+      "target": "bank-financialinstitution",
+      "description": "Payment settlement is related to bank",
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "bank-financialinstitution",
+      "relation": "RELATED_TO",
+      "target": "account-account",
+      "description": "Bank is related to account",
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "account-account",
+      "relation": "RELATED_TO",
+      "target": "debtor-paymentrole",
+      "description": "Account is related to debtor",
+      "confidence": 0.99,
+      "evidence": "2.80 the debtor's bank",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "debtor-paymentrole",
+      "relation": "RELATED_TO",
+      "target": "creditor-paymentrole",
+      "description": "Debtor is related to creditor",
+      "confidence": 0.99,
+      "evidence": "2.81 reported to both the debtor and the creditor",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        12
+      ],
+      "frequency": 1
+    }
+  ]
+}

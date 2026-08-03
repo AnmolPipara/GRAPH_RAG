@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the primary purpose of the ISO 20022 Payments Guide?",
+        "ground_truth": "The ISO 20022 Payments Guide provides rules, structure, and content guidelines for payment messages used by Finance Finland and its partners in Finland."
+    },
+    {
+        "question": "Where is Finance Finland located?",
+        "ground_truth": "Finance Finland is located at Itämerenkatu 11-13, FI-00180 Helsinki, Finland."
+    },
+    {
+        "question": "What are the main blocks contained in a Payment Message?",
+        "ground_truth": "A Payment Message typically contains a Group Header (Block A), Payment Information (Block B), and Credit Transfer Transaction Information (Block C)."
+    },
+    {
+        "question": "Which organization uses the ISO 20022 Payments Guide in this context?",
+        "ground_truth": "Finance Finland uses the ISO 20022 Payments Guide."
+    },
+    {
+        "question": "Is Remittance Information part of the Payment Message?",
+        "ground_truth": "Yes, Remittance Information is contained within the Payment Message structure."
+    }
+]

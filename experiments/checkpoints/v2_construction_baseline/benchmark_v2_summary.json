@@ -1,0 +1,294 @@
+{
+  "config": {
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "temperature": 0.0,
+    "n_questions": 12,
+    "same_evaluator": true,
+    "same_prompt_template": "SAME_QA_PROMPT_TEMPLATE (unchanged)",
+    "same_retrieval": true,
+    "same_graph": true
+  },
+  "vector_rag_metrics": {
+    "exact_match": 0.0,
+    "f1_score": 0.1978,
+    "answer_accuracy": 0.8151,
+    "faithfulness": 0.7722,
+    "context_precision": 0.0928,
+    "context_recall": 0.7757,
+    "hallucination_rate": 0.2278,
+    "citation_correctness": 0.7937,
+    "multi_hop_success": 0.8151
+  },
+  "graph_rag_metrics": {
+    "exact_match": 0.0,
+    "f1_score": 0.2536,
+    "answer_accuracy": 0.6462,
+    "faithfulness": 0.483,
+    "context_precision": 0.0258,
+    "context_recall": 0.384,
+    "hallucination_rate": 0.517,
+    "citation_correctness": 0.5646,
+    "multi_hop_success": 0.6462
+  },
+  "vector_rag_per_category": {
+    "comparison": {
+      "exact_match": 0.0,
+      "f1_score": 0.0618,
+      "answer_accuracy": 0.75,
+      "faithfulness": 0.7621,
+      "context_precision": 0.0753,
+      "context_recall": 0.75,
+      "hallucination_rate": 0.2379,
+      "citation_correctness": 0.756,
+      "multi_hop_success": 0.75
+    },
+    "relationship": {
+      "exact_match": 0.0,
+      "f1_score": 0.149,
+      "answer_accuracy": 0.8235,
+      "faithfulness": 0.7425,
+      "context_precision": 0.1801,
+      "context_recall": 0.7059,
+      "hallucination_rate": 0.2575,
+      "citation_correctness": 0.783,
+      "multi_hop_success": 0.8235
+    },
+    "hierarchical": {
+      "exact_match": 0.0,
+      "f1_score": 0.1546,
+      "answer_accuracy": 0.4286,
+      "faithfulness": 0.4699,
+      "context_precision": 0.09,
+      "context_recall": 0.2857,
+      "hallucination_rate": 0.5301,
+      "citation_correctness": 0.4492,
+      "multi_hop_success": 0.4286
+    },
+    "fact_lookup": {
+      "exact_match": 0.0,
+      "f1_score": 0.3566,
+      "answer_accuracy": 0.9167,
+      "faithfulness": 0.853,
+      "context_precision": 0.0226,
+      "context_recall": 0.9167,
+      "hallucination_rate": 0.147,
+      "citation_correctness": 0.8848,
+      "multi_hop_success": 0.9167
+    },
+    "workflow": {
+      "exact_match": 0.0,
+      "f1_score": 0.1164,
+      "answer_accuracy": 0.8225,
+      "faithfulness": 0.7761,
+      "context_precision": 0.1355,
+      "context_recall": 0.78,
+      "hallucination_rate": 0.2239,
+      "citation_correctness": 0.7993,
+      "multi_hop_success": 0.8225
+    }
+  },
+  "graph_rag_per_category": {
+    "comparison": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 0.5,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "hallucination_rate": 0.5,
+      "citation_correctness": 0.25,
+      "multi_hop_success": 0.0
+    },
+    "relationship": {
+      "exact_match": 0.0,
+      "f1_score": 0.2679,
+      "answer_accuracy": 0.6471,
+      "faithfulness": 0.1444,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "hallucination_rate": 0.8556,
+      "citation_correctness": 0.3958,
+      "multi_hop_success": 0.6471
+    },
+    "hierarchical": {
+      "exact_match": 0.0,
+      "f1_score": 0.1415,
+      "answer_accuracy": 0.4286,
+      "faithfulness": 0.337,
+      "context_precision": 0.0263,
+      "context_recall": 0.0952,
+      "hallucination_rate": 0.663,
+      "citation_correctness": 0.3828,
+      "multi_hop_success": 0.4286
+    },
+    "fact_lookup": {
+      "exact_match": 0.0,
+      "f1_score": 0.3958,
+      "answer_accuracy": 0.9167,
+      "faithfulness": 0.7255,
+      "context_precision": 0.0321,
+      "context_recall": 0.9167,
+      "hallucination_rate": 0.2745,
+      "citation_correctness": 0.8211,
+      "multi_hop_success": 0.9167
+    },
+    "workflow": {
+      "exact_match": 0.0,
+      "f1_score": 0.21,
+      "answer_accuracy": 0.6025,
+      "faithfulness": 0.3825,
+      "context_precision": 0.0309,
+      "context_recall": 0.1692,
+      "hallucination_rate": 0.6175,
+      "citation_correctness": 0.4925,
+      "multi_hop_success": 0.6025
+    }
+  },
+  "overlap_original_vs_corrected": [
+    {
+      "question_id": 2,
+      "category": "fact_lookup",
+      "original_question": "What is the phone number for Finance Finland?",
+      "original_ground_truth": "+358 20 793 9000",
+      "original_answer": "The phone number for Finance Finland is **+358 20 793 4200**.",
+      "original_vector_answer": "The phone number for Finance Finland is **+358 20 793 4200**【Page 3】.",
+      "corrected_question": "What is the phone number for Finance Finland?",
+      "corrected_ground_truth": "+358 20 793 4200",
+      "corrected_answer": "The phone number for Finance Finland is **+358 20 793 4200**.",
+      "corrected_vector_answer": "The phone number for Finance Finland is **+358 20 793 4200**【Page 3】."
+    },
+    {
+      "question_id": 5,
+      "category": "fact_lookup",
+      "original_question": "What is the version number of the guide?",
+      "original_ground_truth": "Version 3.1.",
+      "original_answer": "I don’t know.",
+      "original_vector_answer": "The guide is the **ISO 20022 Payments Guide – version V10** (as indicated by the repeated “Customer Payment Status Report V10” headings)【Page 44】.",
+      "corrected_question": "How many characters of unstructured remittance information are allowed in one occurrence?",
+      "corrected_ground_truth": "140 characters.",
+      "corrected_answer": "One occurrence of the unstructured remittance information may contain up to **140 characters**.",
+      "corrected_vector_answer": "One occurrence of unstructured remittance information may contain up to **140 characters**【Page 29】."
+    },
+    {
+      "question_id": 7,
+      "category": "fact_lookup",
+      "original_question": "What is the email address for Finance Finland payments team?",
+      "original_ground_truth": "payments@finanssiala.fi",
+      "original_answer": "I don’t know.",
+      "original_vector_answer": "I don’t know the email address for the Finance Finland payments team.",
+      "corrected_question": "What is the fax number for Finance Finland?",
+      "corrected_ground_truth": "+358 20 793 4202",
+      "corrected_answer": "The fax number for Finance Finland is **+358 20 793 4202**.",
+      "corrected_vector_answer": "The fax number for Finance Finland is **+358 20 793 4202**【Page 3】."
+    },
+    {
+      "question_id": 8,
+      "category": "fact_lookup",
+      "original_question": "What is the ISO 20022 website provided by Finance Finland?",
+      "original_ground_truth": "www.finanssiala.fi/iso20022",
+      "original_answer": "The ISO 20022 website listed by Finance Finland is:\n\n**www.financefinland.fi**",
+      "original_vector_answer": "The ISO 20022 website listed by Finance Finland is:\n\n**www.financefinland.fi**【Page 2】",
+      "corrected_question": "What is the ISO 20022 website provided by Finance Finland?",
+      "corrected_ground_truth": "www.finanssiala.fi",
+      "corrected_answer": "The ISO 20022 website referenced by Finance Finland is:\n\n**https://www.financefinland.fi**",
+      "corrected_vector_answer": "The ISO 20022 website listed by Finance Finland is:\n\n**www.financefinland.fi**【Page 2】"
+    },
+    {
+      "question_id": 27,
+      "category": "relationship",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "How does a C2B payment initiation file relate to the bank's status report?",
+      "corrected_ground_truth": "The customer submits a C2B payment initiation file (pain.001) and the bank responds with a C2B payment status report (pain.002).",
+      "corrected_answer": "A C2B payment initiation file is the customer‑to‑bank file that the customer sends to the bank to start one or more payments.  \nAfter the bank processes that file, it produces a **C2B Payment Status Report** that tells the customer what happened to each payment in the file (e.g., accepted, rejected, pending, settled).  \n\nIn short, the initiation file is the input that triggers the bank’s processing, and the status report is the output that reports the result of that processing for the payments contained in the file.",
+      "corrected_vector_answer": "A C2B (Customer‑to‑Business) payment is first sent to the bank in a **Customer Credit Transfer Initiation** message (the “payment‑initiation file”, e.g. pain.001.001.09).  \nThe bank validates that file and then returns a **Payment Status Report** (pain.002.001.10).  \n\nThe status‑report is directly linked to the initiation file:\n\n* **Group Header** – contains the bank‑generated identification for the status report and echoes the *Message Identification* of the original initiation file.  \n* **Original Group Information and Status** – repeats the original payment‑message identification details (the group header values from the initiation file) so the sender can match the report to the request.  \n* **Original Payment Instruction** – carries the *original transaction identification* (the unique end‑to‑end ID, creditor/debtor references, etc.) that were present in the initiation file and reports the outcome for each transaction.  \n\nThe report therefore tells the originator whether the payment was **accepted** (GroupStatus = ACCP), **partly accepted** (GroupStatus = PART), **rejected** (GroupStatus = RJCT), or simply **acknowledged** (GroupStatus = ACTC) and may include reject or reason codes (see page 39).  \n\nIn short, the C2B initiation file is the request; the bank’s status report (pain.002.001.10) references the same identifiers from that request and returns the processing result for each transaction.  \n\n**Sources**  \n- Structure of the Payment Status Report and its link to the original message (pages 38‑39).  \n- Description of the Customer Credit Transfer Initiation file (page 11)."
+    },
+    {
+      "question_id": 34,
+      "category": "hierarchical",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "What are the main sections of the ISO 20022 Payments Guide?",
+      "corrected_ground_truth": "Background, The structure and content of the Payment Message, Agreed additional functionalities, Combining invoices and credit notes, XML message examples, Examples of Payment Status Report messages, and VOP.",
+      "corrected_answer": "Based on the portions of the guide that were retrieved, the **ISO 20022 Payments Guide** is organized into a number of top‑level and detailed subsections. The main sections that appear in the document are:\n\n| Top‑level heading | Example subsections (as shown in the excerpt) |\n|-------------------|-----------------------------------------------|\n| **Background** | – (introductory material) |\n| **1.1 Usage of ISO 20022 in Finland** | – (explains how the standard is applied locally) |\n| **1.2 Address structure** | – (covers the format of address data) |\n| **Creditor identification code** | – (code supplied by the Originator) |\n| **Message root** | – (root element of the ISO 20022 message) |\n| **Customer Payment Status Report V10** | – (a report for customer‑payment status) |\n| **2.164 – 2.172** | – (a series of detailed numbered sections that dive into specific message components, validation rules, and implementation guidance) |\n\nIn short, the guide is structured with an introductory **Background** chapter, followed by numbered chapters (e.g., 1.1, 1.2) that describe usage, address formatting, and other foundational topics, and then moves into more granular sections such as **Creditor identification code**, **Message root**, **Customer Payment Status Report V10**, and a set of detailed technical subsections numbered **2.164** through **2.172**.",
+      "corrected_vector_answer": "The guide is organized around the ISO 20022 message families that it documents. In the pages that were retrieved, the two principal families that appear as top‑level sections are:\n\n| Section (message family) | Version | Core focus of the section |\n|--------------------------|---------|---------------------------|\n| **Customer Payment Status Report** | V10 | Describes the structure for reporting the status of a payment, including the original payment information, transaction information, and a hierarchy of fields such as Original Transaction Reference, Amount, Requested Execution Date, Payment Type Information, Payment Method, and the various party details (debtor, creditor, agents, etc.)【Page 46‑48】 |\n| **Customer Credit Transfer Initiation** | V09 | Defines the format for initiating a credit‑transfer payment, covering the payment information block, the credit‑transfer transaction details, and the creditor’s data (postal address, country subdivision, identification, etc.)【Page 26】 |\n\nThese two families constitute the main sections that are shown in the excerpted pages of the ISO 20022 Payments Guide. (Other sections may exist in the full guide, but they are not present in the provided context.)"
+    },
+    {
+      "question_id": 45,
+      "category": "workflow",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "How does a customer initiate a credit transfer?",
+      "corrected_ground_truth": "The customer creates the pain.001 payment initiation message and submits it to the bank (the Debtor Agent).",
+      "corrected_answer": "A customer starts a credit‑transfer by sending a **Customer Credit Transfer Initiation** message (the ISO 20022 XML element **CstmrCdtTrfInitn**).  \nThis message—defined in the “Initiation V09” message type—contains all the required payment details (debtor, creditor, amount, creditor’s address, etc.) and is submitted to the customer’s payment service provider (PSP) in accordance with the SEPA Credit Transfer (or SEPA Instant Credit Transfer) implementation guidelines. In short, the customer initiates the transfer by creating and transmitting a CstmrCdtTrfInitn XML request to the PSP.",
+      "corrected_vector_answer": "A customer starts a credit‑transfer by sending an ISO 20022 **Customer Credit Transfer Initiation** (pain.001.001.09) message to the bank.  \nThe message is built as follows:\n\n1. **Group Header** – identifies the party that is initiating the whole batch of transfers (the “Initiating Party”)【12†L1-L4】.  \n2. **Payment Information** – contains the debit‑side data that applies to all the individual transfers in the batch【12†L5-L9】.  \n   * **Requested Execution Date** – the date on which the customer wants the debit to be posted【14†L1-L4】.  \n   * **Debtor** – the account holder whose account will be debited; the debtor’s name is mandatory【14†L7-L9】 and may also include postal address details (country code, up to two address lines)【16†L1-L4】.  \n3. **Credit Transfer Transaction Information** – repeated for each individual transfer. For each transaction the customer must supply the **Creditor Account**. The creditor’s account is identified by an **IBAN**, which is mandatory for credit transfers【27†L1-L5】. Optional fields such as a proxy/alias for the account may also be included【27†L7-L9】.  \n\nAll of these elements are wrapped in an XML document that follows the ISO 20022 schema, e.g.:\n\n```xml\n<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\">\n  <CstmrCdtTrfInitn>\n    <GrpHdr>\n      <MsgId>…</MsgId>\n      <CreDtTm>…</CreDtTm>\n      <NbOfTxs>2</NbOfTxs>\n      <CtrlSum>3000.03</CtrlSum>\n      <InitgPty>\n        <Nm>Group Finance</Nm>\n        …\n      </InitgPty>\n    </GrpHdr>\n    <PmtInf>\n      …\n      <Dbtr>\n        <Nm>John Doe</Nm>\n        …\n      </Dbtr>\n      <ReqdExctnDt>2025-06-20</ReqdExctnDt>\n      <CdtTrfTxInf>\n        <CdtrAcct>\n          <Id>\n            <IBAN>FI1234567890123456</IBAN>\n          </Id>\n        </CdtrAcct>\n        …\n      </CdtTrfTxInf>\n    </PmtInf>\n  </CstmrCdtTrfInitn>\n</Document>\n```\n\nIn short, the customer creates a **Customer Credit Transfer Initiation** message that includes the initiating party, the debtor’s details (name, optional address, execution date), and for each transfer the creditor’s IBAN (and optionally a proxy). The completed XML message is then transmitted to the bank, which processes the debit and forwards the funds to the creditor’s account."
+    },
+    {
+      "question_id": 46,
+      "category": "workflow",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "What happens after the customer submits a C2B payment file to the bank?",
+      "corrected_ground_truth": "The bank processes the file and sends the matching results to the customer as a C2B payment status report.",
+      "corrected_answer": "After the customer uploads a **C2B payment file** to the bank, the bank does not process the payments immediately.  \nThe file first goes through the **VOP (Verification‑of‑Payees) Procedure**. This step validates the payees and the payment details in the file against the bank’s rules and any regulatory requirements. Only after the VOP check is successfully completed does the bank move on to actually execute the payments and later generate a **C2B Payment Status Report** that tells the customer whether each payment was accepted, rejected, or is pending.",
+      "corrected_vector_answer": "After the corporate customer sends its **C2B payment file** to the bank, the bank \n\n1. **Validates the file** – the content of the payment message is checked on a group‑ and transaction‑level basis. If the validation fails the bank returns a rejection (RJCT) message that contains the original MessageIdentification (see §6.1.2)【Page 39】.  \n\n2. **Performs any VOP checks that apply** – if the customer has opted‑in to the Verification of Payee (VOP) service, the bank runs the VOP check on the payee name/IBAN data contained in the file and produces a VOP response (Match, Close‑match, No‑match, etc.)【Page 53】.  \n\n3. **Sends a status/report back to the customer** – the VOP matching results (or, if VOP is not used, a simple payment‑status code) are returned to the customer in a C2B payment status report that includes the appropriate status codes defined in the guide (e.g., “Match”, “Close match”, “Rejected”, etc.)【Page 53】.  \n\n4. **Processes the payments** – if the file passes validation (and any VOP check, when applicable), the bank proceeds to execute the credit‑transfer orders contained in the file. If the file is rejected, the customer must correct the errors and resend.  \n\nIn short, once the C2B file is submitted, the bank validates it, applies VOP checks if the customer is enrolled, returns a status/report to the customer, and then either executes the payments or issues a rejection for correction.   (Sources: §§ 6.1.2, 7.1‑7.2, page 53; page 39)."
+    },
+    {
+      "question_id": 48,
+      "category": "workflow",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "What is the message flow between the customer and the bank in a C2B credit transfer?",
+      "corrected_ground_truth": "The customer sends the pain.001 payment initiation message, and the bank returns a pain.002 payment status report.",
+      "corrected_answer": "**Message flow for a C2B credit‑transfer**\n\n1. **Customer → Bank** – The customer sends a **C2B payment (credit‑transfer) message** that is built on the **ISO 20022 standard** (the “Customer‑to‑Bank Payment” uses ISO 20022).  \n2. **Bank → Customer** – After the bank has received the payment, validated it (e.g., through the VOP procedure that the C2B payment file follows), the bank returns a **C2B Payment Status Report** to the customer, indicating whether the transfer was accepted, rejected, or is pending.\n\nSo the basic flow is:\n\n```\nCustomer → (ISO 20022 C2B credit‑transfer message) → Bank\nBank → (C2B Payment Status Report) → Customer\n```",
+      "corrected_vector_answer": "**C2B (Customer‑to‑Bank) credit‑transfer message flow in ISO 20022**\n\n1. **Customer builds the payment file**  \n   * The corporate or retail customer creates a **Customer Credit Transfer Initiation** message (pain.001.001.09).  \n   * The XML contains three logical blocks:  \n     * **Block A – Group Header** (message‑level data such as MsgId, CreDtTm, NbOfTxs, CtrlSum, Initiating Party)【Page 11】.  \n     * **Block B – Payment Information** (debtor‑account, creditor‑account, amount, etc.).  \n     * **Block C – Credit‑Transfer Transaction Information** (the individual payment instructions)【Page 2】.  \n   * An example of such a message is shown on page 34, where the `<GrpHdr>` element carries the message ID, creation time, number of transactions and control sum【Page 34】.\n\n2. **Customer sends the message to the bank**  \n   * The XML file is transmitted over the agreed‑upon secure channel (e.g., SWIFT, API, file‑transfer).  \n   * At this point the bank receives the **group‑level** message (Block A) together with all payment details (Blocks B and C).\n\n3. **Bank performs content validation**  \n   * The bank validates the message syntax and business rules **on receipt** (or when the customer initiates the batch).  \n   * Validation can be performed **on the group level** (entire batch) or **on each Credit‑Transfer Transaction** (Block C)【Page 39】.  \n\n4. **Bank returns a status message**  \n   * **If validation fails** the bank generates a **return message** with **Group Status = RJCT** (rejected) and includes the original `MessageIdentification` so the customer can correlate the response【Page 39】.  \n   * **If validation succeeds** the bank acknowledges the batch (often with a pain.002 “Payment Status Report”) and proceeds to **approve the batch for initiation**【Page 39】.\n\n5. **Bank processes the payments**  \n   * After acceptance, the bank executes the credit‑transfer instructions (debits the customer’s account and credits the beneficiaries).  \n   * Completion or settlement information may be sent back to the customer in a subsequent status‑report message (e.g., pain.002 with `TxSts=ACCP` for each transaction).\n\n---\n\n### Summary of the flow\n\n| Step | Actor | Message | Key Elements |\n|------|-------|---------|--------------|\n| 1 | Customer | **pain.001** (Credit Transfer Initiation) | Block A (Group Header – MsgId, CreDtTm, NbOfTxs, CtrlSum, Initiating Party)【Page 11】; Block B (Payment Info); Block C (Transaction Info)【Page 2】 |\n| 2 | Customer → Bank | Transmission of the XML file | Secure channel (SWIFT, API, etc.) |\n| 3 | Bank | **Content validation** (group‑level or transaction‑level)【Page 39】 |\n| 4a | Bank → Customer | **Return message – RJCT** if validation fails (Group Status = RJ"
+    },
+    {
+      "question_id": 49,
+      "category": "workflow",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "How is a returned payment reported?",
+      "corrected_ground_truth": "The return message is generated with Group Status ACCP or PART, returning the value of the original MessageIdentification.",
+      "corrected_answer": "A returned payment is communicated by sending a **Payment Status Report**.  \nThe report is linked to the original transaction through the **PaymentInformationId** (the identifier of the payment information) and carries the appropriate status code (e.g., the Original Payment Status Code or Payment Status Code) that indicates that the payment has been returned. In short, a returned payment is reported via a Payment Status Report message that references the original payment’s identifier and includes a status code denoting the return.",
+      "corrected_vector_answer": "A returned payment is communicated to the originator through a **Payment Status Report** (the ISO 20022 pain.002.001.10 message).  \n\n* After the bank receives a payment message it creates a **Payment Status Report** (see Page 38‑39).  \n* The report contains the **original message identification** (MessageIdentification, PaymentInformationId, End‑to‑EndIdentification, etc.) and a **group‑level status** that indicates the outcome of the batch.  \n* For a returned (rejected) payment the **GroupStatus** is set to **RJCT** (all rejected) – or **PART** if only part of the batch is rejected (see Page 40).  \n* If a single transaction is rejected, the **TransactionStatus** is also **RJCT** and the report returns the original identifiers for that transaction together with a **rejection reason code and/or description** (Page 40).  \n\nThus, a returned payment is reported by sending a pain.002.001.10 **Payment Status Report** with GroupStatus = RJCT (or PART) and, where applicable, TransactionStatus = RJCT, including the original identifiers and any rejection reason.  \n\n**Sources:** Pages 38‑40 of the ISO 20022 Payments Guide."
+    },
+    {
+      "question_id": 51,
+      "category": "workflow",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "How does the bank verify the payee before payment?",
+      "corrected_ground_truth": "The bank submits the data for verification of the payee (VOP service) and returns the matching results to the customer.",
+      "corrected_answer": "The bank checks the payee’s identity by applying the **Verification of Payee (VOP) scheme** that is used in the Single Euro Payments Area (SEPA).  \n\nWhen a payment instruction is received (in an ISO 20022 message), the bank:\n\n1. **Extracts the creditor’s details** – name, address and account information (IBAN and the creditor‑bank’s BIC).  \n2. **Cross‑references those details** with the data held by the creditor’s bank (or a central VOP database).  \n3. **Confirms that the name/address match the account holder** of the supplied IBAN/BIC.  \n\nIf the information matches, the payment proceeds. If it does not, the transaction is rejected and a rejection‑reason code is returned (e.g., RC01 for an incorrect bank‑identifier code or other relevant codes from the Rejection Reason Codes set).  \n\nThus, the bank verifies the payee by using the SEPA‑wide VOP scheme to validate the creditor’s name, address and account identifiers before authorising the payment.",
+      "corrected_vector_answer": "The bank (as the payer’s payment‑service provider) must run a **Verification‑of‑Payee (VOP)** check **before the credit‑transfer is sent**.  \nUnder the Instant Payments Regulation the PSP:\n\n1. **Looks up the payee’s account identifier (IBAN) and the payee name that the payer entered.**  \n2. **Queries the payee’s own PSP (or a shared VOP service) to confirm that the IBAN and name (or another unique identifier such as a business ID, VAT number or Legal Entity Identifier) are registered to that payee.**【Page 52】  \n3. If the data match, the transaction can be initiated; if they do not, the payment is rejected or the payer is warned.\n\nThe European Payment Council’s VOP scheme defines the rules and technical standards that enable this inter‑PSP verification of the IBAN and payee name **prior to transaction initiation**【Page 52】. For corporate‑to‑business (C2B) file‑based payments, national recommendations may apply, but the underlying principle is the same: the bank validates the payee’s details against the information held by the payee’s own PSP before the payment is processed.  \n\nThus, the bank verifies the payee by performing a real‑time lookup of the payee’s account and name (or other unique identifier) against the data registered by the payee’s PSP, using the EPC VOP scheme, and only proceeds when the information matches.【Page 52】"
+    },
+    {
+      "question_id": 53,
+      "category": "comparison",
+      "original_question": null,
+      "original_ground_truth": null,
+      "original_answer": null,
+      "original_vector_answer": null,
+      "corrected_question": "What is the difference between a payment initiation message and a payment status report?",
+      "corrected_ground_truth": "pain.001 initiates the payment; pain.002 reports the payment status.",
+      "corrected_answer": "I don’t know.",
+      "corrected_vector_answer": "A **payment initiation message** is the message that the originator (the party that wants to make a payment) sends to its bank to request that funds be transferred.  \n* It is built from three logical blocks – a **Group Header** (identifying the whole message), a **Payment Information** block (details of the debtor side such as debtor, debtor account, execution date, etc.), and a **Credit Transfer Transaction Information** block (the creditor side, amount, remittance information, etc.)【Page 8】.  \n* Its purpose is to convey all the data needed for the bank to execute the credit‑transfer.\n\nA **payment status report** is the message the bank sends back **after** it has received and processed the initiation message.  \n* The bank returns a **Payment Status Report** (schema <pain.002.001.10>) to inform the initiator of the outcome of the original payment request【Page 38】.  \n* The report contains a Group Header with its own identification, the original message identification, and the status of the group or individual transactions (e.g., accepted, rejected). If the payment is rejected, the report includes a rejection‑reason code and description, and the group‑level status is set to **RJCT**【Page 39】.  \n* Thus, while the initiation message **asks** the bank to move money, the status report **answers** with the result of that request.\n\nIn short, the initiation message is the request to execute a payment; the payment status report is the bank’s response indicating whether the request was accepted, partially accepted, or rejected, together with any relevant error information."
+    }
+  ]
+}

@@ -1,0 +1,1540 @@
+{
+  "entities": [
+    {
+      "id": "iso-20022-standard",
+      "canonical_name": "ISO 20022",
+      "name": "ISO 20022",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {
+        "domain": "Financial messaging"
+      },
+      "confidence": 0.99,
+      "evidence": "International payment systems will migrate to the ISO 20022 standard",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "international-organization-for-standardization-organization",
+      "canonical_name": "International Organization for Standardization",
+      "name": "International Organization for Standardization",
+      "type": "Organization",
+      "description": "International standard-setting body",
+      "aliases": [
+        "ISO"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "International Organization for Standardization (ISO)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-parliament-organization",
+      "canonical_name": "European Parliament",
+      "name": "European Parliament",
+      "type": "Organization",
+      "description": "Legislative body of the European Union",
+      "aliases": [
+        "EP"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012 of the European Parliament",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "regulation-eu-no-2602012-document",
+      "canonical_name": "Regulation (EU) No 260/2012",
+      "name": "Regulation (EU) No 260/2012",
+      "type": "Document",
+      "description": "European Union regulation",
+      "aliases": [
+        "EU Regulation 260/2012"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-concept",
+      "canonical_name": "Single Euro Payments Area",
+      "name": "Single Euro Payments Area",
+      "type": "Concept",
+      "description": "European Union initiative for harmonized payment services",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The objective of the Single Euro Payments Area (SEPA)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-to-bank-paymentrole",
+      "canonical_name": "Customer-to-Bank",
+      "name": "Customer-to-Bank",
+      "type": "PaymentRole",
+      "description": "Payment role",
+      "aliases": [
+        "C2B"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "customer-to-bank ISO",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "verification-of-payee-concept",
+      "canonical_name": "Verification of Payee",
+      "name": "Verification of Payee",
+      "type": "Concept",
+      "description": "Payment concept",
+      "aliases": [
+        "VOP"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Verification of Payee in payment files",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "domestic-urgent-payments-paymenttype",
+      "canonical_name": "Domestic Urgent Payments",
+      "name": "Domestic Urgent Payments",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "POPS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Domestic urgent payments (POPS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-payments-paymenttype",
+      "canonical_name": "Currency Payments",
+      "name": "Currency Payments",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Currency"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Currency payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "glossary-documentsection",
+      "canonical_name": "Glossary",
+      "name": "Glossary",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Glossary"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Glossary",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-document",
+      "canonical_name": "ISO 20022 Payments Guide",
+      "name": "ISO 20022 Payments Guide",
+      "type": "Document",
+      "description": "Guide for ISO 20022 payments",
+      "aliases": [
+        "ISO 20022 Guide"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 Payments Guide",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-union-organization",
+      "canonical_name": "European Union",
+      "name": "European Union",
+      "type": "Organization",
+      "description": "International organization",
+      "aliases": [
+        "EU"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "European Union regulation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "council-of-the-european-union-organization",
+      "canonical_name": "Council of the European Union",
+      "name": "Council of the European Union",
+      "type": "Organization",
+      "description": "Legislative body of the European Union",
+      "aliases": [
+        "Council"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012 of the European Parliament and the Council",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-currency",
+      "canonical_name": "Euro",
+      "name": "Euro",
+      "type": "Currency",
+      "description": "Official currency of the European Union",
+      "aliases": [
+        "EUR"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pay and receive payments in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfers-paymenttype",
+      "canonical_name": "Credit Transfers",
+      "name": "Credit Transfers",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "direct-debits-paymenttype",
+      "canonical_name": "Direct Debits",
+      "name": "Direct Debits",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Direct Debit"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "interbank-payments-paymenttype",
+      "canonical_name": "Interbank Payments",
+      "name": "Interbank Payments",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Interbank"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "interbank payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-institutions-organization",
+      "canonical_name": "Payment Institutions",
+      "name": "Payment Institutions",
+      "type": "Organization",
+      "description": "Type of financial institution",
+      "aliases": [
+        "Payment Institution"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment institutions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clearing-and-settlement-systems-system",
+      "canonical_name": "Clearing and Settlement Systems",
+      "name": "Clearing and Settlement Systems",
+      "type": "System",
+      "description": "Financial system",
+      "aliases": [
+        "Clearing and Settlement"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "clearing and settlement systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-area-location",
+      "canonical_name": "Euro Area",
+      "name": "Euro Area",
+      "type": "Location",
+      "description": "Geographic area",
+      "aliases": [
+        "Eurozone"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "euro area clearing and settlement systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "message-content-concept",
+      "canonical_name": "Message Content",
+      "name": "Message Content",
+      "type": "Concept",
+      "description": "Payment concept",
+      "aliases": [
+        "Message Content"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Message content approved",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rejection-reason-codes-identifier",
+      "canonical_name": "Rejection Reason Codes",
+      "name": "Rejection Reason Codes",
+      "type": "Identifier",
+      "description": "Type of code",
+      "aliases": [
+        "Rejection Codes"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Rejection reason codes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-data-file-document",
+      "canonical_name": "VOP Data File",
+      "name": "VOP Data File",
+      "type": "Document",
+      "description": "Type of file",
+      "aliases": [
+        "VOP File"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The VOP data file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "vop-response-types-concept",
+      "canonical_name": "VOP Response Types",
+      "name": "VOP Response Types",
+      "type": "Concept",
+      "description": "Payment concept",
+      "aliases": [
+        "VOP Responses"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "VOP response types",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "status-codes-identifier",
+      "canonical_name": "Status Codes",
+      "name": "Status Codes",
+      "type": "Identifier",
+      "description": "Type of code",
+      "aliases": [
+        "Status"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-message-xmlmessage",
+      "canonical_name": "Payment Message",
+      "name": "Payment Message",
+      "type": "XMLMessage",
+      "description": "Type of message",
+      "aliases": [
+        "Payment Msg"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Payment message",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-623-documentsection",
+      "canonical_name": "Section 6.2.3",
+      "name": "Section 6.2.3",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 6.2.3"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.3 Message content approved",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-624-documentsection",
+      "canonical_name": "Section 6.2.4",
+      "name": "Section 6.2.4",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 6.2.4"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.4 Payments partially accepted in message for further processing",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-625-documentsection",
+      "canonical_name": "Section 6.2.5",
+      "name": "Section 6.2.5",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 6.2.5"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "6.2.5 Rejection reason codes",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-71-documentsection",
+      "canonical_name": "Section 7.1",
+      "name": "Section 7.1",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 7.1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "7.1 VOP in C2B payment files and its implementation",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-711-documentsection",
+      "canonical_name": "Section 7.1.1",
+      "name": "Section 7.1.1",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 7.1.1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "7.1.1 The VOP data file",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-72-documentsection",
+      "canonical_name": "Section 7.2",
+      "name": "Section 7.2",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 7.2"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "7.2 VOP response types and status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-721-documentsection",
+      "canonical_name": "Section 7.2.1",
+      "name": "Section 7.2.1",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 7.2.1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "7.2.1 VOP response types",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-722-documentsection",
+      "canonical_name": "Section 7.2.2",
+      "name": "Section 7.2.2",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 7.2.2"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "7.2.2 Status codes submitted to the customer",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-81-documentsection",
+      "canonical_name": "Section 8.1",
+      "name": "Section 8.1",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 8.1"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "8.1 Domestic urgent payments (POPS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "section-82-documentsection",
+      "canonical_name": "Section 8.2",
+      "name": "Section 8.2",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Section 8.2"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "8.2 Currency payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "recommendation-for-the-verification-of-payee-document",
+      "canonical_name": "Recommendation for the Verification of Payee",
+      "name": "Recommendation for the Verification of Payee",
+      "type": "Document",
+      "description": "Type of document",
+      "aliases": [
+        "Recommendation"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Recommendation for the Verification of Payee in payment files",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "domestic-urgent-payments-pops-paymenttype",
+      "canonical_name": "Domestic Urgent Payments (POPS)",
+      "name": "Domestic Urgent Payments (POPS)",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "POPS"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Domestic urgent payments (POPS)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "currency-payments-paymenttype",
+      "canonical_name": "Currency Payments",
+      "name": "Currency Payments",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Currency"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Currency payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "background-documentsection",
+      "canonical_name": "Background",
+      "name": "Background",
+      "type": "DocumentSection",
+      "description": "Section of the document",
+      "aliases": [
+        "Background"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Background",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "international-payment-systems-system",
+      "canonical_name": "International Payment Systems",
+      "name": "International Payment Systems",
+      "type": "System",
+      "description": "Financial system",
+      "aliases": [
+        "International Payments"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "International payment systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "interbank-payment-systems-system",
+      "canonical_name": "Interbank Payment Systems",
+      "name": "Interbank Payment Systems",
+      "type": "System",
+      "description": "Financial system",
+      "aliases": [
+        "Interbank Payments"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "interbank payments",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-banks-organization",
+      "canonical_name": "European Banks",
+      "name": "European Banks",
+      "type": "Organization",
+      "description": "Type of financial institution",
+      "aliases": [
+        "European Banking"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "European banks",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "payment-institutions-organization",
+      "canonical_name": "Payment Institutions",
+      "name": "Payment Institutions",
+      "type": "Organization",
+      "description": "Type of financial institution",
+      "aliases": [
+        "Payment Institution"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "payment institutions",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "clearing-and-settlement-systems-system",
+      "canonical_name": "Clearing and Settlement Systems",
+      "name": "Clearing and Settlement Systems",
+      "type": "System",
+      "description": "Financial system",
+      "aliases": [
+        "Clearing and Settlement"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "clearing and settlement systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-area-clearing-and-settlement-systems-system",
+      "canonical_name": "Euro Area Clearing and Settlement Systems",
+      "name": "Euro Area Clearing and Settlement Systems",
+      "type": "System",
+      "description": "Financial system",
+      "aliases": [
+        "Euro Area Clearing and Settlement"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "euro area clearing and settlement systems",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "regulation-eu-no-2602012-document",
+      "canonical_name": "Regulation (EU) No 260/2012",
+      "name": "Regulation (EU) No 260/2012",
+      "type": "Document",
+      "description": "European Union regulation",
+      "aliases": [
+        "EU Regulation 260/2012"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-sepa-concept",
+      "canonical_name": "Single Euro Payments Area (SEPA)",
+      "name": "Single Euro Payments Area (SEPA)",
+      "type": "Concept",
+      "description": "European Union initiative for harmonized payment services",
+      "aliases": [
+        "SEPA"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The objective of the Single Euro Payments Area (SEPA)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfers-paymenttype",
+      "canonical_name": "Credit Transfers",
+      "name": "Credit Transfers",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Credit Transfer"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "direct-debits-paymenttype",
+      "canonical_name": "Direct Debits",
+      "name": "Direct Debits",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Direct Debit"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-standard-standard",
+      "canonical_name": "ISO 20022 Standard",
+      "name": "ISO 20022 Standard",
+      "type": "Standard",
+      "description": "Universal financial industry message scheme",
+      "aliases": [
+        "ISO20022"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "ISO 20022 standard",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "mandatory-standard-concept",
+      "canonical_name": "Mandatory Standard",
+      "name": "Mandatory Standard",
+      "type": "Concept",
+      "description": "Concept related to standards",
+      "aliases": [
+        "Mandatory"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "makes the ISO 20022 standard mandatory",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "transactions-between-banks-and-customers-concept",
+      "canonical_name": "Transactions Between Banks and Customers",
+      "name": "Transactions Between Banks and Customers",
+      "type": "Concept",
+      "description": "Concept related to financial transactions",
+      "aliases": [
+        "Bank-Customer Transactions"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "transactions between banks and their customers",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "european-union-regulation-document",
+      "canonical_name": "European Union Regulation",
+      "name": "European Union Regulation",
+      "type": "Document",
+      "description": "Type of document",
+      "aliases": [
+        "EU Regulation"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "technical-and-business-requirements-concept",
+      "canonical_name": "Technical and Business Requirements",
+      "name": "Technical and Business Requirements",
+      "type": "Concept",
+      "description": "Concept related to requirements",
+      "aliases": [
+        "Requirements"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "technical and business requirements",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "credit-transfers-and-direct-debits-paymenttype",
+      "canonical_name": "Credit Transfers and Direct Debits",
+      "name": "Credit Transfers and Direct Debits",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Credit Transfer and Direct Debit"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "euro-payments-paymenttype",
+      "canonical_name": "Euro Payments",
+      "name": "Euro Payments",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "Euro"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "pay and receive payments in euro",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "single-euro-payments-area-sepa-objective-concept",
+      "canonical_name": "Single Euro Payments Area (SEPA) Objective",
+      "name": "Single Euro Payments Area (SEPA) Objective",
+      "type": "Concept",
+      "description": "Concept related to SEPA",
+      "aliases": [
+        "SEPA Objective"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The objective of the Single Euro Payments Area (SEPA)",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "harmonized-payment-services-concept",
+      "canonical_name": "Harmonized Payment Services",
+      "name": "Harmonized Payment Services",
+      "type": "Concept",
+      "description": "Concept related to payment services",
+      "aliases": [
+        "Harmonized Payments"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "harmonises the practices and standards for basic payment services",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "basic-payment-services-concept",
+      "canonical_name": "Basic Payment Services",
+      "name": "Basic Payment Services",
+      "type": "Concept",
+      "description": "Concept related to payment services",
+      "aliases": [
+        "Basic Payments"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "basic payment services",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "additional-payment-services-concept",
+      "canonical_name": "Additional Payment Services",
+      "name": "Additional Payment Services",
+      "type": "Concept",
+      "description": "Concept related to payment services",
+      "aliases": [
+        "Additional Payments"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "in addition to which banks can provide additional services of their own choosing",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "customer-to-bank-payment-paymenttype",
+      "canonical_name": "Customer-to-Bank Payment",
+      "name": "Customer-to-Bank Payment",
+      "type": "PaymentType",
+      "description": "Type of payment",
+      "aliases": [
+        "C2B Payment"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "customer-to-bank ISO",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "iso-20022-payments-guide-purpose-concept",
+      "canonical_name": "ISO 20022 Payments Guide Purpose",
+      "name": "ISO 20022 Payments Guide Purpose",
+      "type": "Concept",
+      "description": "Concept related to the guide",
+      "aliases": [
+        "Guide Purpose"
+      ],
+      "attributes": {},
+      "confidence": 0.99,
+      "evidence": "The purpose of this guide is to describe the usage of the customer-to-bank ISO",
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    }
+  ],
+  "relationships": [
+    {
+      "source": "iso-20022-standard",
+      "relation": "PUBLISHED_BY",
+      "target": "international-organization-for-standardization-organization",
+      "description": "ISO 20022 published by International Organization for Standardization",
+      "confidence": 0.99,
+      "evidence": "International Organization for Standardization (ISO)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-parliament-organization",
+      "relation": "PUBLISHES",
+      "target": "regulation-eu-no-2602012-document",
+      "description": "Regulation (EU) No 260/2012 published by European Parliament",
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012 of the European Parliament",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "council-of-the-european-union-organization",
+      "relation": "PUBLISHES",
+      "target": "regulation-eu-no-2602012-document",
+      "description": "Regulation (EU) No 260/2012 published by Council of the European Union",
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012 of the European Parliament and the Council",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "single-euro-payments-area-sepa-concept",
+      "relation": "PART_OF",
+      "target": "european-union-organization",
+      "description": "Single Euro Payments Area (SEPA) is part of European Union",
+      "confidence": 0.99,
+      "evidence": "The objective of the Single Euro Payments Area (SEPA)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfers-paymenttype",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Credit Transfers is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "direct-debits-paymenttype",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Direct Debits is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-standard-standard",
+      "relation": "IS_A",
+      "target": "mandatory-standard-concept",
+      "description": "ISO 20022 Standard is a Mandatory Standard",
+      "confidence": 0.99,
+      "evidence": "makes the ISO 20022 standard mandatory",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "transactions-between-banks-and-customers-concept",
+      "relation": "REGULATED_BY",
+      "target": "iso-20022-standard-standard",
+      "description": "Transactions Between Banks and Customers regulated by ISO 20022 Standard",
+      "confidence": 0.99,
+      "evidence": "transactions between banks and their customers",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "european-union-regulation-document",
+      "relation": "IS_A",
+      "target": "regulation-eu-no-2602012-document",
+      "description": "European Union Regulation is a type of Regulation (EU) No 260/2012",
+      "confidence": 0.99,
+      "evidence": "Regulation (EU) No 260/2012",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "technical-and-business-requirements-concept",
+      "relation": "PART_OF",
+      "target": "regulation-eu-no-2602012-document",
+      "description": "Technical and Business Requirements is part of Regulation (EU) No 260/2012",
+      "confidence": 0.99,
+      "evidence": "technical and business requirements",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "credit-transfers-and-direct-debits-paymenttype",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Credit Transfers and Direct Debits is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "credit transfers and direct debits in euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "euro-payments-paymenttype",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Euro Payments is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "pay and receive payments in euro",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "single-euro-payments-area-sepa-objective-concept",
+      "relation": "IS_A",
+      "target": "harmonized-payment-services-concept",
+      "description": "Single Euro Payments Area (SEPA) Objective is a type of Harmonized Payment Services",
+      "confidence": 0.99,
+      "evidence": "The objective of the Single Euro Payments Area (SEPA)",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "basic-payment-services-concept",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Basic Payment Services is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "basic payment services",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "additional-payment-services-concept",
+      "relation": "IS_A",
+      "target": "paymenttype-cross-chunk",
+      "description": "Additional Payment Services is a type of PaymentType",
+      "confidence": 0.99,
+      "evidence": "in addition to which banks can provide additional services of their own choosing",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "customer-to-bank-payment-paymenttype",
+      "relation": "USING",
+      "target": "iso-20022-standard-standard",
+      "description": "Customer-to-Bank Payment uses ISO 20022 Standard",
+      "confidence": 0.99,
+      "evidence": "customer-to-bank ISO",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    },
+    {
+      "source": "iso-20022-payments-guide-purpose-concept",
+      "relation": "DESCRIBES",
+      "target": "iso-20022-standard-standard",
+      "description": "ISO 20022 Payments Guide Purpose describes ISO 20022 Standard",
+      "confidence": 0.99,
+      "evidence": "The purpose of this guide is to describe the usage of the customer-to-bank ISO",
+      "implicit": false,
+      "source_pages": [
+        1
+      ],
+      "source_chunks": [
+        2
+      ],
+      "frequency": 1
+    }
+  ]
+}
