@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-03
 **Repo:** `github.com/AnmolPipara/GRAPH_RAG` · branch `main`
-**Status:** Cleaned for public release. All 55 file deletions are documented in `cleanup_plan.md`.
+**Status:** Cleaned for public release. All 54 file deletions are documented in `cleanup_plan.md`.
 
 ---
 
@@ -46,7 +46,7 @@ GraphRAG/
 
 ## Files removed in this cleanup
 
-55 files/folders, fully documented in `cleanup_plan.md`:
+54 files, fully documented in `cleanup_plan.md`:
 
 - **16 run logs** (`evaluation/*.log`) — regenerable; not referenced
 - **6 debugging/superseded folders** (`previous_groq120b_noenrich/`, `previous_groq70/`,
@@ -70,7 +70,9 @@ GraphRAG/
 | Metric | Before | After | Delta |
 |---|---|---|---|
 | Size (excl. `.git`) | 21 MB | 17 MB | −4 MB |
-| Files on disk (excl. `.git`) | 295 | 242 | −53 |
+| Files on disk (excl. `.git`) | 295 | 242¹ | −53 |
+
+¹ Measured after deletions and after adding `cleanup_plan.md` but before adding `repository_summary.md` itself (final count incl. both new docs: 243).
 
 ## Verification
 
