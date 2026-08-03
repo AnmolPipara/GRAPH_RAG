@@ -67,34 +67,36 @@ class Settings(BaseSettings):
     # ── Graph RAG — Cypher Generation Model ─────────────────────────────
     # NOTE: kept on the SAME provider+model as ANSWER for a fair comparison
     #
-    # BIG-MODEL CONFIG (current): Qwen/Qwen3.5-397B-A17B via the HuggingFace
-    #   Inference Router (reasoning model). Fully wired through utils/hf_client.py
-    #   (reasoning-aware, reasoning_effort=low to cut thinking cost ~10x).
-    #   REQUIRES HuggingFace credits or PRO (prepaid credits ~$5 are enough;
-    #   PRO gives 20x included usage).
-    # FREE FALLBACK (Groq llama-3.3-70b-versatile): set provider to "groq" +
-    #   model "llama-3.3-70b-versatile". Free, but daily cap is 100K TPD which
-    #   cannot cover a full 60x2 benchmark run (~200K+ tokens) — only partial
-    #   runs fit in one day.
+    # CURRENT (default): Groq llama-3.3-70b-versatile — free, no HuggingFace
+    #   credits needed. Daily cap is 100K TPD which cannot cover a full 60x2
+    #   benchmark run (~200K+ tokens) — only partial runs fit in one day.
+    # BIG-MODEL ALTERNATIVE (prepaid): Qwen/Qwen3.5-397B-A17B via the
+    #   HuggingFace Inference Router (reasoning model), fully wired through
+    #   utils/hf_client.py (reasoning-aware, reasoning_effort=low to cut
+    #   thinking cost ~10x). To use it, set provider="huggingface" and model
+    #   "Qwen/Qwen3.5-397B-A17B".
     CYPHER_MODEL: str = Field(
-        "Qwen/Qwen3.5-397B-A17B",
+        "llama-3.3-70b-versatile",
         description="Model for Cypher query generation (same as ANSWER for fair eval)"
     )
     CYPHER_PROVIDER: str = Field(
-        "huggingface",
-        description="API provider for Cypher generation (huggingface router)"
+        "groq",
+        description="API provider for Cypher generation (groq free fallback | huggingface router)"
     )
 
     # ── Graph RAG — Answer Generation Model (shared, fair comparison) ───
     # Both Vector RAG and GraphRAG generate answers with this exact model
     # so the ONLY difference between the systems is the retrieval method.
+    # Default: Groq llama-3.3-70b-versatile (free, no HuggingFace credits
+    # needed). To use the HF router instead, set provider="huggingface" and
+    # model "Qwen/Qwen3.5-397B-A17B" (see CYPHER section for details).
     ANSWER_MODEL: str = Field(
-        "Qwen/Qwen3.5-397B-A17B",
+        "llama-3.3-70b-versatile",
         description="Model for final answer generation (same for both RAG systems)"
     )
     ANSWER_PROVIDER: str = Field(
-        "huggingface",
-        description="API provider for answer generation (huggingface router)"
+        "groq",
+        description="API provider for answer generation (groq free fallback | huggingface router)"
     )
 
     # ── Graph RAG — Vision Model ────────────────────────────────────────
@@ -205,9 +207,10 @@ class Settings(BaseSettings):
 
     # ── Vector RAG Settings (unchanged) ─────────────────────────────────
     llm_provider: str = Field(
-        "huggingface",
+        "groq",
         description="Default LLM provider for the Vector RAG pipeline chain "
-                    "(kept on the same provider as ANSWER for fair comparison)"
+                    "(kept on the same provider as ANSWER for fair comparison; "
+                    "groq free fallback uses groq_model)"
     )
     gemini_model: str = Field("gemini-2.0-flash", description="Gemini model name")
     groq_model: str = Field(

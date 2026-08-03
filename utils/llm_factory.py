@@ -58,11 +58,19 @@ class LLMFactory:
         elif provider == "groq":
             if not settings.groq_api_key:
                 raise ValueError("GROQ_API_KEY environment variable is not set.")
+            # Groq sits behind Cloudflare which blocks python urllib/httpx
+            # default user-agents (HTTP 403 error 1010). A browser-like UA
+            # keeps calls flowing — same workaround as graph_rag/retriever.py
+            # and evaluation/evaluator_v2.py.
             return ChatOpenAI(
                 api_key=settings.groq_api_key,
                 base_url="https://api.groq.com/openai/v1",
                 model=settings.groq_model,
-                temperature=settings.temperature
+                temperature=settings.temperature,
+                default_headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+                },
             )
             
         # Add HuggingFace support here as needed

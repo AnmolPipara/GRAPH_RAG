@@ -8,6 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from vector_rag.pipeline import VectorRAGPipeline
 from graph_rag.retriever import GraphRAGRetriever
 from utils.visualizer import create_radar_chart, load_metrics_from_csv
+from config.settings import settings
 
 st.set_page_config(
     page_title="RAG Comparison: Vector vs Graph",
@@ -28,7 +29,7 @@ with tab1:
     st.header("Ask a Question")
     st.markdown("Enter a query to see how both systems answer it side-by-side.")
     
-    query = st.text_input("Query:", "What is the primary purpose of the ISO 20022 Payments Guide?")
+    query = st.text_input("Query:", placeholder="What is the primary purpose of the ISO 20022 Payments Guide?")
     
     col1, col2 = st.columns(2)
     
@@ -38,25 +39,51 @@ with tab1:
                 st.subheader("Vector RAG")
                 try:
                     vec_pipeline = VectorRAGPipeline()
-                    vec_result = vec_pipeline.qa_chain.invoke(query)
-                    st.success("Answer Generated")
-                    st.write(vec_result.get("result", "No answer."))
+                    # NOTE: use the pipeline's query() (returns {answer, sources})
+                    # — qa_chain.invoke() returns a plain str via StrOutputParser,
+                    # so .get("result") on it would crash.
+                    vec_result = vec_pipeline.query(query)
+                    answer = (vec_result.get("answer") or "").strip()
+                    if answer:
+                        st.success("Answer Generated")
+                        st.write(answer)
+                    else:
+                        st.warning("Vector RAG returned no answer.")
                     
                     with st.expander("View Retrieved Context"):
-                        docs = vec_result.get("source_documents", [])
+                        docs = vec_result.get("sources", [])
                         for i, doc in enumerate(docs):
                             st.markdown(f"**Chunk {i+1}**")
                             st.write(doc.page_content)
                 except Exception as e:
                     st.error(f"Vector RAG Error: {e}")
+                    if "credits" in str(e).lower() or "402" in str(e):
+                        st.warning(
+                            "💡 This is a HuggingFace billing/credits error. "
+                            "Add HF prepaid credits / PRO, or switch providers to the "
+                            "free Groq fallback (llama-3.3-70b-versatile) in config/settings.py."
+                        )
             
             with col2:
                 st.subheader("Graph RAG")
                 try:
                     graph_retriever = GraphRAGRetriever()
                     graph_result = graph_retriever.query(query)
-                    st.success("Answer Generated")
-                    st.write(graph_result.get("answer", "No answer."))
+                    if graph_result.get("error"):
+                        st.error(f"Graph RAG Error: {graph_result['error']}")
+                        if "credits" in str(graph_result["error"]).lower() or "402" in str(graph_result["error"]):
+                            st.warning(
+                                "💡 This is a HuggingFace billing/credits error. "
+                                "Add HF prepaid credits / PRO, or switch providers to the "
+                                "free Groq fallback (llama-3.3-70b-versatile) in config/settings.py."
+                            )
+                    else:
+                        answer = (graph_result.get("answer") or "").strip()
+                        if answer:
+                            st.success("Answer Generated")
+                            st.write(answer)
+                        else:
+                            st.warning("Graph RAG returned no answer.")
                     
                     with st.expander("View Retrieved Context"):
                         ctx = graph_result.get("context", [])
@@ -105,12 +132,25 @@ with tab3:
     2. **Chunker**: RecursiveCharacterTextSplitter (1000 chunk size, 200 overlap)
     3. **Embeddings**: `sentence-transformers/all-mpnet-base-v2` (Local HuggingFace)
     4. **Vector Store**: FAISS
-    5. **QA Model**: Gemini 1.5 Flash
-    
+    5. **QA Model**: shared answer model (see live config below)
+
     ### Graph RAG Pipeline
-    1. **Extractor Model**: `nousresearch/hermes-3-llama-3.1-405b` (OpenRouter)
-    2. **Vision Model (for images)**: `qwen/qwen2.5-vl-72b-instruct` (OpenRouter)
-    3. **Graph Store**: Neo4j AuraDB (Cloud)
-    4. **Cypher Generation**: `meta-llama/llama-3.1-70b-instruct` (OpenRouter)
-    5. **QA Model**: `meta-llama/llama-3.1-70b-instruct` (OpenRouter)
+    1. **Extractor Model**: frontier LLM (see live config below)
+    2. **Vision Model (for images)**: see live config below
+    3. **Graph Store**: Neo4j
+    4. **Cypher Generation**: see live config below
+    5. **QA Model**: shared answer model (see live config below)
     """)
+
+    # Live config straight from config/settings.py so the app always shows
+    # the provider/model actually in use (no stale hardcoded text).
+    st.markdown("**Live model/provider config** (from `config/settings.py`):")
+    st.code(
+        f"Extraction : {settings.EXTRACTION_MODEL}  via {settings.EXTRACTION_PROVIDER}\n"
+        f"Refinement : {settings.REFINEMENT_MODEL}  via {settings.REFINEMENT_PROVIDER}\n"
+        f"Cypher     : {settings.CYPHER_MODEL}  via {settings.CYPHER_PROVIDER}\n"
+        f"Answer QA  : {settings.ANSWER_MODEL}  via {settings.ANSWER_PROVIDER}\n"
+        f"Vector LLM : {settings.llm_provider}  ({settings.groq_model})\n"
+        f"VLM        : {settings.VLM_MODEL}  via {settings.VLM_PROVIDER}\n"
+        f"Embeddings : {settings.embedding_model}  (local)"
+    )
