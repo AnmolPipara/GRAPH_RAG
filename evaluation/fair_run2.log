@@ -1,4 +1,0 @@
-2026-08-01 12:48:51,551 - __main__ - INFO - FAIR EVALUATION: Vector RAG vs GraphRAG
-2026-08-01 12:48:51,552 - __main__ - INFO -   Shared model  : Qwen/Qwen3.5-397B-A17B via huggingface
-2026-08-01 12:48:51,552 - __main__ - INFO - Smoke mode: 10 questions
-2026-08-01 12:48:59,195 - __main__ - ERROR - PREFLIGHT FAILED: HuggingFace included credits are depleted (HTTP 402). Add credits at huggingface.co/settings/billing, or wait for the monthly reset (Aug 1). Not starting the run.
