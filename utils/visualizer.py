@@ -2,20 +2,24 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import os
+import json
+import re
 
 def create_radar_chart(vector_metrics: dict, graph_metrics: dict, save_path: str = None) -> plt.Figure:
     """
     Creates a radar chart comparing Vector RAG and Graph RAG metrics.
     Metrics dicts should contain float values between 0 and 1 for:
-    'faithfulness', 'answer_relevancy', 'context_precision', 'context_recall'
+    'faithfulness', 'answer_accuracy', 'context_precision', 'context_recall'
+    (metrics_v2 names; the old Ragas 'answer_relevancy' key is accepted
+    as a fallback for 'answer_accuracy').
     """
-    labels = np.array(['Faithfulness', 'Answer Relevancy', 'Context Precision', 'Context Recall'])
+    labels = np.array(['Faithfulness', 'Answer Accuracy', 'Context Precision', 'Context Recall'])
     
     # Extract values in order
     def get_vals(metrics_dict):
         return np.array([
             metrics_dict.get('faithfulness', 0.0),
-            metrics_dict.get('answer_relevancy', 0.0),
+            metrics_dict.get('answer_accuracy', metrics_dict.get('answer_relevancy', 0.0)),
             metrics_dict.get('context_precision', 0.0),
             metrics_dict.get('context_recall', 0.0)
         ])
@@ -48,7 +52,7 @@ def create_radar_chart(vector_metrics: dict, graph_metrics: dict, save_path: str
     ax.set_ylim(0, 1)
     
     plt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
-    plt.title('RAG Pipeline Comparison (Ragas Metrics)', y=1.08)
+    plt.title('RAG Pipeline Comparison (metrics_v2)', y=1.08)
     
     if save_path:
         plt.savefig(save_path, bbox_inches='tight')
@@ -66,3 +70,36 @@ def load_metrics_from_csv(csv_path: str) -> dict:
     df = pd.read_csv(csv_path)
     means = df.mean(numeric_only=True).to_dict()
     return means
+
+
+def load_metrics_from_summary(summary_path: str):
+    """
+    Load the vector/graph metric blocks from a metrics_v2 benchmark summary JSON.
+
+    Vector block: any top-level metric dict whose key mentions 'vector'
+    (e.g. ``v1_vector_metrics``). Graph block: the highest-versioned graph
+    metric dict (e.g. ``v3_graph_metrics`` in the candidate-gen summary,
+    which holds the official GraphRAG v4 results).
+
+    Returns ``(vector_metrics, graph_metrics, data)`` or ``(None, None, None)``
+    when the file is missing or has no usable blocks.
+    """
+    if not os.path.exists(summary_path):
+        return None, None, None
+
+    with open(summary_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    vector_metrics = None
+    graph_blocks = []
+    for key, value in data.items():
+        if not isinstance(value, dict) or "answer_accuracy" not in value:
+            continue
+        if "vector" in key.lower():
+            vector_metrics = value
+        elif "graph" in key.lower():
+            m = re.search(r"v(\d+)", key)
+            graph_blocks.append((int(m.group(1)) if m else 0, key, value))
+    graph_metrics = max(graph_blocks, key=lambda t: t[0])[2] if graph_blocks else None
+
+    return vector_metrics, graph_metrics, data

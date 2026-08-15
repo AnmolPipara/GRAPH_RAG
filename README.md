@@ -1,75 +1,138 @@
-# AI Project: Vector RAG vs GraphRAG Comparison
+# Vector RAG vs GraphRAG — Comparative RAG Study (ISO 20022 Payments Guide)
 
-This project is a research-grade implementation comparing two advanced Retrieval-Augmented Generation (RAG) paradigms on the same dataset (ISO 20022 Payments Guide):
+A research-grade, reproducible comparison of two retrieval-augmented generation (RAG) paradigms on the **same single-source document** — the *ISO 20022 Payments Guide 2025* (61 pages, PDF):
 
-1. **Vector RAG**: A traditional semantic search RAG using FAISS embeddings.
-2. **GraphRAG**: A knowledge-graph based approach utilizing Neo4j and Cypher query generation.
+1. **Vector RAG** — classic semantic chunk retrieval with FAISS embeddings.
+2. **GraphRAG** — knowledge-graph retrieval over Neo4j (Cypher) grounded in entities, relationships, and source-chunk provenance.
+
+Both systems answer with the **same LLM and the same QA prompt** (temperature 0.0), so any quality difference is attributable to the retrieval layer alone.
+
+---
+
+## 🧠 Model Stack (final / official runs)
+
+| Role | Model | Provider |
+|---|---|---|
+| QA (answer generation, shared by both systems) | `openai/gpt-oss-120b` | Groq (temperature 0.0) |
+| Cypher generation (GraphRAG) | `openai/gpt-oss-120b` | Groq |
+| Embeddings (Vector RAG) | `sentence-transformers/all-mpnet-base-v2` | local HuggingFace |
+| Graph extraction / refinement | frontier LLM (≥70B) | configurable (`groq` / `openrouter` / `huggingface`) |
+
+> The QA model is **identical for both systems** (enforced by the harness) so the comparison isolates retrieval strategy. `llama-3.3-70b-versatile` (also via Groq) remains the default fallback in `config/settings.py` for free-tier runs; the official v4 benchmark results in this repo were produced with `openai/gpt-oss-120b` via Groq.
+
+---
 
 ## 🏗️ Architecture
 
 ### Vector RAG
-- **PDF Loader**: PyMuPDF (`fitz`)
-- **Chunking**: RecursiveCharacterTextSplitter (chunk size: 1000, overlap: 200)
-- **Embeddings**: `sentence-transformers/all-mpnet-base-v2` (Local HuggingFace model)
-- **Vector Store**: FAISS
-- **Generator LLM**: Gemini 1.5 Flash (via LangChain Google GenAI)
+- **PDF loader**: PyMuPDF (`fitz`)
+- **Chunking**: `RecursiveCharacterTextSplitter` (1000 chars, 200 overlap)
+- **Embeddings**: `sentence-transformers/all-mpnet-base-v2` (local)
+- **Vector store**: FAISS (cached on disk)
+- **QA model**: shared answer model (`openai/gpt-oss-120b` via Groq)
 
-### Graph RAG
-- **Extractor LLM (Text)**: `nousresearch/hermes-3-llama-3.1-405b` (via OpenRouter)
-- **Vision Extractor (Images)**: `qwen/qwen2.5-vl-72b-instruct` (via OpenRouter)
-- **Graph Store**: Neo4j AuraDB Cloud
-- **Cypher Generator & QA Model**: `meta-llama/llama-3.1-70b-instruct` (via OpenRouter)
-- **Cypher Logic**: Uses `GraphCypherQAChain` to auto-generate Cypher queries and traverse relationships.
+### GraphRAG
+- **Knowledge extraction**: per-chunk LLM extraction (text + diagrams), cached in `data/`
+- **Graph store**: Neo4j AuraDB (Cypher) · in-memory NetworkX for the offline benchmark
+- **Cypher generation**: LLM-generated Cypher with a compact-schema prompt
+- **Retrieval (v4)**: ranked-keyword entity matching → multi-hop traversal (depth ≤ 3) → entity-to-chunk mention index → evidence-density chunk ranking
+- **QA model**: shared answer model (identical to Vector RAG for fairness)
+
+---
+
+## 📈 GraphRAG Evolution (v1 → v4)
+
+The graph system evolved through four isolated, evidence-driven versions — each changing exactly one component:
+
+| Version | Change | Outcome |
+|---|---|---|
+| **v1** | Original page-level evidence | Baseline; weak evidence reachability (context recall 0.384) |
+| **v2** | Construction fix restoring full page provenance | Provenance restored |
+| **v3** | Chunk-level evidence selection | Evidence reachability improved |
+| **v4** | Candidate generation: ranked-keyword entity matching + deterministic entity cap | **Official baseline — first version to beat VectorRAG on grounding** |
+
+---
+
+## 📊 Official v4 Benchmark (12 questions · `openai/gpt-oss-120b` via Groq)
+
+| Metric | Vector RAG | GraphRAG v4 | Better |
+|---|---|---|---|
+| **Context Recall** | 0.776 | **0.848** | Graph |
+| **Faithfulness** | 0.772 | **0.778** | Graph |
+| **Hallucination Rate ↓** | 0.228 | **0.222** | Graph |
+| Answer Accuracy | **0.815** | 0.760 | Vector |
+| Citation Correctness | **0.794** | 0.769 | Vector |
+| Context Precision | **0.093** | 0.073 | Vector |
+
+**Over the original implementation (v1), v4 improved:** context recall **+0.464** (0.384 → 0.848), faithfulness **+0.295** (0.483 → 0.778), hallucination rate **−0.295** (0.517 → 0.222).
+
+**Conclusion:** GraphRAG v4 is the first version to exceed VectorRAG on grounding quality; the remaining gap is in answer generation and citation precision — **not in retrieval**.
+
+Graph RAG's advantage is most visible on **multi-hop, code-anchored questions** (e.g., Q4 `UltimateCreditor` element, Q9 `pain.002.001.10` / `ACTC`) where entity identity and provenance beat lexical similarity. See `docs/Final_Project_Report.pdf` and `PROJECT_REPORT.md` for the full analysis.
+
+---
 
 ## 📂 Project Structure
 
 ```text
 GraphRAG/
-├── config/              # Pydantic Settings and centralized configuration
-├── data/                # Source PDFs (ISO 20022)
-├── evaluation/          # Ground truth dataset, Ragas metrics, and evaluator script
-├── graph_rag/           # Knowledge Extractor, Neo4j Graph loader, and Cypher Retriever
-├── streamlit_app/       # Interactive Web UI to compare both pipelines side-by-side
-├── utils/               # LLM Factory and Matplotlib Visualizer
-├── vector_rag/          # PyMuPDF loader, chunker, embeddings, FAISS store
-├── .env                 # API Keys
-├── requirements.txt     # Python dependencies
-└── README.md            # You are here
+├── benchmark_compare/     # multi-hop benchmark harness + results + FAISS cache
+├── config/                # Pydantic settings (models, providers, Neo4j)
+├── data/                  # extracted text, chunks, merged/refined knowledge graphs
+├── docs/                  # Final_Project_Report.* (md / pdf / docx) + diagrams
+├── evaluation/            # metrics_v2, evaluators, per-version summary JSONs, plots
+├── experiments/           # ablation logs, checkpoints, diagnostics
+├── graph_rag/             # extraction + Neo4j Cypher retriever (v4 candidate generation)
+├── streamlit_app/         # side-by-side chat + evaluation UI
+├── utils/                 # LLM factory, visualizer
+├── vector_rag/            # FAISS vector pipeline
+├── iso-20022-payments-guide-2025-en.pdf   # source document
+├── PROJECT_REPORT.md      # complete project report (markdown)
+└── README.md              # you are here
 ```
+
+---
 
 ## 🚀 How to Run
 
-### 1. Setup Environment
-Ensure your `.env` is configured correctly:
-```env
-GOOGLE_API_KEY=your_key
-OPENROUTER_API_KEY=your_key
-NEO4J_URI=neo4j+s://<db_id>.databases.neo4j.io
-NEO4J_USERNAME=neo4j
-NEO4J_PASSWORD=your_password
-```
+### Setup
+1. Create `.env` in this directory with your API keys (see `config/settings.py`):
+   ```env
+   GROQ_API_KEY=your_key            # required (QA / Cypher)
+   OPENROUTER_API_KEY=your_key      # optional (extraction providers)
+   NEO4J_URI=neo4j+s://<db_id>.databases.neo4j.io   # GraphRAG retriever
+   NEO4J_USERNAME=neo4j
+   NEO4J_PASSWORD=your_password
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the Evaluation
-The evaluation script uses the **Ragas framework** to calculate Faithfulness, Answer Relevancy, Context Precision, and Context Recall.
-```bash
-python evaluation/evaluator.py
-```
-This will test both pipelines against 5 ground-truth questions and save the results as `vector_rag_metrics.csv` and `graph_rag_metrics.csv`.
-
-### 3. Launch the Streamlit App
-The interactive web application provides a side-by-side chat interface and visualizes the evaluation metrics in a Radar Chart.
+### Launch the Streamlit app (chat comparison + evaluation metrics)
 ```bash
 streamlit run streamlit_app/app.py
 ```
+Three tabs: **Vector RAG**, **Graph RAG**, and **Evaluation Metrics** (loads the official `benchmark_v2*_summary.json` results and plots the radar chart).
 
-## 📊 Scientific Comparison & Metrics
-*(Run the evaluator and launch the Streamlit App to view the live comparison charts!)*
+### Run the multi-hop benchmark
+```bash
+# Merged graph (default)
+python benchmark_compare/benchmark_compare.py
 
-Usually:
-- **Vector RAG** excels at broad, semantic questions and fetching large conceptual chunks.
-- **GraphRAG** excels at precise relationship questions (e.g., "Which organization owns X?"), avoiding hallucination by enforcing strict schema traversal.
+# Sibling graph (denser, 602 nodes)
+GRAPH_DATA=sibling python benchmark_compare/benchmark_compare.py
+```
+
+### Run the GraphRAG interactive retriever (requires Neo4j)
+```bash
+python graph_rag/retriever.py
+```
+
+---
+
+## 📄 Reports
+
+- **`docs/Final_Project_Report.{md,pdf,docx}`** — the final formatted deliverable (title page, TOC, diagrams).
+- **`PROJECT_REPORT.md`** — complete technical report: overview, architecture, evolution, benchmark results, and the two questions where Graph RAG clearly beats Vector RAG.
+- **`docs/`** — full documentation and diagrams.

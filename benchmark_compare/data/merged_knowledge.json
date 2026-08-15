@@ -1,0 +1,5763 @@
+{
+  "entities": [
+    {
+      "name": "ISO 20022 Payments Guide",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "ISO 20022 Payments Guide 2025",
+      "page": 1,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2025",
+      "type": "Date",
+      "confidence": 1.0,
+      "source_text": "2025",
+      "page": 1,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finland",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Finland",
+      "page": 2,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Itämerenkatu 11-13",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Itämerenkatu 11-13",
+      "page": 2,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "HELSINKI",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "FI-00180 Helsinki",
+      "page": 2,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finance Finland",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "www.financefinland.fi",
+      "page": 2,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Twitter",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "Twitter.com/finfinance",
+      "page": 2,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ISO 20022",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "ISO 20022 payments",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "International Organization for Standardization (ISO)",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "International Organization for Standardization (ISO)",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "European banks",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "European banks",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "payment institutions",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "payment institutions",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "euro area clearing and settlement systems",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "euro area clearing and settlement systems",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Regulation (EU) No 260/2012",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Regulation (EU) No 260/2012",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SEPA",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Single Euro Payments Area (SEPA)",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "European Parliament and the Council",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "European Parliament and the Council",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "European Payments Council",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "European Payments Council (EPC)",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Customer Credit Transfer Initiation V09",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "CustomerCreditTransferInitiationV09",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "pain.001.001.09",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "pain.001.001.09",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ISO 20022 Message Definition Report",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "ISO 20022 Message Definition Report",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payments External Code List",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Payments External Code List",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Swift4 Payment Market Practice Group (PMPG)",
+      "type": "Organization",
+      "confidence": 0.92,
+      "source_text": "The Swift4 Payment Market Practice Group (PMPG)",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SWIFT",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "https://www.swift.com/",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "swift.com",
+      "type": "Location",
+      "confidence": 0.8,
+      "source_text": "https://www.swift.com/",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "swift-resource",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "swift-resource/250266/download",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "europeanpaymentscouncil.eu",
+      "type": "Location",
+      "confidence": 0.8,
+      "source_text": "https://www.europeanpaymentscouncil.eu/",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "November",
+      "type": "Date",
+      "confidence": 0.8,
+      "source_text": "November 2026",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Debtor",
+      "type": "Person",
+      "confidence": 1.0,
+      "source_text": "The party whose account is debited with the payment.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Originator",
+      "type": "Person",
+      "confidence": 1.0,
+      "source_text": "The party who originally ordered goods or services and to whom the seller has sent the invoice.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate Debtor",
+      "type": "Person",
+      "confidence": 1.0,
+      "source_text": "Ultimate Debtor or Originator Reference Party is used when the receiver of the invoice is different from the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Initiating Party",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "The party on whose initiative the payment data is established.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor",
+      "type": "Person",
+      "confidence": 1.0,
+      "source_text": "The party whose account is credited with the payment.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate Creditor",
+      "type": "Person",
+      "confidence": 1.0,
+      "source_text": "The party who is the ultimate creditor of the payment.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Beneficiary",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "The party who is the ultimate creditor of the payment.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Bank",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "Bank (Originating Bank  Originator’s Bank  Debtor’s Bank) Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Party",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Town Name",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "structured elements “Country” and “Town Name” are mandatory.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Country",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "structured elements “Country” and “Town Name” are mandatory.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "head-office",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "the head-office",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "subsidary",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "the subsidiary",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "financing company",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "the financing company",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "customer",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "a customer",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "shared service centre",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "the shared service centre",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Group Header",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Group Header",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Payment Information",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Credit Transfer Transaction Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Credit Transfer Transaction Information",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Remittance Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Remittance Information",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Credit Transfer",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "SEPA Credit Transfer",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ERI",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Extended Remittance Information (ERI7)",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Legend",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Legend",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "June 18, 2025",
+      "type": "Date",
+      "confidence": 0.95,
+      "source_text": "June 18, 2025",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "18 June 2025",
+      "type": "Date",
+      "confidence": 1.0,
+      "source_text": "18 June 2025",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "XML schema",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "XML schema",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "BatchBooking",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "BatchBooking",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "June",
+      "type": "Date",
+      "confidence": 1.0,
+      "source_text": "18 June 2025",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Message root",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "Message root",
+      "page": 10,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "CstmrCdtTrfInitn",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "<CstmrCdtTrfInitn>",
+      "page": 10,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Private Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "++++Private Identification",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Instruction Priority",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Instruction Priority",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Service Level",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Service Level",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Local Instrument",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Local Instrument",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "International",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "International",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Postal Address",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Postal Address",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Department",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Department",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Sub Department",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Sub Department",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Street Name",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Street Name",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Building Number",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Building Number",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Floor",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Floor",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Post Box",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Post Box",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Customer Credit Transfer",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Room",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Room",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Post Code",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Post Code",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Town Location Name",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Town Location Name",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "District Name",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "District Name",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Country Sub Division",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Country Sub Division",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Address Line",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Address Line",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Organisation",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "Organisation",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Business ID",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Business ID",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Service code",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Service code",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Date and Place of Birth",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Date and Place of Birth",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Other",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Other",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "IBAN",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "IBAN",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Debtor Account",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Debtor Account",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Debtor Agent",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Debtor Agent",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "FI",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Financial Institution",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "BICFI",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "BICFI",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Identification",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Proxy",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Proxy",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Currency",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Currency",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Transaction Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Transaction Information",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Payment Identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "End To End Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "End To End Identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Instruction",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Instruction",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Unique transaction identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Unique transaction identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "camt.053 XML account statement",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "camt.053 XML account statement",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "pain.001 payment data",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "pain.001 payment data",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "T11 06 field",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "T11 06 field",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "electronic account statement",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "electronic account statement",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Initiation V09",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Initiation V09",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Amount",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Amount",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Instructed Amount",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Instructed Amount",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Charge Bearer",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Charge Bearer",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Name",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Name",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor Agent",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "Creditor Agent",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "AT-C002",
+      "type": "Location",
+      "confidence": 0.8,
+      "source_text": "AT-C002",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finnish personal identification number",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "Finnish personal identification number",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Other organisation identifier",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "Other organisation identifier",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Other personal identifier",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "Other personal identifier",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "PurposeCode",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "PurposeCode",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Category",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "Category",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "STDY",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "STDY",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "BECH",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "BECH",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "PENS",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "PENS",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "BENE",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "BENE",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SSBE",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "SSBE",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "AGRT",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "AGRT",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SALA",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "SALA",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "TAXS",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "TAXS",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "bank-specific implementation guidelines",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "bank-specific implementation guidelines",
+      "page": 28,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Structured",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Unstructured",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor Reference Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Creditor Reference Information",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ISO",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "International Standard of Reference Information",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "AOS",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "AOS",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Type",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Type",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Code Or Proprietary",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Code Or Proprietary",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Code",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Code",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SCOR",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "SCOR",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finnish creditor reference",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Finnish creditor reference",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "International RF creditor reference",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "International RF creditor reference",
+      "page": 30,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate parties",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Ultimate parties",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate beneficiary",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Ultimate beneficiary",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate creditor field",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Ultimate creditor field",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate Debtor information",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Ultimate Debtor information",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ultimate parties are forwarded to the electronic account statement",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "Ultimate parties are forwarded to the electronic account statement",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "3.1",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "3.1",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "3.2",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "3.2",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "3.3",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "3.3",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "3.4",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "3.4",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Debtor Bank",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "Debtor Bank",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor Bank",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "Creditor Bank",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finnish Financial Supervisory Authority (FFI)",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "FFI website at www.finanssiala.fi",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Camt.053",
+      "type": "Product",
+      "confidence": 0.9,
+      "source_text": "Camt.053 XML account statement",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "pain.001",
+      "type": "Product",
+      "confidence": 0.9,
+      "source_text": "pain.001 XML data",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "T11/00",
+      "type": "Product",
+      "confidence": 0.9,
+      "source_text": "T11/00 details",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "T11/11",
+      "type": "Product",
+      "confidence": 0.9,
+      "source_text": "T11/11 SEPA supplementary data",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor reference",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Creditor reference",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "RF47 8921 8291 6",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "RF47 8921 8291 6",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Credit transfer with message",
+      "type": "Event",
+      "confidence": 0.92,
+      "source_text": "Credit transfer with message",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "XML message",
+      "type": "Product",
+      "confidence": 0.88,
+      "source_text": "XML message",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Group Finance",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Group Finance",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Aleksanterinkatu",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Aleksanterinkatu",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "123",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "123",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "00100",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "00100",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "LEI",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "LEI",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "TRF",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "TRF",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "false",
+      "type": "Product",
+      "confidence": 0.92,
+      "source_text": "false",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SvcLvl",
+      "type": "Product",
+      "confidence": 0.88,
+      "source_text": "SvcLvl",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Debtor Company Plc",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "BANKFIHH",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "FI8529501800020574",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "DEUTATWW",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor Company",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Nm>Creditor Company</Nm>",
+      "page": 36,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Wien",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "TwnNm>Wien</TwnNm>",
+      "page": 36,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Hohenstaufengasse",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "StrtNm>Hohenstaufengasse</StrtNm>",
+      "page": 36,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "1010",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "PstCd>1010</PstCd>",
+      "page": 36,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "AT",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Ctry>AT</Ctry>",
+      "page": 36,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SAAJA TOIMITTAJA OY",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "SAAJA TOIMITTAJA OY",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "KOTIKATU",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "KOTIKATU",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "321",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "321",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "InstrId000002",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "InstrId000002",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "EndToEndId000002",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "EndToEndId000002",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "EUR",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "EUR",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2000.02",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2000.02",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "SLEV",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "SLEV",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment Status Report",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "The Payment Status Report schema name is <pain.002.001.10>",
+      "page": 38,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "payment message",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The bank returns a Payment Status Report after receiving a payment message.",
+      "page": 38,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "C. Original Payment Instruction",
+      "type": "Event",
+      "confidence": 0.92,
+      "source_text": "C. Original Payment Instruction",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "GroupStatus",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "GroupStatus",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ACTC",
+      "type": "Event",
+      "confidence": 0.7,
+      "source_text": "ACTC",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ACCP",
+      "type": "Event",
+      "confidence": 0.65,
+      "source_text": "ACCP",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "RJCT",
+      "type": "Event",
+      "confidence": 0.55,
+      "source_text": "RJCT",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OriginalMessageID",
+      "type": "Product",
+      "confidence": 0.5,
+      "source_text": "OriginalMessageID",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OriginalEndToEndID",
+      "type": "Product",
+      "confidence": 0.45,
+      "source_text": "OriginalEndToEndID",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OriginalInstructionId",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "OriginalInstructionId",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "TransactionStatus-field",
+      "type": "Product",
+      "confidence": 0.35,
+      "source_text": "TransactionStatus-field",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Status Reason-code",
+      "type": "Product",
+      "confidence": 0.3,
+      "source_text": "Status Reason-code",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "e.g. AC01",
+      "type": "Product",
+      "confidence": 0.25,
+      "source_text": "e.g. AC01",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Customer Payment Status Report V10",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Payment Information And Status",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Original group information concerning the group of transactions to which the status report message refers to.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Message Identification",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Creation Date Time",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Date and time at which the original message was created.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Number Of Transactions",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Number of individual transactions contained in the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Control Sum",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Control sum of the transactions contained in the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "1.6",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "1.6",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "0..1",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "0..1",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.0",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.0",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "1..1",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "1..1",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.1",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.1",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.2",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.2",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.3",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.3",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.4",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.4",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.5",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.5",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2.6",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "2.6",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Reason",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Specifies the reason for the status report.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Reason code",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Reason code.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Additional Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Additional Information",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Number Of Transactions Per Status",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Number Of Transactions Per Status",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Unique identification",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Unique identification, as assigned by the original sending party, to unambiguously identify the original payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Number of individual transactions",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Number of individual transactions contained in the original payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Total of all individual amounts",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Total of all individual amounts included in the original payment information group, irrespective of currencies.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment Information Status",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Specifies the status of the payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Status Reason",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Status Reason",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Transaction Information And Status",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Transaction Information And Status",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Status Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Status Identification",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original End To End Identification",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Original End To End Identification",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Status Reason Information",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Status Reason Information",
+      "page": 45,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Original Transaction Reference",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Original Transaction Reference",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Requested Execution Date",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Requested Execution Date",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment Method",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Payment Method",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor Account",
+      "type": "Organization",
+      "confidence": 1.0,
+      "source_text": "Creditor Account",
+      "page": 48,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Message structure approved",
+      "type": "Event",
+      "confidence": 0.92,
+      "source_text": "Message structure approved",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Message structure rejected",
+      "type": "Event",
+      "confidence": 0.92,
+      "source_text": "Message structure rejected",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2023-04-12T12:00:00",
+      "type": "Date",
+      "confidence": 0.95,
+      "source_text": "2023-04-12T12:00:00",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "2023-04-03T10:30:00",
+      "type": "Date",
+      "confidence": 0.95,
+      "source_text": "2023-04-03T10:30:00",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "CstmrPmtStsRpt",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "CstmrPmtStsRpt",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "GrpHdr",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "GrpHdr",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OrgnlGrpInfAndSts",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "OrgnlGrpInfAndSts",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "StsRsnInf",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "StsRsnInf",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Orgtr",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Orgtr",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Id",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Id",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "AnyBIC",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "AnyBIC",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Message content approved",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "Message content approved",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payments partially accepted in message for further processing",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "Payments partially accepted in message for further processing",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OrgnlMsgNmId",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "OrgnlMsgNmId",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "OrgnlCreDtTm",
+      "type": "Date",
+      "confidence": 0.95,
+      "source_text": "OrgnlCreDtTm",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Rejection reason codes",
+      "type": "Product",
+      "confidence": 0.92,
+      "source_text": "The rejection reason codes used in the ISO20022 standard are specified in the External Code List / ExternalStatusReason1Code.",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "External Code List",
+      "type": "Product",
+      "confidence": 0.88,
+      "source_text": "External Code List / ExternalStatusReason1Code",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ISO20022 standard",
+      "type": "Product",
+      "confidence": 0.51,
+      "source_text": "The rejection reason codes used in the ISO20022 standard are specified in the External Code List / ExternalStatusReason1Code.",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Bank Operation",
+      "type": "Product",
+      "confidence": 0.42,
+      "source_text": "AG02  Bank Operation code specified in the message is not valid for receiver",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Receiver",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "AC04  Account number specified has been closed on the Receiver's books",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Account",
+      "type": "Product",
+      "confidence": 0.36,
+      "source_text": "AG01  Transaction forbidden on this type of account",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Transaction",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "AG01  Transaction forbidden on this type of account",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Message",
+      "type": "Product",
+      "confidence": 0.3,
+      "source_text": "AM05  This message appears to have been duplicated",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Funds",
+      "type": "Product",
+      "confidence": 0.24,
+      "source_text": "AM04  Amount of funds available to cover specified message amount is insufficient",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Cover",
+      "type": "Product",
+      "confidence": 0.21,
+      "source_text": "AM04  Amount of funds available to cover specified message amount is insufficient",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Specified",
+      "type": "Product",
+      "confidence": 0.18,
+      "source_text": "AC01  Format of the account number specified is not correct",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Account number",
+      "type": "Product",
+      "confidence": 0.15,
+      "source_text": "AC01  Format of the account number specified is not correct",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Format",
+      "type": "Product",
+      "confidence": 0.12,
+      "source_text": "AC01  Format of the account number specified is not correct",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Correct",
+      "type": "Product",
+      "confidence": 0.09,
+      "source_text": "AC01  Format of the account number specified is not correct",
+      "page": 51,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Regulation (EU) 2024/886",
+      "type": "Product",
+      "confidence": 0.9,
+      "source_text": "The Instant Payments Regulation (Regulation (EU) 2024/886) determines that from 9 October 2025, a payer’s payment service provider (PSP, banks included) must offer to the payer a service ensuring verification of the payee to whom the payer intends to send a credit transfer.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payer",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payee",
+      "type": "Person",
+      "confidence": 0.95,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "PSP",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "VAT number",
+      "type": "Product",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "European Union",
+      "type": "Location",
+      "confidence": 0.9,
+      "source_text": "This applies to both standard and instant credit transfers denominated in euro within the European Union.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Instant Payments Regulation",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The Instant Payments Regulation (Regulation (EU) 2024/886) determines that from 9 October 2025, a payer’s payment service provider (PSP, banks included) must offer to the payer a service ensuring verification of the payee to whom the payer intends to send a credit transfer.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Verification of Payee (VOP)",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The European Payment Council’s Verification of Payee (VOP)8 scheme provides a set of rules and standards for the verification of payee in the Single Euro Payments Area (SEPA).",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payer’s PSP",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment account identifier",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Legal person",
+      "type": "Person",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Companies",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "This data includes the full payment information, not just the name and IBAN combination required for the VOP.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Corporate customers",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "Corporate customers may have the payee information verified through their system before submitting the payments to their bank in the C2B payment file.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "VOP request",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Corporate customers can opt in to the VOP service by making a VOP request using the designated file type included in the data transfer channel.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment file",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The channel offered by the bank includes a separate file type for the VOP service, which only submits the data for the verification of the payee, not for payment.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Status report",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The matching results are then sent to the customer as a C2B payment status report (see 7.2.2 Status codes submitted to the customer)",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "VOP Scheme Rulebook",
+      "type": "Product",
+      "confidence": 0.85,
+      "source_text": "EPC document ‘EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook’",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Domestic urgent payments",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "Domestic urgent payments and currency payments",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Currency payments",
+      "type": "Event",
+      "confidence": 0.95,
+      "source_text": "Currency payments",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "ServiceLevel/Code",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "ServiceLevel/Code “URGP”",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ustrd message",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "In foreign payments, a single Ustrd message should be used instead of Strd structure",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Strd structure",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "In foreign payments, a single Ustrd message should be used instead of Strd structure",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "XML data",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "The following table explains how the information of an electronic currency payment can be given in XML data",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Normal payment",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Normal payment",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Default payment method",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Default payment method",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Urgent payment",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Urgent payment",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment within the group",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Payment within the group",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Capital payment/Treasury payment (Same day value)",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Capital payment/Treasury payment (Same day value)",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Currency exchange deal number",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Currency exchange deal number",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Payment in creditor’s currency",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Payment in creditor’s currency",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Clearing code, name and address of the creditor’s bank",
+      "type": "Product",
+      "confidence": 0.95,
+      "source_text": "Clearing code, name and address of the creditor’s bank",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Bank of America",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "BANK OF AMERICA",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "New York",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "NEW YORK",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "United States",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "US",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Bankstreet",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Bankstreet",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "15",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "15",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Finnish term",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Finnish term",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Swedish term",
+      "type": "Location",
+      "confidence": 1.0,
+      "source_text": "Swedish term",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Creditor identification code",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "The Creditor identification code",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Maksajan antama saajan yksilöintitieto",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Maksajan antama saajan yksilöintitieto",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Mottagarens identifikation",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Mottagarens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "The Originator’s reference of the Credit Transfer Transaction",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "The Originator’s reference of the Credit Transfer Transaction",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Maksutapahtuman tunniste",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Maksutapahtuman tunniste",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Transaktionens identifikation",
+      "type": "Product",
+      "confidence": 1.0,
+      "source_text": "Transaktionens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Originator Reference Party",
+      "type": "Organization",
+      "confidence": 0.95,
+      "source_text": "The Originator Reference Party",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Lopullinen saaja",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Lopullinen saaja Osapuoli, joka on maksun lopullinen saaja.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Slutlig mottagare",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Slutlig mottagare Part, som är betalningens slutliga mottagare",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Ursprunglig fakturamottagare",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Ursprunglig fakturamottagare Part som ursprungligen köpt vara eller service och dit försäljaren levererat räkningen.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Alkuperäinen laskun saaja",
+      "type": "Location",
+      "confidence": 0.95,
+      "source_text": "Alkuperäinen laskun saaja Osapuoli, joka alunperin on ostanut tavaraa tai palvelua ja jolle myyjä on toimittanut laskun.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "name": "Sender",
+      "type": "Person",
+      "confidence": 0.9,
+      "source_text": "Sender",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "name": "Interbank Settlement",
+      "type": "Organization",
+      "confidence": 0.9,
+      "source_text": "Interbank Settlement",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ISO 20022",
+      "relation": "USES",
+      "target": "International Organization for Standardization (ISO)",
+      "confidence": 0.92,
+      "source_text": "International payment systems will migrate to the ISO 20022 standard of the International Organization for Standardization (ISO) in interbank payments by 2025.",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European banks",
+      "relation": "USES",
+      "target": "Regulation (EU) No 260/2012",
+      "confidence": 0.92,
+      "source_text": "European banks, payment institutions and the euro area clearing and settlement systems have already adopted the ISO 20022 standard.",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "HARMONIZES",
+      "target": "European banks",
+      "confidence": 0.92,
+      "source_text": "The objective of the Single Euro Payments Area (SEPA) is that consumers, companies and organisations can pay and receive payments in euro with the same conditions, rights and obligations regardless of whether the payment is domestic or international.",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "relation": "REFERENCES",
+      "target": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "confidence": 0.92,
+      "source_text": "The purpose of this guide is to describe the usage of the customer-to-bank ISO 20022 Payment Initiation message in credit transfers. This description is based on the current accepted SEPA Credit Transfer Customer-to-PSP Implementation Guidelines1 (version 2023 1.1) and the SEPA Instant Credit Transfer Customer-to-PSP Implementation Guidelines2 (version 2023 1.2).",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "MAINTAINS",
+      "target": "SEPA Credit Transfer Customer-to-PSP Implementation Guidelines",
+      "confidence": 0.92,
+      "source_text": "The latest versions of the SEPA Rulebooks and Implementation Guidelines should always be checked from the European Payments Council (EPC) website at www.europeanpaymentscouncil.eu.",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Finland",
+      "relation": "USES",
+      "target": "pain.001.001.09",
+      "confidence": 0.92,
+      "source_text": "The name of the ISO standard message is ”CustomerCreditTransferInitiationV09” and the XML scheme identifier is ”pain.001.001.09”. Finland currently uses pain.001.001.02 and pain.001.001.03 instead of the more recent version.",
+      "page": 4,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022",
+      "relation": "USES",
+      "target": "Swift4 Payment Market Practice Group (PMPG)",
+      "confidence": 0.9,
+      "source_text": "The Swift4 Payment Market Practice Group (PMPG) has issued a recommendation for how structured addresses should be used when the payment parties are located in different countries.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022",
+      "relation": "USES",
+      "target": "European Payments Council",
+      "confidence": 0.9,
+      "source_text": "The European Payments Council (EPC) has therefore taken the decision to enable hybrid addresses to facilitate a more flexible transition.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Swift4 Payment Market Practice Group (PMPG)",
+      "relation": "USES",
+      "target": "SEPA",
+      "confidence": 0.8,
+      "source_text": "The pain.001.001.09 message version enables the use of structured addresses in SEPA payments.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "ISO 20022",
+      "confidence": 0.8,
+      "source_text": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "Swift4 Payment Market Practice Group (PMPG)",
+      "confidence": 0.8,
+      "source_text": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "swift.com",
+      "confidence": 0.8,
+      "source_text": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "europeanpaymentscouncil.eu",
+      "confidence": 0.8,
+      "source_text": "The EPC has released a guidance document on the provision of addresses under the EPC payment schemes.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "November",
+      "confidence": 0.8,
+      "source_text": "At the time of writing, the EPC had set no end date for the provision of an address in a hybrid format.",
+      "page": 5,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Creditor",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Beneficiary",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Creditor",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Beneficiary",
+      "relation": "PART_OF",
+      "target": "Party",
+      "confidence": 0.95,
+      "source_text": "Party is the bank of the debtor.",
+      "page": 6,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SWIFT",
+      "relation": "REFERENCES",
+      "target": "Ultimate Debtor",
+      "confidence": 0.9,
+      "source_text": "Source: SWIFT",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "WORKS_FOR",
+      "target": "head-office",
+      "confidence": 0.8,
+      "source_text": "the Ultimate Debtor",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "head-office",
+      "relation": "WORKS_FOR",
+      "target": "subsidary",
+      "confidence": 0.8,
+      "source_text": "the head-office",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "head-office",
+      "relation": "OWNS",
+      "target": "subsidary",
+      "confidence": 0.8,
+      "source_text": "the head-office",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "head-office",
+      "relation": "USES",
+      "target": "shared service centre",
+      "confidence": 0.8,
+      "source_text": "the head-office",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "shared service centre",
+      "relation": "WORKS_FOR",
+      "target": "head-office",
+      "confidence": 0.8,
+      "source_text": "the shared service centre",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "financing company",
+      "relation": "OWNS",
+      "target": "customer",
+      "confidence": 0.8,
+      "source_text": "the financing company",
+      "page": 7,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Group Header",
+      "confidence": 1.0,
+      "source_text": "Group Header (Block A) contains the ID information of the payment message.",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 0.95,
+      "source_text": "Payment Information can occur multiple times.",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Credit Transfer Transaction Information",
+      "confidence": 0.95,
+      "source_text": "Credit Transfer Transaction Information is an element in the Payment Information block.",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Remittance Information",
+      "confidence": 0.95,
+      "source_text": "The optional Remittance Information element can occur multiple times.",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SWIFT",
+      "relation": "CREATED",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.95,
+      "source_text": "Source: SWIFT",
+      "page": 8,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "USES",
+      "target": "ERI",
+      "confidence": 0.95,
+      "source_text": "The use of ERI is bank-specific",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "SUPPORTS",
+      "target": "SEPA",
+      "confidence": 0.95,
+      "source_text": "SEPA payments",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "XML schema",
+      "relation": "SUPPORTS",
+      "target": "Payment Information",
+      "confidence": 0.95,
+      "source_text": "Other types of payments, such as international transfers, may also use additional message elements permitted by the XML schema",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Group Header",
+      "relation": "CONTAINS",
+      "target": "BatchBooking",
+      "confidence": 0.95,
+      "source_text": "GroupHeader contains the element BatchBooking",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Credit Transfer Transaction Information",
+      "confidence": 0.95,
+      "source_text": "The message may contain several Payment Information blocks, which may contain one or more subordinate Credit Transfer Transaction Information blocks",
+      "page": 9,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022",
+      "relation": "PRODUCES",
+      "target": "Message root",
+      "confidence": 0.85,
+      "source_text": "Message root",
+      "page": 10,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022",
+      "relation": "PRODUCES",
+      "target": "CstmrCdtTrfInitn",
+      "confidence": 0.85,
+      "source_text": "<CstmrCdtTrfInitn>",
+      "page": 10,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "REGULATES",
+      "target": "Message root",
+      "confidence": 0.8,
+      "source_text": "SEPA rulebook",
+      "page": 10,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Group Header",
+      "relation": "CONTAINS",
+      "target": "Customer Credit Transfer Initiation V09",
+      "confidence": 1.0,
+      "source_text": "+Group Header +Message Identification Unique identification of the message assigned by the Initiating Party.",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Group Header",
+      "relation": "CONTAINS",
+      "target": "Initiating Party",
+      "confidence": 1.0,
+      "source_text": "+Group Header ++Initiating Party The Party on the initiative of which the payment data is created.",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "CONTAINS",
+      "target": "shared service centre",
+      "confidence": 0.9,
+      "source_text": "an agent, or the shared service centre",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "CONTAINS",
+      "target": "Debtor",
+      "confidence": 0.9,
+      "source_text": "the debtor itself",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.9,
+      "source_text": "the bank",
+      "page": 11,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "USES",
+      "target": "Payment Information",
+      "confidence": 0.95,
+      "source_text": "PaymentInformation contains elements related to the debit side of the transaction.",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "CONTAINS",
+      "target": "Private Identification",
+      "confidence": 0.95,
+      "source_text": "++++Private Identification Identification of a private person.",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 0.95,
+      "source_text": "The information is common to all the credit transfers (Block C) attached to this PaymentInformation.",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Identification",
+      "confidence": 0.95,
+      "source_text": "The information is common to all the credit transfers (Block C) attached to this PaymentInformation.",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Payment Method",
+      "confidence": 0.95,
+      "source_text": "PaymentInformation contains elements related to the debit side of the transaction.",
+      "page": 12,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Credit Transfer Transaction Information",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Payment Information",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Instruction Priority",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Service Level",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Local Instrument",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "PaymentTypeInformation is usually used at this level and not at the level of individual transactions.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SEPA",
+      "relation": "USES",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Depending on the bank, a SEPA credit transfer can be identified on the basis of other payment information, but the use of the value “SEPA” in the ServiceLevel element is recommended.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Instruction Priority",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Service Level",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Local Instrument",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Instruction Priority",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Service Level",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Local Instrument",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instruction Priority",
+      "relation": "CONTAINS",
+      "target": "Service Level",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instruction Priority",
+      "relation": "CONTAINS",
+      "target": "Local Instrument",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instruction Priority",
+      "relation": "CONTAINS",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instruction Priority",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instruction Priority",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to further specify the payment type.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Service Level",
+      "relation": "CONTAINS",
+      "target": "Local Instrument",
+      "confidence": 0.92,
+      "source_text": "Credit transfers permit the use of code value “SEPA”.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Service Level",
+      "relation": "CONTAINS",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "Credit transfers permit the use of code value “SEPA”.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Service Level",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "Credit transfers permit the use of code value “SEPA”.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Service Level",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Credit transfers permit the use of code value “SEPA”.",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Local Instrument",
+      "relation": "CONTAINS",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.92,
+      "source_text": "Code “INST” can be used to specify payment as SEPA instant credit transfer (SCT Inst).",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Local Instrument",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "Code “INST” can be used to specify payment as SEPA instant credit transfer (SCT Inst).",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Local Instrument",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "Code “INST” can be used to specify payment as SEPA instant credit transfer (SCT Inst).",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "International",
+      "confidence": 0.92,
+      "source_text": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "International",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "For International and bank specific payments it may be necessary to determine the payment type also in the Credit Transfer Transaction Information block (C)",
+      "page": 13,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Customer Credit Transfer Initiation V09",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 1.0,
+      "source_text": "Payment Information",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Debtor",
+      "confidence": 1.0,
+      "source_text": "Debtor",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Postal Address",
+      "confidence": 1.0,
+      "source_text": "Postal Address",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Department",
+      "confidence": 1.0,
+      "source_text": "Department",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Sub Department",
+      "confidence": 1.0,
+      "source_text": "Sub Department",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Street Name",
+      "confidence": 1.0,
+      "source_text": "Street Name",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Building Number",
+      "confidence": 1.0,
+      "source_text": "Building Number",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Floor",
+      "confidence": 1.0,
+      "source_text": "Floor",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Post Box",
+      "confidence": 1.0,
+      "source_text": "Post Box",
+      "page": 15,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Postal Address",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Room",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Room",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Post Code",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Post Code",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Town Name",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Town Name",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Town Location Name",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Town Location Name",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "District Name",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++District Name",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Country Sub Division",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Country Sub Division",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Country",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Country",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Address Line",
+      "confidence": 1.0,
+      "source_text": "+Payment Information ++Debtor +++Postal Address +++Address Line",
+      "page": 16,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "PRODUCES",
+      "target": "Customer Credit Transfer Initiation V09",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Organisation",
+      "confidence": 1.0,
+      "source_text": "Organisation",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Business ID",
+      "confidence": 1.0,
+      "source_text": "Business ID",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Service code",
+      "confidence": 1.0,
+      "source_text": "Service code",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Private Identification",
+      "confidence": 1.0,
+      "source_text": "Private Identification",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Date and Place of Birth",
+      "confidence": 1.0,
+      "source_text": "Date and Place of Birth",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Other",
+      "confidence": 1.0,
+      "source_text": "Other",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "SEPA",
+      "confidence": 1.0,
+      "source_text": "SEPA",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "IBAN",
+      "confidence": 1.0,
+      "source_text": "IBAN",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Bank",
+      "confidence": 1.0,
+      "source_text": "bank",
+      "page": 17,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Debtor Account",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Debtor Account",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Debtor Agent",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Debtor Agent",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "FI",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Debtor Agent +++Financial Institution",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Agent",
+      "relation": "CONTAINS",
+      "target": "FI",
+      "confidence": 1.0,
+      "source_text": "Debtor Agent +++Financial Institution",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI",
+      "relation": "CONTAINS",
+      "target": "Identification",
+      "confidence": 1.0,
+      "source_text": "Financial Institution Identification",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI",
+      "relation": "CONTAINS",
+      "target": "BICFI",
+      "confidence": 1.0,
+      "source_text": "Financial Institution Identification +++BICFI",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI",
+      "relation": "CONTAINS",
+      "target": "Other",
+      "confidence": 1.0,
+      "source_text": "Financial Institution Identification +++Other",
+      "page": 18,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Transaction Information",
+      "confidence": 1.0,
+      "source_text": "Credit Transfer Transaction Information contains elements related to the transaction.",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Credit Transfer",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Transaction Information",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Payment Identification",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Payment Identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "End To End Identification",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Payment Identification +++End To End Identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Instruction",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Payment Identification ++++Instruction",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Unique transaction identification",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Payment Identification ++++Instruction Unique transaction identification",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "camt.053 XML account statement",
+      "relation": "CONTAINS",
+      "target": "T11 06 field",
+      "confidence": 1.0,
+      "source_text": "On an electronic account statement, the identifier is returned in the T11 06 field",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "camt.053 XML account statement",
+      "relation": "CONTAINS",
+      "target": "electronic account statement",
+      "confidence": 1.0,
+      "source_text": "On an electronic account statement, the identifier is returned in the T11 06 field",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "pain.001 payment data",
+      "relation": "CONTAINS",
+      "target": "camt.053 XML account statement",
+      "confidence": 1.0,
+      "source_text": "On a camt.053 XML account statement, the identifier is returned in the same or corresponding XML element as used in pain.001 payment data.",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "pain.001 payment data",
+      "relation": "CONTAINS",
+      "target": "pain.001 payment data",
+      "confidence": 1.0,
+      "source_text": "On a camt.053 XML account statement, the identifier is returned in the same or corresponding XML element as used in pain.001 payment data.",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "June",
+      "relation": "RELATED_TO",
+      "target": "2025",
+      "confidence": 1.0,
+      "source_text": "18 June 2025",
+      "page": 20,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "PRODUCES",
+      "target": "Customer Credit Transfer",
+      "confidence": 0.95,
+      "source_text": "Customer Credit Transfer Initiation V09",
+      "page": 21,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "USES",
+      "target": "SEPA",
+      "confidence": 0.8,
+      "source_text": "SEPA instant credit transfer",
+      "page": 21,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Credit Transfer",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Transaction Information",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Amount",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Amount",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Instructed Amount",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Amount +++Instructed Amount",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Charge Bearer",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Charge Bearer",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Transaction Information",
+      "relation": "CONTAINS",
+      "target": "Ultimate Debtor",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Ultimate Debtor",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "CONTAINS",
+      "target": "Name",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Ultimate Debtor +++Name",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "CONTAINS",
+      "target": "Identification",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Ultimate Debtor +++Identification",
+      "page": 22,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Ultimate Debtor",
+      "confidence": 0.8,
+      "source_text": "+++Ultimate Debtor",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Organisation",
+      "confidence": 0.8,
+      "source_text": "++++Identification",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Private Identification",
+      "confidence": 0.8,
+      "source_text": "+++++Private Identification",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Creditor Agent",
+      "confidence": 0.8,
+      "source_text": "+++Creditor Agent",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Creditor",
+      "confidence": 0.8,
+      "source_text": "+++Creditor",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "AT-C002",
+      "confidence": 0.8,
+      "source_text": "AT-C002 BIC of the Creditor PSP",
+      "page": 23,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer",
+      "relation": "CONTAINS",
+      "target": "Post Box",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 +Payment Information ++Credit Transfer Transaction Information +++Creditor ++++Postal Address ++++Post Box",
+      "page": 25,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Creditor",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 ++++Creditor",
+      "page": 26,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Country Sub Division",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 ++++Postal Address +++++Country Sub Division",
+      "page": 26,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Country",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 ++++Postal Address +++++Country",
+      "page": 26,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Address Line",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 ++++Postal Address +++++Address Line",
+      "page": 26,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Identification",
+      "confidence": 1.0,
+      "source_text": "Customer Credit Transfer Initiation V09 ++++Identification",
+      "page": 26,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Remittance Information",
+      "confidence": 1.0,
+      "source_text": "Remittance Information",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Structured",
+      "confidence": 1.0,
+      "source_text": "Unstructured",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "Creditor Reference Information",
+      "confidence": 1.0,
+      "source_text": "Creditor Reference Information",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "ISO",
+      "confidence": 1.0,
+      "source_text": "International Standard of Reference Information",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "AOS",
+      "confidence": 1.0,
+      "source_text": "AOS",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "ERI",
+      "confidence": 1.0,
+      "source_text": "ERI",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Credit Transfer Initiation V09",
+      "relation": "CONTAINS",
+      "target": "June",
+      "confidence": 1.0,
+      "source_text": "18 June 2025",
+      "page": 29,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "WORKS_FOR",
+      "target": "SEPA",
+      "confidence": 0.95,
+      "source_text": "Banks operating in Finland",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "LOCATED_IN",
+      "target": "Finland",
+      "confidence": 0.95,
+      "source_text": "Banks operating in Finland",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "WORKS_FOR",
+      "target": "Ultimate Creditor",
+      "confidence": 0.95,
+      "source_text": "Ultimate Debtor information",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Creditor",
+      "relation": "WORKS_FOR",
+      "target": "Ultimate beneficiary",
+      "confidence": 0.95,
+      "source_text": "Ultimate Creditor field",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate parties",
+      "relation": "PART_OF",
+      "target": "Ultimate Creditor",
+      "confidence": 0.95,
+      "source_text": "Ultimate parties are forwarded to the electronic account statement",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate parties",
+      "relation": "PART_OF",
+      "target": "Ultimate Debtor",
+      "confidence": 0.95,
+      "source_text": "Ultimate parties are forwarded to the electronic account statement",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Ultimate Debtor information",
+      "relation": "CONTAINS",
+      "target": "Ultimate creditor field",
+      "confidence": 0.95,
+      "source_text": "Ultimate Creditor information",
+      "page": 31,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Bank",
+      "relation": "WORKS_FOR",
+      "target": "Creditor Bank",
+      "confidence": 0.9,
+      "source_text": "The code tells the debtor’s bank that this is a salary/pension payment order.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Bank",
+      "relation": "USES",
+      "target": "Camt.053",
+      "confidence": 0.9,
+      "source_text": "In Camt.053 XML account statement the information has its own XML elements, which correspond to the payment pain.001 XML data.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Bank",
+      "relation": "USES",
+      "target": "pain.001",
+      "confidence": 0.9,
+      "source_text": "In Camt.053 XML account statement the information has its own XML elements, which correspond to the payment pain.001 XML data.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Bank",
+      "relation": "USES",
+      "target": "T11/00",
+      "confidence": 0.9,
+      "source_text": "T11/11 SEPA supplementary data. Other information can be forwarded as T11/00 details.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Bank",
+      "relation": "USES",
+      "target": "T11/11",
+      "confidence": 0.9,
+      "source_text": "T11/11 SEPA supplementary data. Other information can be forwarded as T11/00 details.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "ERI",
+      "confidence": 0.9,
+      "source_text": "The ERI service gives Debtors the possibility to transmit several invoices or credit notes in a single credit transfer.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "AOS",
+      "confidence": 0.9,
+      "source_text": "The additional optional service of combining invoices (AOS2) was replaced in November 2019 with the AOS Extended Remittance Information (ERI), which is an optional part of the European Payments Council SEPA Credit Transfer Rulebook.",
+      "page": 32,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Remittance Information",
+      "relation": "CONTAINS",
+      "target": "Creditor reference",
+      "confidence": 1.0,
+      "source_text": "The creditor reference must be provided in the RemittanceInformation component",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Remittance Information",
+      "relation": "CONTAINS",
+      "target": "RF47 8921 8291 6",
+      "confidence": 1.0,
+      "source_text": "Example of the RemittanceInformation component of an XML message",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "RF47 8921 8291 6",
+      "relation": "PART_OF",
+      "target": "Remittance Information",
+      "confidence": 1.0,
+      "source_text": "Example of the RemittanceInformation component of an XML message",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SCOR",
+      "relation": "CREATED",
+      "target": "RF47 8921 8291 6",
+      "confidence": 1.0,
+      "source_text": "Example of creditor reference in an XML message",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO",
+      "relation": "CREATED",
+      "target": "RF47 8921 8291 6",
+      "confidence": 1.0,
+      "source_text": "XML example of an international RF creditor reference",
+      "page": 33,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Group Finance",
+      "relation": "WORKS_FOR",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.95,
+      "source_text": "Group Finance",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Credit transfer with message",
+      "relation": "CREATED",
+      "target": "XML message",
+      "confidence": 0.92,
+      "source_text": "Credit transfer with message",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Group Finance",
+      "relation": "LOCATED_IN",
+      "target": "Aleksanterinkatu",
+      "confidence": 0.88,
+      "source_text": "Group Finance",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "123",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.95,
+      "source_text": "123",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "HELSINKI",
+      "relation": "LOCATED_IN",
+      "target": "FI",
+      "confidence": 0.92,
+      "source_text": "HELSINKI",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "CONTAINS",
+      "target": "TRF",
+      "confidence": 0.95,
+      "source_text": "BANK",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "false",
+      "relation": "CONTAINS",
+      "target": "SvcLvl",
+      "confidence": 0.92,
+      "source_text": "false",
+      "page": 34,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Company Plc",
+      "relation": "LOCATED_IN",
+      "target": "Aleksanterinkatu",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Company Plc",
+      "relation": "LOCATED_IN",
+      "target": "123",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Company Plc",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Company Plc",
+      "relation": "LOCATED_IN",
+      "target": "HELSINKI",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor Company Plc",
+      "relation": "LOCATED_IN",
+      "target": "FI",
+      "confidence": 0.95,
+      "source_text": "Debtor Company Plc",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "LOCATED_IN",
+      "target": "Aleksanterinkatu",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "LOCATED_IN",
+      "target": "123",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "LOCATED_IN",
+      "target": "HELSINKI",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "LOCATED_IN",
+      "target": "FI",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI8529501800020574",
+      "relation": "LOCATED_IN",
+      "target": "Aleksanterinkatu",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI8529501800020574",
+      "relation": "LOCATED_IN",
+      "target": "123",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI8529501800020574",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI8529501800020574",
+      "relation": "LOCATED_IN",
+      "target": "HELSINKI",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "FI8529501800020574",
+      "relation": "LOCATED_IN",
+      "target": "FI",
+      "confidence": 0.95,
+      "source_text": "FI8529501800020574",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "DEUTATWW",
+      "relation": "LOCATED_IN",
+      "target": "Aleksanterinkatu",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "DEUTATWW",
+      "relation": "LOCATED_IN",
+      "target": "123",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "DEUTATWW",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "DEUTATWW",
+      "relation": "LOCATED_IN",
+      "target": "HELSINKI",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "DEUTATWW",
+      "relation": "LOCATED_IN",
+      "target": "FI",
+      "confidence": 0.95,
+      "source_text": "DEUTATWW",
+      "page": 35,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "WORKS_FOR",
+      "target": "BANKFIHH",
+      "confidence": 0.92,
+      "source_text": "BANK",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "SAAJA TOIMITTAJA OY",
+      "relation": "WORKS_FOR",
+      "target": "Bank",
+      "confidence": 0.92,
+      "source_text": "SAAJA TOIMITTAJA OY",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "KOTIKATU",
+      "relation": "LOCATED_IN",
+      "target": "321",
+      "confidence": 0.92,
+      "source_text": "KOTIKATU",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "321",
+      "relation": "LOCATED_IN",
+      "target": "00100",
+      "confidence": 0.92,
+      "source_text": "321",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "00100",
+      "relation": "LOCATED_IN",
+      "target": "HELSINKI",
+      "confidence": 0.92,
+      "source_text": "00100",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "CONTAINS",
+      "target": "FI8529501800020574",
+      "confidence": 0.92,
+      "source_text": "Bank",
+      "page": 37,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "PRODUCES",
+      "target": "Payment Status Report",
+      "confidence": 0.95,
+      "source_text": "The bank returns a Payment Status Report after receiving a payment message.",
+      "page": 38,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "USES",
+      "target": "payment message",
+      "confidence": 0.95,
+      "source_text": "The bank returns a Payment Status Report after receiving a payment message.",
+      "page": 38,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "REFERENCES",
+      "target": "pain.001.001.09",
+      "confidence": 1.0,
+      "source_text": "The Payment Status Report schema name is <pain.002.001.10>",
+      "page": 38,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "C. Original Payment Instruction",
+      "relation": "CREATED",
+      "target": "Payment Status Report",
+      "confidence": 0.95,
+      "source_text": "This guide describes the structure of the Payment Status Report.",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment Status Report",
+      "relation": "CONTAINS",
+      "target": "GroupStatus",
+      "confidence": 0.9,
+      "source_text": "GroupStatus: ACTC",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "GroupStatus",
+      "relation": "HAS_COMPONENT",
+      "target": "ACTC",
+      "confidence": 0.85,
+      "source_text": "GroupStatus = ACTC",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "GroupStatus",
+      "relation": "HAS_COMPONENT",
+      "target": "ACCP",
+      "confidence": 0.8,
+      "source_text": "GroupStatus = ACCP",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "GroupStatus",
+      "relation": "HAS_COMPONENT",
+      "target": "Party",
+      "confidence": 0.75,
+      "source_text": "GroupStatus = PART",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "GroupStatus",
+      "relation": "HAS_COMPONENT",
+      "target": "RJCT",
+      "confidence": 0.7,
+      "source_text": "GroupStatus = RJCT",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "OriginalMessageID",
+      "relation": "CONTAINS",
+      "target": "OriginalEndToEndID",
+      "confidence": 0.65,
+      "source_text": "Payments identified by OriginalEndToEndID (OrgnlEndToEndId) and/or with (OriginalInstructionId)",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "OriginalMessageID",
+      "relation": "CONTAINS",
+      "target": "OriginalInstructionId",
+      "confidence": 0.6,
+      "source_text": "Payments identified by OriginalEndToEndID (OrgnlEndToEndId) and/or with (OriginalInstructionId)",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "TransactionStatus-field",
+      "relation": "CONTAINS",
+      "target": "Status Reason-code",
+      "confidence": 0.55,
+      "source_text": "TransactionStatus-field RJCT",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "TransactionStatus-field",
+      "relation": "CONTAINS",
+      "target": "e.g. AC01",
+      "confidence": 0.5,
+      "source_text": "TransactionStatus-field RJCT",
+      "page": 39,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Payment Information And Status",
+      "confidence": 1.0,
+      "source_text": "3.8 1..1 Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Message Identification",
+      "confidence": 0.95,
+      "source_text": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Creation Date Time",
+      "confidence": 0.95,
+      "source_text": "Date and time at which the original message was created.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Number Of Transactions",
+      "confidence": 0.95,
+      "source_text": "Number of individual transactions contained in the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Control Sum",
+      "confidence": 0.95,
+      "source_text": "Control sum of the transactions contained in the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "GroupStatus",
+      "confidence": 0.95,
+      "source_text": "Specifies the status of the original message.",
+      "page": 41,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Customer Payment Status Report V10",
+      "confidence": 0.8,
+      "source_text": "+++Originator Party that issues the status.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Reason",
+      "relation": "CONTAINS",
+      "target": "Reason code",
+      "confidence": 1.0,
+      "source_text": "Specifies the reason for the status report.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Additional Information",
+      "confidence": 1.0,
+      "source_text": "Set of elements used to provide detailed information on the status of the original message.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Number Of Transactions Per Status",
+      "confidence": 1.0,
+      "source_text": "Set of elements used to provide detailed information on the status of the original message.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Reason",
+      "confidence": 1.0,
+      "source_text": "Set of elements used to provide detailed information on the status of the original message.",
+      "page": 42,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Original Payment Information And Status",
+      "confidence": 0.92,
+      "source_text": "Information concerning the original payment information, to which the status report message refers.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Original Payment Information And Status",
+      "relation": "CONTAINS",
+      "target": "Customer Payment Status Report V10",
+      "confidence": 0.92,
+      "source_text": "Set of elements used to provide detailed information on the status reason.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Unique identification",
+      "confidence": 0.92,
+      "source_text": "Unique identification, as assigned by the original sending party, to unambiguously identify the original payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Number of individual transactions",
+      "confidence": 0.92,
+      "source_text": "Number of individual transactions contained in the original payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Total of all individual amounts",
+      "confidence": 0.92,
+      "source_text": "Total of all individual amounts included in the original payment information group, irrespective of currencies.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Payment Information Status",
+      "confidence": 0.92,
+      "source_text": "Specifies the status of the payment information group.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Originator",
+      "confidence": 0.92,
+      "source_text": "Party that issues the status report.",
+      "page": 43,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ISO 20022 Payments Guide",
+      "relation": "CONTAINS",
+      "target": "Customer Payment Status Report V10",
+      "confidence": 1.0,
+      "source_text": "3.7 1..1 Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Transaction Information And Status",
+      "confidence": 1.0,
+      "source_text": "3.12 0..n Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Status Reason",
+      "confidence": 1.0,
+      "source_text": "3.12 0..n Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Code",
+      "confidence": 1.0,
+      "source_text": "3.12 0..n Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Status Identification",
+      "confidence": 1.0,
+      "source_text": "3.13 0..1 Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "OriginalInstructionId",
+      "confidence": 1.0,
+      "source_text": "3.14 0..1 Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original End To End Identification",
+      "confidence": 1.0,
+      "source_text": "3.15 0..1 Customer Payment Status Report V10",
+      "page": 44,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Transaction Information And Status",
+      "relation": "CONTAINS",
+      "target": "Status Reason Information",
+      "confidence": 1.0,
+      "source_text": "Status Reason Information",
+      "page": 45,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Status Reason Information",
+      "relation": "CONTAINS",
+      "target": "Originator",
+      "confidence": 0.8,
+      "source_text": "Originator",
+      "page": 45,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Status Reason Information",
+      "relation": "CONTAINS",
+      "target": "Reason",
+      "confidence": 1.0,
+      "source_text": "Reason",
+      "page": 45,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Reason",
+      "relation": "CONTAINS",
+      "target": "Code",
+      "confidence": 1.0,
+      "source_text": "Code",
+      "page": 45,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Original Transaction Reference",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Amount",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Amount",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Requested Execution Date",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Requested Execution Date",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Payment Type Information",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Payment Method",
+      "confidence": 1.0,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Payment Method",
+      "page": 46,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Remittance Information",
+      "confidence": 0.95,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Remittance Information",
+      "page": 47,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Ultimate Debtor",
+      "confidence": 0.95,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Ultimate Debtor",
+      "page": 47,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Debtor",
+      "confidence": 0.95,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Debtor",
+      "page": 47,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Debtor Account",
+      "confidence": 0.95,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Debtor Account",
+      "page": 47,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Debtor Agent",
+      "confidence": 0.95,
+      "source_text": "Customer Payment Status Report V10 +Original Payment Information And Status ++Transaction Information And Status +++Original Transaction Reference +++++Debtor Agent",
+      "page": 47,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Creditor Agent",
+      "confidence": 1.0,
+      "source_text": "++++Creditor Agent",
+      "page": 48,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Creditor",
+      "confidence": 1.0,
+      "source_text": "++++Creditor",
+      "page": 48,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Creditor Account",
+      "confidence": 1.0,
+      "source_text": "++++Creditor Account",
+      "page": 48,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Customer Payment Status Report V10",
+      "relation": "CONTAINS",
+      "target": "Ultimate Creditor",
+      "confidence": 1.0,
+      "source_text": "++++Ultimate Creditor",
+      "page": 48,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "2023-04-12T12:00:00",
+      "relation": "CREATED",
+      "target": "Message structure approved",
+      "confidence": 0.92,
+      "source_text": "2023-04-12T12:00:00",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "2023-04-03T10:30:00",
+      "relation": "CREATED",
+      "target": "Message structure rejected",
+      "confidence": 0.92,
+      "source_text": "2023-04-03T10:30:00",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "pain.001.001.09",
+      "relation": "CONTAINS",
+      "target": "Message structure approved",
+      "confidence": 0.92,
+      "source_text": "pian.001.001.09",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "pain.001.001.09",
+      "relation": "CONTAINS",
+      "target": "Message structure rejected",
+      "confidence": 0.92,
+      "source_text": "pian.001.001.09",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "ACTC",
+      "relation": "HAS_STATUS",
+      "target": "Message structure approved",
+      "confidence": 0.92,
+      "source_text": "ACTC",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "CstmrPmtStsRpt",
+      "relation": "CONTAINS",
+      "target": "GrpHdr",
+      "confidence": 0.92,
+      "source_text": "CstmrPmtStsRpt",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "GrpHdr",
+      "relation": "CONTAINS",
+      "target": "OrgnlGrpInfAndSts",
+      "confidence": 0.92,
+      "source_text": "GrpHdr",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "OrgnlGrpInfAndSts",
+      "relation": "CONTAINS",
+      "target": "StsRsnInf",
+      "confidence": 0.92,
+      "source_text": "OrgnlGrpInfAndSts",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "StsRsnInf",
+      "relation": "CONTAINS",
+      "target": "Orgtr",
+      "confidence": 0.92,
+      "source_text": "StsRsnInf",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Orgtr",
+      "relation": "CONTAINS",
+      "target": "Id",
+      "confidence": 0.92,
+      "source_text": "Orgtr",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Id",
+      "relation": "CONTAINS",
+      "target": "AnyBIC",
+      "confidence": 0.92,
+      "source_text": "Id",
+      "page": 49,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "BANKFIHH",
+      "relation": "WORKS_FOR",
+      "target": "ISO 20022 Payments Guide",
+      "confidence": 0.95,
+      "source_text": "BANKFIHH",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Message content approved",
+      "relation": "CREATED",
+      "target": "Payments partially accepted in message for further processing",
+      "confidence": 0.95,
+      "source_text": "Message content approved",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "OrgnlMsgNmId",
+      "relation": "PART_OF",
+      "target": "OrgnlCreDtTm",
+      "confidence": 0.95,
+      "source_text": "OrgnlMsgNmId",
+      "page": 50,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "WORKS_FOR",
+      "target": "Payer",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "WORKS_FOR",
+      "target": "PSP",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "WORKS_FOR",
+      "target": "Payee",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer",
+      "relation": "USES",
+      "target": "Payment account identifier",
+      "confidence": 0.8,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payee",
+      "relation": "USES",
+      "target": "Business ID",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payee",
+      "relation": "USES",
+      "target": "VAT number",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payee",
+      "relation": "USES",
+      "target": "LEI",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "CONTAINS",
+      "target": "Payment account identifier",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "CONTAINS",
+      "target": "Business ID",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "CONTAINS",
+      "target": "VAT number",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "CONTAINS",
+      "target": "LEI",
+      "confidence": 0.8,
+      "source_text": "When the payee is a legal person, data elements other than the name of the payee that unambiguously identify the payee, such as a business ID, VAT number or Legal Entity Identifier (LEI), can be used if both the payer’s and the payee’s PSPs enable the verification of the payee against this data element.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer",
+      "relation": "RELATED_TO",
+      "target": "Transaction",
+      "confidence": 0.8,
+      "source_text": "The VOP scheme allows the inter-PSP verification of the IBAN and name of the payee before the transaction is initiated.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payee",
+      "relation": "RELATED_TO",
+      "target": "Transaction",
+      "confidence": 0.8,
+      "source_text": "The VOP scheme allows the inter-PSP verification of the IBAN and name of the payee before the transaction is initiated.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer’s PSP",
+      "relation": "RELATED_TO",
+      "target": "Transaction",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payer",
+      "relation": "PART_OF",
+      "target": "Payer’s PSP",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payee",
+      "relation": "PART_OF",
+      "target": "Payer’s PSP",
+      "confidence": 0.9,
+      "source_text": "The payer’s PSP must verify whether the payment account identifier and the name of the payee provided by the payer match those registered by the payee’s PSP.",
+      "page": 52,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "WORKS_FOR",
+      "target": "Companies",
+      "confidence": 0.95,
+      "source_text": "Banks perform VOP checks for the ISO 20022-compliant C2B pain.001 structured data of companies.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Corporate customers",
+      "relation": "USES",
+      "target": "Verification of Payee (VOP)",
+      "confidence": 0.95,
+      "source_text": "Corporate customers may have the payee information verified through their system before submitting the payments to their bank in the C2B payment file.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "CONTAINS",
+      "target": "Verification of Payee (VOP)",
+      "confidence": 0.95,
+      "source_text": "The channel offered by the bank includes a separate file type for the VOP service, which only submits the data for the verification of the payee, not for payment.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "VOP request",
+      "relation": "PART_OF",
+      "target": "Verification of Payee (VOP)",
+      "confidence": 0.95,
+      "source_text": "Corporate customers can opt in to the VOP service by making a VOP request using the designated file type included in the data transfer channel.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Instant Payments Regulation",
+      "relation": "REGULATES",
+      "target": "Verification of Payee (VOP)",
+      "confidence": 0.95,
+      "source_text": "The Instant Payments Regulation determines the following VOP response types:",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment file",
+      "relation": "CONTAINS",
+      "target": "Status report",
+      "confidence": 0.95,
+      "source_text": "The matching results are then sent to the customer as a C2B payment status report (see 7.2.2 Status codes submitted to the customer)",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Payment file",
+      "relation": "CONTAINS",
+      "target": "Payment file",
+      "confidence": 0.95,
+      "source_text": "Corporate customers may have the payee information verified through their system before submitting the payments to their bank in the C2B payment file.",
+      "page": 53,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "CREATED",
+      "target": "VOP Scheme Rulebook",
+      "confidence": 0.85,
+      "source_text": "EPC document ‘EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook’",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "PSP",
+      "relation": "WORKS_FOR",
+      "target": "European Payments Council",
+      "confidence": 0.92,
+      "source_text": "responding PSP",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "PSP",
+      "relation": "USES",
+      "target": "ISO 20022",
+      "confidence": 0.8,
+      "source_text": "ISO 20022 transaction status codes",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "PSP",
+      "relation": "REGULATES",
+      "target": "Instant Payments Regulation",
+      "confidence": 0.8,
+      "source_text": "Instant Payments Regulation",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "REGULATES",
+      "target": "Instant Payments Regulation",
+      "confidence": 0.8,
+      "source_text": "Instant Payments Regulation",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "European Payments Council",
+      "relation": "CONTAINS",
+      "target": "VOP Scheme Rulebook",
+      "confidence": 0.85,
+      "source_text": "EPC document ‘EPC Recommendations for the Matching Processes under the VOP Scheme Rulebook’",
+      "page": 54,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "PROVIDES",
+      "target": "ServiceLevel/Code",
+      "confidence": 0.95,
+      "source_text": "Check its usage with the bank in question",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "PROVIDES",
+      "target": "Ustrd message",
+      "confidence": 0.95,
+      "source_text": "In foreign payments, a single Ustrd message should be used instead of Strd structure",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "PROVIDES",
+      "target": "Strd structure",
+      "confidence": 0.95,
+      "source_text": "In foreign payments, a single Ustrd message should be used instead of Strd structure",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank",
+      "relation": "PROVIDES",
+      "target": "XML data",
+      "confidence": 0.95,
+      "source_text": "The following table explains how the information of an electronic currency payment can be given in XML data",
+      "page": 55,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank of America",
+      "relation": "LOCATED_IN",
+      "target": "New York",
+      "confidence": 0.95,
+      "source_text": "BANK OF AMERICA",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank of America",
+      "relation": "LOCATED_IN",
+      "target": "United States",
+      "confidence": 0.95,
+      "source_text": "BANK OF AMERICA",
+      "page": 56,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "AT",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "Wien",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "Hohenstaufengasse",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "123",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "1010",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor Company",
+      "relation": "LOCATED_IN",
+      "target": "New York",
+      "confidence": 0.95,
+      "source_text": "Creditor Company",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank of America",
+      "relation": "LOCATED_IN",
+      "target": "Bankstreet",
+      "confidence": 0.95,
+      "source_text": "BANK OF AMERICA",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Bank of America",
+      "relation": "LOCATED_IN",
+      "target": "15",
+      "confidence": 0.95,
+      "source_text": "BANK OF AMERICA",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Debtor",
+      "relation": "LOCATED_IN",
+      "target": "United States",
+      "confidence": 0.95,
+      "source_text": "Debtor",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Creditor",
+      "relation": "LOCATED_IN",
+      "target": "United States",
+      "confidence": 0.95,
+      "source_text": "Creditor",
+      "page": 57,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Creditor identification code",
+      "confidence": 0.95,
+      "source_text": "A code supplied by the Originator",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Maksajan antama saajan yksilöintitieto",
+      "confidence": 0.95,
+      "source_text": "Maksajan antama saajan yksilöintitieto",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Mottagarens identifikation",
+      "confidence": 0.95,
+      "source_text": "Mottagarens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "The Originator’s reference of the Credit Transfer Transaction",
+      "confidence": 0.95,
+      "source_text": "The Originator’s reference of the Credit Transfer Transaction",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Credit Transfer",
+      "confidence": 0.95,
+      "source_text": "SEPA credit transfer",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Maksutapahtuman tunniste",
+      "confidence": 0.95,
+      "source_text": "Maksutapahtuman tunniste",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "CREATED",
+      "target": "Transaktionens identifikation",
+      "confidence": 0.95,
+      "source_text": "Transaktionens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Creditor identification code",
+      "confidence": 0.95,
+      "source_text": "A code supplied by the Originator",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Maksajan antama saajan yksilöintitieto",
+      "confidence": 0.95,
+      "source_text": "Maksajan antama saajan yksilöintitieto",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Mottagarens identifikation",
+      "confidence": 0.95,
+      "source_text": "Mottagarens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "The Originator’s reference of the Credit Transfer Transaction",
+      "confidence": 0.95,
+      "source_text": "The Originator’s reference of the Credit Transfer Transaction",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Credit Transfer",
+      "confidence": 0.95,
+      "source_text": "SEPA credit transfer",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Maksutapahtuman tunniste",
+      "confidence": 0.95,
+      "source_text": "Maksutapahtuman tunniste",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator",
+      "relation": "USES",
+      "target": "Transaktionens identifikation",
+      "confidence": 0.95,
+      "source_text": "Transaktionens identifikation",
+      "page": 60,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "AOS",
+      "relation": "WORKS_FOR",
+      "target": "Originator Reference Party",
+      "confidence": 0.92,
+      "source_text": "AOS agreed on: Originator Reference Party",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Party",
+      "confidence": 0.92,
+      "source_text": "The Originator Reference Party is a person on behalf of or in connection with whom the Originator purports to make a payment.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Lopullinen saaja",
+      "confidence": 0.92,
+      "source_text": "Lopullinen saaja Osapuoli, joka on maksun lopullinen saaja.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Slutlig mottagare",
+      "confidence": 0.92,
+      "source_text": "Slutlig mottagare Part, som är betalningens slutliga mottagare",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Ursprunglig fakturamottagare",
+      "confidence": 0.92,
+      "source_text": "Ursprunglig fakturamottagare Part som ursprungligen köpt vara eller service och dit försäljaren levererat räkningen.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Alkuperäinen laskun saaja",
+      "confidence": 0.92,
+      "source_text": "Alkuperäinen laskun saaja Osapuoli, joka alunperin on ostanut tavaraa tai palvelua ja jolle myyjä on toimittanut laskun.",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Originator Reference Party",
+      "relation": "CONTAINS",
+      "target": "Creditor reference",
+      "confidence": 0.92,
+      "source_text": "The Creditor Reference Party",
+      "page": 61,
+      "extraction_source": "HF Text"
+    },
+    {
+      "source": "Sender",
+      "relation": "RELATED_TO",
+      "target": "pain.001",
+      "confidence": 0.9,
+      "source_text": "Sender pain.001",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "pain.001",
+      "relation": "RELATED_TO",
+      "target": "Receiver",
+      "confidence": 0.9,
+      "source_text": "pain.001 Receiver",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Debtor",
+      "relation": "RELATED_TO",
+      "target": "pain.001",
+      "confidence": 0.9,
+      "source_text": "Debtor pain.001",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Ultimate Debtor",
+      "relation": "RELATED_TO",
+      "target": "Debtor",
+      "confidence": 0.9,
+      "source_text": "Ultimate Debtor Debtor",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Initiating Party",
+      "relation": "RELATED_TO",
+      "target": "Debtor",
+      "confidence": 0.9,
+      "source_text": "Initiating Party Debtor",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Creditor",
+      "relation": "RELATED_TO",
+      "target": "Ultimate Creditor",
+      "confidence": 0.9,
+      "source_text": "Creditor Ultimate Creditor",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "subsidary",
+      "relation": "PART_OF",
+      "target": "head-office",
+      "confidence": 0.9,
+      "source_text": "Subsidiary Head-office",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "head-office",
+      "relation": "CONTAINS",
+      "target": "shared service centre",
+      "confidence": 0.9,
+      "source_text": "Head-office Shared Service Center",
+      "page": 7,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Group Header",
+      "relation": "CONTAINS",
+      "target": "Payment Information",
+      "confidence": 1.0,
+      "source_text": "Group Header -> Payment Information 1",
+      "page": 9,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Payment Information",
+      "relation": "CONTAINS",
+      "target": "Transaction Information",
+      "confidence": 1.0,
+      "source_text": "Payment Information 1 -> Transaction Information 1",
+      "page": 9,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Group Header",
+      "relation": "RELATED_TO",
+      "target": "Original Payment Information And Status",
+      "confidence": 0.8,
+      "source_text": "A. This building block is mandatory and present once.",
+      "page": 38,
+      "extraction_source": "HF Vision"
+    },
+    {
+      "source": "Original Payment Information And Status",
+      "relation": "RELATED_TO",
+      "target": "Transaction Information And Status",
+      "confidence": 0.8,
+      "source_text": "B. This building block is mandatory and present once.",
+      "page": 38,
+      "extraction_source": "HF Vision"
+    }
+  ]
+}

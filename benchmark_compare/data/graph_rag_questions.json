@@ -1,0 +1,192 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The ISO 20022 standard is used for payment messages. Which legislative body enacted the regulation that made the ISO 20022 standard mandatory in euro transactions between banks and their customers?",
+      "difficulty": "easy",
+      "answer": "The European Parliament and the Council (Regulation (EU) No 260/2012).",
+      "reasoning_chain": [
+        "ISO 20022 standard → MANDATED_BY → Regulation (EU) No 260/2012",
+        "Regulation (EU) No 260/2012 → ENACTED_BY → European Parliament and the Council"
+      ],
+      "source_entities": [
+        "ISO 20022 standard",
+        "Regulation (EU) No 260/2012",
+        "European Parliament and the Council"
+      ],
+      "hop_count": 2
+    },
+    {
+      "id": 2,
+      "question": "According to the guide, the latest versions of the SEPA Rulebooks and Implementation Guidelines should always be checked from www.europeanpaymentscouncil.eu. Which organisation publishes and maintains these SEPA documents and operates that website?",
+      "difficulty": "easy",
+      "answer": "The European Payments Council (EPC).",
+      "reasoning_chain": [
+        "SEPA Rulebooks and Implementation Guidelines → PUBLISHED_AND_MAINTAINED_BY → European Payments Council (EPC)",
+        "European Payments Council (EPC) → OPERATES_WEBSITE → www.europeanpaymentscouncil.eu"
+      ],
+      "source_entities": [
+        "SEPA Rulebooks and Implementation Guidelines",
+        "European Payments Council (EPC)",
+        "www.europeanpaymentscouncil.eu"
+      ],
+      "hop_count": 2
+    },
+    {
+      "id": 3,
+      "question": "In SEPA credit transfers, which value of the ChargeBearer element in the Payment Information block indicates that the debtor and the creditor each pay their own charges?",
+      "difficulty": "easy",
+      "answer": "SLEV.",
+      "reasoning_chain": [
+        "ChargeBearer element → VALUE → SLEV",
+        "SLEV → MEANS → Debtor and Creditor pay their own charges",
+        "SLEV → USED_IN → SEPA credit transfers"
+      ],
+      "source_entities": [
+        "ChargeBearer",
+        "SLEV",
+        "Debtor",
+        "Creditor"
+      ],
+      "hop_count": 2
+    },
+    {
+      "id": 4,
+      "question": "A payment is credited to the account of a financing company, but the ultimate creditor of the payment is a customer of that financing company. Which element in the Credit Transfer Transaction Information block (Block C) is used to identify this customer as the ultimate beneficiary?",
+      "difficulty": "medium",
+      "answer": "The UltimateCreditor element (index 2.148).",
+      "reasoning_chain": [
+        "payment → CREDITED_TO → financing company's account",
+        "financing company's customer → IS → Ultimate Creditor of the payment",
+        "Ultimate Creditor → CARRIED_IN → UltimateCreditor element in Credit Transfer Transaction Information"
+      ],
+      "source_entities": [
+        "payment",
+        "financing company",
+        "customer",
+        "Ultimate Creditor",
+        "UltimateCreditor element"
+      ],
+      "hop_count": 3
+    },
+    {
+      "id": 5,
+      "question": "Salaries and pensions are paid as recurring credit transfers. Which Category Purpose code is used to recognise them, and how are these credit transfers booked on the debtor's account statement?",
+      "difficulty": "medium",
+      "answer": "Category Purpose code SALA; they are made as a combined debit on the debtor's account statement.",
+      "reasoning_chain": [
+        "Salaries and pensions → PAID_AS → credit transfers",
+        "salary/pension credit transfers → RECOGNISED_BY → Category Purpose code SALA",
+        "SALA-coded credit transfers → BOOKED_AS → combined debit on debtor's account statement"
+      ],
+      "source_entities": [
+        "Salaries and pensions",
+        "Category Purpose code SALA",
+        "debtor's account statement"
+      ],
+      "hop_count": 3
+    },
+    {
+      "id": 6,
+      "question": "The additional optional service of combining invoices (AOS2) was replaced in November 2019 by another AOS. Which service replaced it, and of which rulebook is that service an optional part?",
+      "difficulty": "medium",
+      "answer": "The AOS Extended Remittance Information (ERI); it is an optional part of the European Payments Council (EPC) SEPA Credit Transfer Rulebook.",
+      "reasoning_chain": [
+        "AOS2 (combining invoices) → REPLACED_IN → November 2019",
+        "AOS2 → REPLACED_BY → AOS Extended Remittance Information (ERI)",
+        "ERI → OPTIONAL_PART_OF → EPC SEPA Credit Transfer Rulebook"
+      ],
+      "source_entities": [
+        "AOS2",
+        "November 2019",
+        "Extended Remittance Information (ERI)",
+        "EPC SEPA Credit Transfer Rulebook"
+      ],
+      "hop_count": 3
+    },
+    {
+      "id": 7,
+      "question": "When the payee is a legal person and the verification of payee is performed against an identification code such as a business ID, VAT number or Legal Entity Identifier (LEI), which VOP response types are possible?",
+      "difficulty": "medium",
+      "answer": "Only Match, No match and Not possible. (Close match is not possible when a legal person is verified with an identification code.)",
+      "reasoning_chain": [
+        "legal person payee → IDENTIFIED_BY → business ID, VAT number or LEI",
+        "verification against an identification code → RESTRICTS → possible VOP response types",
+        "possible VOP response types → INCLUDE → Match, No match, Not possible"
+      ],
+      "source_entities": [
+        "legal person",
+        "business ID",
+        "VAT number",
+        "LEI",
+        "Match",
+        "No match",
+        "Not possible"
+      ],
+      "hop_count": 3
+    },
+    {
+      "id": 8,
+      "question": "In the XML message example of section 5.2, the second Payment Information block identifies its payment as a SEPA instant credit transfer using the Local Instrument code INST. Which creditor receives this payment, which creditor reference is attached to it, and what instructed amount in euro is given?",
+      "difficulty": "hard",
+      "answer": "SAAJA TOIMITTAJA OY; creditor reference RF47892182916 (with Issuer ISO); instructed amount 2000.02 EUR.",
+      "reasoning_chain": [
+        "LocalInstrument code INST → SPECIFIES → SEPA instant credit transfer",
+        "SEPA instant credit transfer → CARRIED_IN → second Payment Information block (PmtInfId 20230403-12345678914)",
+        "second Payment Information → CONTAINS → Credit Transfer Transaction Information with Creditor SAAJA TOIMITTAJA OY",
+        "Credit Transfer Transaction Information → INCLUDES → Creditor Reference RF47892182916",
+        "Credit Transfer Transaction Information → INSTRUCTS → amount 2000.02 EUR"
+      ],
+      "source_entities": [
+        "INST",
+        "SEPA instant credit transfer",
+        "SAAJA TOIMITTAJA OY",
+        "RF47892182916",
+        "2000.02 EUR"
+      ],
+      "hop_count": 4
+    },
+    {
+      "id": 9,
+      "question": "The payment message with MessageIdentification MSGID000001 passes structural validation at the bank. Which schema does the bank use for the return message, which Group Status does that return message carry, and which original identifier does it include?",
+      "difficulty": "hard",
+      "answer": "The Payment Status Report schema pain.002.001.10 with Group Status ACTC; it returns the original MessageIdentification MSGID000001 (in the OrgnlMsgId element).",
+      "reasoning_chain": [
+        "payment message (pain.001.001.09) → CARRIES → MessageIdentification MSGID000001",
+        "bank → RETURNS → Payment Status Report",
+        "Payment Status Report → USES_SCHEMA → pain.002.001.10",
+        "structurally approved message → GROUP STATUS → ACTC",
+        "Payment Status Report → INCLUDES → OrgnlMsgId MSGID000001"
+      ],
+      "source_entities": [
+        "MSGID000001",
+        "pain.001.001.09",
+        "pain.002.001.10",
+        "ACTC",
+        "Payment Status Report"
+      ],
+      "hop_count": 5
+    },
+    {
+      "id": 10,
+      "question": "During content validation, a single transaction is rejected because the format of the account number specified is not correct. Which status reason code is returned, at which component level of the pain.002.001.10 message is the rejection reported, and which transaction status does it carry?",
+      "difficulty": "hard",
+      "answer": "Status reason code AC01; the rejection is reported at transaction level in the TransactionInformationAndStatus component of the OriginalPaymentInformationAndStatus block; the transaction status is RJCT.",
+      "reasoning_chain": [
+        "pain.002.001.10 → CONTAINS → Original Payment Information And Status block",
+        "Original Payment Information And Status → CONTAINS → Transaction Information And Status",
+        "Transaction Information And Status → CARRIES → TransactionStatus RJCT",
+        "TransactionStatus RJCT → EXPLAINED_BY → Status Reason Information",
+        "Status Reason code AC01 → MEANS → format of the account number specified is not correct"
+      ],
+      "source_entities": [
+        "pain.002.001.10",
+        "Original Payment Information And Status",
+        "Transaction Information And Status",
+        "RJCT",
+        "AC01"
+      ],
+      "hop_count": 5
+    }
+  ]
+}
