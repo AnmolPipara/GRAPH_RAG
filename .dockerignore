@@ -1,0 +1,19 @@
+# Secrets — never copy into the image
+.env
+.env.*
+
+# Version control / scratch
+.git
+.gitignore
+.freebuff
+dockerignore.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Heavy / non-runtime data (keeps the image small)
+data/
+experiments/
+docs/
+*.log

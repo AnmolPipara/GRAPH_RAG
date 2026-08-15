@@ -20,3 +20,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Streamlit secrets (real file — only commit the .example template)
+.streamlit/secrets.toml

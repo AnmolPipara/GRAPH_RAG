@@ -5,6 +5,15 @@ import sys
 # Add parent directory to path so we can import our modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Cloud deployments (Streamlit Community Cloud / HF Spaces) inject secrets via
+# st.secrets. Merge them into the environment BEFORE importing config.settings
+# so pydantic-settings picks them up; the local .env still works as before.
+try:
+    for _k, _v in st.secrets.items():
+        os.environ.setdefault(_k, str(_v))
+except Exception:
+    pass
+
 from vector_rag.pipeline import VectorRAGPipeline
 from graph_rag.retriever import GraphRAGRetriever
 from utils.visualizer import create_radar_chart, load_metrics_from_summary

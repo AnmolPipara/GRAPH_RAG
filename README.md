@@ -131,6 +131,30 @@ python graph_rag/retriever.py
 
 ---
 
+## ☁️ Deploy to the Cloud
+
+The app is deployment-ready — the repo already contains everything it needs at runtime: the FAISS indexes (`vector_rag/db/faiss/`), all evaluation summaries (`evaluation/benchmark_v2*_summary.json`), the source PDF, and a `Dockerfile` + `.dockerignore`.
+
+| Platform | How | Notes |
+|---|---|---|
+| **Streamlit Community Cloud** | Import the GitHub repo, set `App path = streamlit_app/app.py`, paste secrets | 1 GB RAM; first embedding load is slow; free tier sleeps on idle |
+| **Hugging Face Spaces** | Create a Space → *Docker* → point at this repo | 16 GB RAM — best headroom; free tier sleeps after 48 h idle |
+| **Render / Railway** | Deploy the `Dockerfile`, set env vars | Real env vars — zero code change; free tiers sleep on idle |
+
+**Secrets** (never committed — see `.streamlit/secrets.toml.example`):
+
+```toml
+GROQ_API_KEY = "..."          # required — both RAG systems use it
+NEO4J_URI = "neo4j+s://..."    # GraphRAG tab only
+NEO4J_USERNAME = "neo4j"
+NEO4J_PASSWORD = "..."
+```
+
+- Streamlit Cloud exposes secrets via `st.secrets`; `streamlit_app/app.py` merges them into the environment automatically, so **no code change is needed on any platform**.
+- Other platforms (HF Spaces, Render, Railway, Docker) inject real environment variables, which `config/settings.py` picks up directly.
+
+---
+
 ## 📄 Reports
 
 - **`docs/Final_Project_Report.{md,pdf,docx}`** — the final formatted deliverable (title page, TOC, diagrams).
