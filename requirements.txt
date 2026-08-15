@@ -5,6 +5,8 @@ langchain-community>=0.0.10
 langchain-google-genai
 langchain-openai
 langchain-huggingface
+langchain-experimental>=0.4.0
+langchain-neo4j>=0.9.0
 langgraph
 
 # Document Processing & PDF
@@ -14,6 +16,7 @@ pymupdf4llm
 # Vector Databases
 faiss-cpu
 chromadb
+langchain-chroma
 
 # Graph Database
 neo4j
