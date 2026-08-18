@@ -34,7 +34,7 @@ class Settings(BaseSettings):
 
     # ── Graph RAG — Extraction Model (Frontier, ≥100B) ──────────────────
     EXTRACTION_MODEL: str = Field(
-        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b",
         description="Frontier LLM for per-chunk knowledge extraction"
     )
     EXTRACTION_PROVIDER: str = Field(
@@ -52,7 +52,7 @@ class Settings(BaseSettings):
 
     # ── Graph RAG — Refinement Model (Frontier, same or equivalent) ─────
     REFINEMENT_MODEL: str = Field(
-        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b",
         description="Frontier LLM for global graph refinement pass"
     )
     REFINEMENT_PROVIDER: str = Field(
@@ -76,7 +76,7 @@ class Settings(BaseSettings):
     #   thinking cost ~10x). To use it, set provider="huggingface" and model
     #   "Qwen/Qwen3.5-397B-A17B".
     CYPHER_MODEL: str = Field(
-        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b",
         description="Model for Cypher query generation (same as ANSWER for fair eval)"
     )
     CYPHER_PROVIDER: str = Field(
@@ -91,7 +91,7 @@ class Settings(BaseSettings):
     # needed). To use the HF router instead, set provider="huggingface" and
     # model "Qwen/Qwen3.5-397B-A17B" (see CYPHER section for details).
     ANSWER_MODEL: str = Field(
-        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b",
         description="Model for final answer generation (same for both RAG systems)"
     )
     ANSWER_PROVIDER: str = Field(
@@ -214,7 +214,7 @@ class Settings(BaseSettings):
     )
     gemini_model: str = Field("gemini-2.0-flash", description="Gemini model name")
     groq_model: str = Field(
-        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b",
         description="Groq model name (free fallback provider)"
     )
     openrouter_model: str = Field(
